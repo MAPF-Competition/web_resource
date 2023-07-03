@@ -4,7 +4,9 @@ In real life, planners are expected to achieve efficiency in different aspects, 
   
 In this category, we track the best solution for any instance. 
 This is called the ‘virtual best’ planner, and we rank your performance on each instance relative of this baseline. We use the following formula:
-$$\mbox{Your score} = \displaystyle \sum^{i}_{instance i}{\frac{\mbox{Your number of task finished for instance }i}{\mbox{best number of task finished for instance }i}}$$
+$$
+\mbox{Your score} = \displaystyle \sum^{i}_{instance i}{\frac{\mbox{Your number of task finished for instance }i}{\mbox{best number of task finished for instance }i}}
+$$
 The winner of this category is the planner that has the highest score.
 
 - Most awarded
