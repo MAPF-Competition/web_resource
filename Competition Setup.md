@@ -5,7 +5,7 @@ In this competition a team of robots is tasked with running errands in a grid en
 ![image](landing_page_resource/images/image_warehouse.gif)
 
 ## Robots and their environment
-Each grid map is deterministic and fully observable. Time is divided up into discrete time steps. All grid maps are known ahead of time. All robots move in parallel.
+Each grid map is deterministi, fully observable and known ahead of time. All robots move in parallel. Time is divided up into discrete time steps. 
 
 At each timestep, a robot can execute one of the following actions: 
 - move forward into an adjacent grid cell
