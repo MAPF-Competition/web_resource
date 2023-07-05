@@ -16,5 +16,6 @@ Register and submit your implementation anytime before the end of a round to par
 
 
 ## Important Dates
+
 ![image] (https://github.com/MAPF-Competition/web_resource/blob/main/images/timeline.png)
 
