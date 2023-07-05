@@ -1,6 +1,6 @@
 # The Setup
 
-![image](https://github.com/MAPF-Competition/web_resource/blob/develop/images/image4.gif)
+![image](landing_page_resource/images/image4.gif)
 
 In this competition a team of robots is tasked with running errands in a grid environment. These types of problems are the core challenge in a variety of real-world application settings, such as warehouse logistics, multi-robot manufacturing and multi-agent computer games. The figure shows a typical example in a warehouse domain we call **fulfilment**.
 
@@ -15,11 +15,11 @@ At each timestep, a robot can execute one of the following actions:
 
 Moving Forward:
 
-![image](https://github.com/MAPF-Competition/web_resource/blob/develop/images/image2.gif)
+![image](landing_page_resource/images/image2.gif)
 
 Rotate:
 
-![image](https://github.com/MAPF-Competition/web_resource/blob/develop/images/image3.gif)
+![image](landing_page_resource/images/image3.gif)
 
 An action is considered valid (or feasible) if the robot can execute that action without colliding with static obstacles in the environment or with other moving robots. Each valid action has a duration of exactly one timestep. 
 
