@@ -1,4 +1,4 @@
-# Evaluation Setup
+# Evaluation
 The submissions will be evaluated on two types of AWS instances:
 - CPU Instance
 - GPU Instance (Coming soon)
@@ -30,18 +30,18 @@ The maps are available for download and analysis. But the problem instances (tas
 
 # Planner Categories:
 In real life, planners are expected to achieve efficiency in different aspects, such as high  throughput, quick computation time. Our competition take into account different areas and categorise the prize into three categories:
-- Best overall
+- Best Overall
   
 In this category, we track the best solution for any instance. 
 This is called the ‘virtual best’ planner, and we rank your performance on each instance relative of this baseline. We use the following formula:
 $$\mbox{Your score} = \displaystyle \sum^{i}_{instance i}{\frac{\mbox{Your number of task finished for instance }i}{\mbox{best number of task finished for instance }i}}$$
 The winner of this category is the planner that has the highest score.
 
-- Most awarded
+- Line Honours
   
 This category tracks the planner that has the largest number of best solutions. 
 We track best solutions for each instance throughout the competition, and count the number of best solutions by any planner at the end of the submission deadline.
 
-- Fast mover
+- Fast Mover
 
 To be eligible for this category, planners always compute valid actions for all the agents within the time limit of each planning episode (1 second). The winner of this category has the best overall score among all eligible planners.
