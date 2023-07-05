@@ -14,3 +14,7 @@ Support is available to help with training costs.
 Participation is open to individuals and teams of individuals from any discipline and background and from any geographic location.
 
 Register and submit your implementation anytime before the end of a round to participate.
+
+## Important Dates
+<img width="949" alt="image" src="https://github.com/MAPF-Competition/web_resource/assets/104757294/7e6182cb-ff22-4235-9ea3-7438af4c0dc8">
+
