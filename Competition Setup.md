@@ -2,9 +2,7 @@
 
 In this competition a team of robots is tasked with running errands in a grid environment. These types of problems are the core challenge in a variety of real-world application settings, such as warehouse logistics, multi-robot manufacturing and multi-agent computer games. The figure shows a typical example in a warehouse domain we call **fulfilment**.
 
-<div style="text-align: center;">
 ![image](landing_page_resource/images/image_warehouse.gif)
-</div>
 
 ## Robots and their environment
 Each grid map is deterministic and fully observable. Time is divided up into discrete time steps. All grid maps are known ahead of time. All robots move in parallel.
