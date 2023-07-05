@@ -14,8 +14,11 @@ At each timestep, a robot can execute one of the following actions:
 - wait at its current location.
 
 Moving Forward:
+
 ![image](https://github.com/MAPF-Competition/web_resource/blob/develop/images/image2.gif)
+
 Rotate:
+
 ![image](https://github.com/MAPF-Competition/web_resource/blob/develop/images/image3.gif)
 
 An action is considered valid (or feasible) if the robot can execute that action without colliding with static obstacles in the environment or with other moving robots. Each valid action has a duration of exactly one timestep. 
