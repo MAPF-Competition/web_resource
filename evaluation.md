@@ -6,15 +6,15 @@ CPU instances have more processor resources, while GPU instances have additional
 
 Once you make a submission the evaluation proceeds in two stages: offline preprocessing and online planning. 
 
-# Offline Preprocessing
+## Offline Preprocessing
 During the preprocessing stage the current map is given to each planner. The planner has the opportunity to analyse the map and compute auxiliary data before proceeding to the evaluation stage. Preprocessing time is limited to 30 Minutes per map. Nothing you do at this stage will be counted into your final score.
 
-## Online Planning
+### Online Planning
 In the planning stage the initial locations of robots are revealed and errands/tasks are assigned, one for each robot. Time elapses at a rate of 1 second per timestep and your planner will be evaluated for 5000 seconds on each map. 
 
 At every timestep we will ask your planner to compute the next valid action for each robot. You can take as long as you want for planning, but the clock is ticking while you are deliberating. Failure to compute a next valid action for every robot, or deliberating for longer than 1 second, results in all robots waiting in place until the next planning episode.
 
-# Domains
+### Domains
 Each submission will be evaluated on 5 instances:
 - Random: 100 robots, a 32 by 32 map with 20% random obstacles.
 - City: 250 robots, a 256 by 256 map representing part of the city of Paris.
@@ -25,7 +25,7 @@ Each submission will be evaluated on 5 instances:
 The maps are available for download and analysis. But the problem instances (tasks and robot locations) are hidden until after the competition.
 
 
-# Planner Categories:
+## Planner Categories:
 In real life, planners are expected to achieve efficiency in different aspects, such as high  throughput, quick computation time. For this reason our competition recognises distinguished performance in three distinct categories: 
 
 **Best Overall**
