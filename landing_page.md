@@ -26,3 +26,10 @@ Register and submit your implementation before the submission deadline to partic
 
 ![image](landing_page_resource/images/timeline.png)
 
+
+<br/><br/>
+
+---
+
+![image](landing_page_resource/images/logos.png)
+
