@@ -10,7 +10,7 @@
 8. All decisions taken by the organising committee are final.
 9. Failure to abide by these rules may result in immediate disqualification. 
 
-If you have any questions about the interpretation or application of these rules, please contact Daniel Harabor (daniel [dot] harabor [at] monash [dot] edu).
+If you have any questions about the interpretation or application of these rules, please contact the organisers: league-of-robot-runners [at] googlegroups.com.
 
 ## Code of Conduct
 
