@@ -11,7 +11,7 @@ Participating in the competition means not only demonstrating your skills agains
 
 ## Eligibility and prizes
 
-Participation is open to individuals and teams of individuals from any discipline and background and from any geographic location. A limited number of **training awards** are available, to help with costs associated with the development of computational models. 
+Participation is open to individuals and teams of individuals from any discipline and background and from any geographic location. A limited number of **[training awards](https://docs.google.com/forms/d/1_2piTMu4qzzTq7aPcsqQjcV12Edxb1bAWJ-Z8RXGHQA/viewform?edit_requested=true)** are available, to help with costs associated with the development of computational models. 
 
 Cash prizes (in $USD) are available for distinguished performance:
 
