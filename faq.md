@@ -2,7 +2,7 @@ This page contains answers to frequently asked questions, which are not addresse
 
 > **Q: Can I modify the start kit code?**
 
-No, except for the bit we tell you.
+No, except for the bits that we explicitly tell you to modify in the start-kit instructions.
 
 > **Q: Can one team join the competition with multiple github accounts?**
 
