@@ -11,7 +11,7 @@ Participating in the competition means not only demonstrating your skills agains
 
 ## Eligibility and prizes
 
-Participation is open to individuals and teams of individuals from any discipline and background and from any geographic location. Cash prizes (in $USD) are available for distinguished performance:
+Participation is open to individuals and teams of individuals from any discipline and background and from any geographic location. Financial prizes (in $USD) are available for distinguished performance:
 
 ![image](landing_page_resource/images/prize.png)
 
