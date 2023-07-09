@@ -17,7 +17,7 @@ Cash prizes (in $USD) are available for distinguished performance:
 
 ![image](landing_page_resource/images/prize.png)
 
-Register and submit your implementation before the submission deadline to participate!
+Other notable performances (2nd, 3rd place in each category) will also be recognised with a certificate. Register and submit your implementation before the submission deadline to participate!
 
 
 ## Important Dates
