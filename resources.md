@@ -9,3 +9,7 @@ The start kit is a code harness that you must interface with when developing you
 The [set of maps](https://github.com/MAPF-Competition/Start-Kit/tree/main/example_problems) that you will be evaluated on are revealed as part of the competition. You can refer to these maps during development of your planner and you can compute (offline) auxiliary data per map that can be uploaded as part of your submission. 
 
 Evaluation instances (errand lists and details of the robot team) are not available for analysis by participants. However, we have generated a set of example problems which are somewhat similar to the evaluation instances. You are encouraged to use these instances to guide the design and development of your planner.  Please refer to the [Input Output Format](https://github.com/MAPF-Competition/Start-Kit/blob/main/Input_Output_Format.md) specification if you would like to generate modified versions of the example problems for further local testing (e.g., you might find it helpful to modify the examples in order to test with different numbers of agents).
+
+## Plan visualiser
+
+[PlanViz](https://github.com/MAPF-Competition/MAPF_analysis/tree/main) is an offline visualization tool for analysing solutions to multi-robot and multi-agent coordination problems. It can be used to better understand how your robots move across the map and to provide additional insights into the errors and events given by the competition Start-Kit. Although not required for the competition, we developed PlanViz to provide additional support for participants.
