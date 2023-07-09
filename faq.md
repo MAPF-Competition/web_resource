@@ -16,6 +16,6 @@ No
 
 Training awards are limited and, for purposes of fairness, normally limited to one per team. If you believe your situation is exceptional in some way, please email us (although the answer is probably no). 
 
-> **Q: Will my implementation been reviewed by organizers?**
+> **Q: Will my implementation been reviewed by organisers?**
 
 Yes, the organisers will review participants' implementation at the end of the competition.
