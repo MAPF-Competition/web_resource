@@ -8,7 +8,8 @@
 6. Participants cannot modify or interfere with any start-kit/system functionalities, such as, timing, input reading, output writing, and so on.
 7. Participants cannot interfere with, or othewise attempt to hijack or misappropriate, any part of the evaluation system/server functionalities.
 8. All decisions taken by the organising committee are final.
-9. Failure to abide by these rules may result in immediate disqualification. 
+9. These rules are subject to changes and ammendments at the discretion of the organisers.
+10. Failure to abide by these rules may result in immediate disqualification. 
 
 If you have any questions about the interpretation or application of these rules, please contact the organisers: league-of-robot-runners [at] googlegroups.com.
 
