@@ -15,7 +15,7 @@ Participation is open to individuals and teams of individuals from any disciplin
 
 ![image](landing_page_resource/images/prize.png)
 
-Other notable performances (2nd, 3rd place in each category) will br recognised with a certificate. Register and submit your implementation before the submission deadline to be eligible!
+Other notable performances (2nd, 3rd place in each category) will be recognised with a certificate. Register and submit your implementation before the submission deadline to be eligible!
 
 To lower participation costs we also have a limited number of **[training awards](https://docs.google.com/forms/d/1_2piTMu4qzzTq7aPcsqQjcV12Edxb1bAWJ-Z8RXGHQA/viewform?edit_requested=true)**. Distributed according to merit, these awards come in the form of AWS credits (up to $1000 USD), which can be used to help with the offline development of computational models. 
 
