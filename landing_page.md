@@ -10,15 +10,12 @@ Participating in the competition means not only demonstrating your skills agains
 
 
 ## Eligibility and prizes
-![image](landing_page_resource/images/prize.png)
 
 Participation is open to individuals and teams of individuals from any discipline and background and from any geographic location. A limited number of **training awards** are available, to help with costs associated with the development of computational models. 
 
 Cash prizes (in $USD) are available for distinguished performance:
 
-- Best overall ($5,000)
-- Line honours ($2,500)
-- Fast mover ($2,500)
+![image](landing_page_resource/images/prize.png)
 
 Register and submit your implementation before the submission deadline to participate!
 
