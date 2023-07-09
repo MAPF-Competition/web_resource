@@ -11,13 +11,15 @@ Participating in the competition means not only demonstrating your skills agains
 
 ## Eligibility and prizes
 
-Participation is open to individuals and teams of individuals from any discipline and background and from any geographic location. A limited number of **[training awards](https://docs.google.com/forms/d/1_2piTMu4qzzTq7aPcsqQjcV12Edxb1bAWJ-Z8RXGHQA/viewform?edit_requested=true)** are available, to help with costs associated with the development of computational models. 
-
-Cash prizes (in $USD) are available for distinguished performance:
+Participation is open to individuals and teams of individuals from any discipline and background and from any geographic location. Cash prizes (in $USD) are available for distinguished performance:
 
 ![image](landing_page_resource/images/prize.png)
 
-Other notable performances (2nd, 3rd place in each category) will also be recognised with a certificate. Register and submit your implementation before the submission deadline to participate!
+Other notable performances (2nd, 3rd place in each category) will br recognised with a certificate. 
+
+A limited number of **[training awards](https://docs.google.com/forms/d/1_2piTMu4qzzTq7aPcsqQjcV12Edxb1bAWJ-Z8RXGHQA/viewform?edit_requested=true)** are available, to help with costs associated with the development of computational models. 
+
+Register and submit your implementation before the submission deadline to participate!
 
 
 ## Important Dates
