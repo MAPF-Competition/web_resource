@@ -30,7 +30,7 @@ In real life, planners are expected to achieve efficiency in different aspects, 
 
 **Best Overall**
 In this category, we use a `virtual best` planner to track the best known solution for any instance and from any participant. We then rank your performance on each instance relative to this baseline. We use the following formula:
-$$\mbox{Your score} = \displaystyle \sum^{i=max}_{\textrm{instance}_i=0}{\frac{\mbox{Your number of task finished for instance }i}{\mbox{best number of task finished for instance }i}}$$
+$$\mbox{Your score} = \displaystyle \sum^{max}_{i=0}{\frac{\mbox{Your number of task finished for instance }i}{\mbox{best number of task finished for instance }i}}$$
 The winner of this category is the planner that has the highest score.
 
 **Line Honours**
