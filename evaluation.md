@@ -22,7 +22,7 @@ Each submission will be evaluated on 5 instances:
 - Fulfilment: 1000 robots, 500 by 140 map representing synthetic automated fulfilment centre.
 - Sortation: 1000 robots, 500 by 140 map representing synthetic automated sortation centre.
 
-The maps are available for download and analysis. But the problem instances (tasks and robot locations) are hidden until after the competition.
+The maps are [available for download](https://github.com/MAPF-Competition/Start-Kit/tree/main/example_problems) and analysis. But the problem instances (errands and robot locations) are hidden until after the competition.
 
 
 ## Planner Categories:
@@ -30,7 +30,7 @@ In real life, planners are expected to achieve efficiency in different aspects, 
 
 **Best Overall**
 In this category, we use a `virtual best` planner to track the best known solution for any instance and from any participant. We then rank your performance on each instance relative to this baseline. We use the following formula:
-$$\mbox{Your score} = \displaystyle \sum^{max}_{i=0}{\frac{\mbox{Your number of task finished for instance }i}{\mbox{best number of task finished for instance }i}}$$
+$$\mbox{Your score} = \displaystyle \sum^{max}_{i=0}{\frac{\mbox{Your number of errands finished for instance }i}{\mbox{best number of errands finished for instance }i}}$$
 The winner of this category is the planner that has the highest score.
 
 **Line Honours**
