@@ -1,5 +1,7 @@
 This page contains answers to frequently asked questions, which are not addressed elsewhere in our [documentation](http://leagueofrobotrunners.org/resources). If you have additional questions, or require further clarifications, please drop by our [Discord channel](https://discord.gg/CEYT4g4raR). You can also email the organisers at **league-of-robot-runnners [at] googlegroups [dot] com** (although Discord is usually faster).
 
+## Frequent Questions
+
 > **Q: Can I modify the start kit code?**
 
 No, except for the bits that we explicitly tell you to modify in the start-kit instructions.
