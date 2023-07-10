@@ -20,7 +20,7 @@ Each submission will be evaluated on 5 instances:
 - City: 250 robots, a 256 by 256 map representing part of the city of Paris.
 - Game: 500 robots, 481 by 530 map from computer games.
 - Fulfilment: 1000 robots, 500 by 140 map representing synthetic automated fulfilment centre.
-- Sortation: 1000 robots, 500 by 140 map representing synthetic automated sortation centre.
+- Sortation: 2000 robots, 500 by 140 map representing synthetic automated sortation centre.
 
 The maps are [available for download](https://github.com/MAPF-Competition/Start-Kit/tree/main/example_problems) and analysis. But the problem instances (errands and robot locations) are hidden until after the competition.
 
@@ -29,12 +29,12 @@ The maps are [available for download](https://github.com/MAPF-Competition/Start-
 In real life, planners are expected to achieve efficiency in different aspects, such as high  throughput, quick computation time. For this reason our competition recognises distinguished performance in three distinct categories: 
 
 **Best Overall**
-In this category, we use a `virtual best` planner to track the best known solution for any instance and from any participant. We then rank your performance on each instance relative to this baseline. We use the following formula:
-$$\mbox{Your score} = \displaystyle \sum^{max}_{i=0}{\frac{\mbox{Your number of errands finished for instance }i}{\mbox{best number of errands finished for instance }i}}$$
-The winner of this category is the planner that has the highest score.
+> In this category, we use a `virtual best` planner to track the best known solution for any instance and from any participant. We then rank your performance on each instance relative to this baseline. We use the following formula:
+> $$\mbox{Your score} = \displaystyle \sum^{max}_{i=0}{\frac{\mbox{Your number of errands finished for instance }i}{\mbox{best number of errands finished for instance }i}}$$
+> The winner of this category is the planner that has the highest score.
 
 **Line Honours**
-This category tracks the planner that has the largest number of best solutions. We track best solutions for each instance throughout the competition and we count the number of best solutions by any planner at the end of the submission deadline.
+> This category tracks the planner that has the largest number of best solutions. We track best solutions for each instance throughout the competition and we count the number of best solutions by any planner at the end of the submission deadline.
 
 **Fast Mover**
-To be eligible for this category, planners always compute valid actions for all the robots within the time limit of each planning episode (1 second). The winner of this category has the best overall score among all eligible planners.
+> To be eligible for this category, planners always compute valid actions for all the robots within the time limit of each planning episode (1 second). The winner of this category has the best overall score among all eligible planners.
