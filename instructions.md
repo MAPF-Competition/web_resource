@@ -6,7 +6,7 @@ The repo will be the place that you submit codes to. In the `My Submission` page
 
 To join the competition as a team, only one memeber of the team need to login to the competition website and add team members contacts in `Settings` page.
 
-## Clone your submission repo
+## Clone Your Submission Repo
 
 Clone your submission repo to your local machine. The repo contains starter code to help you prepare your submission.
 

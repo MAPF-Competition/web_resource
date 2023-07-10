@@ -25,16 +25,16 @@ To lower participation costs we also have a limited number of **[training awards
 ## Important Dates
 
 **Developing**
-> Till Mid July
+> Till 13th July
 
 **Testing Round**
-> Mid July - Mid August
+> 13th July - 18th August
 
 **Main Round**
-> Mid August - 31 October
+> 19th August - 31th October
 
 **Results Announcement**
-> November
+> 20th November
 
 ---
 
