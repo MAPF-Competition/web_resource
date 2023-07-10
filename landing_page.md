@@ -36,7 +36,7 @@ To lower participation costs we also have a limited number of **[training awards
 **Results Announcement**
 > November
 
----
 
-![image](landing_page_resource/images/logos.png)
-
+|   |   |   |   |   |   |   |
+|---|---|---|---|---|---|---|
+|![](./landing_page_resource/logos/monash_logo.png) | ![](./landing_page_resource/logos/mit_logo.png) | ![](./landing_page_resource/logos/rutgers_logo.png) | ![](./landing_page_resource/logos/usc_logo.png) |  |   | ![](./landing_page_resource/logos/amazon_robotics_logo.png)|
