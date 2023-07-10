@@ -2,7 +2,7 @@ In this competition a team of robots is tasked with running errands in a grid en
 
 ![image](landing_page_resource/images/image_warehouse.gif)
 
-## Robots and their environment
+## Robots and Their Environment
 Each grid map is deterministic, fully observable and known ahead of time. All robots move in parallel. Time is divided up into discrete time steps. 
 
 At each timestep, a robot can execute one of the following actions: 
@@ -26,7 +26,7 @@ An errand (or task assignment) is a request that says a particular robot needs t
 
 Robots are assigned errands in a particular sequence. The next errand in the sequence is revealed when the current errand is completed. The total number of errands is infinite. **The objective** is to **run as many errands as possible** in a fixed amount of time.  
 
-## The central controller
+## The Central Controller
 The correct operation of robots in the environment is the responsibility of a central controller. The controller tracks the current position of all robots and it is responsible for issuing commands to the robots, which tell them what action to perform next. 
 
 To decide which command to issue to which robot the controller relies on a component called **a planner, that you must implement**.  The controller calls the planner at each timestep. The job of the planner is to return one valid command for each robot.  If the planner does not provide a valid set of commands (one for each robot), or if it does not finish computing in time, then the controller asks all robots to **wait in place**, until the next timestep or until the planner finishes deliberating. 
