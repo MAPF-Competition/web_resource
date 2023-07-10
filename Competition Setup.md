@@ -27,7 +27,9 @@ Rotate:
 An action is considered valid (or feasible) if the robot can execute that action without colliding with static obstacles in the environment or with other moving robots. Each valid action has a duration of exactly one timestep. 
 
 ## Errands
-An errand (or task assignment) is a request that says a particular robot needs to visit a specific **target location** on the grid. The errand is finished when the assigned robot arrives at the corresponding location.
+|     |     |
+|:---|:---:|
+|An errand (or task assignment) is a request that says a particular robot needs to visit a specific **target location** on the grid. The errand is finished when the assigned robot arrives at the corresponding location.| ![r6](landing_page_resource/robots/r6.png) |
 
 Robots are assigned errands in a particular sequence. The next errand in the sequence is revealed when the current errand is completed. The total number of errands is infinite. **The objective** is to **run as many errands as possible** in a fixed amount of time.  
 
