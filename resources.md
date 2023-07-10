@@ -1,8 +1,10 @@
-This page contains links and references to resources that you may find useful in preparing your submission. 
-
 ## Start Kit
 
-The start kit is a code harness that you must interface with when developing your planner. Please refer to the [instructions](https://github.com/MAPF-Competition/Start-Kit/blob/main/README.md) for more details. Further documentation, to help you [prepare your planner](https://github.com/MAPF-Competition/Start-Kit/blob/main/Prepare_Your_Planner.md) and details about the [submission process](https://github.com/MAPF-Competition/Start-Kit/blob/main/Submission_Instruction.md) are also available.
+The start kit is a code harness that you must interface with when developing your submission. It is a good idea to become familiar with how it works. A good starting point is the included [instructions](https://github.com/MAPF-Competition/Start-Kit/blob/main/README.md).
+
+Further documentation, to help you [prepare your planner](https://github.com/MAPF-Competition/Start-Kit/blob/main/Prepare_Your_Planner.md) and details about the [submission process](https://github.com/MAPF-Competition/Start-Kit/blob/main/Submission_Instruction.md) are also available.
+
+
 
 ## Test Maps and Example Problems
 
