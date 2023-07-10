@@ -14,9 +14,9 @@ No
 
 No
 
-**Q: My team used all the training credits, can we have more?**
+**Q: My team used up all of our training award credits, can we have more?**
 
-Training awards are limited and, for purposes of fairness, normally limited to one per team. If you believe your situation is exceptional in some way, please email us (although the answer is probably no). 
+The total number of training awards is limited and for this reason we normally allocate only one award per team. If you believe your situation is exceptional in some way, please email us (although the answer is probably no). 
 
 **Q: Will my implementation been reviewed by organisers?**
 
