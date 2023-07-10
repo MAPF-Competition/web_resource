@@ -36,6 +36,7 @@ To lower participation costs we also have a limited number of **[training awards
 **Results Announcement**
 > November
 
+---
 
 |     |     |     |     |     |     |     |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
