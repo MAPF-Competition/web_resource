@@ -1,8 +1,9 @@
-Submissions will be evaluated using AWS.  We offer two different types of instances and you get to choose which one best suits your planner:
-- CPU Instance
-- GPU Instance (Coming soon)
+## Evaluation Process
+Submissions will be evaluated using an AWS cloud compute instance with the following specifications:
 
-CPU instances have more processor resources, while GPU instances have additional resources for machine learning. Both have the same amount of storage and RAM. 
+- CPU specs
+- Memory specs
+- Storage specs
 
 Once you make a submission the evaluation proceeds in two stages: offline preprocessing and online planning. 
 
