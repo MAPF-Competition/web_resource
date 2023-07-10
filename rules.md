@@ -1,4 +1,4 @@
-## Competition Rules 
+## Competition Rules ![r9_s](landing_page_resource/robots/r9_s.png)
 
 1. Organisers, sponsors, competition advisers and their host institutions are ineligible for prizes and awards.
 2. Judging of performance in the competition will be undertaken by the organisers. 

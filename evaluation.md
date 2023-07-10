@@ -1,4 +1,4 @@
-## Evaluation Process ![r2](./landing_page_resource/robots/r2_s.jpg)
+## Evaluation Process ![r2](./landing_page_resource/robots/r12_s.png)
 
 |Submissions will be evaluated using an AWS cloud compute instance with the following specifications:
 

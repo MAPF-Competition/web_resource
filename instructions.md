@@ -1,4 +1,4 @@
-## Join the Competition
+## Join the Competition ![r10](landing_page_resource/robots/r10_s.png)
 
 Login to the [competition website](http://www.leagueofrobotrunners.org/submission) with a GitHub account, and we will automatically create a private GitHub submission repo for you.
 
