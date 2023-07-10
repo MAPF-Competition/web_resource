@@ -24,8 +24,6 @@ To lower participation costs we also have a limited number of **[training awards
 
 ## Important Dates
 
-<!-- ![image](landing_page_resource/images/timeline.png) -->
-
 **Developing**
 > Till Mid July
 
