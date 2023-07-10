@@ -1,5 +1,6 @@
 .row {
     width: 100%;
+    margin-top: 19px;
 }
 .Container{
     width:100%;
@@ -45,6 +46,11 @@
     text-align:center;
     margin-top: 0px;
     margin-bottom: 6px;
+
+}
+.description-text{
+    margin-left: 16px;
+    margin-right: 16px;
 
 }
 td {
