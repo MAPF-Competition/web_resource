@@ -1,4 +1,4 @@
-## Start Kit
+## Start Kit ![r2](landing_page_resource/robots/r2_s.jpg)
 
 The start kit is a code harness that you must interface with when developing your submission. It is a good idea to become familiar with how it works. A good starting point is the included [instructions](https://github.com/MAPF-Competition/Start-Kit/blob/main/README.md).
 
