@@ -4,7 +4,7 @@ Login to the [competition website](http://www.leagueofrobotrunners.org/submissio
 
 The repo will be the place that you submit codes to. In the `My Submission` page, you can click "My Repo" to open your GitHub submission repo, which contains a copy of start kit implementation.
 
-To join the competition as a team, only one memeber of the team need to login to the competition website and add team members contacts in `Settings` page.
+To join the competition as a team, only one memeber of the team need to login to the competition website. Once login, `Settings` is available in the menu bar, which navigates to the `Settings` page. You can add team members and their contacts there.
 
 ## Clone Your Submission Repo
 
