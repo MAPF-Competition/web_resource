@@ -24,7 +24,7 @@ At each timestep, a robot can execute one of the following actions:
 
 An action is considered valid (or feasible) if the robot can execute that action without colliding with static obstacles in the environment or with other moving robots. Each valid action has a duration of exactly one timestep. 
 
-We consider the following two types of collisions:
+We consider the following two types of collisions that can occur between pairs of agents.:
 > - Vertex Conllisions: two agents occupy the same location at the same time.
 > - Edge Conllisions: two agents occupy the same edge at opposite directions at them same time.
 
@@ -32,7 +32,6 @@ We consider the following two types of collisions:
 |:---:|:---:|
 | ![image](landing_page_resource/images/vertex_conflict.gif) | ![image](landing_page_resource/images/edge_conflict.gif)  |
 
-that can occur between pairs of agents.
 
 ## Errands ![r6](landing_page_resource/robots/r6_s.png) 
 
