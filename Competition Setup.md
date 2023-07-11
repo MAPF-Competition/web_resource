@@ -30,7 +30,7 @@ We consider the following two types of collisions:
 
 | `Vertex` |  `Edge` |
 |:---:|:---:|
-| ![image](landing_page_resource/images/image2.gif) | ![image](landing_page_resource/images/rotate.gif)  |
+| ![image](landing_page_resource/images/vertex_conflict.gif) | ![image](landing_page_resource/images/edge_conflict.gif)  |
 
 that can occur between pairs of agents.
 
