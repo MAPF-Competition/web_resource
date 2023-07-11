@@ -17,24 +17,24 @@ $ cd your_submission_repo
 
 ## Prepare Your Planner
 Checkout the [startkit instructions](https://github.com/MAPF-Competition/Start-Kit/blob/main/README.md) for:
-- How to prepare your submissions.
-- How to implement your planner (native support for python and C++).
-- How to refer to auxilliary preprocessing data or pre-trained machine learning models.
-- How to apply for training awards, to help with offline compute costs.
+> - How to prepare your submissions.
+> - How to implement your planner (native support for python and C++).
+> - How to refer to auxilliary preprocessing data or pre-trained machine learning models.
+> - How to apply for training awards, to help with offline compute costs.
 
 ## Submit Your Planner
 Checkout the [submission instructions](https://github.com/MAPF-Competition/Start-Kit/blob/main/Submission_Instruction.md) for how to submit your implementation.
 
 Navigate to [My Submission](./submission) page for:
-- Selecting the branch for evaluation.
-- Uploading auxiliary data as part of your submission.
-- Initiating evaluation.
+> - Selecting the branch for evaluation.
+> - Uploading auxiliary data as part of your submission.
+> - Initiating evaluation.
 
 ## Track Your Progress
 Navigate to [My Submission](./submission) page for:
-- Checking the progress of current submission.
-- Viewing your submission history (so you can track your progress).
+> - Checking the progress of current submission.
+> - Viewing your submission history (so you can track your progress).
 
 Navigate to [Leaderboard](./leaderboard) page for:
-- Viewing the rank of your best submission.
-- Comparing with the rank of other participants.
+> - Viewing the rank of your best submission.
+> - Comparing with the rank of other participants.

@@ -11,10 +11,10 @@ On this page we give an overview of the problem model, the robot model, and the 
 Each grid map is deterministic, fully observable and known ahead of time. All robots move in parallel. Time is divided up into discrete time steps. 
 
 At each timestep, a robot can execute one of the following actions: 
-- move forward into an adjacent grid cell
-- rotate 90 degree clockwise 
-- rotate 90 degrees counter-clockwise
-- wait at its current location.
+> - move forward into an adjacent grid cell
+> - rotate 90 degree clockwise 
+> - rotate 90 degrees counter-clockwise
+> - wait at its current location.
 
 | `Moving Forward` |  `Rotate` |
 |:---:|:---:|
