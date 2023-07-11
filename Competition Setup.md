@@ -24,6 +24,16 @@ At each timestep, a robot can execute one of the following actions:
 
 An action is considered valid (or feasible) if the robot can execute that action without colliding with static obstacles in the environment or with other moving robots. Each valid action has a duration of exactly one timestep. 
 
+We consider the following two types of collisions:
+> - Vertex Conllisions: two agents occupy the same location at the same time.
+> - Edge Conllisions: two agents occupy the same edge at opposite directions at them same time.
+
+| `Vertex` |  `Edge` |
+|:---:|:---:|
+| ![image](landing_page_resource/images/image2.gif) | ![image](landing_page_resource/images/rotate.gif)  |
+
+that can occur between pairs of agents.
+
 ## Errands ![r6](landing_page_resource/robots/r6_s.png) 
 
 An errand (or task assignment) is a request that says a particular robot needs to visit a specific **target location** on the grid. The errand is finished when the assigned robot arrives at the corresponding location.
