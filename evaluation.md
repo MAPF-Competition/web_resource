@@ -2,9 +2,9 @@
 
 |Submissions will be evaluated using an AWS cloud compute instance with the following specifications:
 
-- AMD EPYC 7R13 Processor with 32 vCPUs
-- 128 GiB Memory
-- 40 GiB Storage Space
+> - AMD EPYC 7R13 Processor with 32 vCPUs
+> - 128 GiB Memory
+> - 40 GiB Storage Space
 
 Once you make a submission the evaluation proceeds in two stages: offline preprocessing and online planning. 
 
@@ -18,11 +18,11 @@ At every timestep we will ask your planner to compute the next valid action for 
 
 ## Domains
 Each submission will be evaluated on 5 instances:
-- Random: 100 robots, a 32 by 32 map with 20% random obstacles.
-- City: 250 robots, a 256 by 256 map representing part of the city of Paris.
-- Game: 500 robots, 481 by 530 map from computer games.
-- Fulfilment: 1000 robots, 500 by 140 map representing synthetic automated fulfilment centre.
-- Sortation: 2000 robots, 500 by 140 map representing synthetic automated sortation centre.
+> - Random: 100 robots, a 32 by 32 map with 20% random obstacles.
+> - City: 250 robots, a 256 by 256 map representing part of the city of Paris.
+> - Game: 500 robots, 481 by 530 map from computer games.
+> - Fulfilment: 1000 robots, 500 by 140 map representing synthetic automated fulfilment centre.
+> - Sortation: 2000 robots, 500 by 140 map representing synthetic automated sortation centre.
 
 The maps are [available for download](https://github.com/MAPF-Competition/Start-Kit/tree/main/example_problems) and analysis. But the problem instances (errands and robot locations) are hidden until after the competition.
 

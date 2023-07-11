@@ -4,20 +4,20 @@ This page contains answers to frequently asked questions, which are not addresse
 
 **Q: Can I modify the start kit code?**
 
-No, except for the bits that we explicitly tell you to modify in the start-kit instructions.
+> No, except for the bits that we explicitly tell you to modify in the start-kit instructions.
 
 **Q: Can one team join the competition with multiple github accounts?**
 
-No
+> No
 
 **Q: Can I be part of more than one team?**
 
-No
+> No
 
 **Q: My team used up all of our training award credits, can we have more?**
 
-The total number of training awards is limited and for this reason we normally allocate only one award per team. If you believe your situation is exceptional in some way, please email us (although the answer is probably no). 
+> The total number of training awards is limited and for this reason we normally allocate only one award per team. If you believe your situation is exceptional in some way, please email us (although the answer is probably no). 
 
 **Q: Will my implementation been reviewed by organisers?**
 
-Yes, the organisers will review participants' implementation at the end of the competition.
+>Yes, the organisers will review participants' implementation at the end of the competition.
