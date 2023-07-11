@@ -1,6 +1,6 @@
 ## Evaluation Process ![r2](./landing_page_resource/robots/r12_s.png)
 
-|Submissions will be evaluated using an AWS cloud compute instance with the following specifications:
+Submissions will be evaluated using an AWS cloud compute instance with the following specifications:
 
 > - AMD EPYC 7R13 Processor with 32 vCPUs
 > - 128 GiB Memory
