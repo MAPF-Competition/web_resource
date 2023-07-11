@@ -7,7 +7,7 @@ In this competition a team of robots is tasked with running an infinite number o
 On this page we give an overview of the problem model, the robot model, and the centralised controller that coordinates the execution of your computed plans.The figure above shows a typical example of a problem instance in a warehouse domain we call **fulfilment**.
 
 
-## Robots and Their Environment ![r14](landing_page_resource/robots/r14_s.png)
+## Robots and Their Environment ![r14](landing_page_resource/robots/robot_on_grid_s.png)
 Each grid map is deterministic, fully observable and known ahead of time. All robots move in parallel. Time is divided up into discrete time steps. 
 
 At each timestep, a robot can execute one of the following actions: 
@@ -16,13 +16,11 @@ At each timestep, a robot can execute one of the following actions:
 - rotate 90 degrees counter-clockwise
 - wait at its current location.
 
-Moving Forward:
+| `Moving Forward` |  `Rotate` |
+|:---:|:---:|
+| ![image](landing_page_resource/images/image2.gif) | ![image](landing_page_resource/images/image3.gif)  |
 
-![image](landing_page_resource/images/image2.gif)
 
-Rotate:
-
-![image](landing_page_resource/images/image3.gif)
 
 An action is considered valid (or feasible) if the robot can execute that action without colliding with static obstacles in the environment or with other moving robots. Each valid action has a duration of exactly one timestep. 
 

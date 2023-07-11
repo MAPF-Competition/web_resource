@@ -12,7 +12,7 @@ Simplified versions of such problems appear in the research literature under the
 Participating in the competition means not only demonstrating your skills against the best in the field but also contributing to the establishment of new benchmarks and algorithmic baselines. You'll have the chance to make a tangible impact on the progression of the research field, with the possibility of your innovative solutions being adopted by the wider community. Moreover, your involvement will help increase attention to this critical problem and contribute to the growth of our community. 
 
 
-## Eligibility and Prizes ![r7](./landing_page_resource/robots/r7_s.png)
+## Eligibility and Prizes ![r7](./landing_page_resource/robots/robot_racewinner_s.png)
 
 Participation is open to individuals and teams of individuals from any discipline and background and from any geographic location. Financial prizes (in $USD) are available for distinguished performance:
 
