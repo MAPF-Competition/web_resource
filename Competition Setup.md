@@ -18,7 +18,7 @@ At each timestep, a robot can execute one of the following actions:
 
 | `Moving Forward` |  `Rotate` |
 |:---:|:---:|
-| ![image](landing_page_resource/images/image2.gif) | ![image](landing_page_resource/images/image3.gif)  |
+| ![image](landing_page_resource/images/image2.gif) | ![image](landing_page_resource/images/rotate.gif)  |
 
 
 
