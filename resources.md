@@ -18,6 +18,6 @@ Evaluation instances (errand lists and details of the robot team) are not availa
 
 ## More information
 
-The community website, [mapf.info](https://mapf.info), contains a variety of introductory material on the closely related topic of Multi-Agent Path Finding. Visit this page to find out what the topic is all about, who is working in the area, copies and videos of presentations related to MAPF, as well as links to recent papers and baseline implementations of many successful algorithms. 
+The community website, [mapf.info](https://mapf.info), contains a variety of introductory material on the closely related topic of Multi-Agent Path Finding. Visit this page to find out what the topic is all about, who is working in the area, for copies and videos of presentations related to MAPF, as well as links to recent papers and baseline implementations of many successful algorithms. 
 
 The [MAPF Tracker](http://tracker.pathfinding.ai) is a community website that contains best known results on a large number MAPF benchmarks. Visit this page for an overview of where the current challenges are in this area and to compare the relative strengths of different solvers in a non-competitive setting.
