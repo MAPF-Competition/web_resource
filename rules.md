@@ -1,6 +1,6 @@
 ## Competition Rules ![r9_s](landing_page_resource/robots/r9_s.png)
 
-1. Organisers, sponsors and competition advisers are not eligible to participate and cannot be involved, formally or informally, with any competing team. 
+1. Organisers, sponsors and competition advisers are not eligible to participate and cannot be involved in any way with the preparation of submissions from any competing team. 
 2. Judging of performance in the competition will be undertaken by the organisers. 
 3. Submissions to the competition (i.e., source codes) will be made public the end of the competition, after the announcement of results.
 4. Submissions will be released, as indicated by each participant, under an open source license such as MIT, AGPL3, APACHE, BSD3, CC0, EPL, GPL3, GPL2, LGPL, MPL and CC-BY-NC. Alternative licenses, that share a similar open spirit, may be considered by the organisers upon request. 
