@@ -24,10 +24,7 @@ To lower participation costs we also have a limited number of **[training awards
 
 ## Important Dates ![r5](./landing_page_resource/robots/r5_s.png)
 
-**Developing**
-> Till 13th July
-
-**Testing Round**
+**Warm up Round**
 > 13th July - 18th August
 
 **Main Round**
