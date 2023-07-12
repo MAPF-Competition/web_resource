@@ -3,7 +3,7 @@
 1. Organisers, sponsors, competition advisers and their host institutions are ineligible for prizes and awards.
 2. Judging of performance in the competition will be undertaken by the organisers. 
 3. Submissions to the competition (i.e., source codes) will be made public the end of the competition, after the announcement of results.
-4. Submissions will be released, as indicated by each participant, under one of the following open source licences: MIT, AGPL3, APACHE, BSD3, CC0, EPL, GPL3, GPL2, LGPL, MPL and CC-BY-NC.
+4. Submissions will be released, as indicated by each participant, under an open source license such as MIT, AGPL3, APACHE, BSD3, CC0, EPL, GPL3, GPL2, LGPL, MPL and CC-BY-NC. Alternative licenses, that share a similar open spirit, may be considered by the organisers upon request. 
 5. Participants cannot modify any start-kit implementation, except for files allowed for modification by competition instructions.
 6. Participants cannot modify or interfere with any start-kit/system functionalities, such as, timing, input reading, output writing, and so on.
 7. Participants cannot interfere with, or othewise attempt to hijack or misappropriate, any part of the evaluation system/server functionalities.
