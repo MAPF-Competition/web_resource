@@ -15,3 +15,9 @@ Evaluation instances (errand lists and details of the robot team) are not availa
 ## Plan Visualiser
 
 [PlanViz](https://github.com/MAPF-Competition/MAPF_analysis/tree/main) is an offline visualization tool for analysing solutions to multi-robot and multi-agent coordination problems. It can be used to better understand how your robots move across the map and to provide additional insights into the errors and events given by the competition Start-Kit. Although not required for the competition, we developed PlanViz to provide additional support for participants.
+
+## More information
+
+The community website, [mapf.info](http://mapf.info), contains a variety of introductory material on the closely related topic of Multi-Agent Path Finding. Visit this page to find out what the topic is all about, who is working in the area, for copies and videos of presentations related to MAPF, as well as links to recent papers and baseline implementations of many successful algorithms. 
+
+The [MAPF Tracker](http://tracker.pathfinding.ai) is a community website that contains best known results on a large number MAPF benchmarks. Visit this page for an overview of where the current challenges are in this area and to compare the relative strengths of different solvers in a non-competitive setting.

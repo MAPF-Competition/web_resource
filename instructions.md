@@ -2,17 +2,16 @@
 
 Login to the [competition website](http://www.leagueofrobotrunners.org/submission) with a GitHub account, and we will automatically create a private GitHub submission repo for you.
 
-The repo will be the place that you submit codes to. In the `My Submission` page, you can click "My Repo" to open your GitHub submission repo, which contains a copy of start kit implementation.
+The repo will be the place that you submit codes to. In the `My Submission` page, you can click `My Repo` to open your GitHub submission repo, which contains a copy of start kit implementation.
 
 To join the competition as a team, only one memeber of the team need to login to the competition website. Once login, `Settings` is available in the menu bar, which navigates to the `Settings` page. You can add team members and their contacts there.
 
 ## Clone Your Submission Repo
 
-Clone your submission repo to your local machine. The repo contains starter code to help you prepare your submission.
+Find the `<private git link>` to your private repo by clicking `Shown Git Link` in the `My Submission` page. Then clone your submission repo to your local machine. The repo contains starter code to help you prepare your submission.
 
 ```
-$ git clone git@github.com:your_submission_repo_address
-$ cd your_submission_repo
+$ git clone <private git link>
 ```
 
 ## Prepare Your Planner
