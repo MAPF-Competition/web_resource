@@ -22,14 +22,17 @@ Each submission will be evaluated on 5 instances:
 >| |   |   |
 >|:---:|:---:|:---:|
 >|![r](landing_page_resource/images/random-32-32-20_s.jpg)|![r](landing_page_resource/images/Paris_1_256_s.jpg)|![r](landing_page_resource/images/brc202d_s.jpg) |
->|`Random`<br />a 32 by 32 map with 20% random obstacles.  | `City`<br />a 256 by 256 map representing part of the city of Paris.|`Game`<br /> a 481 by 530 map from computer games. |
+>|`Random`| `City`|`Game`|
+>|a 32 by 32 map with 20% random obstacles.| a 256 by 256 map representing part of the city of Paris.|a 481 by 530 map from computer games.|
 
 >| |
 >|:---:|
 >|![r](landing_page_resource/images/warehouse_large_s.jpg)|
->|`Warehouse`<br />a 500 by 140 map representing synthetic automated fulfilment centre.|
+>|`Warehouse`|
+>|a 500 by 140 map representing synthetic automated fulfilment centre.|
 >|![r](landing_page_resource/images/sortation_large_s.jpg)|
->|`Sortation`<br />a 500 by 140 map representing synthetic automated sortation centre.|
+>|`Sortation`|
+>|a 500 by 140 map representing synthetic automated sortation centre.|
 
 
 The maps are [available for download](https://github.com/MAPF-Competition/Start-Kit/tree/main/example_problems) and analysis. But the problem instances (errands and robot locations) are hidden until after the competition.
