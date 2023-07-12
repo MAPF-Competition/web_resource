@@ -20,12 +20,16 @@ At every timestep we will ask your planner to compute the next valid action for 
 Each submission will be evaluated on 5 instances:
 
 >| |   |   |
->|:---:|:---:|:---|
->|`Random`|![r](landing_page_resource/images/random-32-32-20_s.jpg)|a 32 by 32 map with 20% random obstacles.|
->|`City`|![r](landing_page_resource/images/Paris_1_256_s.jpg)|a 256 by 256 map representing part of the city of Paris.|
->|`Game`|![r](landing_page_resource/images/brc202d_s.jpg)|a 481 by 530 map from computer games.  |
->|`Warehouse`|![r](landing_page_resource/images/warehouse_large_s.jpg)|a 500 by 140 map representing synthetic automated fulfilment centre.|
->|`Sortation`|![r](landing_page_resource/images/sortation_large_s.jpg)|a 500 by 140 map representing synthetic automated sortation centre.|
+>|:---:|:---:|:---:|
+>|![r](landing_page_resource/images/random-32-32-20_s.jpg)|![r](landing_page_resource/images/Paris_1_256_s.jpg)|![r](landing_page_resource/images/brc202d_s.jpg) |
+>|`Random`<br />a 32 by 32 map with 20% random obstacles.  | `City`<br />a 256 by 256 map representing part of the city of Paris.|`Game`<br /> a 481 by 530 map from computer games. |
+
+>| |
+>|:---:|
+>|![r](landing_page_resource/images/warehouse_large_s.jpg)|
+>|`Warehouse`<br />a 500 by 140 map representing synthetic automated fulfilment centre.|
+>|![r](landing_page_resource/images/sortation_large_s.jpg)|
+>|`Sortation`<br />a 500 by 140 map representing synthetic automated sortation centre.|
 
 
 The maps are [available for download](https://github.com/MAPF-Competition/Start-Kit/tree/main/example_problems) and analysis. But the problem instances (errands and robot locations) are hidden until after the competition.
