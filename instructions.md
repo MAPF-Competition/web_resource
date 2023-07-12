@@ -8,7 +8,7 @@ To join the competition as a team, only one memeber of the team need to login to
 
 ## Clone Your Submission Repo
 
-Find the `<private git link>` to your private repo by click `Shown Git Link` in the `My Submission` page. Then clone your submission repo to your local machine. The repo contains starter code to help you prepare your submission.
+Find the `<private git link>` to your private repo by clicking `Shown Git Link` in the `My Submission` page. Then clone your submission repo to your local machine. The repo contains starter code to help you prepare your submission.
 
 ```
 $ git clone <private git link>
