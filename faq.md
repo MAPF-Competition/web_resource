@@ -21,3 +21,7 @@ This page contains answers to frequently asked questions, which are not addresse
 **Q: Will my implementation been reviewed by organisers?**
 
 >Yes, the organisers will review participants' implementation at the end of the competition.
+
+**Q: My score on the leaderboard has decreased! Why?**
+
+> If another participant has improved a best-known solution then existing submissions will be re-scored relative to this new baseline. More details about our scoring function are available on the [evaluation)(https://leagueofrobotrunners.org/evaluation) page.
