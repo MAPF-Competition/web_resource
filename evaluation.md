@@ -17,7 +17,7 @@ In the planning stage the initial locations of robots are revealed and errands/t
 At every timestep we will ask your planner to compute the next valid action for each robot. You can take as long as you want for planning, but the clock is ticking while you are deliberating. Failure to compute a next valid action for every robot, or deliberating for longer than 1 second, results in all robots waiting in place until the next planning episode.
 
 ## Domains
-Each submission will be evaluated on 5 instances:
+Each submission will be evaluated using a variety of instances on 5 different maps:
 
 >| |   |   |
 >|:---:|:---:|:---:|
