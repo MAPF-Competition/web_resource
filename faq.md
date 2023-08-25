@@ -21,3 +21,6 @@ This page contains answers to frequently asked questions, which are not addresse
 **Q: Will my implementation been reviewed by organisers?**
 
 >Yes, the organisers will review participants' implementation at the end of the competition.
+
+**Q: How to work in a shared git repo with multiple collaborators?** 
+>Our system only allows a single submitter. To work with a team of people on a shared git repo, you can create a separate team repo and add team members there, and link the repo with your local repo through git remote. When it is time to submit, you can add your competition repo as a new remote, and the nominated submitter can push the changes.
