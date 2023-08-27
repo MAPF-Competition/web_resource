@@ -23,4 +23,8 @@ This page contains answers to frequently asked questions, which are not addresse
 >Yes, the organisers will review participants' implementation at the end of the competition.
 
 **Q: How to work in a shared git repo with multiple collaborators?** 
->Our system only allows a single submitter. To work with a team of people on a shared git repo, you can create a separate team repo and add team members there, and link the repo with your local repo through git remote. When it is time to submit, you can add your competition repo as a new remote, and the nominated submitter can push the changes.
+>To work as a team, it is suggested that each team create their own separate team repo and add team members there, and link the repo with your local repo through git remote. When it is time to submit, you can add your competition repo as a new remote, and the nominated submitter can push the changes to competition repo.
+
+**Q: My score on the leaderboard has decreased! Why?**
+
+> If another participant has improved a best-known solution then existing submissions will be re-scored relative to this new baseline. More details about our scoring function are available on the [evaluation](https://leagueofrobotrunners.org/evaluation) page.

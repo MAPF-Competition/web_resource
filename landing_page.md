@@ -30,10 +30,10 @@ To lower participation costs we also have a limited number of **[training awards
 > 13th July - 18th August
 
 **Main Round**
-> 19th August - 31th October
+> 19th August - ~~31st October~~  30th November  (extended!)
 
 **Results Announcement**
-> 20th November
+> 20th ~~November~~ December (extended!)
 
 ---
 
