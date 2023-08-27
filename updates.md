@@ -1,5 +1,4 @@
-## 🔥 Announcement: League of Robot Runners - Main Round is Here! 🔥
-Dear Participants and Enthusiasts,
+## 🔥 Announcement: League of Robot Runners - Main Round is Here! 🔥 - 28 Aug 2023
 
 We're thrilled to announce that the main round of the League of Robot Runners competition is just around the corner, and we're bringing you exciting updates and challenges that will put your algorithmic skills and inovations to the ultimate test!
 
@@ -22,12 +21,9 @@ Bug Fixes: We've addressed a bug that was causing issues when agents attempted t
 
 Enhanced README: We understand the importance of clarity in understanding the competition framework. In response to your feedback, we've revamped our documentation to provide explicit and concise instructions. We've provided a clear explanation of program inputs and file formats in the documentation. Furthermore, Windows users will find detailed instructions to use our Start-kit within WSL in the updated README, ensuring that everyone can get started without any hiccups.
 
-More Example Instances: New instances are provided in Starti-Kit to cover a wide range of challenging problems.
+More Example Instances: New instances are provided in Starti-Kit to cover a wide range of challenging problems and fixed known issues in existing problems.
 
 
 ### Important Deadlines: 
 Keep in mind the deadline for the main round is November 30th!
 
-Best regards,
-
-League of Robot Runners Organizing Team
