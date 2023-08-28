@@ -1,4 +1,4 @@
-## 🔥 Announcement: League of Robot Runners - Main Round is Here! 🔥 `28 Aug 2023`
+## 🔥 The main round is here! 🔥 `28 Aug 2023`
 
 **Hello Robot Runners!**
 
