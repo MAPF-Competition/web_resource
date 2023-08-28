@@ -55,10 +55,5 @@ As previously announced, the deadline for the main round is November 30th. The d
  
 Avoid disappointment! Pencil the date into your calendar and add a reminder!
 
-If you have questions about any part of this announcement, or if you need additional details, please reach out to us, via Discord or email.
-
-We’re looking forward to your submissions!
-
-**League of Robot Runners Organizing Team**
-**https://leagueofrobotrunners.org**
+If you have questions about any part of this announcement, or if you need additional details, please reach out to us, via Discord or email. We’re looking forward to your submissions!
 
