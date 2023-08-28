@@ -51,9 +51,6 @@ We have updated our PlanViz visualiser, with the latest release again available 
 
 **5. Important Deadlines:**
 
-As previously announced, the deadline for the main round is November 30th. The date is AOE. In other words, if your implementation is submitted on November 30th, Anywhere on Earth, it will be considered timely and queued for evaluation.
- 
-Avoid disappointment! Pencil the date into your calendar and add a reminder!
+As previously announced, the deadline for the main round is anytime on November 30th. Pencil this date into your calendar now and add a reminder to avoid disappointment! The date UTC-12, which means any submission on or before 23:59:59 on November 30th will be considered timely and queued for evaluation. 
 
-If you have questions about any part of this announcement, or if you need additional details, please reach out to us, via Discord or email. We’re looking forward to your submissions!
-
+We're excited to have you with us and we're looking forward to your submissions!
