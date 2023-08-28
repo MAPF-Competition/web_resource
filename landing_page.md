@@ -1,3 +1,5 @@
+> 🚀 *Latest updates: [Main Round Start! Start-kit v1.1.1 Release!](./updates)*
+
 ## Introduction ![r8](./landing_page_resource/robots/r8_s.jpg)
 
 The League of Robot Runners, sponsored by Amazon Robotics, is a competition where participants tackle one of the most complex optimization challenges: the coordination of multiple moving robots, which is important for industrial applications such as warehouse logistics, transportation and advanced manufacturing.
