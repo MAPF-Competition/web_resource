@@ -42,6 +42,7 @@ We have a new release of the Start-Kit code available from the competition repos
 https://github.com/MAPF-Competition/Start-Kit/blob/develop/Changelog.md
 
 **4. Updated PlanViz (1.2.0):**
+
 We have updated our PlanViz visualiser, with the latest release again available from its home repository. Included in this update are a variety of enhancements:
 
 - Allows user-specified start and end-times for visualisation. This improvement allows users to more effectively inspect just the most relevant parts of a generated plan.
