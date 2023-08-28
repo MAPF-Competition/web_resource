@@ -22,7 +22,7 @@ Each submission will be evaluated using a variety of instances on 5 different ma
 >| |   |   |
 >|:---:|:---:|:---:|
 >|![r](landing_page_resource/images/random-32-32-20_s.jpg)|![r](landing_page_resource/images/Paris_1_256_s.jpg)|![r](landing_page_resource/images/brc202d_s.jpg) |
->|`Random`| `City`|`Game`|
+>|`Random`| `City(paris)`|`Game(brc202d)`|
 >|a 32 by 32 map with 20% random obstacles.| a 256 by 256 map representing part of the city of Paris.|a 481 by 530 map from computer games.|
 
 >| |
