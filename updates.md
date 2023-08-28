@@ -38,7 +38,7 @@ We have a new release of the Start-Kit code available from the competition repos
 - *Bug fixes:*
   - We fixed a bug affecting the interpretation of ‘T’ type obstacle tiles
   - We’ve fixed a map-boundary issue affecting some users
-  - See the (changelog)[https://github.com/MAPF-Competition/Start-Kit/blob/develop/Changelog.md] for further details.
+  - See the [changelog](https://github.com/MAPF-Competition/Start-Kit/blob/develop/Changelog.md) for further details.
 
 **4. Updated PlanViz (1.2.0):**
 
@@ -47,7 +47,7 @@ We have updated our PlanViz visualiser, with the latest release again available 
 - Allows user-specified start and end-times for visualisation. This improvement allows users to more effectively inspect just the most relevant parts of a generated plan.
 - UI performance improvements. 
 - Various bug fixes and enhancements
-- See the (changelog)[https://github.com/MAPF-Competition/PlanViz/blob/main/Changelog.md] for further details.
+- See the [changelog](https://github.com/MAPF-Competition/PlanViz/blob/main/Changelog.md) for further details.
 
 **5. Important Deadlines:**
 
