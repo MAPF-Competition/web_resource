@@ -1,25 +1,61 @@
-## 🔥 Announcement: League of Robot Runners - Main Round is Here! 🔥 - 28 Aug 2023
+## 🔥 Announcement: League of Robot Runners - Main Round is Here! 🔥 `28 Aug 2023`
 
-We're thrilled to announce that the main round of the League of Robot Runners competition is just around the corner, and we're bringing you exciting updates and challenges that will put your algorithmic skills and innovations to the ultimate test!
+Hello Robot Runners!
 
-### New Challenges Await:
-In response to the incredible enthusiasm and dedication from the community, we've ramped up the excitement in this main round with a diverse array of challenges. Brace yourselves for the following changes across 10 different instances:
-- 5 Instances with High Agent Density on Random Maps: Prepare to push your algorithms to the limit as you navigate agents through congested spaces on randomly generated maps. Can you maintain order in chaos?
-- 2 Instances on Medium-Sized City Maps: As the number of agents increases, can you adapt and strategize effectively to ensure smooth agent movement through urban landscapes?
-- 3 Instances on Large Game, Sortation, and Warehouse Maps: These challenges are designed to truly test your algorithm as you coordinate agents in both congested environments and large-scale scenarios.
+We're excited to announce that the main round of the competition has arrived! In this newsletter, we’re going to tell you what’s new, what’s changed, and what it means for your team and your submissions. Let’s dive together into the heart of the challenge!
 
-### Enhanced Website Features:
-You can now explore both the newest leaderboard and the archived test round leaderboard. The website always reminds the deadline of the current round. Additionally, my submission panel now provides more details to each of your submissions.
+### 1. Main Round: 
+The main round officially kicks off on August 29! Building on the successful test round, we have introduced a variety of new and exciting problems, giving you more opportunities to showcase your skills in a wider variety of settings.
 
-### Updated Start-Kit (Version 1.1.1):
-To ensure a smooth experience for all participants, we've rolled out an update to the Start-kit. This version includes important bug fixes and documentation improvements:
+As before, we evaluate submissions on each of our 5 test maps, for up to 5000 time steps. However, performance will now be evaluated across 10 different instances:
 
-- Bug Fixes: We've addressed bugs regarding map symbols and agent out-of-map boundary issues. 
 
-- Enhanced README: We've improved the explanation of program inputs, file formats, and dependencies in the documentation. Furthermore, Windows users will find detailed instructions to use our Start-kit within WSL in the updated README, ensuring that everyone can get started without any hiccups.
+- 5 instances of high-density problems on our small Random map. Prepare to push your coordination skills to the limit as you navigate your robots through highly congested spaces. Can you maintain order amid all the chaos?
 
-- More Example Instances: New instances are provided in the Starti-Kit to cover a wide range of challenging problems and fix known issues in existing problems.
 
-### Important Deadlines: 
-Keep in mind the deadline for the main round is November 30th!
+- 2 instances of industry-scale problems on our City map. Similar in size to some real-world applications, these problems raise the stakes: by adding more robots to a larger and more challenging path-planning environment. Adapt your strategies to maintain a winning edge!
+
+
+- 3 instances of large-scale problems on our Game, Warehouse and Sortation maps. Designed to push the limits of current applications, these problems ask you to plan for many thousands of robots in a fiercely contested environment. With a challenge this intense you’ll have to step up your game!
+
+### 2. Enhanced Website Features: 
+We’ve introduced a new leaderboard to keep track of your submissions and all the latest standings. You can now also explore archived submissions, from the test round. These enhancements give further insights into your performance, that of other teams and everyone’s progress in the competition.
+
+### 3. Updated Start-Kit (Version 1.1.1): 
+We have a new release of the Start-Kit code available from the competition repository. This release features a variety of improvements, enhancement and bug fixes:
+
+
+- **More Example Instances:**
+  - We generated a variety of new example problems, to cover the wider range of challenge problems in the main round. These will help you test your submissions and track your progress locally.
+
+- **Additional Documentation:**
+  - The README.md file now contains additional descriptions for program inputs, file formats, and dependencies. These clarify questions we received in the test round.
+  - Windows users will now find detailed instructions for using our Start-Kit with Windows Subsystem for Linux (WSL).  Now everyone can get started without any hiccups!
+
+- **Bug fixes:**
+  - We fixed a bug affecting the interpretation of ‘T’ type obstacle tiles
+  - We’ve fixed a map-boundary issue affecting some users
+  - See the changelog for a full accounting and further descriptions:
+https://github.com/MAPF-Competition/Start-Kit/blob/develop/Changelog.md
+
+### 4. Updated PlanViz (1.2.0):
+We have updated our PlanViz visualiser, with the latest release again available from its home repository. Included in this update are a variety of enhancements:
+
+- Allows user-specified start and end-times for visualisation. This improvement allows users to more effectively inspect just the most relevant parts of a generated plan.
+- UI performance improvements. 
+- Various bug fixes and enhancements
+- More details can be found in https://github.com/MAPF-Competition/PlanViz/blob/main/Changelog.md.
+
+### 5. Important Deadlines:
+
+As previously announced, the deadline for the main round is November 30th. The date is AOE. In other words, if your implementation is submitted on November 30th, Anywhere on Earth, it will be considered timely and queued for evaluation.
+ 
+Avoid disappointment! Pencil the date into your calendar and add a reminder!
+
+If you have questions about any part of this announcement, or if you need additional details, please reach out to us, via Discord or email.
+
+We’re looking forward to your submissions!
+
+League of Robot Runners Organizing Team
+https://leagueofrobotrunners.org
 
