@@ -1,4 +1,4 @@
-🚀 *Latest updates: [Main Round start! Start-kit v1.1.1 Release!](./updates)*
+🚀 *Latest updates: [Main Round Start! Start-kit v1.1.1 Release!](./updates)*
 
 ## Introduction ![r8](./landing_page_resource/robots/r8_s.jpg)
 
