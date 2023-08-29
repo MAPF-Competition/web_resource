@@ -11,13 +11,13 @@ The main round officially kicks off on August 29! Building on the successful tes
 As before, we evaluate submissions on each of our 5 test maps, for up to 5000 time steps. However, performance will now be evaluated across 10 different instances:
 
 
-- 5 instances of high-density problems on our small Random map. Prepare to push your coordination skills to the limit as you navigate your robots through highly congested spaces. Can you maintain order amid all the chaos?
+- 5 instances of **high-density** problems on our small Random map. Prepare to push your coordination skills to the limit as you navigate your robots through highly congested spaces. Can you maintain order amid all the chaos?
 
 
-- 2 instances of industry-scale problems on our City map. Similar in size to some real-world applications, these problems raise the stakes: by adding more robots to a larger and more challenging path-planning environment. Adapt your strategies to maintain a winning edge!
+- 2 instances of **industry-scale** problems on our City map. Similar in size to some real-world applications, these problems raise the stakes: by adding more robots to a larger and more challenging path-planning environment. Adapt your strategies to maintain a winning edge!
 
 
-- 3 instances of large-scale problems on our Game, Warehouse and Sortation maps. Designed to push the limits of current applications, these problems ask you to plan for many thousands of robots in a fiercely contested environment. With a challenge this intense you’ll have to step up your game!
+- 3 instances of **large-scale** problems on our Game, Warehouse and Sortation maps. Designed to push the limits of current applications, these problems ask you to plan for many thousands of robots in a fiercely contested environment. With a challenge this intense you’ll have to step up your game!
 
 **2. Enhanced Website Features:**
 
@@ -38,7 +38,7 @@ We have a new release of the Start-Kit code available from the competition repos
 - *Bug fixes:*
   - We fixed a bug affecting the interpretation of ‘T’ type obstacle tiles
   - We’ve fixed a map-boundary issue affecting some users
-  - See the [changelog](https://github.com/MAPF-Competition/Start-Kit/blob/develop/Changelog.md) for further details.
+  - See the [changelog](https://github.com/MAPF-Competition/Start-Kit/blob/v1.1.2/Changelog.md) for further details.
 
 **4. Updated PlanViz (1.2.0):**
 
@@ -47,7 +47,7 @@ We have updated our PlanViz visualiser, with the latest release again available 
 - Allows user-specified start and end-times for visualisation. This improvement allows users to more effectively inspect just the most relevant parts of a generated plan.
 - UI performance improvements. 
 - Various bug fixes and enhancements
-- See the [changelog](https://github.com/MAPF-Competition/PlanViz/blob/main/Changelog.md) for further details.
+- See the [changelog](https://github.com/MAPF-Competition/PlanViz/blob/v1.2.0/Changelog.md) for further details.
 
 **5. Important Deadlines:**
 
