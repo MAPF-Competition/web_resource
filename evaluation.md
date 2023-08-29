@@ -12,7 +12,7 @@ Once you make a submission the evaluation proceeds in two stages: offline prepro
 During the preprocessing stage the current map is given to each planner. The planner has the opportunity to analyse the map and compute auxiliary data before proceeding to the evaluation stage. Preprocessing time is limited to 30 Minutes per map. Nothing you do at this stage will be counted into your final score.
 
 ## Online Planning
-In the planning stage the initial locations of robots are revealed and errands/tasks are assigned, one for each robot. Time elapses at a rate of 1 second per timestep and your planner will be evaluated for 5000 seconds on each map. 
+In the planning stage the initial locations of robots are revealed and errands/tasks are assigned, one for each robot. Time elapses at a rate of 1 second per timestep and your planner will be evaluated up to 5000 seconds on each map. 
 
 At every timestep we will ask your planner to compute the next valid action for each robot. You can take as long as you want for planning, but the clock is ticking while you are deliberating. Failure to compute a next valid action for every robot, or deliberating for longer than 1 second, results in all robots waiting in place until the next planning episode.
 
