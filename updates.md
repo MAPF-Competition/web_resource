@@ -2,7 +2,7 @@
 
 **Hello Robot Runners!**
 
-We're excited to announce that the main round of the competition has arrived! In this newsletter, we’re going to tell you what’s new, what’s changed, and what it means for your team and your submissions. Let’s dive together into the heart of the challenge!
+We're excited to announce that the main round of the competition has arrived! In this post we’re going to tell you what’s new, what’s changed, and what it means for your team and your submissions. Let’s dive together into the heart of the challenge!
 
 **1. Main Round:**
 
