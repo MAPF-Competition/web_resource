@@ -8,16 +8,16 @@ We're excited to announce that the main round of the competition has arrived! In
 
 The main round officially kicks off on August 29! Building on the successful test round, we have introduced a variety of new and exciting problems, giving you more opportunities to showcase your skills in a wider variety of settings.
 
-As before, we evaluate submissions on each of our 5 test maps, for up to 5000 time steps. However, performance will now be evaluated across 10 different instances:
+As before, we evaluate submissions on each of our 5 test maps, for up to 5000 time steps. However, performance will now be evaluated across 10 different instances in one of three distinct categories:
 
 
-- 5 instances of **high-density** problems on our small Random map. Prepare to push your coordination skills to the limit as you navigate your robots through highly congested spaces. Can you maintain order amid all the chaos?
+- **High-density** problems. Prepare to push your coordination skills to the limit as you navigate your robots through very congested spaces. Can you maintain order amid all the chaos?
 
 
-- 2 instances of **industry-scale** problems on our City map. Similar in size to some real-world applications, these problems raise the stakes: by adding more robots to a larger and more challenging path-planning environment. Adapt your strategies to maintain a winning edge!
+- **Industry-scale** problems. Similar in size to some real-world applications, these problems raise the stakes: by adding more robots to a larger and more challenging path-planning environment. Adapt your strategies to maintain a winning edge!
 
 
-- 3 instances of **large-scale** problems on our Game, Warehouse and Sortation maps. Designed to push the limits of current applications, these problems ask you to plan for many thousands of robots in a fiercely contested environment. With a challenge this intense you’ll have to step up your game!
+- **Large-scale** problems. Designed to push the limits of current applications, these problems ask you to plan for thousands of robots in a fiercely contested environment. With a challenge this intense you’ll have to up your game!
 
 **2. Enhanced Website Features:**
 
@@ -29,7 +29,7 @@ We have a new release of the Start-Kit code available from the competition repos
 
 
 - *More Example Instances:*
-  - We generated a variety of new example problems, to cover the wider range of challenge problems in the main round. These will help you test your submissions and track your progress locally.
+  - We generated a variety of new example problems, to cover the wider range of challenge problems in the main round. Different from the evaluation instances, these examples will nevertheless help you test your submissions and track your progress locally.
 
 - *Additional Documentation:*
   - The README.md file now contains additional descriptions for program inputs, file formats, and dependencies. These clarify questions we received in the test round.
