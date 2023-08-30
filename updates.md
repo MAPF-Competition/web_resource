@@ -6,7 +6,7 @@ We're excited to announce that the main round of the competition has arrived! In
 
 **1. Main Round:**
 
-The main round officially kicks off on August 29! Building on the successful test round, we have introduced a variety of new and exciting problems, giving you more opportunities to showcase your skills in a wider variety of settings.
+The main round officially kicks off on August 30! Building on the successful test round, we have introduced a variety of new and exciting problems, giving you more opportunities to showcase your skills in a wider variety of settings.
 
 As before, we evaluate submissions on each of our 5 test maps, for up to 5000 time steps. However, performance will now be evaluated across 10 different instances in one of three distinct categories:
 
@@ -25,7 +25,7 @@ We’ve introduced a new leaderboard to keep track of your submissions and all t
 
 **3. Updated Start-Kit (Version 1.1.2):**
 
-We have a new release of the Start-Kit code available from the competition repository. This release features a variety of improvements, enhancement and bug fixes:
+We have a new release of the Start-Kit code available from the competition repository. This release features a variety of improvements, enhancements and bug fixes:
 
 
 - *More Example Instances:*
@@ -44,7 +44,7 @@ We have a new release of the Start-Kit code available from the competition repos
 
 We have updated our PlanViz visualiser, with the latest release again available from its home repository. Included in this update are a variety of enhancements:
 
-- Allows user-specified start and end-times for visualisation. This improvement allows users to more effectively inspect just the most relevant parts of a generated plan.
+- Allows user-specified start and end times for visualisation. This improvement allows users to more effectively inspect just the most relevant parts of a generated plan.
 - UI performance improvements. 
 - Various bug fixes and enhancements
 - See the [changelog](https://github.com/MAPF-Competition/PlanViz/blob/v1.2.0/Changelog.md) for further details.
