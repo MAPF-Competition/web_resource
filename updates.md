@@ -23,7 +23,7 @@ As before, we evaluate submissions on each of our 5 test maps, for up to 5000 ti
 
 We’ve introduced a new leaderboard to keep track of your submissions and all the latest standings. You can now also explore archived submissions, from the test round. These enhancements give further insights into your performance, that of other teams and everyone’s progress in the competition.
 
-**3. Updated Start-Kit (Version 1.1.1):**
+**3. Updated Start-Kit (Version 1.1.2):**
 
 We have a new release of the Start-Kit code available from the competition repository. This release features a variety of improvements, enhancement and bug fixes:
 
