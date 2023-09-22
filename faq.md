@@ -28,3 +28,7 @@ This page contains answers to frequently asked questions, which are not addresse
 **Q: My score on the leaderboard has decreased! Why?**
 
 > If another participant has improved a best-known solution then existing submissions will be re-scored relative to this new baseline. More details about our scoring function are available on the [evaluation](https://leagueofrobotrunners.org/evaluation) page.
+
+**Q: A timestep is equal to one second, but my planner always takes less than 1 second to compute actions. Can I benefit from the time saved, so I can be evaluated for more timesteps?**
+
+> Finishing before the time limit per timestep is fine. But you cannot "bank" the time saved. This is because we always evaluate your planner up to a fixed planning horizon, measured in timesteps. 
