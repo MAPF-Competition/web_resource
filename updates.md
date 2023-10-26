@@ -1,3 +1,69 @@
+## **🚀 Announcement: Half-way there! New Resources and Software Updates! 🚀**
+
+Hello Robot Runners!
+
+We are more than half-way in the main round -- can you believe it? There are now many submissions from teams all over the world and the leaderboard has 🧨 lit up! 🎆 Make sure to keep an eye on the latest standings so that your team doesn’t get left behind!
+
+In this newsletter we describe a number of recent updates to the competition website, and the start-kit software and we announce new resources for participants -- all to help you get that winning edge! Let’s dive right in!
+
+
+**1. Website Updates**
+
+We have improved the leaderboard in a variety of different ways, making it easier than ever to track your progress 🤖 and those of other teams **🖥️**.
+
+
+
+* Team names are now shown alongside their Algorithm name. We added this feature as algorithmic approaches may change over time.
+* We added a new “All Submissions” tab to the leaderboard. This helps you keep an eye on submissions from other teams. Who submitted what and when!
+* We added a Trend plot for the Line Honours category. This allows you to see more easily who is making progress in the race!
+* Fixes for a variety of visual bugs. 
+
+**2. Software Updates**
+
+We have updates for both the Start Kit software and for PlanViz, our offline visualiser. See the [upgrade instructions](https://github.com/MAPF-Competition/Start-Kit#upgrade-your-start-kit) and make sure your code is up to date!
+
+Start Kit updates:
+
+
+
+* We fixed a small bug affecting participants developing with python.
+* We added extra documentation to help participants working with preprocessed data.
+* We added extra “Debug and Visualise” documentation, to help participants diagnose and fix problems with their planners. 
+* We added different logging levels, which makes it easier to parse and work with output files.
+* Refer to the [changelog](https://github.com/MAPF-Competition/Start-Kit/blob/main/Changelog.md) for more details.
+
+PlanViz updates:
+
+
+
+* We added agent-based filters which simplify what is being shown. This helps you more easily find agents of interest.
+* We improved support for visualising plans with invalid actions. This makes it easier to understand what went wrong and why.
+* We added additional documentation, to help you use PlanViz more effectively
+* We added support for visualising MAPF (i.e., no rotations) plans, a popular and closely related problem to the problem that we tackle in the competition.
+* We added a new Tracker Transfer tool, to convert plans from the MAPF Tracker community website (more on this below!)  to the PlanViz format.
+* Again, refer to the [changelog](https://github.com/MAPF-Competition/PlanViz/blob/main/Changelog.md) for more details!
+
+
+**3. Training Data!**
+
+Community resources can be invaluable for researchers. One such resource, that may be of interest to participants in the League of Robot Runners, is the **MAPF Tracker ([http://tracker.pathfinding.ai/](http://tracker.pathfinding.ai/))**. This is a new website and database that records best-known solutions on a range of popular benchmarks for the related Multi-Agent Path Finding (MAPF) problem. 
+
+MAPF can be understood as a special case of the Robot Runners problem model. In particular, there is only one task per agent and agents do not have any facing direction, which means they do not need to turn. Since the two problems are very similar, insights into one can help improve performance on the other. In this update we explore some ideas for how your team could make use of this new resource.
+
+**Browse the database and be inspired!**
+
+We seeded the MAPF Tracker with a variety of results from recent and state-of-the-art MAPF algorithms, and on grid maps which are similar to those used in the competition. Using the website allows you to compare, in a non-competitive setting, the success rates and achieved costs of different and successful planning techniques. The MAPF Tracker contains a range of metadata for each claim, allowing you to locate relevant papers, follow links to author implementations and build on those ideas to improve your own submissions
+
+**Analyse solutions and learn from the best!**
+
+In addition to summary results the MAPF Tracker also contains a wealth of optimised plans, for thousands of instances and across many different domains. Each plan can be downloaded and visualised in [PlanViz](https://github.com/MAPF-Competition/PlanViz) (our offline visualisation tool, developed specifically for the competition) which helps you obtain new insights into the combinatorial challenges at the heart of these problems. Plans can also be downloaded en masse, which means the data could be used for training, to automatically learn new cooperative strategies and to get an edge in the competition
+
+**Chart your own course!**
+
+So far we have suggested a few possible starting points. However, we encourage participants to develop their own ideas and to find new ways of exploiting MAPF data, so as to improve their standing in the League of Robot Runners competition. We look forward to your submissions and to seeing what you can come up with!
+
+Good luck!
+
 ## 🔥 The main round is here! 🔥 `30 Aug 2023`
 
 **Hello Robot Runners!**
