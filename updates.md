@@ -1,6 +1,6 @@
 ## 🚀 Announcement: Half-way there! New Resources and Software Updates! 🚀 `27 Oct 2023`
 
-**Hello Robot Runners!**
+### Hello Robot Runners!
 
 We are more than half-way in the main round -- can you believe it? There are now many submissions from teams all over the world and the leaderboard has 🧨 lit up! 🎆 Make sure to keep an eye on the latest standings so that your team doesn’t get left behind!
 
@@ -66,11 +66,11 @@ Good luck!
 
 ## 🔥 The main round is here! 🔥 `30 Aug 2023`
 
-**Hello Robot Runners!**
+### Hello Robot Runners!
 
 We're excited to announce that the main round of the competition has arrived! In this post we’re going to tell you what’s new, what’s changed, and what it means for your team and your submissions. Let’s dive together into the heart of the challenge!
 
-**1. Main Round:**
+### 1. Main Round:
 
 The main round officially kicks off on August 30! Building on the successful test round, we have introduced a variety of new and exciting problems, giving you more opportunities to showcase your skills in a wider variety of settings.
 
@@ -85,11 +85,11 @@ As before, we evaluate submissions on each of our 5 test maps, for up to 5000 ti
 
 - **Large-scale** problems. Designed to push the limits of current applications, these problems ask you to plan for thousands of robots in a fiercely contested environment. With a challenge this intense you’ll have to up your game!
 
-**2. Enhanced Website Features:**
+### 2. Enhanced Website Features:
 
 We’ve introduced a new leaderboard to keep track of your submissions and all the latest standings. You can now also explore archived submissions, from the test round. These enhancements give further insights into your performance, that of other teams and everyone’s progress in the competition.
 
-**3. Updated Start-Kit (Version 1.1.2):**
+### 3. Updated Start-Kit (Version 1.1.2):
 
 We have a new release of the Start-Kit code available from the competition repository. This release features a variety of improvements, enhancements and bug fixes:
 
@@ -106,7 +106,7 @@ We have a new release of the Start-Kit code available from the competition repos
   - We’ve fixed a map-boundary issue affecting some users
   - See the [changelog](https://github.com/MAPF-Competition/Start-Kit/blob/v1.1.2/Changelog.md) for further details.
 
-**4. Updated PlanViz (1.2.0):**
+### 4. Updated PlanViz (1.2.0):
 
 We have updated our PlanViz visualiser, with the latest release again available from its home repository. Included in this update are a variety of enhancements:
 
@@ -115,7 +115,7 @@ We have updated our PlanViz visualiser, with the latest release again available 
 - Various bug fixes and enhancements
 - See the [changelog](https://github.com/MAPF-Competition/PlanViz/blob/v1.2.0/Changelog.md) for further details.
 
-**5. Important Deadlines:**
+### 5. Important Deadlines:
 
 As previously announced, the deadline for the main round is anytime on November 30th. Pencil this date into your calendar now and add a reminder to avoid disappointment! The date UTC-12, which means any submission on or before 23:59:59 on November 30th will be considered timely and queued for evaluation. 
 
