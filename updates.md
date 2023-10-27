@@ -1,4 +1,4 @@
-## **🚀 Announcement: Half-way there! New Resources and Software Updates! 🚀**
+## **🚀 Announcement: Half-way there! New Resources and Software Updates! 🚀** `27 Oct 2023`
 
 Hello Robot Runners!
 
