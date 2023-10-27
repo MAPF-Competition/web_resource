@@ -1,6 +1,6 @@
 ## 🚀 Announcement: Half-way there! New Resources and Software Updates! 🚀 `27 Oct 2023`
 
-Hello Robot Runners!
+**Hello Robot Runners!**
 
 We are more than half-way in the main round -- can you believe it? There are now many submissions from teams all over the world and the leaderboard has 🧨 lit up! 🎆 Make sure to keep an eye on the latest standings so that your team doesn’t get left behind!
 
