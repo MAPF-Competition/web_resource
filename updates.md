@@ -7,7 +7,7 @@ We are more than half-way in the main round -- can you believe it? There are now
 In this newsletter we describe a number of recent updates to the competition website, and the start-kit software and we announce new resources for participants -- all to help you get that winning edge! Let’s dive right in!
 
 
-**1. Website Updates**
+### 1. Website Updates
 
 We have improved the leaderboard in a variety of different ways, making it easier than ever to track your progress 🤖 and those of other teams **🖥️**.
 
@@ -18,7 +18,7 @@ We have improved the leaderboard in a variety of different ways, making it easie
 * We added a Trend plot for the Line Honours category. This allows you to see more easily who is making progress in the race!
 * Fixes for a variety of visual bugs. 
 
-**2. Software Updates**
+### 2. Software Updates
 
 We have updates for both the Start Kit software and for PlanViz, our offline visualiser. See the [upgrade instructions](https://github.com/MAPF-Competition/Start-Kit#upgrade-your-start-kit) and make sure your code is up to date!
 
@@ -44,7 +44,7 @@ PlanViz updates:
 * Again, refer to the [changelog](https://github.com/MAPF-Competition/PlanViz/blob/main/Changelog.md) for more details!
 
 
-**3. Training Data!**
+### 3. Training Data!
 
 Community resources can be invaluable for researchers. One such resource, that may be of interest to participants in the League of Robot Runners, is the **MAPF Tracker ([http://tracker.pathfinding.ai/](http://tracker.pathfinding.ai/))**. This is a new website and database that records best-known solutions on a range of popular benchmarks for the related Multi-Agent Path Finding (MAPF) problem. 
 
