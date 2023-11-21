@@ -1,3 +1,31 @@
+## Emergency Fix: Start-kit V1.1.5 Release `21 Nov 2023`
+
+**Hello Robot Runners!**
+
+We found the previous release introduced a bug:beetle: , which will crash the program if the logger file is not specified in CLI. We are very sorry for the inconvenience introduced here. The new release comes with an emergency fix on the bug.  
+
+More details are available in the changelog: https://github.com/MAPF-Competition/Start-Kit/blob/main/Changelog.md
+
+Follow the upgrade instructions to update your implementation: https://github.com/MAPF-Competition/Start-Kit/tree/main#upgrade-your-start-kit
+
+
+## Software Update: Start-kit V1.1.4 Release `18 Nov 2023`
+
+**Hello Robot Runners!**
+
+Thanks to invaluable feedback from our robot runner community. We discovered a few issues in the start-kit implementation that may cause inconvenience to participants. 
+
+We have released Startk-kit V1.1.4 with the following updates:
+- Fixed a bug causing segmentation fault on preprocess timeout. Preprocess timeout will now terminate the program with exit code 124.
+- Fixed a bug causing segmentation fault on reading env->goal_locations when the plan timelimit exceeded.
+- Updated documentation to better explain online timeout behaviour and preprocess timeout behaviour.
+
+More details are available in the changelog of the Start-kit: https://github.com/MAPF-Competition/Start-Kit/blob/v1.1.4/Changelog.md
+
+Click the link to get Instructions on upgrading your code: https://github.com/MAPF-Competition/Start-Kit/tree/main#upgrade-your-start-kit
+
+
+
 ## 🚀 Announcement: Half-way there! New Resources and Software Updates! 🚀 `27 Oct 2023`
 
 **Hello Robot Runners!**
