@@ -1,3 +1,28 @@
+## 🎉 Finish Line! End of Main Round 2023 🎉 `2 Dec 2023`
+
+**Hello Robot Runners!**
+
+We recently crossed the deadline for Main Round 2023! The last submissions are in and now fully evaluated. This means we’ve reached the 🏁 **end of the race** 🏁 for the inaugural League of Robot Runners! 
+
+And what a race it was! What a finish! It’s been amazing tracking your progress throughout and keeping up with the many ⬇️ twists and turns ⬆️ as teams traded places on the leaderboard. **Congratulations to all of our participants** and thank you for making the competition such a big success! 🤖 💘
+
+During the main round, we received a total of 825 submissions from 25 teams worldwide 🔥🔥🔥. Participants tackled the challenge problems from a variety of diverse perspectives and these efforts produced many exciting moments throughout the race. Over the next two weeks, we will 🔍 review all submissions 🔍 to ensure they comply with the wording of the rules and the spirit of the competition. 
+
+There will be an official **winners announcement** later this month and prizes 🎁 will be disbursed in the new year. 
+
+Once the results are finalised, we will archive and open source your best submissions (and associated auxiliary data, uploaded to our large file storage). We will also record and archive the best-known solutions for every instance and we will release tools to generate similar benchmarks. These initiatives will allow every participant to continue developing their approaches and measuring their progress in the post-competition period. It also allows the broader community to 📚 build on your success. 📚
+
+But the competition journey doesn't end here! The League of Robot Runners will return in 2024 with new challenges, changes and improvements! Stay tuned for the upcoming call!
+
+Finally, we value your thoughts and experiences. If you have any feedback or insights for the competition this year, we encourage you to share them in the feedback channel on our Discord or reach us through email. We take all your feedback seriously, we will use it to shape the future of the League of Robot Runners.
+
+**🎆 Thank you again for making the 2023 Main Round a resounding success! 🎆**
+
+Best regards,
+
+The League of Robot Runners Organising Committee.
+
+
 ## Emergency Fix: Start-kit V1.1.5 Release `21 Nov 2023`
 
 **Hello Robot Runners!**
