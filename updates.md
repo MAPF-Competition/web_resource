@@ -18,42 +18,44 @@ Participants in the 2023 League of Robot Runners were evaluated in 3 distinct pe
 
 <table>
   <tr>
-   <td>
+   <td align="left">
    </td>
-   <td>
+   <td align="left">
 <strong>☄️Fast Mover</strong>
    </td>
-   <td><strong>🎗️Line Honours</strong>
+   <td align="left"><strong>🎗️Line Honours</strong>
    </td>
-   <td><strong>🏆Overall Best</strong>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" ><strong>🥁Distinguished Performance</strong>
-   </td>
-   <td><em>🥈Team Shadoks</em>
-   </td>
-   <td><em>🥈Team Pikachu</em>
-   </td>
-   <td><em>🥈Team Shadoks</em>
+   <td align="left"><strong>🏆Overall Best</strong>
    </td>
   </tr>
   <tr>
-   <td><em>🥉Team NCD-MIPT</em>
+   <td align="left" rowspan="2" ><strong>🥁Distinguished Performance</strong>
    </td>
-   <td><em>🥉Team NCD-MIPT</em>
+   <td align="left"><em>🥈Team Shadoks</em>
    </td>
-   <td><em>🥉Team NCD-MIPT</em>
+   <td align="left"><em>🥈Team Pikachu</em>
+   </td>
+   <td align="left"><em>🥈Team Shadoks</em>
    </td>
   </tr>
   <tr>
-   <td><strong>💸Grand Prize</strong>
+    <td align="left">
+    </td>
+   <td align="left"><em>🥉Team NCD-MIPT</em>
    </td>
-   <td><em>🥇Team Pikachu</em>
+   <td align="left"><em>🥉Team NCD-MIPT</em>
    </td>
-   <td><em>🥇Team Shadoks</em>
+   <td align="left"><em>🥉Team NCD-MIPT</em>
    </td>
-   <td><em>🥇Team Pikachu</em>
+  </tr>
+  <tr>
+   <td align="left"><strong>💸Grand Prize</strong>
+   </td>
+   <td align="left"><em>🥇Team Pikachu</em>
+   </td>
+   <td align="left"><em>🥇Team Shadoks</em>
+   </td>
+   <td align="left"><em>🥇Team Pikachu</em>
    </td>
   </tr>
 </table>
