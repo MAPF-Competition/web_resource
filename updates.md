@@ -1,3 +1,88 @@
+## 🎉Results Announcement for Main Round 2023!🎉 `21 Dec 2023`
+
+**Hello Robot Runners!**
+
+Since the end of the competition 🎬, our organising team has been busy verifying the final standings on the leaderboard. With that work now complete we are now ready to announce the official winners of the main round for 2023! 🎊🎉🏆
+
+We also discuss 🤔 the next steps for the League of Robot Runners and associated community initiatives**📝**, all coming up in 2024. 
+
+**🏅 Award Winners 🏅**
+
+Participants in the 2023 League of Robot Runners were evaluated in 3 distinct performance categories 🔥, each highlighting a distinct challenge that is faced by industry practitioners. There is one 💸**grand prize **for each category and 🥁**distinguished performance awards **for runners-up. 
+
+
+
+* **Fast Mover:** **☄️**This category rewards the highest achieved score, subject to a 1-second limit on each planning episode. The main challenge in this case is effective performance under time pressure. 
+* **Line Honours: 🎗️**This category rewards the largest number of best-known solutions across the evaluated problem instances. The main challenge in this case is to achieve the highest possible solution quality.
+* **Overall Best: 🏆**This category rewards the highest achieved score across all evaluation instances. The main challenge is to maximise the global performance.
+
+<table>
+  <tr>
+   <td>
+   </td>
+   <td>
+<strong>☄️Fast Mover</strong>
+   </td>
+   <td><strong>🎗️Line Honours</strong>
+   </td>
+   <td><strong>🏆Overall Best</strong>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" ><strong>🥁Distinguished Performance</strong>
+   </td>
+   <td><em>🥈Team Shadoks</em>
+   </td>
+   <td><em>🥈Team Pikachu</em>
+   </td>
+   <td><em>🥈Team Shadoks</em>
+   </td>
+  </tr>
+  <tr>
+   <td><em>🥉Team NCD-MIPT</em>
+   </td>
+   <td><em>🥉Team NCD-MIPT</em>
+   </td>
+   <td><em>🥉Team NCD-MIPT</em>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>💸Grand Prize</strong>
+   </td>
+   <td><em>🥇Team Pikachu</em>
+   </td>
+   <td><em>🥇Team Shadoks</em>
+   </td>
+   <td><em>🥇Team Pikachu</em>
+   </td>
+  </tr>
+</table>
+
+
+We will get in touch ✉️ with each team to confirm their details for the ✍️issuance of certificates and the 📬distribution of the prizes in January.
+
+**📝 Community Initiatives 📝**
+
+As we move forward, we're excited to announce our plans for the League of Robot Runners and associated community initiatives:
+
+
+
+* 📂We will soon archive and open-source the most successful submission codes from every team on the leaderboard. This allows us all to learn from one another and lowers the barrier of entry for newcomers.
+* 💯We will soon share all problems and every best-known plan for each instance. Such comparisons help the community track progress in the area.
+* 🙋We will soon release our problem generator so that others can create more diverse and more challenging instances in the same general style. 
+* 🎟️We will soon invite participants to write about their submissions and present their ideas in a virtual event in 2024. This allows us to disseminate directly what ideas worked well, explain their limitations and identify interesting new directions.
+
+**🎯Future Competitions 🎯**
+
+The League of Robot Runners will return in 2024🔥🔥🔥! You can expect new setups and fresh challenges to test your problem-solving and implementation skills💪. Look out for the announcement as we work to bridge the gap 🫸~~~🫷 between robotics and AI!
+
+Finally, we extend our sincerest 🫡gratitude -- and congratulations 🎉! -- to each participant in 2023. Without your hard work and many contributions, the competition could not have achieved the success it has. Thank you! ❤️
+
+Best regards,
+
+The League of Robot Runners Organising Committee
+
+
 ## 🎉 Finish Line! End of Main Round 2023 🎉 `2 Dec 2023`
 
 **Hello Robot Runners!**
