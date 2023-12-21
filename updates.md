@@ -10,11 +10,10 @@ We also discuss 🤔 the next steps for the League of Robot Runners and associat
 
 Participants in the 2023 League of Robot Runners were evaluated in 3 distinct performance categories 🔥, each highlighting a distinct challenge that is faced by industry practitioners. There is one 💸**grand prize **for each category and 🥁**distinguished performance awards **for runners-up. 
 
-
-
 * **Fast Mover:** **☄️**This category rewards the highest achieved score, subject to a 1-second limit on each planning episode. The main challenge in this case is effective performance under time pressure. 
 * **Line Honours: 🎗️**This category rewards the largest number of best-known solutions across the evaluated problem instances. The main challenge in this case is to achieve the highest possible solution quality.
 * **Overall Best: 🏆**This category rewards the highest achieved score across all evaluation instances. The main challenge is to maximise the global performance.
+
 
 <table>
   <tr>
@@ -39,8 +38,6 @@ Participants in the 2023 League of Robot Runners were evaluated in 3 distinct pe
    </td>
   </tr>
   <tr>
-    <td align="left">
-    </td>
    <td align="left"><em>🥉Team NCD-MIPT</em>
    </td>
    <td align="left"><em>🥉Team NCD-MIPT</em>
@@ -60,14 +57,11 @@ Participants in the 2023 League of Robot Runners were evaluated in 3 distinct pe
   </tr>
 </table>
 
-
 We will get in touch ✉️ with each team to confirm their details for the ✍️issuance of certificates and the 📬distribution of the prizes in January.
 
 **📝 Community Initiatives 📝**
 
 As we move forward, we're excited to announce our plans for the League of Robot Runners and associated community initiatives:
-
-
 
 * 📂We will soon archive and open-source the most successful submission codes from every team on the leaderboard. This allows us all to learn from one another and lowers the barrier of entry for newcomers.
 * 💯We will soon share all problems and every best-known plan for each instance. Such comparisons help the community track progress in the area.
