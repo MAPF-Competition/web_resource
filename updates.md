@@ -1,4 +1,4 @@
-## 🎉Results Announcement for Main Round 2023!🎉 `21 Dec 2023`
+## 🎉Results Announcement for Main Round 2023!🎉 `22 Dec 2023`
 
 **Hello Robot Runners!**
 
