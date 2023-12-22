@@ -8,9 +8,9 @@ We also discuss 🤔 the next steps for the League of Robot Runners and associat
 
 **🏅 Award Winners 🏅**
 
-Participants in the 2023 League of Robot Runners were evaluated in 3 distinct performance categories 🔥, each highlighting a distinct challenge that is faced by industry practitioners. There is one 💸**grand prize **for each category and 🥁**distinguished performance awards **for runners-up. 
+Participants in the 2023 League of Robot Runners were evaluated in 3 distinct performance categories 🔥, each highlighting a distinct challenge that is faced by industry practitioners. There is one 💸 **grand prize** for each category and 🥁 **distinguished performance awards** for runners-up. 
 
-* **Fast Mover:** **☄️**This category rewards the highest achieved score, subject to a 1-second limit on each planning episode. The main challenge in this case is effective performance under time pressure. 
+* **Fast Mover: ☄️**This category rewards the highest achieved score, subject to a 1-second limit on each planning episode. The main challenge in this case is effective performance under time pressure. 
 * **Line Honours: 🎗️**This category rewards the largest number of best-known solutions across the evaluated problem instances. The main challenge in this case is to achieve the highest possible solution quality.
 * **Overall Best: 🏆**This category rewards the highest achieved score across all evaluation instances. The main challenge is to maximise the global performance.
 
@@ -19,8 +19,7 @@ Participants in the 2023 League of Robot Runners were evaluated in 3 distinct pe
   <tr>
    <td align="left">
    </td>
-   <td align="left">
-<strong>☄️Fast Mover</strong>
+   <td align="left"><strong>☄️Fast Mover</strong>
    </td>
    <td align="left"><strong>🎗️Line Honours</strong>
    </td>
