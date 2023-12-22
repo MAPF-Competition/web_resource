@@ -14,7 +14,6 @@ Participants in the 2023 League of Robot Runners were evaluated in 3 distinct pe
 * **Line Honours: 🎗️**This category rewards the largest number of best-known solutions across the evaluated problem instances. The main challenge in this case is to achieve the highest possible solution quality.
 * **Overall Best: 🏆**This category rewards the highest achieved score across all evaluation instances. The main challenge is to maximise the global performance.
 
-
 <table>
   <tr>
    <td align="left">
