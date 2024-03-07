@@ -1,4 +1,4 @@
-## Call For Submissions: [2024 League of Robot Runners Virtual Expo](https://expo.leagueofrobotrunners.org) `7 Mar 2024`
+## Call For Submissions: 2024 League of Robot Runners Virtual Expo `7 Mar 2024`
 
 **Hello Robot Runners!**
 
