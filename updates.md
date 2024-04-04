@@ -1,3 +1,30 @@
+## 🔥Resource Release: Benchmark and Code Archive!🔥 `4 April 2024`
+
+**Hello Robot Runners!**
+
+We are glad to announce the release of two new resources for the community: the Benchmark Archive and the Code Archive. These repositories gather together all of your best submissions from the 2023 competition, together with all problem instances and all known best solutions.🥁🥁🥁
+
+These resources will help us to track how much progress we are making on the core challenges associated with planning and coordinating teams of real robots. Researchers in the area (that’s you!) can use these resources to further develop and compare their algorithms against the established state-of-the-art. Meanwhile, newcomers to the area also get a leg up! They can start with working implementations and build their new ideas upon best-known solution techniques.🔥🔥🔥
+
+💯In the [Benchmark Archive](https://github.com/MAPF-Competition/Benchmark-Archive), you will find:
+
+* Example instances, released with the start-kit.
+* Main round evaluation instances.
+* Test round evaluation instances.
+* Tables that describe the configuration of each benchmark instance, metrics describing the best-known solution for that instance and links to the implementation which produced that solution. 
+
+📂In the [Code Archive](https://github.com/MAPF-Competition/Code-Archive), you will find:
+
+* Implementations for the best submission of each team on the final leaderboard of the Fast Mover and Overall Best categories.
+* Implementations that produced any best-known solution in the Line Honours category.
+* Tables that record the metrics of each archived implementation.
+
+We are also finalising the release of a benchmark generator, which we used to produce all the problem instances.**💪** Once done, we will push an update to the benchmark archive and send a further announcement.📢
+
+Best regards,
+
+The League of Robot Runners Organising Committee
+
 ## Call For Submissions: 2024 League of Robot Runners Virtual Expo `7 Mar 2024`
 
 **Hello Robot Runners!**
