@@ -2,7 +2,7 @@
 
 **Hello Robot Runners!**
 
-We are glad to announce the release of two new resources for the community: the Benchmark Archive and the Code Archive. These repositories gather together all of your best submissions from the 2023 competition, together with all problem instances and all known best solutions.🥁🥁🥁
+We are glad to announce the release of two new resources for the community: the Benchmark Archive and the Code Archive. These repositories gather together all of your best submissions from the 2023 competition, together with all problem instances and all known best solutions. All solutions can be downloaded and analysed with [PlanViz](https://github.com/MAPF-Competition/PlanViz), our offline visualisation tool (previously open-sourced in 2023). 🥁🥁🥁
 
 These resources will help us to track how much progress we are making on the core challenges associated with planning and coordinating teams of real robots. Researchers in the area (that’s you!) can use these resources to further develop and compare their algorithms against the established state-of-the-art. Meanwhile, newcomers to the area also get a leg up! They can start with working implementations and build their new ideas upon best-known solution techniques.🔥🔥🔥
 
@@ -11,7 +11,8 @@ These resources will help us to track how much progress we are making on the cor
 * Example instances, released with the start-kit.
 * Main round evaluation instances.
 * Test round evaluation instances.
-* Tables that describe the configuration of each benchmark instance, metrics describing the best-known solution for that instance and links to the implementation which produced that solution. 
+* Best-known solutions to all evaluation instances.
+* Tables that describe the configuration of each benchmark instance, metrics describing the best-known solution for that instance, links to download the solutions and links to the implementation which produced that solution. 
 
 📂In the [Code Archive](https://github.com/MAPF-Competition/Code-Archive), you will find:
 
@@ -21,9 +22,6 @@ These resources will help us to track how much progress we are making on the cor
 
 We are also finalising the release of a benchmark generator, which we used to produce all the problem instances.**💪** Once done, we will push an update to the benchmark archive and send a further announcement.📢
 
-Best regards,
-
-The League of Robot Runners Organising Committee
 
 ## Call For Submissions: 2024 League of Robot Runners Virtual Expo `7 Mar 2024`
 
@@ -145,9 +143,6 @@ The League of Robot Runners will return in 2024🔥🔥🔥! You can expect new 
 
 Finally, we extend our sincerest 🫡gratitude -- and congratulations 🎉! -- to each participant in 2023. Without your hard work and many contributions, the competition could not have achieved the success it has. Thank you! ❤️
 
-Best regards,
-
-The League of Robot Runners Organising Committee
 
 
 ## 🎉 Finish Line! End of Main Round 2023 🎉 `2 Dec 2023`
