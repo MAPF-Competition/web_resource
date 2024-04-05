@@ -2,7 +2,7 @@
 
 **Hello Robot Runners!**
 
-We are glad to announce the release of two new resources for the community: the Benchmark Archive and the Code Archive. These repositories gather together all of your best submissions from the 2023 competition, together with all problem instances and all known best solutions. All solutions can be downloaded and analysed with [PlanViz](https://github.com/MAPF-Competition/PlanViz), our offline visualisation tool (previously open-sourced in 2023). 🥁🥁🥁
+We are glad to announce the release of two new resources for the community: the Benchmark Archive and the Code Archive. These repositories gather together all of your best submissions from the 2023 competition, together with all problem instances and all known best solutions. 🥁🥁🥁
 
 These resources will help us to track how much progress we are making on the core challenges associated with planning and coordinating teams of real robots. Researchers in the area (that’s you!) can use these resources to further develop and compare their algorithms against the established state-of-the-art. Meanwhile, newcomers to the area also get a leg up! They can start with working implementations and build their new ideas upon best-known solution techniques.🔥🔥🔥
 
@@ -13,6 +13,8 @@ These resources will help us to track how much progress we are making on the cor
 * Test round evaluation instances.
 * Best-known solutions to all evaluation instances.
 * Tables that describe the configuration of each benchmark instance, metrics describing the best-known solution for that instance, links to download the solutions and links to the implementation which produced that solution. 
+
+All the best-known solutions can be downloaded and analysed with [PlanViz](https://github.com/MAPF-Competition/PlanViz), our offline visualisation tool (previously open-sourced in 2023).
 
 📂In the [Code Archive](https://github.com/MAPF-Competition/Code-Archive), you will find:
 
