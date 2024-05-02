@@ -12,8 +12,6 @@ The expo is a fantastic opportunity to learn more about the challenging problems
 
 The technical program will feature a number of sessions that will be of interest to competition participants and members of the broader MAPF community:
 
-
-
 * Industry keynote from Federico Pecora (Amazon Robotics): hear about the many challenges and opportunities in this exciting research area
 * Highlights and awards from the 2023 main round: celebrate with us!
 * Technical talks from successful participants: hear experiences, insights and more.
@@ -26,7 +24,6 @@ We encourage all interested individuals to join us for this exciting occasion! T
 Secure your spot via the event website: [https://expo24.leagueofrobotrunners.org/registration/](https://expo24.leagueofrobotrunners.org/registration/). Once registered, you will receive an email with further instructions and links to our Zoom Session.
 
 We look forward to your participation in this exciting event!
-
 
 ## 🔥Resource Release: Benchmark and Code Archive!🔥 `4 April 2024`
 
