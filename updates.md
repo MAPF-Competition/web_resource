@@ -1,3 +1,33 @@
+## Call For Participation: 2024 League of Robot Runners Virtual Expo `2 May 2024`
+
+**Hello Robot Runners!**
+
+The League of Robot Runners is a competition series that tackles one of the most challenging problems in automated logistics: coordinating a team of moving robots. Such problems often appear in the research literature, where they are modelled and solved using a variety of simplifying assumptions. The League of Robot Runners aims to bridge the gap, between academia and industry, by identifying the core combinatorial challenges that make robot coordination problems difficult to solve, in practice.
+
+The first round of this competition was held in 2023 and received a total of 825 submissions from 25 teams worldwide, which is a big success! To celebrate, we are holding a **Virtual Expo** --- a free online event where we highlight the community’s progress and achievements thus far and look ahead at the challenges that yet remain.
+
+The expo is a fantastic opportunity to learn more about the challenging problems being tackled by the competition, their importance to the industry, and the experiences, insights, and innovative approaches of leading participants. 
+
+**Program Highlights:**
+
+The technical program will feature a number of sessions that will be of interest to competition participants and members of the broader MAPF community:
+
+
+
+* Industry keynote from Federico Pecora (Amazon Robotics): hear about the many challenges and opportunities in this exciting research area
+* Highlights and awards from the 2023 main round: celebrate with us!
+* Technical talks from successful participants: hear experiences, insights and more.
+* Community discussion: reflections on the competition initiative and exciting news about the 2024 main round.
+
+We encourage all interested individuals to join us for this exciting occasion! This includes past participants, interested future participants and members of the broader research community with an interest in Multi-Agent and/or Multi-Robot Path Planning.
+
+**Registration:**
+
+Secure your spot via the event website: [https://expo24.leagueofrobotrunners.org/registration/](https://expo24.leagueofrobotrunners.org/registration/). Once registered, you will receive an email with further instructions and links to our Zoom Session.
+
+We look forward to your participation in this exciting event!
+
+
 ## 🔥Resource Release: Benchmark and Code Archive!🔥 `4 April 2024`
 
 **Hello Robot Runners!**
