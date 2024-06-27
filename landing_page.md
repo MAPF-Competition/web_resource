@@ -13,7 +13,7 @@ Simplified versions of such problems appear in the research literature under the
 
 Participating in the competition means not only demonstrating your skills against the best in the field but also contributing to the establishment of new benchmarks and algorithmic baselines. You'll have the chance to make a tangible impact on the progression of the research field, with the possibility of your innovative solutions being adopted by the wider community. Moreover, your involvement will help increase attention to this critical problem and contribute to the growth of our community. 
 
-The first round of this competition was held in 2023, and we focus on path planning with **robot turnings, lifelong problem and online planning**. We received a total of 825 submissions from 25 teams worldwide, which is a big success! 
+The first round of this competition was held in 2023, and we focus on path planning with **robot turnings, lifelong problem and online planning**. We received a total of **825 submissions** from **25 teams worldwide**, which is a big success! 
 
 ## 2024 Competition ![r7](./external_page_resource/robots/robot_racewinner_s.png)
 Now the **2024 League of Robot Runners** is coming, and we have exciting new tracks with path planning and task assignments for you to showcase your skills! Find out more about the upcoming round in our website!
