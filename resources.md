@@ -22,7 +22,7 @@ All the best-known solutions can be downloaded and analysed with [PlanViz](https
 * Implementations that produced any best-known solution in the Line Honours category.
 * Tables that record the metrics of each archived implementation.
 
-## 2023 Start-kit and Website Archive
+## 2023 Start-kit and Website Snapshot
 
 The [2023 competition start kit](https://github.com/MAPF-Competition/Start-Kit/tree/2023-archive) is a code harness that you must interface with when developing your submission to 2023 competition.
 
