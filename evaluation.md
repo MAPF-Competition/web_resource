@@ -1,4 +1,4 @@
-## Evaluation Process ![r2](./landing_page_resource/robots/r12_s.png)
+## Evaluation Process ![r2](./external_page_resource/robots/r12_s.png)
 
 Submissions will be evaluated using an AWS cloud compute instance with the following specifications:
 
@@ -21,19 +21,19 @@ Each submission will be evaluated using a variety of instances on 5 different ma
 
 >| |   |   |
 >|:---:|:---:|:---:|
->|![r](landing_page_resource/images/random-32-32-20_s.jpg)|![r](landing_page_resource/images/Paris_1_256_s.jpg)|![r](landing_page_resource/images/brc202d_s.jpg) |
+>|![r](external_page_resource/images/random-32-32-20_s.jpg)|![r](external_page_resource/images/Paris_1_256_s.jpg)|![r](external_page_resource/images/brc202d_s.jpg) |
 >|`Random (random-32-32-20)`| `City (Paris)`|`Game (brc202d)`|
 >|a 32 by 32 map with 20% random obstacles.| a 256 by 256 map representing part of the city of Paris.|a 481 by 530 map from computer games.|
 
 >| |
 >|:---:|
->|![r](landing_page_resource/images/warehouse_large_s.jpg)|
+>|![r](external_page_resource/images/warehouse_large_s.jpg)|
 >|`Warehouse`|
 >|a 500 by 140 map representing synthetic automated fulfilment centre.|
 
 >| |
 >|:---:|
->|![r](landing_page_resource/images/sortation_large_s.jpg)|
+>|![r](external_page_resource/images/sortation_large_s.jpg)|
 >|`Sortation`|
 >|a 500 by 140 map representing synthetic automated sortation centre.|
 

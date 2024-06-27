@@ -1,4 +1,4 @@
-## Competition Rules ![r9_s](landing_page_resource/robots/r9_s.png)
+## Competition Rules ![r9_s](external_page_resource/robots/r9_s.png)
 
 1. Organisers, sponsors and competition advisers are not eligible to participate and cannot be involved in any way with the preparation of submissions from any competing team. 
 2. Judging of performance in the competition will be undertaken by the organisers. 

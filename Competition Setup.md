@@ -1,13 +1,13 @@
-## Problem Overview ![r13](landing_page_resource/robots/r13_s.png)
+## Problem Overview ![r13](external_page_resource/robots/r13_s.png)
 
 In this competition a team of robots is tasked with running an infinite number of errands in a grid environment. These types of problems are the core challenge in a variety of real-world application settings, such as warehouse logistics, multi-robot manufacturing and multi-agent computer games. 
 
-![image](landing_page_resource/images/image_warehouse.gif)
+![image](external_page_resource/images/image_warehouse.gif)
 
 On this page we give an overview of the problem model, the robot model, and the centralised controller that coordinates the execution of your computed plans.The figure above shows a typical example of a problem instance in a warehouse domain we call **fulfilment**.
 
 
-## Robots and Their Environment ![r14](landing_page_resource/robots/robot_on_grid_s.png)
+## Robots and Their Environment ![r14](external_page_resource/robots/robot_on_grid_s.png)
 Each grid map is deterministic, fully observable and known ahead of time. All robots move in parallel. Time is divided up into discrete time steps. 
 
 At each timestep, a robot can execute one of the following actions: 
@@ -18,7 +18,7 @@ At each timestep, a robot can execute one of the following actions:
 
 | `Moving Forward` |  `Rotate` |
 |:---:|:---:|
-| ![image](landing_page_resource/images/image2.gif) | ![image](landing_page_resource/images/rotate.gif)  |
+| ![image](external_page_resource/images/image2.gif) | ![image](external_page_resource/images/rotate.gif)  |
 
 
 
@@ -30,10 +30,10 @@ We consider two types of collisions that can occur between pairs of agents.:
 
 | `Vertex` |  `Edge` |
 |:---:|:---:|
-| ![image](landing_page_resource/images/vertex_conflict.gif) | ![image](landing_page_resource/images/edge_conflict.gif)  |
+| ![image](external_page_resource/images/vertex_conflict.gif) | ![image](external_page_resource/images/edge_conflict.gif)  |
 
 
-## Errands ![r6](landing_page_resource/robots/r6_s.png) 
+## Errands ![r6](external_page_resource/robots/r6_s.png) 
 
 An errand (or task assignment) is a request that says a particular robot needs to visit a specific **target location** on the grid. The errand is finished when the assigned robot arrives at the corresponding location.
 
