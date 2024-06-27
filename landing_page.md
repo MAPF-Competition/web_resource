@@ -2,7 +2,7 @@
  -->
 
 
-![r8](./landing_page_resource/logos/title.png)
+<!-- ![r8](./landing_page_resource/logos/title.png) -->
 **The League of Robot Runners is a competition series that tackles one of the most challenging problems in automated logistics: coordinating a team of moving robots.**
 
 
@@ -18,7 +18,7 @@ Now the **2024 League of Robot Runners** is coming, and we have exciting new tra
 - **Timeline**: 
     - June: Details and more news
     - July:  Start-kit release
-    -  Aug - Dec: Competition period
+    - Aug - Dec: Competition period
 
 - **Chairs**
     - Daniel Harabor (Monash), Sven Koenig (USC),  Cathy Wu (MIT), Jingjin Yu (Rutgers)
@@ -26,10 +26,6 @@ Now the **2024 League of Robot Runners** is coming, and we have exciting new tra
     - Shao-hung Chan (USC), Zhe Chen (Monash), Teng Guo (Rutgers),  Yue Zhang (Monash), Han Zhang (USC)
 - **Advisors**
     - Kostas Bekris (Rutgers), Federico Pecora (Amazon Robotics)
-
-
-
-
 
 
 ---
