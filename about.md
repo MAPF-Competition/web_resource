@@ -38,18 +38,18 @@ Fill your email in the [My Submission](./setting) page to subscribe to our newsl
 
 ### Competition Chairs
 
-| <img class="image" src="./external_page_resource/organisers/dharabor_small.png" height="100px"/> | <img class="image" src="./external_page_resource/organisers/sven-old.jpg" height="100px"/> | <img class="image" src="./external_page_resource/organisers/Cathy_Wu.jpeg" height="100px"/> | <img class="image" src="./external_page_resource/organisers/JJ-head-500.jpg" height="100px"/> | |
+| <img class="image" src="./external_page_resource/organisers/dharabor_small.png" height="100px"/> | <img class="image" src="./external_page_resource/organisers/sven-old.jpg" height="100px"/> | <img class="image" src="./external_page_resource/organisers/Cathy_Wu.jpeg" height="100px"/> | <img class="image" src="./external_page_resource/organisers/JJ-head-500.jpg" height="100px"/> | <img class="image" src="./external_page_resource/organisers/empty.png" height="100px"/> |
 | ------------------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------- | - |
 | **Daniel Harabor**<br>Monash University                                 | **Sven Koenig**<br>University of Southern California             | **Cathy Wu**<br>Massachusetts Institute of Technology          | **Jingjin Yu**<br>Rutgers University                                | |
 
 ### Organising Committee
 
-| <img class="image" src="./external_page_resource/organisers/shao_hung_head.png" height="100px"/> | <img class="image" src="./external_page_resource/organisers/zhe_chen.jpg" height="100px"/> | <img class="image" src="./external_page_resource/organisers/teng.jpg" height="100px"/> | <img class="image" src="./external_page_resource/organisers/yue_zhang.png" height="100px"/> |  <img class="image" src="./external_page_resource/organisers/han.jpg" height="100px"/> |
+| <img class="image" src="./external_page_resource/organisers/shao_hung_head.png" height="100px"/> | <img class="image" src="./external_page_resource/organisers/zhe_chen.jpg" height="100px"/> | <img class="image" src="./external_page_resource/organisers/teng.jpg" height="100px"/> | <img class="image" src="./external_page_resource/organisers/yue_zhang.png" height="100px"/> |  <img class="image" src="./external_page_resource/organisers/han.jpg" height="100px"/> | 
 | ------------------------------------------------------------------------ | ------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------- |
 | **Shao-hung Chan**<br>University of Southern California                 | **Zhe Chen**<br>Monash University                             | **Teng Guo**<br>Rutgers University                         | **Yue Zhang**<br>Monash University                            | **Han Zhang**<br>University of Southern California           |
 
 ### Advisors
 
-| <img class="image" src="./external_page_resource/organisers/bekris_2018_01_small.jpg" height="100px"/> | <img class="image" src="./external_page_resource/organisers/fede-pic.jpeg" height="100px"/> |   |  |  |
+| <img class="image" src="./external_page_resource/organisers/bekris_2018_01_small.jpg" height="100px"/> | <img class="image" src="./external_page_resource/organisers/fede-pic.jpeg" height="100px"/> |  <img class="image" src="./external_page_resource/organisers/empty.png" height="100px"/>  |  <img class="image" src="./external_page_resource/organisers/empty.png" height="100px"/>  |  <img class="image" src="./external_page_resource/organisers/empty.png" height="100px"/>  |
 | ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | - | - | - |
 | **Kostas Bekris**<br>Rutgers University                                       | **Federico Pecora**<br>Amazon Robotics                                |  |  | |
