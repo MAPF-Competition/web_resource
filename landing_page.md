@@ -16,18 +16,21 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 📂 Submissions, solutions and problem instances from the competition will be open-sourced, to lower barriers, promote dissemination and enable further advancements.
 
 ## Prizes ![r2](./external_page_resource/robots/robot_racewinner_s.png)
- <br/><br/>
+<br/>
 
 > **🏆 Distinguished performance awards!**
 > **💸 $10,000 in cash prizes!**
 
+<br/>
 
 ## Timeline ![r7](./external_page_resource/robots/r5_s.png)
- <br/><br/>
- 
+<br/>
+
 > - **Jun - Jul**: Details and more news
 > - **Jul - Aug**: Start-kit release
 > - **Aug - Dec**: Competition period
+
+<br/>
 
 ---
 
