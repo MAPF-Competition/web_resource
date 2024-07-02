@@ -18,7 +18,6 @@ The first round of the competition was held in 202 and received a total of **825
 > - **Turn actions:** 
         In MAPF, robots are often modelled as rotationally invariant agents with unit action costs. This model is disconnected from many applications, where turning 
         actions can substantially increase achieved execution costs.
-
 > - **Online lifelong problem:**
         In MAPF, the problem is one-shot and 
         solved entirely offline. 
