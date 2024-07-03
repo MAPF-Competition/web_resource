@@ -28,7 +28,7 @@ The first round of the competition was held in 202 and received a total of **825
 For more details about the setup, results, and resources of the 2023 competition, please visit the [2023 Competition Snapshot Site](https://2023.leagueofrobotrunners.org/).
 
 ### 2024 Competition
-In 2024, the competition will introduce new tracks with path planning and **task assignments** to reflect the challenges faced by real-world applications.
+In 2024, the competition will introduce new tracks with **path planning and task scheduling** to reflect the challenges faced by real-world applications.
 
 Fill your email in the [My Submission](./setting) page to subscribe to our newsletter and receive updates about the upcoming competition!
 
