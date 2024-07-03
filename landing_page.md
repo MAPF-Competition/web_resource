@@ -2,9 +2,6 @@
 
 The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** series where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems: **agent dynamic 🤖**, **lifelong planning ♻️**, **real-time execution ⏳**, and **task assignment 🎯, a newly introduced challenge for the upcoming 2024 competition**. These challenges are important for industrial applications such as warehouse logistics, transportation and advanced manufacturing. 
 
-
-
-
 | ![demo](./external_page_resource/images/task_and_robots_1.png) | ![demo](./external_page_resource/images/task_and_robots_2.png)   | ![demo](./external_page_resource/images/task_and_robots_3.png)  |
 |---|---|---|
 |   |   |   |
@@ -19,9 +16,9 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 |---|---|---|
 |   |   |   |
 
-> - **Path Planning Track**: Participants develop algorithms that coordinate a team of robots to complete assigned tasks, given a default task assigner.
-> - **Task Assignment Track**: Participants develop algorithms that assign tasks to a team of robots, given a default path planner coordinates the robots.
-> - **Combined Track**: Participants develop both path planning and task assignment algorithms.
+> - **🏇🏼 Path Planning Track**: Participants develop algorithms that coordinate a team of robots to complete assigned tasks, given a default task assigner.
+> - **📋 Task Assignment Track**: Participants develop algorithms that assign tasks to a team of robots, given a default path planner coordinates the robots.
+> - **🏁 Combined Track**: Participants develop both path planning and task assignment algorithms.
 
 
 🛠️ The competition provides a standardised system to develop, evaluate, and compare algorithmic techniques. 
@@ -30,13 +27,14 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 
 ## Eligibility and Prizes ![r2](./external_page_resource/robots/robot_racewinner_s.png)
 <br/>
-Participation is open to individuals and teams of individuals from any discipline and background and from any geographic location. Financial prizes (in $USD) are available for distinguished performance:
+Participation is open to individuals and teams of individuals from any discipline and background and from any geographic location. Financial prizes (in $USD) are available for **distinguished performance 🏆**:
 
-> - **💸 $5,000 cash prizes in the Combined Track!**
+> - **💰 $5,000 cash prizes in the Combined Track!**
 > - **💸 $2,500 cash prizes in the Path Planning Track!**
 > - **💸 $2,500 cash prizes in the Task Assignment Track!**
 
 Other notable performances (2nd, 3rd place in each category) will be recognised with a certificate.
+
 <br/>
 
 ## Timeline ![r7](./external_page_resource/robots/r5_s.png)
