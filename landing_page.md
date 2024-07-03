@@ -10,7 +10,7 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 | ![demo](./external_page_resource/images/task_and_robots_1.png) | ![demo](./external_page_resource/images/task_and_robots_2.png)   | ![demo](./external_page_resource/images/task_and_robots_3.png)  |
 |:---:|:---:|:---:|
 |     |     |     |
-| Customer orders arrive at the warehouse! | Decide which robot performs which task! |  Compute collision-free paths for each robot! |
+| Continuously arriving customer orders! | Dynamically decide who for which task! |  Lifelong collision-free path planning for each robot! |
 
 
 ## The Mission ![r1](./external_page_resource/robots/r1_s.png)
