@@ -38,18 +38,96 @@ Fill your email in the [My Submission](./setting) page to subscribe to our newsl
 
 ### Competition Chairs
 
-| <img class="image" src="./external_page_resource/organisers/dharabor_small.png" height="100px" width="auto"/> | <img class="image" src="./external_page_resource/organisers/sven-old.jpg" height="100px" width="auto"/> | <img class="image" src="./external_page_resource/organisers/Cathy_Wu.jpeg" height="100px" width="auto"/> | <img class="image" src="./external_page_resource/organisers/JJ-head-500.jpg" height="100px" width="auto"/> | <img class="image" src="./external_page_resource/organisers/empty.png" height="100px" width="auto"/> |
-| ------------------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------- | - |
-| **Daniel Harabor**<br>Monash University                                 | **Sven Koenig**<br>University of Southern California             | **Cathy Wu**<br>Massachusetts Institute of Technology          | **Jingjin Yu**<br>Rutgers University                                | |
+<link fetchpriority='high' rel="stylesheet" href="./external_page_resource/style.css" type="text/css">
+<div class="row" >
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/dharabor_small.png" height="100px"/>
+    <h4 class="name" >Daniel Harabor</h4>
+    <div class="description-block">
+        Monash University
+    </div>
+</div>
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/sven-old.jpg" height="100px"/>
+    <h4 class="name" >Sven Koenig</h4>
+    <div class="description-block">
+        University of Southern California
+    </div>
+</div>
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/Cathy_Wu.jpeg" height="100px"/>
+    <h4 class="name" >Cathy Wu</h4>
+    <div class="description-block">
+        Massachusetts Institute of Technology
+    </div>
+</div>
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/JJ-head-500.jpg" height="100px"/>
+    <h4 class="name" >Jingjin Yu</h4>
+    <div class="description-block">    
+        Rutgers University
+    </div>
+</div>
+
+</div>
+</div>
 
 ### Organising Committee
 
-| <img class="image" src="./external_page_resource/organisers/shao_hung_head.png" height="100px" width="auto"/> | <img class="image" src="./external_page_resource/organisers/zhe_chen.jpg" height="100px" width="auto"/> | <img class="image" src="./external_page_resource/organisers/teng.jpg" height="100px" width="auto"/> | <img class="image" src="./external_page_resource/organisers/yue_zhang.png" height="100px" width="auto"/> |  <img class="image" src="./external_page_resource/organisers/han.jpg" height="100px" width="auto"/> | 
-| ------------------------------------------------------------------------ | ------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------- |
-| **Shao-hung Chan**<br>University of Southern California                 | **Zhe Chen**<br>Monash University                             | **Teng Guo**<br>Rutgers University                         | **Yue Zhang**<br>Monash University                            | **Han Zhang**<br>University of Southern California           |
+<div class="row" >
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/shao_hung_head.png" height="100px"/>
+    <h4 class="name" >Shao-hung Chan</h4>
+    <div class="description-block">
+        University of Southern California
+    </div>
+</div>
+
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/zhe_chen.jpg" height="100px"/>
+    <h4 class="name" >Zhe Chen</h4>
+    <div class="description-block">
+        Monash University
+    </div>
+</div>
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/teng.jpg" height="100px"/>
+    <h4 class="name" > Teng Guo</h4>
+    <div class="description-block">
+        Rutgers University
+    </div>
+</div>
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/yue_zhang.png" height="100px"/>
+    <h4 class="name" > Yue Zhang</h4>
+    <div class="description-block">
+        Monash University
+    </div>
+</div>
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/han.jpg" height="100px"/>
+    <h4 class="name" > Han Zhang</h4>
+    <div class="description-block">
+        University of Southern California
+    </div>
+</div>
+</div>
 
 ### Advisors
 
-| <img class="image" src="./external_page_resource/organisers/bekris_2018_01_small.jpg" height="100px" width="auto"/> | <img class="image" src="./external_page_resource/organisers/fede-pic.jpeg" height="100px" width="auto"/> |  <img class="image" src="./external_page_resource/organisers/empty.png" height="100px" width="auto"/>  |  <img class="image" src="./external_page_resource/organisers/empty.png" height="100px" width="auto"/>  |  <img class="image" src="./external_page_resource/organisers/empty.png" height="100px" width="auto"/>  |
-| ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | - | - | - |
-| **Kostas Bekris**<br>Rutgers University                                       | **Federico Pecora**<br>Amazon Robotics                                |  |  | |
+<div class="row" >
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/bekris_2018_01_small.jpg" height="100px"/>
+    <h4 class="name" > Kostas Bekris</h4>
+    <div class="description-block">
+        Rutgers University
+    </div>
+</div>
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/fede-pic.jpeg" height="100px"/>
+    <h4 class="name" > Federico Pecora</h4>
+    <div class="description-block">
+    Amazon Robotics
+    </div>
+</div>
+</div>
