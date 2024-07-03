@@ -2,10 +2,14 @@
 
 The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** series where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems: **agent dynamic 🤖**, **lifelong planning ♻️**, **real-time execution ⏳**, and **task assignment 🎯**. These challenges are important for industrial applications such as warehouse logistics, transportation and advanced manufacturing. 
 
-<h3 style="margin:auto;align-self:center;">Coordinate thousands of robots in a busy warehouse!</h3>
+<div style="width:100%;text-align:center">
+<h3>Coordinate thousands of robots in a busy warehouse!</h3>
+</div>
+
 
 | ![demo](./external_page_resource/images/task_and_robots_1.png) | ![demo](./external_page_resource/images/task_and_robots_2.png)   | ![demo](./external_page_resource/images/task_and_robots_3.png)  |
 |:---:|:---:|:---:|
+|     |     |     |
 | Customer orders arrive at the warehouse! | Decide which robot performs which task! |  Compute collision-free paths for each robot! |
 
 
