@@ -1,6 +1,7 @@
-## Organisers
+This page lists the organisers of the competition in lex order.
 
-### Competition Chairs
+
+## Competition Chairs
 
 <link fetchpriority='high' rel="stylesheet" href="./external_page_resource/style.css" type="text/css">
 <div class="row" >
@@ -36,7 +37,7 @@
 </div>
 </div>
 
-### Organising Committee
+## Organising Committee
 
 <div class="row" >
 <div class="block">
@@ -77,7 +78,7 @@
 </div>
 </div>
 
-### Advisors
+## Advisors
 
 <div class="row" >
 <div class="block">
@@ -95,3 +96,9 @@
     </div>
 </div>
 </div>
+
+## Contact Us
+
+If you have additional questions, or require further clarifications, please drop by our <a href="https://discord.gg/CEYT4g4raR" target="_blank" >Discord channel</a>. 
+You can also email the organisers at league-of-robot-runnners \[at\] googlegroups \[dot\] com (although Discord is usually faster).
+              
