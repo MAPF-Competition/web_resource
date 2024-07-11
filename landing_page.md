@@ -15,7 +15,8 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 
 ## The Mission ![r1](./external_page_resource/robots/r1_s.png)
 <!-- What we ask you to do, what you get if you do well, what are the important dates -->
-![demo](./external_page_resource/images/mission.jpg)
+<!-- ![demo](./external_page_resource/images/mission.jpg) -->
+<img src="./external_page_resource/images/mission.jpg" maxWidth="1024px"/>
 
 🚀 Participants are asked to develop algorithms that assign tasks to a team of robots and coordinate robots to complete assigned tasks in a given environment. The competition recognises distinguished performance in three distinct categories:
 
