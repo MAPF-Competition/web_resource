@@ -28,6 +28,7 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 > - **📋 Task Scheduling Track**: Participants develop algorithms that schedule tasks to a team of robots, given a default path planner coordinates the robots.
 > - **🏁 Combined Track**: Participants develop both path planning and task scheduling algorithms.
 
+<img src="./external_page_resource/images/mission-4.jpg" style="width:100%;height:auto;max-width:1024px;"/>
 
 🛠️ The competition provides a standardised system to develop, evaluate, and compare algorithmic techniques. 
 
