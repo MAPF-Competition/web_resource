@@ -2,25 +2,23 @@
 
 The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** series where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems: **agent dynamic 🤖**, **lifelong planning ♻️**, **real-time execution ⏳**, and **task assignment 🎯**. These challenges are important for industrial applications such as warehouse logistics, transportation and advanced manufacturing. 
 
-<img src="./external_page_resource/images/mission-3.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;"/>
+<!-- <img src="./external_page_resource/images/mission-3.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;"/> -->
 
+<img src="./external_page_resource/images/mission-4.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;"/>
 
 
 ## The Mission ![r1](./external_page_resource/robots/r1_s.png)
 <!-- What we ask you to do, what you get if you do well, what are the important dates -->
 <!-- ![demo](./external_page_resource/images/mission.jpg) -->
 
-🚀 Participants are asked to develop algorithms that assign tasks to a team of robots and coordinate robots to complete assigned tasks in a given environment.
+🚀 Coordinate thousands of robots in a busy warehouse! Participants are asked to develop algorithms that assign tasks to a team of robots and then coordinate the robots to complete their assigned tasks as quickly as possible and collision-free.
 
-<div style="width:100%;text-align:center">
-<h3>Coordinate thousands of robots in a busy warehouse!</h3>
-</div>
 
 
 | ![demo](./external_page_resource/images/task_and_robots_1.png) | ![demo](./external_page_resource/images/task_and_robots_2.png)   | ![demo](./external_page_resource/images/task_and_robots_3.png)  |
 |:---:|:---:|:---:|
 |     |     |     |
-| Continuously arriving customer orders! | Dynamically decide who for which task! |  Lifelong collision-free path planning for each robot! |
+| New tasks constantly arrive! | You decide which robot completes which task! |  Find efficient paths for all the robots!|
 
 
 <!-- | ![demo](./external_page_resource/images/tracks_1.png) | ![demo](./external_page_resource/images/tracks_2.png)   | ![demo](./external_page_resource/images/tracks_3.png)  |
@@ -33,7 +31,6 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 > - **📋 Task Scheduling Track**: Participants develop algorithms that schedule tasks to a team of robots, given a default path planner coordinates the robots.
 > - **🏁 Combined Track**: Participants develop both path planning and task scheduling algorithms.
 
-<img src="./external_page_resource/images/mission-4.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;"/>
 
 🛠️ The competition provides a standardised system to develop, evaluate, and compare algorithmic techniques. 
 
