@@ -2,13 +2,11 @@
 
 **Hello Robot Runners!**
 
-We are glad to announce the release of two new resources for our community: the** Problem Generator** and **Virtual Expo Recordings**!
+We are glad to announce the release of two new resources for our community: the **2023 Competition Problem Generator** and **Virtual Expo Recordings**!
 
 🚀 [**Problem Generator**](https://github.com/MAPF-Competition/Benchmark-Archive/tree/main/2023%20Competition/Problem%20Generator)
 
-Perfect for those eager to generate their own benchmark instances, the Problem Generator is packed with the following tools:
-
-
+Perfect for those eager to generate their own benchmark instances, the 2023 Competition Problem Generator is packed with the following tools:
 
 * **benchmark_generator.py**: Craft new problem instances with either randomly generated errands or pre-configured errand sets. 📊
 * **warehouse_map_generator.py**: Create your own warehouse maps featuring various types of picking stations and emitters with just a few commands. 🏗️
