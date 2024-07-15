@@ -1,6 +1,6 @@
 ## Introduction ![r8](./external_page_resource/robots/r8_s.jpg)
 
-The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** series where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems: **agent dynamics 🤖**, **lifelong planning ♻️**, **task assignment 🎯** and **real-time execution ⏳**. These challenges are important for industrial applications such as warehouse logistics, transportation and advanced manufacturing. 
+The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** series where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems: **robot dynamics 🤖**, **lifelong planning ♻️**, **task assignment 🎯** and **real-time execution ⏳**. These challenges are important for industrial applications such as warehouse logistics, transportation and advanced manufacturing. 
 
 <!-- <img src="./external_page_resource/images/mission-3.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;"/> -->
 
@@ -34,7 +34,7 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 </div>
 
 > The competition recognises distinguished performance in three distinct categories:
-> - **🏇🏼 Path Planning Track**: A default task scheduler assigns tasks to agents. Your job is to coordinate the robots. Plan paths and complete these tasks as quickly as possible!
+> - **🏇🏼 Path Planning Track**: A default task scheduler assigns tasks to robots. Your job is to coordinate the robots. Plan paths and complete these tasks as quickly as possible!
 >
 > - **📋 Task Scheduling Track**: A default path planner coordinates the robots. Your job is to decide which robot complete which task!
 > 
