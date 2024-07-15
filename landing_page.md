@@ -17,17 +17,17 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 <div style="max-width:1024px;text-align:center;width">
 
 <div style="test-align:center;width:32.5%;display:inline-block;vertical-align:top;">
-<img src="./external_page_resource/images/task_and_robots_1.png" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
+<img src="./external_page_resource/images/task_and_robots_1.jpg" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
 <br/>
  New tasks constantly arrive! 
 </div>
 <div style="test-align:center;width:32.5%;display:inline-block;vertical-align:top;">
-<img src="./external_page_resource/images/task_and_robots_2.png" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
+<img src="./external_page_resource/images/task_and_robots_2.jpg" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
 <br/>
  You decide which robot completes which task!
 </div>
 <div style="test-align:center;width:32.5%;display:inline-block;vertical-align:top;">
-<img src="./external_page_resource/images/task_and_robots_3.png" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
+<img src="./external_page_resource/images/task_and_robots_3.jpg" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
 <br/>
  Find efficient paths for all the robots!
 </div>
