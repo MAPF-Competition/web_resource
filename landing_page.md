@@ -14,8 +14,7 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 🚀 Coordinate thousands of robots in a busy warehouse! Participants are asked to develop algorithms that assign tasks to a team of robots and then coordinate the robots to complete their assigned tasks as quickly as possible and collision-free.
 
 <div style="width:100%;text-align:center;vertical-align:top;">
-<div style="max-width:1024px;text-align:center;width">
-
+<div style="max-width:1024px;text-align:center;width=100%">
 <div style="test-align:center;width:32.5%;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/task_and_robots_1.jpg" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
 <br/>
@@ -38,9 +37,11 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 
  The competition recognises distinguished performance in three distinct categories:
 
-> - **🏇🏼 Path Planning Track**: Participants develop algorithms that coordinate a team of robots to complete assigned tasks, given a default task scheduler.
-> - **📋 Task Scheduling Track**: Participants develop algorithms that schedule tasks to a team of robots, given a default path planner coordinates the robots.
-> - **🏁 Combined Track**: Participants develop both path planning and task scheduling algorithms.
+> - **🏇🏼 Path Planning Track**: A default task scheduler assigns tasks to agents. Your job is to coordinate the robots. Plan paths and complete these tasks as quickly as possible!
+>
+> - **📋 Task Scheduling Track**: A default path planner coordinates the robots. Your job is to decide which robot complete which task!
+> 
+> - **🏁 Combined Track**: You schedule the tasks **and** plan the robots. Complete control for maximal efficiency!
 
 
 🛠️ The competition provides a standardised system to develop, evaluate, and compare algorithmic techniques. 
@@ -51,9 +52,11 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 
 Participation is open to individuals and teams of individuals from any discipline and background and from any geographic location. Financial prizes (in $USD) are available for **distinguished performance** 🏆:
 
-> - **💰 $5,000 cash prizes in the Combined Track!**
-> - **💸 $2,500 cash prizes in the Path Planning Track!**
-> - **💸 $2,500 cash prizes in the Task Scheduling Track!**
+> - **💰 $5,000** prizes in the Combined Track!
+> 
+> - **💸 $2,500** prizes in the Path Planning Track!
+> 
+> - **💸 $2,500** prizes in the Task Scheduling Track!
 
 Other notable performances (2nd, 3rd place in each category) will be recognised with a certificate.
 
