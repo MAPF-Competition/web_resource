@@ -1,3 +1,27 @@
+## New Resource Release: 🌟 Problem Generator and Virtual Expo Recordings 🌟 `15 Jul 2024`
+
+**Hello Robot Runners!**
+
+We are glad to announce the release of two new resources for our community: the** Problem Generator** and **Virtual Expo Recordings**!
+
+🚀 [**Problem Generator**](https://github.com/MAPF-Competition/Benchmark-Archive/tree/main/2023%20Competition/Problem%20Generator)
+
+Perfect for those eager to generate their own benchmark instances, the Problem Generator is packed with the following tools:
+
+
+
+* **benchmark_generator.py**: Craft new problem instances with either randomly generated errands or pre-configured errand sets. 📊
+* **warehouse_map_generator.py**: Create your own warehouse maps featuring various types of picking stations and emitters with just a few commands. 🏗️
+* **warehouse_task_generator.py**: Generate tailored task sets for your custom warehouse maps according to specific distribution requirements. 🧩
+
+Comprehensive documentation and tutorials are included to ensure you get the most out of these tools. 📚
+
+🎥 [**Virtual Expo Recordings**](https://expo24.leagueofrobotrunners.org/schedule/) 
+
+Missed our live sessions? No worries! All the exciting talks from the 2024 League of Robot Runners Virtual Expo are now available online. Check out the[ Expo Schedule](https://expo24.leagueofrobotrunners.org/schedule/) to access all the recordings. Dive into the insights and innovations shared by leading experts right from the comfort of your home! 🎤📹
+
+Stay tuned for more updates on the 2024 Competition! 🏁🤖
+
 ## Call For Participation: 2024 League of Robot Runners Virtual Expo `2 May 2024`
 
 **Hello Robot Runners!**
