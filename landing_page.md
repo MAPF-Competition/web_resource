@@ -13,19 +13,19 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 
 🚀 Coordinate thousands of robots in a busy warehouse! Participants are asked to develop algorithms that assign tasks to a team of robots and then coordinate the robots to complete their assigned tasks as quickly as possible and collision-free.
 
-<div style="width:100%;text-align:center;vertical-align:top;">
-<div style="max-width:1024px;text-align:center;width=100%">
-<div style="test-align:center;width:32.5%;display:inline-block;vertical-align:top;">
+<div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center;">
+<div style="max-width:1024px;text-align:center;width=100%;display:flex;flex-direction:row;justify-content:space-between;">
+<div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/task_and_robots_1.jpg" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
 <br/>
  New tasks constantly arrive! 
 </div>
-<div style="test-align:center;width:32.5%;display:inline-block;vertical-align:top;">
+<div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/task_and_robots_2.jpg" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
 <br/>
  You decide which robot completes which task!
 </div>
-<div style="test-align:center;width:32.5%;display:inline-block;vertical-align:top;">
+<div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/task_and_robots_3.jpg" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
 <br/>
  Find efficient paths for all the robots!
