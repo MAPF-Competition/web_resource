@@ -2,6 +2,16 @@
 
 The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** series where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems: **agent dynamic 🤖**, **lifelong planning ♻️**, **real-time execution ⏳**, and **task assignment 🎯**. These challenges are important for industrial applications such as warehouse logistics, transportation and advanced manufacturing. 
 
+<img src="./external_page_resource/images/mission-3.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;"/>
+
+
+
+## The Mission ![r1](./external_page_resource/robots/r1_s.png)
+<!-- What we ask you to do, what you get if you do well, what are the important dates -->
+<!-- ![demo](./external_page_resource/images/mission.jpg) -->
+
+🚀 Participants are asked to develop algorithms that assign tasks to a team of robots and coordinate robots to complete assigned tasks in a given environment.
+
 <div style="width:100%;text-align:center">
 <h3>Coordinate thousands of robots in a busy warehouse!</h3>
 </div>
@@ -13,17 +23,11 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 | Continuously arriving customer orders! | Dynamically decide who for which task! |  Lifelong collision-free path planning for each robot! |
 
 
-## The Mission ![r1](./external_page_resource/robots/r1_s.png)
-<!-- What we ask you to do, what you get if you do well, what are the important dates -->
-<!-- ![demo](./external_page_resource/images/mission.jpg) -->
-
-🚀 Participants are asked to develop algorithms that assign tasks to a team of robots and coordinate robots to complete assigned tasks in a given environment. The competition recognises distinguished performance in three distinct categories:
-
-<img src="./external_page_resource/images/mission-3.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;"/>
-
 <!-- | ![demo](./external_page_resource/images/tracks_1.png) | ![demo](./external_page_resource/images/tracks_2.png)   | ![demo](./external_page_resource/images/tracks_3.png)  |
 |---|---|---|
 |   |   |   | -->
+
+ The competition recognises distinguished performance in three distinct categories:
 
 > - **🏇🏼 Path Planning Track**: Participants develop algorithms that coordinate a team of robots to complete assigned tasks, given a default task scheduler.
 > - **📋 Task Scheduling Track**: Participants develop algorithms that schedule tasks to a team of robots, given a default path planner coordinates the robots.
