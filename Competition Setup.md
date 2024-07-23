@@ -33,11 +33,16 @@ We consider two types of collisions that can occur between pairs of agents.:
 | ![image](external_page_resource/images/vertex_conflict.gif) | ![image](external_page_resource/images/edge_conflict.gif)  |
 
 
-## Errands ![r6](external_page_resource/robots/r6_s.png) 
+## Tasks  and Errands ![r6](external_page_resource/robots/r6_s.png) 
 
-An errand (or task assignment) is a request that says a particular robot needs to visit a specific **target location** on the grid. The errand is finished when the assigned robot arrives at the corresponding location.
 
-Robots are assigned errands in a particular sequence. The next errand in the sequence is revealed when the current errand is completed. The total number of errands is infinite. **The objective** is to **run as many errands as possible** in a fixed amount of time.  
+An errand is a request that requires a particular robot to visit a specific **target location** on the grid. The errand is completed when the assigned robot arrives at the corresponding location.
+
+A task may consist of multiple errands, with the number of errands per task \( N \) falling within the range \([minEPT, maxEPT]\), where \( minEPT \) denotes the minimum number of errands per task and \( maxEPT \) denotes the maximum number of errands per task. When a task is revealed, the number of errands, the sequence order, and the errands themselves are all revealed. A task is finished when the assigned robot has completed all the errands in the task following the sequence order.
+
+**The objective for tasks** is to complete as many tasks as possible in the given time. Just like errands, the order of the errands within a task matters, and they must be completed in sequence. Managing both task assignment strategy and path planning method is crucial for optimal performance.
+
+
 
 ## The Central Controller
 The correct operation of robots in the environment is the responsibility of a central controller. The controller tracks the current position of all robots and it is responsible for issuing commands to the robots, which tell them what action to perform next. 
