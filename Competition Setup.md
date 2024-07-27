@@ -2,7 +2,7 @@
 
 In this competition a team of robots is tasked with running an infinite number of errands in a grid environment. These types of problems are the core challenge in a variety of real-world application settings, such as warehouse logistics, multi-robot manufacturing and multi-agent computer games. 
 
-![image](external_page_resource/images/image_warehouse.gif)
+![image](external_page_resource/images/new_model.gif)
 
 On this page we give an overview of the problem model, the robot model, and the centralised controller that coordinates the execution of your computed plans.The figure above shows a typical example of a problem instance in a warehouse domain we call **fulfilment**.
 
@@ -35,18 +35,43 @@ We consider two types of collisions that can occur between pairs of agents.:
 
 ## Tasks  and Errands ![r6](external_page_resource/robots/r6_s.png) 
 
+An **errand** is a request requiring a specific robot to visit a particular **target location** on the grid. An errand is completed when the assigned robot arrives at the designated location.
 
-An errand is a request that requires a particular robot to visit a specific **target location** on the grid. The errand is completed when the assigned robot arrives at the corresponding location.
+A **task** may consist of multiple errands, with the number of errands per task \( N \) ranging from \([minEPT, maxEPT]\), where \( minEPT \) and \( maxEPT \) are the minimum and maximum number of errands per task, respectively. When a task is revealed, the total number of errands, their sequence, and the details of each errand are disclosed. A task is completed when the assigned robot has completed all errands in the specified order.
 
-A task may consist of multiple errands, with the number of errands per task \( N \) falling within the range \([minEPT, maxEPT]\), where \( minEPT \) denotes the minimum number of errands per task and \( maxEPT \) denotes the maximum number of errands per task. When a task is revealed, the number of errands, the sequence order, and the errands themselves are all revealed. A task is finished when the assigned robot has completed all the errands in the task following the sequence order.
+**The objective** is to complete as many tasks as possible within the given time frame. The order of errands within a task is important and must be followed. Effective task assignment and path planning are crucial for optimal performance.
 
-**The objective for tasks** is to complete as many tasks as possible in the given time. Just like errands, the order of the errands within a task matters, and they must be completed in sequence. Managing both task assignment strategy and path planning method is crucial for optimal performance.
+Below is an example:
+
+1. Initially, there are three agents colored blue, yellow, and green. The cells colored pink represent potential errands that need to be assigned to the agents.
+   ![Agents and errands](./external_page_resource/images/img0.jpg)
+
+2. Each agent is assigned a task. In the image, the blue agent is assigned a task consisting of five errands, while the yellow and green agents are each assigned a task consisting of three errands. The arrows indicate the possible planned path for each agent, who must follow the given sequence order to complete the errands.
+   ![Agents with assigned tasks](./external_page_resource/images/img1.jpg)
+
+3. After completing all the assigned errands, the task of the yellow agent is considered finished.
+   ![Completed task for yellow agent](./external_page_resource/images/img2.jpg)
+
+4. Once a task is completed, the yellow agent is assigned a new task containing four errands by the controller.
+   ![New task for yellow agent](./external_page_resource/images/img3.jpg)
 
 
 
 ## The Central Controller
-The correct operation of robots in the environment is the responsibility of a central controller. The controller tracks the current position of all robots and it is responsible for issuing commands to the robots, which tell them what action to perform next. 
 
-To decide which command to issue to which robot the controller relies on a component called **a planner, that you must implement**.  The controller calls the planner at each timestep. The job of the planner is to return one valid command for each robot.  If the planner does not provide a valid set of commands (one for each robot), or if it does not finish computing in time, then the controller asks all robots to **wait in place**, until the next timestep or until the planner finishes deliberating. 
+The central controller is responsible for the correct operation of robots in the environment. It tracks the current position of all robots and issues commands to them, dictating their next actions.
 
-The central controller tracks the amount of time elapsed since the start of the problem (another name for this is **wallclock time**). Time elapses while the planner is deliberating. After a fixed amount of time, called the **planning horizon**, the central controller stops and the problem is considered finished. 
+### Planner and Path Planning
+
+To determine which command to issue to each robot, the controller relies on a component known as **the planner**, which you must implement. The controller calls the planner at each timestep. The planner's role is to return one valid command for each robot. If the planner fails to provide a valid set of commands (one for each robot) or does not complete its computation in time, the controller instructs all robots to **wait in place** until the next timestep or until the planner finishes deliberating.
+
+### Task Assignment
+
+In the updated version, the central controller also manages **task assignment**. This involves assigning tasks, which consist of multiple errands, to the appropriate robots. Task assignment is crucial for ensuring that each robot has a specific set of errands to complete, optimizing the use of available resources and minimizing delays.
+
+### Time Tracking and Planning Horizon
+
+The central controller monitors the elapsed time since the start of the task (also known as **wallclock time**). Time continues to pass while the planner is deliberating. After a predetermined period, known as the **planning horizon**, the central controller stops, and the task is considered complete.
+
+This new system ensures that the controller not only handles path planning through the planner but also efficiently assigns tasks to robots, balancing both responsibilities to achieve optimal performance.
+
