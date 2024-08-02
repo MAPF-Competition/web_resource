@@ -11,7 +11,7 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 <!-- What we ask you to do, what you get if you do well, what are the important dates -->
 <!-- ![demo](./external_page_resource/images/mission.jpg) -->
 
-🚀 Coordinate thousands of robots in a busy warehouse! Participants are asked to develop algorithms that assign tasks to a team of robots and then coordinate the robots to complete their assigned tasks as quickly as possible and collision-free.
+🚀 Coordinate thousands of robots in a busy warehouse! Participants are asked to develop algorithms that assign tasks to a team of robots and then coordinate the robots to complete their assigned tasks as quickly as possible and collision-free.🚀 
 
 <div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center;">
 <div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;">
