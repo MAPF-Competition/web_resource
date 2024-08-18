@@ -44,16 +44,28 @@ A **task** may consist of multiple errands, with the number of errands per task 
 Below is an example:
 
 1. Initially, there are three agents colored blue, yellow, and green. The cells colored pink represent potential errands that need to be assigned to the agents.
-   ![Agents and errands](./external_page_resource/images/img0.jpg)
+
+<div style="text-align: center;">
+   <img src="./external_page_resource/images/img0.jpg" alt="description" style="max-width: 80%; height: auto;">
+</div>
 
 2. Each agent is assigned a task. In the image, the blue agent is assigned a task consisting of five errands, while the yellow and green agents are each assigned a task consisting of three errands. The arrows indicate the possible planned path for each agent, who must follow the given sequence order to complete the errands.
-   ![Agents with assigned tasks](./external_page_resource/images/img1.jpg)
+
+<div style="text-align: center;">
+   <img src="./external_page_resource/images/img1.jpg" alt="description" style="max-width: 80%; height: auto;">
+</div>
 
 3. After completing all the assigned errands, the task of the yellow agent is considered finished.
-   ![Completed task for yellow agent](./external_page_resource/images/img2.jpg)
+<div style="text-align: center;">
+   <img src="./external_page_resource/images/img2.jpg" alt="description" style="max-width: 80%; height: auto;">
+</div>
+
+
 
 4. Once a task is completed, the yellow agent is assigned a new task containing four errands by the controller.
-   ![New task for yellow agent](./external_page_resource/images/img3.jpg)
+<div style="text-align: center;">
+   <img src="./external_page_resource/images/img3.jpg" alt="description" style="max-width: 80%; height: auto;">
+</div>
 
 
 
