@@ -33,7 +33,8 @@ We consider two types of collisions that can occur between pairs of agents.:
 | ![image](external_page_resource/images/vertex_conflict.gif) | ![image](external_page_resource/images/edge_conflict.gif)  |
 
 
-## Tasks  and Errands ![r6](external_page_resource/robots/r6_s.png) 
+
+## Tasks and Errands ![r6](external_page_resource/robots/r6_s.png) 
 
 An **errand** is a request requiring a specific robot to visit a particular **target location** on the grid. An errand is completed when the assigned robot arrives at the designated location.
 
@@ -66,6 +67,21 @@ Below is an example:
 <div style="text-align: center;">
    <img src="./external_page_resource/images/img3.jpg" alt="description" style="max-width: 80%; height: auto;">
 </div>
+
+
+
+## Path Planning
+
+Path planning is a critical component in ensuring that each agent reaches its errand location efficiently and without collisions. In this example, we have illustrated two different scenarios:
+
+- **Collision-Free Path:** This path is carefully planned so that the agents avoid each other entirely, reaching their destinations without any interference. The path is smooth and considers the environment's constraints, ensuring that each agent follows a unique route that does not intersect with others.
+
+- **Collision Path:** In contrast, the collision path shows a scenario where two agents’ routes intersect, leading to a potential collision. This highlights the importance of effective path planning, as failure to account for other agents' movements can result in collisions, delays, or even the failure of the agents to complete their tasks.
+
+<div style="text-align: center;">
+   <img src="./external_page_resource/images/planning_path.png" alt="description" style="max-width: 80%; height: auto;">
+</div>
+
 
 
 
