@@ -79,7 +79,7 @@ Path planning is a critical component in ensuring that each agent reaches its er
 - **Collision Path:** In contrast, the collision path shows a scenario where two agents’ routes intersect, leading to a potential collision. This highlights the importance of effective path planning, as failure to account for other agents' movements can result in collisions, delays, or even the failure of the agents to complete their tasks.
 
 <div style="text-align: center;">
-   <img src="./external_page_resource/images/planning_path.png" alt="description" style="max-width: 60%; height: auto;">
+   <img src="./external_page_resource/images/planning_path.png" alt="description" style="max-width: 80%; height: auto;">
 </div>
 
 
