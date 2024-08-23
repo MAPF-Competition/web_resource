@@ -70,17 +70,8 @@ Below is an example:
 
 
 
-## Path Planning
 
-Path planning is a critical component in ensuring that each agent reaches its errand location efficiently and without collisions. In the following example, we have illustrated two different scenarios:
 
-- **Collision-Free Path:** This path is carefully planned so that the agents avoid each other entirely, reaching their destinations without any interference. The path is smooth and considers the environment's constraints, ensuring that each agent follows a unique route that does not intersect with others.
-
-- **Collision Path:** In contrast, the collision path shows a scenario where two agents’ routes intersect, leading to a potential collision. This highlights the importance of effective path planning, as failure to account for other agents' movements can result in collisions, delays, or even the failure of the agents to complete their tasks.
-
-<div style="text-align: center;">
-   <img src="./external_page_resource/images/planning_path.png" alt="description" style="max-width: 80%; height: auto;">
-</div>
 
 
 
@@ -92,6 +83,19 @@ The central controller is responsible for the correct operation of robots in the
 ### Planner and Path Planning
 
 To determine which command to issue to each robot, the controller relies on a component known as **the planner**, which you must implement. The controller calls the planner at each timestep. The planner's role is to return one valid command for each robot. If the planner fails to provide a valid set of commands (one for each robot) or does not complete its computation in time, the controller instructs all robots to **wait in place** until the next timestep or until the planner finishes deliberating.
+
+In the following example, we have illustrated two different scenarios:
+
+
+- **Collision Path:**  The collision path shows a scenario where two robots’ routes intersect, leading to a potential collision. This highlights the importance of effective path planning, as failure to account for other robots' movements can result in collisions, delays, or even the failure of the robots to complete their tasks.
+
+- **Collision-Free Path:** In contrast, this path is carefully planned so that the robots avoid each other entirely, finishing their tasks without any conflicts. 
+
+
+<div style="text-align: center;">
+   <img src="./external_page_resource/images/planning_path.png" alt="description" style="max-width: 80%; height: auto;">
+</div>
+
 
 ### Task Assignment
 
