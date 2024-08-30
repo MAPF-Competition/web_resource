@@ -66,7 +66,7 @@ In real-world scenarios, path planners and task schedulers are expected to excel
 ### Best Overall
 > In this category, a `virtual best` benchmark is used to track the best known solution for each instance, across all participants. Your performance is ranked relative to this baseline using the following formula:
 >
-> $$\mbox{Your score} = \displaystyle \sum^{max}_{i=0}{\frac{\mbox{Your number of errands finished for instance }i}{\mbox{best number of errands finished for instance }i}}$$
+> $$\mbox{Your score} = \displaystyle \sum^{max}_{i=0}{\frac{\mbox{Your number of tasks finished for instance }i}{\mbox{best number of tasks finished for instance }i}}$$
 >
 > The winner in this category is the entry with the highest cumulative score. This award is given separately for each of the three tracks: **Scheduler Track**, **Planner Track**, and **Combined Track**.
 
