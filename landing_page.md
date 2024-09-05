@@ -1,6 +1,6 @@
 ## Introduction ![r8](./external_page_resource/robots/r8_s.jpg)
 
-The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** series where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems: **robot dynamics 🤖**, **lifelong planning ♻️**, **task assignment 🎯** and **real-time execution ⏳**. These challenges are important for industrial applications such as warehouse logistics, transportation and advanced manufacturing. 
+The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** series where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems: **robot dynamics 🤖**, **lifelong planning ♻️**, **task assignment 🎯** and **real-time execution ⏳**. Besides being intellectually stipulating, these challenges present themselves in high-impact industrial applications including warehouse logistics, transportation, and advanced manufacturing. 
 
 <!-- <img src="./external_page_resource/images/mission-3.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;"/> -->
 
@@ -11,7 +11,7 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 <!-- What we ask you to do, what you get if you do well, what are the important dates -->
 <!-- ![demo](./external_page_resource/images/mission.jpg) -->
 
-🚀 Coordinate thousands of robots in a busy warehouse! Participants are asked to develop algorithms that assign tasks to a team of robots and then coordinate the robots to complete their assigned tasks as quickly as possible and collision-free.🚀 
+🚀 Participants are asked to develop novel algorithms that assign tasks to a team of robots and then coordinate the robots to complete their assigned tasks as quickly as possible and collision-free.🚀 
 
 <div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center;">
 <div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;">
