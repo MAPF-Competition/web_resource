@@ -28,12 +28,12 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 <div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/task_and_robots_3.jpg" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
 <br/>
- Find efficient paths for all the robots!
+ Then, find efficient paths to route the robots!
 </div>
 </div>
 </div>
 
-> The competition recognises distinguished performance in three distinct categories:
+> The 2024 competition recognises distinguished performance in three categories:
 > - **🏇🏼 Path Planning Track**: A default task scheduler assigns tasks to robots. Your job is to coordinate the robots. Plan paths and complete these tasks as quickly as possible!
 >
 > - **📋 Task Scheduling Track**: A default path planner coordinates the robots. Your job is to decide which robot completes which task and in what order!
