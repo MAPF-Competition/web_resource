@@ -4,14 +4,13 @@ In this competition, a team of robots is tasked with running an infinite number 
 
 ![image](external_page_resource/images/new_model.gif)
 
-On this page, we provide an overview of the problem model, the robot model, and the centralised controller that coordinates the execution of your computed plans. The figure above shows a typical example of a problem instance in a warehouse domain we call **fulfilment**.
-
+This page provides an overview of the problem model, the robot model, and the centralised controller that coordinates executing your computed plans. The figure above shows a typical example of a problem instance in a warehouse domain we call **fulfilment**.
 
 ## Robots and Their Environment ![r14](external_page_resource/robots/robot_on_grid_s.png)
-Each grid map is deterministic, fully observable and known ahead of time. All robots move in parallel. Time is divided up into discrete time steps. 
+Each grid map is deterministic, fully observable, and known ahead of time. Robots move in parallel. Time is divided up into discrete time steps. 
 
-At each timestep, a robot can execute one of the following actions: 
-> - move forward into an adjacent grid cell
+At each timestep, a robot can execute one of the following actions (see illustrations that follow): 
+> - move in the robot's forward direction into an adjacent grid cell
 > - rotate 90 degree clockwise 
 > - rotate 90 degrees counter-clockwise
 > - wait at its current location.
