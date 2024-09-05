@@ -1,10 +1,10 @@
 ## Problem Overview ![r13](external_page_resource/robots/r13_s.png)
 
-In this competition a team of robots is tasked with running an infinite number of errands in a grid environment. These types of problems are the core challenge in a variety of real-world application settings, such as warehouse logistics, multi-robot manufacturing and multi-agent computer games. 
+In this competition, a team of robots is tasked with running an infinite number of errands in a grid environment. These types of problems are the core challenge in various real-world application settings, such as warehouse logistics, multi-robot manufacturing, and multi-agent computer games. 
 
 ![image](external_page_resource/images/new_model.gif)
 
-On this page we give an overview of the problem model, the robot model, and the centralised controller that coordinates the execution of your computed plans.The figure above shows a typical example of a problem instance in a warehouse domain we call **fulfilment**.
+On this page, we provide an overview of the problem model, the robot model, and the centralised controller that coordinates the execution of your computed plans. The figure above shows a typical example of a problem instance in a warehouse domain we call **fulfilment**.
 
 
 ## Robots and Their Environment ![r14](external_page_resource/robots/robot_on_grid_s.png)
