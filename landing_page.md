@@ -47,13 +47,13 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 
 ## Eligibility and Prizes ![r2](./external_page_resource/robots/robot_racewinner_s.png)
 
-Participation is open to individuals and teams of individuals from any discipline and background and from any geographic location. Financial prizes (in $USD) are available for **distinguished performance** 🏆:
+Participation is open to individuals and teams from any discipline/background, anywhere in the universe. Financial prizes (in USD) are available for **top performance** 🏆:
 
-> - **💰 $5,000** prizes in the Combined Track!
+> - **💰 $5,000** prizes in the **Combined Track**
 > 
-> - **💸 $2,500** prizes in the Path Planning Track!
+> - **💸 $2,500** prizes in the **Path Planning Track**
 > 
-> - **💸 $2,500** prizes in the Task Scheduling Track!
+> - **💸 $2,500** prizes in the **Task Scheduling Track**
 
 Other notable performances (2nd, 3rd place in each category) will be recognised with a certificate.
 
@@ -62,9 +62,9 @@ Other notable performances (2nd, 3rd place in each category) will be recognised 
 ## Timeline ![r7](./external_page_resource/robots/r5_s.png)
 <br/>
 
-> - **Jun - Jul**: Details and more news
-> - **Jul - Aug**: Start-kit release
-> - **Aug - Dec**: Competition period
+> - **Jun - Aug**: Details and more news
+> - **Sep**: Start-kit release
+> - **Sep - Dec**: Competition period
 
 <br/>
 
