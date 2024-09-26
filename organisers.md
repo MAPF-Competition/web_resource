@@ -16,7 +16,7 @@ This page lists the organisers of the competition in lex order.
     <img class="image" src="./external_page_resource/organisers/sven-old.jpg" height="100px"/>
     <h4 class="name" >Sven Koenig</h4>
     <div class="description-block">
-        University of Southern California
+        University of California, Irvine
     </div>
 </div>
 <div class="block">
