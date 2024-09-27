@@ -5,8 +5,9 @@ Submissions will be evaluated using an AWS cloud compute instance with the follo
 > - AMD EPYC 7R13 Processor with 32 vCPUs
 > - 128 GiB Memory
 > - 40 GiB Storage Space
+> - Nvidia A10G GPU
 
-Once you make a submission the evaluation proceeds in two stages: offline preprocessing and online planning. 
+The evalution server evaluates participant submissions in official PyTorch docker container, which equips necessary software and drivers for Cuda and PyTorch. Once you make a submission the evaluation proceeds in two stages: offline preprocessing and online planning. 
 
 ## Offline Preprocessing
 During the preprocessing stage the current map is given to each planner. The planner has the opportunity to analyse the map and compute auxiliary data before proceeding to the evaluation stage. Preprocessing time is limited to 30 Minutes per map. Nothing you do at this stage will be counted into your final score.
@@ -59,11 +60,11 @@ Each submission will be evaluated using a variety of instances on 5 different ma
 
 The maps are [available for download](https://github.com/MAPF-Competition/Start-Kit/tree/main/example_problems) and analysis. But the problem instances (errands and robot locations) are hidden until after the competition.
 
-## Planner Categories
+## Score Functions
 
 In real-world scenarios, path planners and task schedulers are expected to excel in various aspects, such as high throughput and quick computation times. To reflect this, our competition recognizes outstanding performance across three distinct categories for each track, resulting in up to nine potential winners:
 
-### Best Overall
+### Virtual Best and Score Function
 > In this category, a `virtual best` benchmark is used to track the best known solution for each instance, across all participants. Your performance is ranked relative to this baseline using the following formula:
 >
 > $$\mbox{Your score} = \displaystyle \sum^{max}_{i=0}{\frac{\mbox{Your number of tasks finished for instance }i}{\mbox{best number of tasks finished for instance }i}}$$
@@ -72,7 +73,4 @@ In real-world scenarios, path planners and task schedulers are expected to excel
 
 ### Line Honours
 > This category tracks the entry with the largest number of best solutions across all instances. The number of best solutions achieved by any entry is tallied at the end of the competition, and the entry with the most best solutions is declared the winner. This award is given separately for each of the three tracks.
-
-### Fast Mover
-> To be eligible for this category, entries must always compute valid actions for all robots within the time limit of each planning episode (1 second). The winner is the eligible entry with the highest overall score among all planners. This award is also given separately for each of the three tracks.
 
