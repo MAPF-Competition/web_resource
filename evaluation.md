@@ -72,5 +72,5 @@ In real-world scenarios, path planners and task schedulers are expected to excel
 > The winner in this category is the entry with the highest cumulative score. This award is given separately for each of the three tracks: **Scheduler Track**, **Planner Track**, and **Combined Track**.
 
 ### Line Honours
-> This category tracks the entry with the largest number of best solutions across all instances. The number of best solutions achieved by any entry is tallied at the end of the competition, and the entry with the most best solutions is declared the winner. This award is given separately for each of the three tracks.
+> In addition to the three tracks, we keep track of who contributed the largest number of best solutions across all instances. The number of best solutions achieved by any entry is tallied at the end of the competition, and the entry with the most best solutions is declared as the Line Honours.
 

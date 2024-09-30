@@ -55,16 +55,17 @@ Participation is open to individuals and teams from any discipline/background, a
 > 
 > - **💸 $2,500** prizes in the **Task Scheduling Track**
 
-Other notable performances (2nd, 3rd place in each category) will be recognised with a certificate.
+In addition, there will be a **💵 $500** prize for the team that contributes the most solutions to the virtual best.
+Other notable performances (2nd, 3rd place in each category) will be recognised with a certificate. 
 
 <br/>
 
 ## Timeline ![r7](./external_page_resource/robots/r5_s.png)
 <br/>
 
-> - **Jun - Aug**: Details and more news
-> - **Sep**: Start-kit release
-> - **Sep - Dec**: Competition period
+> - **Jun - Sep**: Details and more news
+> - **Oct**: Start-kit release
+> - **Oct - Jan**: Competition period
 
 <br/>
 
