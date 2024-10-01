@@ -8,6 +8,7 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
   
 
 
+<br/>
 ## How It Works ![r1](./external_page_resource/robots/r1_s.png)
 <!-- What we ask you to do, what you get if you do well, what are the important dates -->
 <!-- ![demo](./external_page_resource/images/mission.jpg) -->
@@ -46,21 +47,6 @@ Which route to take? Find efficient paths and avoid collisions!
 </div>
 </div>
 
-> The competition recognises distinguished performance in three categories:
-> - **🏇🏼 Path Planning Track**: We provide a scheduler, assigning tasks to robots. You need to plan their paths. 
->
-> - **📋 Task Scheduling Track**: You assign tasks to robots. We provide a planner to compute their paths.
-> 
-> - **🏁 Combined Track**: Schedule the tasks **and** Plan the paths. Complete control for maximal efficiency!
-
-
-🛠️ **Low barriers: ** the competition provides starter code, supporting tools and documentation, to help you quickly develop and validate your solutions. 
-
-📈 ** Continuous feedback: ** track your progress against the best in the world on our live leaderboard. 
-
-📂 ** Open source: submissions: **, top submissions, best solutions and all problem instances will be open-sourced, after the competition ends, which allows others to buld on your success and make further advancements.
-  
-  
 Participating in the competition is a great way to showcase your skills:
 compete for fame, glory and cash prizes against the best in the world!  You can
 also make a tangible impact in the research community: by contributing to the
@@ -68,18 +54,39 @@ establishment of new benchmarks and the creation of new algorithmic baselines.
 Moreover, your involvement will help increase attention to this critical
 problem and contribute to the growth of our community.
 
+
+🛠️ **Low barriers:** the competition provides starter code, supporting tools and documentation, to help you quickly develop and validate your solutions. 
+
+📈 **Continuous feedback:** track your progress against the best in the world on our live leaderboard. 
+
+📂 **Open source: submissions:**, top submissions, best solutions and all problem instances will be open-sourced, after the competition ends, which allows others to buld on your success and make further advancements.
+  
+  
+<!-- 
+> The competition recognises distinguished performance in three categories:
+> - **🏇🏼 Path Planning Track**: We provide a scheduler, assigning tasks to robots. You need to plan their paths. 
+>
+> - **📋 Task Scheduling Track**: You assign tasks to robots. We provide a planner to compute their paths.
+> 
+> - **🏁 Combined Track**: Schedule the tasks **and** Plan the paths. Complete control for maximal efficiency!
+-->
+
+
 ## Eligibility and Prizes ![r2](./external_page_resource/robots/robot_racewinner_s.png)
 
-Participation is open to individuals and teams from any discipline/background, anywhere in the universe. Financial prizes (in USD) are available for **top performance** 🏆:
+Participation is open to individuals and teams from any discipline/background, anywhere in the world. Financial prizes (in USD) are available for **top performance** in three distinct tracks🏆:
 
-> - **💰 $5,000** prizes in the **Combined Track**
-> 
-> - **💸 $2,500** prizes in the **Path Planning Track**
+> - **💸 $2,500** prizes in the **Path Planning Track**. 
 > 
 > - **💸 $2,500** prizes in the **Task Scheduling Track**
+>
+> - **💰 $5,000** prizes in the **Combined Track**
 
-In addition, there will be a **💵 $500** prize for the team that contributes the most solutions to the virtual best.
-Other notable performances (2nd, 3rd place in each category) will be recognised with a certificate. 
+There will also be a **💵 $500** Line Honours prize, for the team that
+contributes the most solutions to the virtual best. Other notable performances
+(2nd, 3rd place in each category) will be recognised with a certificate. Find
+our more about the tracks and how they work on our [problem setup](./problem)
+and [evaluation](./evaluation) pages. 
 
 <br/>
 
