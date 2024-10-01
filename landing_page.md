@@ -62,9 +62,9 @@ Other notable performances (2nd, 3rd place in each category) will be recognised 
 ## Timeline ![r7](./external_page_resource/robots/r5_s.png)
 <br/>
 
-> - **Jun - Jul**: Details and more news
-> - **Jul - Aug**: Start-kit release
-> - **Aug - Dec**: Competition period
+> - **Jun - Sep**: Details and more news
+> - **Oct**: Start-kit release and test round
+> - **Nov - Jan**: Competition main round
 
 <br/>
 
