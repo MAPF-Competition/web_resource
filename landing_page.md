@@ -4,11 +4,10 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 
 <!-- <img src="./external_page_resource/images/mission-3.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;"/> -->
 
-<img src="./external_page_resource/images/mission-4.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;"/>
+<img src="./external_page_resource/images/mission-4.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;margin-bottom:5px"/>
   
 
 
-##  
 ## How It Works ![r1](./external_page_resource/robots/r1_s.png)
 <!-- What we ask you to do, what you get if you do well, what are the important dates -->
 <!-- ![demo](./external_page_resource/images/mission.jpg) -->
