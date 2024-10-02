@@ -29,6 +29,7 @@ All the best-known solutions can be downloaded and analysed with [PlanViz](https
 
 ## More information
 
+The [MAPF Tracker](http://tracker.pathfinding.ai) is a community website that contains the best-known results on many MAPF benchmarks. Visit this page for an overview of the current challenges in this area and to compare the relative strengths of different solvers in a non-competitive setting.
+
 The community website, [mapf.info](http://mapf.info), contains various introductory material on the closely related topic of Multi-Agent Path Finding. Visit this page to find out what the topic is all about, who is working in the area, for copies and videos of presentations related to MAPF, as well as links to recent papers and baseline implementations of many successful algorithms. 
 
-The [MAPF Tracker](http://tracker.pathfinding.ai) is a community website that contains the best-known results on many MAPF benchmarks. Visit this page for an overview of the current challenges in this area and to compare the relative strengths of different solvers in a non-competitive setting.
