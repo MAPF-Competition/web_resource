@@ -40,6 +40,7 @@ Robots move in parallel. Time is divided into unit-sized time steps.
 
 An action is considered valid (or feasible) if the robot can execute that action without colliding with static obstacles in the environment or with other moving robots. Each valid action has a duration of exactly one timestep. 
 
+<!-- 
 Two types of collisions (i.e., invalid actions) can occur:
 > - Vertex collision: two agents attempt to move to the same location at the same time.
 > - Edge collision: two agents traverse the same edge from opposite directions at the same time.
@@ -47,6 +48,30 @@ Two types of collisions (i.e., invalid actions) can occur:
 | `Vertex` |  `Edge` |
 |:---:|:---:|
 | ![image](external_page_resource/images/vertex_conflict.gif) | ![image](external_page_resource/images/edge_conflict.gif)  |
+-->
+
+<div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center;background-color:#EBEBEB">
+<br/>
+<div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;">
+Two types of collisions (i.e., invalid actions) can occur:
+<div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
+<img src="./external_page_resource/images/vertex_conflict.png" style="margin-top:5px;"/>
+<br/>
+Vertex collision: two agents attempt to move to the same location at the same time.
+</div>
+<div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
+<img src="./external_page_resource/images/edge_conflict.png" style="margin-top:5px;width:100%;"/>
+<br/>
+Edge collision: two agents traverse the same edge from opposite directions at the same time.
+</div>
+<div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
+<img src="./external_page_resource/images/task_and_robots_3a.png" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
+<br/>
+Which route to take? Find a collision-free path!
+</div>
+</div>
+<br/>
+</div>
 
 
 
