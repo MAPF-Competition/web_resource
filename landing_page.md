@@ -107,9 +107,14 @@ setup](./problem) and [evaluation](./evaluation) pages.
 ## Timeline ![r7](./external_page_resource/robots/r5_s.png)
 <br/>
 
-> - **Jun - Sep**: Details and more news
-> - **Oct**: Start-kit release, test round
-> - **Oct - Jan**: Competition period
+All dates are AOE (UTC-12). In other words, if there is still time Anywhere on Earth, the
+deadline has not yet passed.
+
+> - **20th May 2024**: Competition announcement
+> - **4th October 2024**: Start kit release, open for testing
+> - **1st November 2024**: Main round begins
+> - **2nd February 2025**: Main round ends
+> - **16th February 2025**: Winner annoucement
 
 <br/>
 
