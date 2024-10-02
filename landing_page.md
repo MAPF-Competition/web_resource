@@ -98,7 +98,9 @@ Participation is open to individuals and teams from any discipline/background, a
 
 There will also be a 💵 $500 **Line Honours** prize, for the team that
 computes the largest number of best-known solutions, at the end of the
-competition. Other notable performances (2nd, 3rd place in each track) will be
+competition. 
+
+Other notable performances (2nd, 3rd place in each track) will be
 recognised with a certificate. Find our more about the tracks and how they work
 on our [problem setup](./problem) and [evaluation](./evaluation) pages. 
 
