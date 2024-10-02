@@ -47,6 +47,7 @@ Which route to take? Find a collision-free path!
 </div>
 </div>
 
+Interested? Here are three good reasons to join us:
 
 🛠️ **Low barriers:** the competition provides starter code, supporting tools
 and documentation, to help you quickly develop and validate your solutions. 
@@ -64,7 +65,7 @@ establishment of new benchmarks and the creation of new algorithmic baselines.
 Moreover, your involvement will help raise awareness about an important problem
 area and help foster the growth of the community. 
 
-Our robots need you, sign up today!
+Our robots need you, [sign up](./submission) today!
 
   
 <!-- 
@@ -81,7 +82,7 @@ Our robots need you, sign up today!
 
 Participation is open to individuals and teams from any discipline/background, anywhere in the world. Financial prizes (in USD) are available for **top performance** in three distinct tracks🏆:
 
-> - **Path Planning Track:  $2,500 prize
+> - **Path Planning Track:**  $2,500 prize
 > 
 > - **Scheduling Track:** 💸 $2,500 prize
 >
