@@ -27,7 +27,7 @@ We've pre-loaded a a copy of the competition start-kit into your repo, to make l
 ## Prepare Your Planner
 Read the [startkit instructions](https://github.com/MAPF-Competition/Start-Kit/blob/main/README.md) for:
 > - How to implement your planner (we have native support for Python and C++).
-> - How to access (large) auxilliary preprocessing data or pre-trained machine learning models.
+> - How to access (large) auxiliary pre-processing data or pre-trained machine learning models.
 > - How to apply for training awards, to help with your offline compute costs.
 
 ## Submit Your Planner
