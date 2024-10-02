@@ -1,13 +1,27 @@
 ## Problem Overview ![r13](external_page_resource/robots/r13_s.png)
 
-In this competition, a team of robots is tasked with running an infinite number of errands in a grid environment. These types of problems are the core challenge in various real-world application settings, such as warehouse logistics, multi-robot manufacturing, and multi-agent computer games. 
+A team of robots works together in a simplified grid environment. Their job is
+to run infinite errands, which they accomplish by visiting different locations
+on the grid. Sometimes errands must be completed in a specific order. 
+A sequence of such errands is called a task. The objective is to complete as many 
+tasks as possible, as quickly as possible, until time runs out. 
+
+These types of problems are the core challenge in many real-world applications,
+including warehouse logistics, multi-robot manufacturing, multi-agent computer
+games and many more besides. 
+
+The image below shows an example. It is set in a warehouse domain that we call
+**fulfilment**. 
 
 ![image](external_page_resource/images/new_model.gif)
 
-This page provides an overview of the problem model, the robot model, and the centralised controller that coordinates executing your computed plans. The figure above shows a typical example of a problem instance in a warehouse domain we call **fulfilment**.
+This page provides a high-level description of the the problem, the robot model, and the
+centralised controller that is responsible for plan validation and execution. 
+More details are available in our competition [Start-Kit](https://github.com/MAPF-competition/Start-Kit)
 
 ## Robots and Their Environment ![r14](external_page_resource/robots/robot_on_grid_s.png)
-Each grid map is deterministic, fully observable, and known ahead of time. Robots move in parallel. Time is divided up into discrete time steps. 
+Each grid map is deterministic, fully observable, and known ahead of time.
+Robots move in parallel. Time is divided into unit-sized time steps. 
 
 At each timestep, a robot can execute one of the following actions (see illustrations that follow): 
 > - move in the robot's forward direction into an adjacent grid cell
