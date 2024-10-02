@@ -86,7 +86,7 @@ Participation is open to individuals and teams from any discipline/background, a
 
 > **Path Planning Track:** 
 > -  We provide a scheduler, assigning tasks to robots. You need to plan their paths. 
-> - 💸 $2,500 Prize 
+> - 💸 $2,500 First Place Prize 
 > 
 > **Scheduling Track:** 
 > - You assign tasks to robots. We provide a planner to compute their paths.
@@ -96,13 +96,13 @@ Participation is open to individuals and teams from any discipline/background, a
 > - You assign the tasks **and** plan the paths. Complete control for maximal efficiency!
 > - 💰 $5,000 <u>Grand Prize</u> 💰
 
-There will also be a 💵 $500 **Line Honours** prize, for the team that
+There will also be a 💵 $1,000 **Line Honours** prize, for the team that
 computes the largest number of best-known solutions, at the end of the
-competition. 
+competition. Other notable performances (2nd, 3rd place in each track) will be
+recognised with a certificate. 
 
-Other notable performances (2nd, 3rd place in each track) will be
-recognised with a certificate. Find our more about the tracks and how they work
-on our [problem setup](./problem) and [evaluation](./evaluation) pages. 
+Find our more about the tracks and how they work on our [problem
+setup](./problem) and [evaluation](./evaluation) pages. 
 
 <br/>
 
