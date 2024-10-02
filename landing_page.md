@@ -93,7 +93,7 @@ Participation is open to individuals and teams from any discipline/background, a
 > - 💸 $2,500 Prize 
 >
 > **Combined Track:** 
-> - Schedule the tasks **and** Plan the paths. Complete control for maximal efficiency!
+> - You assign the tasks **and** plan the paths. Complete control for maximal efficiency!
 > - 💰 $5,000 <u>Grand Prize</u> 💰
 
 There will also be a 💵 $500 **Line Honours** prize, for the team that
