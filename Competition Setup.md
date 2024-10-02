@@ -6,18 +6,17 @@ on the grid. Sometimes errands must be completed in a specific order.
 A sequence of such errands is called a task. The objective is to complete as many 
 tasks as possible, as quickly as possible, until time runs out. 
 
-These types of problems are the core challenge in many real-world applications,
-including warehouse logistics, multi-robot manufacturing, multi-agent computer
-games and many more besides. 
-
-The image below shows an example. It is set in a warehouse domain that we call
-**fulfilment**. 
-
 ![image](external_page_resource/images/new_model.gif)
 
-This page provides a high-level description of the the problem, the robot model, and the
-centralised controller that is responsible for plan validation and execution. 
-More details are available in our competition [Start-Kit](https://github.com/MAPF-competition/Start-Kit)
+These types of problems are the core challenge in many real-world applications,
+including warehouse logistics, multi-robot manufacturing, multi-agent computer
+games and many more besides. The image above shows an example from a warehouse
+domain, which we call **fulfilment**. 
+
+On this page you can find further descriptions of the the problem setting, the
+robot model, and the centralised controller that is responsible for plan
+validation and execution. Further and more technical details are available in
+our competition [Start-Kit](https://github.com/MAPF-competition/Start-Kit)
 
 ## Robots and Their Environment ![r14](external_page_resource/robots/robot_on_grid_s.png)
 Each grid map is deterministic, fully observable, and known ahead of time.
