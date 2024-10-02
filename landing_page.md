@@ -26,6 +26,7 @@ Scheduling means you decide the assignments: which robot completes which task
 and when. 
 
 <div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center;background-color:#EBEBEB">
+<br/>
 <div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;">
 <div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/task_and_robots_1a.png" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
@@ -44,16 +45,17 @@ Which robot should complete which task? It's your call!
 Which route to take? Find a collision-free path!
 </div>
 </div>
+<br/>
 </div>
 
 <!-- Interested? Here are three more reasons to join: -->
 
-Participating in the competition is a great way to showcase your skills
+The competition is a great way to showcase your skills
 against the best in the world; **fame, glory and prizes** are all up for grabs!
 You can also make a tangible impact in the **research community**, by contributing to the
 establishment of new benchmarks and the creation of new algorithmic baselines.
-Moreover, your involvement will help raise awareness about an important problem
-area and help foster the growth of the community. 
+<!-- Plus, you be helping raise awareness about an important problem
+area and help foster the growth of the community.  -->
 
 🛠️ **Low barriers:** the competition provides starter code, supporting tools
 and documentation, to help you quickly develop and validate your solutions. 
@@ -65,7 +67,7 @@ problem instances will be open-sourced after the competition ends.
 This allows others to build on your success and make further advancements.
   
 
-Our robots need you, [sign up](./submission) today! 🚀
+Our robots need you! [Sign up](./submission) today! 🚀
 
   
 <!-- 
