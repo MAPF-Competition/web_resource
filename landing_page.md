@@ -46,7 +46,14 @@ Which route to take? Find a collision-free path!
 </div>
 </div>
 
-Interested? Here are three good reasons to join us:
+<!-- Interested? Here are three more reasons to join: -->
+
+Participating in the competition is a great way to showcase your skills
+against the best in the world; **fame, glory and prizes** are all up for grabs!
+You can also make a tangible impact in the **research community**, by contributing to the
+establishment of new benchmarks and the creation of new algorithmic baselines.
+Moreover, your involvement will help raise awareness about an important problem
+area and help foster the growth of the community. 
 
 🛠️ **Low barriers:** the competition provides starter code, supporting tools
 and documentation, to help you quickly develop and validate your solutions. 
@@ -57,12 +64,6 @@ and documentation, to help you quickly develop and validate your solutions.
 problem instances will be open-sourced after the competition ends. 
 This allows others to build on your success and make further advancements.
   
-Participating in the competition is a great way to showcase your skills
-against the best in the world; **fame, glory and prizes** are all up for grabs!
-You can also make a tangible impact in the **research community**, by contributing to the
-establishment of new benchmarks and the creation of new algorithmic baselines.
-Moreover, your involvement will help raise awareness about an important problem
-area and help foster the growth of the community. 
 
 Our robots need you, [sign up](./submission) today! 🚀
 
