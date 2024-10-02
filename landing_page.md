@@ -104,8 +104,6 @@ recognised with a certificate.
 Find our more about the tracks and how they work on our [problem
 setup](./problem) and [evaluation](./evaluation) pages. 
 
-<br/>
-
 ## Timeline ![r7](./external_page_resource/robots/r5_s.png)
 <br/>
 
