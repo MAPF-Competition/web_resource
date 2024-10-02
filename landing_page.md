@@ -84,11 +84,17 @@ Our robots need you! [Sign up](./submission) today! 🚀
 
 Participation is open to individuals and teams from any discipline/background, anywhere in the world. Financial prizes (in USD) are available for **top performance** in three distinct tracks🏆:
 
-> - **Path Planning Track:** 💸 $2,500 Prize 
+> **Path Planning Track:** 
+> -  We provide a scheduler, assigning tasks to robots. You need to plan their paths. 
+> - 💸 $2,500 Prize 
 > 
-> - **Scheduling Track:** 💸 $2,500 Prize 
+> **Scheduling Track:** 
+> - You assign tasks to robots. We provide a planner to compute their paths.
+> - 💸 $2,500 Prize 
 >
-> - **Combined Track:** 💰 $5,000 <u>Grand Prize</u> 💰
+> **Combined Track:** 
+> - Schedule the tasks **and** Plan the paths. Complete control for maximal efficiency!
+> - 💰 $5,000 <u>Grand Prize</u> 💰
 
 There will also be a 💵 $500 **Line Honours** prize, for the team that
 computes the largest number of best-known solutions, at the end of the
