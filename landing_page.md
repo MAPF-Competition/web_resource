@@ -1,6 +1,6 @@
 ## Introduction ![r8](./external_page_resource/robots/r8_s.jpg)
 
-The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** series where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems: **robot dynamics 🤖**, **lifelong planning ♻️**, **task assignment 🎯** and **real-time execution ⏳**. Besides being intellectually stipulating, these challenges present themselves in high-impact industrial applications including warehouse logistics, transportation, and advanced manufacturing. 
+The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** series where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems: **robot dynamics 🤖**, **lifelong planning ♻️**, **task assignment 🎯** and **real-time execution ⏳**. Besides being intellectually stimulating, these challenges present themselves in high-impact industrial applications including warehouse logistics, transportation, and advanced manufacturing. 
 
 <!-- <img src="./external_page_resource/images/mission-3.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;"/> -->
 
@@ -54,7 +54,7 @@ and documentation, to help you quickly develop and validate your solutions.
 
 📂 **Open source:** top submissions, best solutions and all
 problem instances will be open-sourced after the competition ends. 
-This allows others to buld on your success and make further advancements.
+This allows others to build on your success and make further advancements.
   
 Participating in the competition is a great way to showcase your skills
 against the best in the world; **fame, glory and prizes** are all up for grabs!
@@ -88,7 +88,7 @@ Participation is open to individuals and teams from any discipline/background, a
 
 There will also be a 💵 $500 **Line Honours** prize, for the team that
 computes the largest number of best-known solutions, at the end of the
-competiton. Other notable performances (2nd, 3rd place in each track) will be
+competition. Other notable performances (2nd, 3rd place in each track) will be
 recognised with a certificate. Find our more about the tracks and how they work
 on our [problem setup](./problem) and [evaluation](./evaluation) pages. 
 
