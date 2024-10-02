@@ -17,7 +17,7 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 -->
 🚀
 Participants in the League (that's you!) control a team of robotic errand
-runners. The robots operate in a simple grid environment, working together to
+runners. The robots operate in a simple **grid environment**, working together to
 complete tasks. Their job is to finish as many tasks as possible, as quickly as
 possible, until time runs out. Your job (choose one, or both) is **Planning**
 and **Scheduling**. Planning means you decide how the robots move: compute
