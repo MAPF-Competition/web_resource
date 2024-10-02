@@ -19,7 +19,7 @@ domain, which we call **fulfilment**.
 
 On this page you can find further descriptions of the the problem setting, the
 robot model, and the centralised controller that is responsible for plan
-validation and execution. Further and more technical details are available in
+validation and execution. More granular technical details are available in
 our competition [Start-Kit](https://github.com/MAPF-competition/Start-Kit)
 
 ## Robots and Their Environment ![r14](external_page_resource/robots/robot_on_grid_s.png)
