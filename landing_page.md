@@ -77,7 +77,7 @@ Our robots need you, [sign up](./submission) today! 🚀
 -->
 
 
-## Eligibility and Prizes ![r2](./external_page_resource/robots/robot_racewinner_s.png)
+## Eligibility and Prizes ![r1](./external_page_resource/robots/robot_racewinner_s.png)
 
 Participation is open to individuals and teams from any discipline/background, anywhere in the world. Financial prizes (in USD) are available for **top performance** in three distinct tracks🏆:
 
