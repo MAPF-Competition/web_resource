@@ -12,7 +12,9 @@ games and many more besides. The image below shows an example from a warehouse
 domain, which we call **fulfilment**. 
 
 <br/>
+
 ![image](external_page_resource/images/new_model.gif)
+
 <br/>
 
 On this page you can find further descriptions of the the problem setting, the
