@@ -26,7 +26,7 @@ Scheduling means you decide the assignments: which robot completes which task
 and when. 
 🚀
 
-<div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center;">
+<div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center;background-color:#EBEBEB">
 <div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;">
 <div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/task_and_robots_1.jpg" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
@@ -41,7 +41,7 @@ Which robot should complete which task? It's your call!
 <div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/task_and_robots_3.jpg" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
 <br/>
-Which route to take? Find efficient paths and avoid collisions!
+Which route to take? Find a collision-free path!
 </div>
 </div>
 </div>
