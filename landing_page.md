@@ -80,17 +80,17 @@ Our robots need you, sign up today!
 
 Participation is open to individuals and teams from any discipline/background, anywhere in the world. Financial prizes (in USD) are available for **top performance** in three distinct tracks🏆:
 
-> - **💸 $2,500** prizes in the **Path Planning Track**. 
+> - **Path Planning Track:  $2,500 prize
 > 
-> - **💸 $2,500** prizes in the **Task Scheduling Track**
+> - **Scheduling Track:** 💸 $2,500 prize
 >
-> - **💰 $5,000** prizes in the **Combined Track**
+> - **Combined Track:** 💰 $5,000** grand prize
 
-There will also be a **💵 $500** Line Honours prize, for the team that
-contributes the most solutions to the virtual best. Other notable performances
-(2nd, 3rd place in each category) will be recognised with a certificate. Find
-our more about the tracks and how they work on our [problem setup](./problem)
-and [evaluation](./evaluation) pages. 
+There will also be a 💵 $500 **Line Honours** prize, for the team that
+computes the largest number of best-known solutions, at the end of the
+competiton. Other notable performances (2nd, 3rd place in each track) will be
+recognised with a certificate. Find our more about the tracks and how they work
+on our [problem setup](./problem) and [evaluation](./evaluation) pages. 
 
 <br/>
 
