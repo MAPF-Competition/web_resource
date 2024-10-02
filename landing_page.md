@@ -50,19 +50,20 @@ Which route to take? Find a collision-free path!
 🛠️ **Low barriers:** the competition provides starter code, supporting tools
 and documentation, to help you quickly develop and validate your solutions. 
 
-📈 **Continuous feedback:** track your progress against the best in the world
-on our live leaderboard. 
+📈 **Continuous feedback:** submit anytime and track your progress on our live leaderboard. 
 
-📂 **Open source: submissions:**, top submissions, best solutions and all
-problem instances will be open-sourced, after the competition ends, which
-allows others to buld on your success and make further advancements.
+📂 **Open source:** top submissions, best solutions and all
+problem instances will be open-sourced after the competition ends. 
+This allows others to buld on your success and make further advancements.
   
 Participating in the competition is a great way to showcase your skills
-against the best in the world; fame, glory and prizes are all up for grabs!
-You can also make a tangible impact in the research community: by contributing to the
+against the best in the world; **fame, glory and prizes** are all up for grabs!
+You can also make a tangible impact in the **research community**, by contributing to the
 establishment of new benchmarks and the creation of new algorithmic baselines.
-Moreover, your involvement will help increase attention to this critical
-problem and contribute to the growth of our community.
+Moreover, your involvement will help raise awareness about an important problem
+area and help foster the growth of the community. 
+
+Our robots need you, sign up today!
 
   
 <!-- 
