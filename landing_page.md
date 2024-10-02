@@ -15,7 +15,7 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** 
 <!-- 
 🚀 Participants develop novel algorithms to assign tasks to a team of robots and then coordinate the robots to complete the assigned tasks as quickly as possible, collision-free.🚀 
 -->
-🚀
+
 Participants in the League (that's you!) control a team of robotic errand
 runners. The robots operate in a simple **grid environment**, working together to
 complete tasks. Their job is to finish as many tasks as possible, as quickly as
@@ -24,7 +24,6 @@ and **Scheduling**. Planning means you decide how the robots move: compute
 paths and avoid collisions so the robots can complete their assigned tasks.
 Scheduling means you decide the assignments: which robot completes which task
 and when. 
-🚀
 
 <div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center;background-color:#EBEBEB">
 <div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;">
@@ -65,7 +64,7 @@ establishment of new benchmarks and the creation of new algorithmic baselines.
 Moreover, your involvement will help raise awareness about an important problem
 area and help foster the growth of the community. 
 
-Our robots need you, [sign up](./submission) today!
+Our robots need you, [sign up](./submission) today! 🚀
 
   
 <!-- 
@@ -82,11 +81,11 @@ Our robots need you, [sign up](./submission) today!
 
 Participation is open to individuals and teams from any discipline/background, anywhere in the world. Financial prizes (in USD) are available for **top performance** in three distinct tracks🏆:
 
-> - **Path Planning Track:**  $2,500 Prize
+> - **Path Planning Track:** 💸 $2,500 Prize 
 > 
-> - **Scheduling Track:** 💸 $2,500 Prize
+> - **Scheduling Track:** 💸 $2,500 Prize 
 >
-> - **Combined Track:** 💰 $5,000 <u>Grand Prize</u>
+> - **Combined Track:** 💰 $5,000 <u>Grand Prize</u> 💰
 
 There will also be a 💵 $500 **Line Honours** prize, for the team that
 computes the largest number of best-known solutions, at the end of the
