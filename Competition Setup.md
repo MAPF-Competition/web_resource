@@ -6,12 +6,14 @@ on the grid. Sometimes errands must be completed in a specific order.
 A sequence of such errands is called a task. The objective is to complete as many 
 tasks as possible, as quickly as possible, until time runs out. 
 
-![image](external_page_resource/images/new_model.gif)
-
 These types of problems are the core challenge in many real-world applications,
 including warehouse logistics, multi-robot manufacturing, multi-agent computer
-games and many more besides. The image above shows an example from a warehouse
+games and many more besides. The image below shows an example from a warehouse
 domain, which we call **fulfilment**. 
+
+<br/>
+![image](external_page_resource/images/new_model.gif)
+<br/>
 
 On this page you can find further descriptions of the the problem setting, the
 robot model, and the centralised controller that is responsible for plan
