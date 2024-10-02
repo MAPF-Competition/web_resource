@@ -31,8 +31,8 @@ and when.
 <div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/task_and_robots_1a.png" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
 <br/>
-Manage operations in a busy warehouse. 
-New tasks constantly arrive! 
+Manage a busy warehouse where
+new tasks constantly arrive. 
 </div>
 <div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/task_and_robots_2a.png" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
