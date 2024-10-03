@@ -151,14 +151,13 @@ Effective path planning is crucial, for completing assignments as efficiently as
 To determine which robot is assigned which task, the controller relies on a
 component known as the **task scheduler**, which you must implement (for the
 Task Scheduling track and the Combined track). The role of the scheduler is to
-compute a valid next task for each robot at each timestep. An assignment is
-valid if every task is a revealed task which has not been previously opened 
-(by another robot) or closed (by any robot).
+specify a valid next task (or no task) for each robot at each timestep. 
+An assignment is valid if every assigned task is a revealed task which has 
+not been previously opened (by another robot) or closed (by any robot).
 
-If the Task Scheduler does not complete its computation in time, the existing 
-assignment (from the previous timestep) is taken as the current assignment.
-If the current assignment is invalid for any agent, that agent receives the 
-empty-set assignment (i.e., no task is assigned for that agent).
+If the Task Scheduler does not complete its computation in time, of if the
+proposed assignment is invalid, the existing assignment (from the previous 
+timestep) is taken as the current assignment, minus any completed tasks.
 
 Effective task assignment is crucial: for optimising the use of available
 resources (the robots) and for maximising the number of task completions. 
