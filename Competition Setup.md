@@ -152,12 +152,13 @@ To determine which robot is assigned which task, the controller relies on a
 component known as the **task scheduler**, which you must implement (for the
 Task Scheduling Track and the Combined Track). The role of the scheduler is to
 compute a valid next task for each robot at each timestep. An assignment is
-valid if every task specified is a revealed task and if it has not been opened
-or closed by another robot.
+valid if every task is a revealed task which has not been previously opened 
+(by another robot) or closed (by any robot).
 
-If the Task Scheduler does not return a valid assignment, or if it does not
-complete its computation in time, the existing assignments (valid at the last
-timestep) are retained.  
+If the Task Scheduler does not complete its computation in time, the existing 
+assignment (from the previous timestep) is taken as the current assignment.
+If the current assignment is invalid for any agent, that agent receives the 
+empty-set assignment (i.e., no task is assigned for that agent).
 
 Effective task assignment is crucial: for optimising the use of available
 resources (the robots) and for maximising the number of task completions. 
