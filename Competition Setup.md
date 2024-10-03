@@ -54,18 +54,25 @@ robots. There are two types of collisions (see illustrations) which can occur be
 | ![image](external_page_resource/images/vertex_conflict.gif) | ![image](external_page_resource/images/edge_conflict.gif)  |
 
 
-## Tasks and Errands ![r6](external_page_resource/robots/r6_s.png) 
+## Tasks, Errands and Assignments![r6](external_page_resource/robots/r6_s.png) 
 
-An **errand** is a request requiring a specific robot to visit a particular **target location** on the grid. An errand is completed when the assigned robot arrives at the designated location.
+An **errand** is a request for a specific robot to visit a particular **target location** on the grid. An errand is completed when the assigned robot arrives at the target location.
 
-A **task** may consist of multiple errands, with the number of errands per task \( N \) ranging from \([minEPT, maxEPT]\), where \( minEPT \) and \( maxEPT \) are the minimum and maximum number of errands per task, respectively. When a task is revealed, the total number of errands, their order, and the details of each errand are disclosed. A task is completed when the assigned robot has completed all errands in the specified order.
+A **task** is a request for a specific robot to complete an ordered sequence of errands. 
+A task is **open** if one or more errands in the sequence have been completed. 
+A task is **closed** when all the errands in the sequence have been completed. 
 
-**The objective** is to complete as many tasks as possible within the given time frame. The order of errands within a task is important and must be followed. Effective task assignment and path planning are crucial for optimal performance.
+Tasks can be **assigned** to any robot. Once open, a task cannot be re-assigned. 
+Each robot has at most one open task. When a task is completed, more tasks are revealed. 
 
-Below is an example:
+The **objective** is to complete as many tasks as possible by a given timestep. The order of errands within a task is important and must be followed. 
+
+Effective task assignment and path planning are crucial for achieving strong performance. Below is an example:
 
 1. Initially, there are three agents colored blue, yellow, and green. The cells colored pink represent potential errands that need to be assigned to the agents.
 
+
+<div style="background-color:#EBEBEB">
 <div style="text-align: center;">
    <img src="./external_page_resource/images/img0.jpg" alt="description" style="max-width: 80%; height: auto;">
 </div>
@@ -87,13 +94,7 @@ Below is an example:
 <div style="text-align: center;">
    <img src="./external_page_resource/images/img3.jpg" alt="description" style="max-width: 80%; height: auto;">
 </div>
-
-
-
-
-
-
-
+<div style="background-color:#EBEBEB">
 
 
 ## The Central Controller
