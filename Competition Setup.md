@@ -94,10 +94,11 @@ performance.
    <img src="./external_page_resource/images/img1.jpg" alt="description" style="max-width: 80%; height: auto;">
 </div>
 
-3. The yellow robot has just completed the last errand in its assigned sequence. 
-This task is now closed. The blue robot has one errand remaining. This task is
-open. The green robot is still trying to complete its first assigned errand. 
-This task is neither open nor closed and could be re-assigned.
+3. The yellow robot has just completed the last errand in its assigned
+   sequence. This task is now closed and the yellow robot becomes unassigned.
+   The blue robot has one errand remaining. This task is considered open. The
+   green robot is still trying to complete its first assigned errand. This task
+   is neither open nor closed and could be re-assigned.
 <div style="text-align: center;">
    <img src="./external_page_resource/images/img2.jpg" alt="description" style="max-width: 80%; height: auto;">
 </div>
