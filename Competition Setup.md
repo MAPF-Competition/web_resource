@@ -34,7 +34,8 @@ At each timestep, a robot can execute one of the following actions (see illustra
 
 | `Moving Forward` |  `Rotate` |
 |:---:|:---:|
-| ![image](external_page_resource/images/image2.gif) | ![image](external_page_resource/images/rotate.gif)  |
+| ![image](external_page_resource/images/image2.gif) | ![image](external_page_resource/images/rotate.gif) |
+
 An action is considered valid (or feasible) if the robot can execute that action without colliding with static obstacles in the environment or with other moving robots. Each valid action has a duration of exactly one timestep. 
 
 
