@@ -35,39 +35,17 @@ Robots move in parallel. Time is divided into unit-sized time steps.
 > | `Moving Forward` |  `Rotate` |
 > |:---:|:---:|
 > | ![image](external_page_resource/images/image2.gif) | ![image](external_page_resource/images/rotate.gif)  |
+> An action is considered valid (or feasible) if the robot can execute that action without colliding with static obstacles in the environment or with other moving robots. Each valid action has a duration of exactly one timestep. 
+>
 
 
-
-An action is considered valid (or feasible) if the robot can execute that action without colliding with static obstacles in the environment or with other moving robots. Each valid action has a duration of exactly one timestep. 
-
-<!-- 
-Two types of collisions (i.e., invalid actions) can occur:
-> - Vertex collision: two agents attempt to move to the same location at the same time.
-> - Edge collision: two agents traverse the same edge from opposite directions at the same time.
+There are two types of collisions which can occur between agents:
+- Vertex collision: two agents attempt to move to the same location at the same time.
+- Edge collision: two agents traverse the same edge from opposite directions at the same time.
 
 | `Vertex` |  `Edge` |
 |:---:|:---:|
 | ![image](external_page_resource/images/vertex_conflict.gif) | ![image](external_page_resource/images/edge_conflict.gif)  |
--->
-
-<div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center;background-color:#EBEBEB">
-<br/>
-<div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;">
-Two types of collisions (i.e., invalid actions) can occur:
-<div style="flex:1;padding:3px;text-align:center;display:inline-block;vertical-align:top;">
-<img src="./external_page_resource/images/vertex_conflict.gif" style="margin-top:5px;height:20px"/>
-<br/>
-Vertex collision: two agents attempt to move to the same location at the same time.
-</div>
-<div style="flex:1;padding:3px;text-align:center;display:inline-block;vertical-align:top;">
-<img src="./external_page_resource/images/edge_conflict.gif" style="margin-top:5px;width:100%;height:20px"/>
-<br/>
-Edge collision: two agents traverse the same edge from opposite directions at the same time.
-</div>
-</div>
-<br/>
-</div>
-
 
 
 ## Tasks and Errands ![r6](external_page_resource/robots/r6_s.png) 
