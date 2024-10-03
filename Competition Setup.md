@@ -23,32 +23,33 @@ validation and execution. More granular technical details are available in
 our competition [Start-Kit](https://github.com/MAPF-competition/Start-Kit)
 
 ## Robots and Their Environment ![r14](external_page_resource/robots/robot_on_grid_s.png)
-The environment is a grid map comprised of traversable and non-traversable cells
+The **environment** is a grid map comprised of traversable and non-traversable cells
 (obstacles). It is deterministic, fully observable, and known ahead of time.
 Time is divided into unit-sized time steps. 
 
-Each robot occupies a single grid cell and has a designated orientation called
-`Forward`. Each robot moves in parallel with all other robots. At each
-timestep, a robot can execute one of the following actions (see illustrations
-that follow): 
-- Move in a forward direction into an adjacent grid cell
+Each **robot** occupies a single grid cell and has a designated orientation called
+`Forward`. Each timestep a robot can execute a single action, in parallel
+with all other robots. Each action has a duration of exactly one timestep. 
+The available actions (see illustration) are as follows:  
+- Move in the forward direction into an adjacent grid cell
 - Rotate 90 degree clockwise 
 - Rotate 90 degrees counter-clockwise
 - Wait at its current location.
 
-An action is considered valid (or feasible) if the robot can execute that action without colliding with static obstacles in the environment or with other moving robots. Each valid action has a duration of exactly one timestep. 
+An **action** is valid (or feasible) if the robot can execute that action
+without colliding with obstacles in the environment or with other moving
+robots. There are two types of collisions which can occur between two robots:
+
+- Vertex collision: two agents attempt to move to the same location at the same time.
+- Edge collision: two agents traverse the same edge from opposite directions at the same time.
 
 
-| `Moving Forward` |  `Rotate` |
+| `Forward` |  `Rotate` |
 |:---:|:---:|
 | ![image](external_page_resource/images/image2.gif) | ![image](external_page_resource/images/rotate.gif) |
 
 
-There are two types of collisions which can occur between agents:
-- Vertex collision: two agents attempt to move to the same location at the same time.
-- Edge collision: two agents traverse the same edge from opposite directions at the same time.
-
-| `Vertex` |  `Edge` |
+| `Vertex Collision` |  `Edge Collision` |
 |:---:|:---:|
 | ![image](external_page_resource/images/vertex_conflict.gif) | ![image](external_page_resource/images/edge_conflict.gif)  |
 
