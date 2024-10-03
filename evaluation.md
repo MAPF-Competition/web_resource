@@ -4,7 +4,6 @@ Submissions will be evaluated using an AWS cloud compute instance with the follo
 
 > - AMD EPYC 7R13 Processor with 32 vCPUs
 > - 128 GiB Memory
-> - 40 GiB Storage Space
 > - Nvidia A10G GPU
 
 The evalution server evaluates participant submissions in official PyTorch docker container, which equips necessary software and drivers for Cuda and PyTorch. Once you make a submission the evaluation proceeds in two stages: offline preprocessing and online planning. 
