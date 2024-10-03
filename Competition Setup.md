@@ -171,11 +171,11 @@ and scheduler are deliberating.
 
 At the end of each timestep, the planner and scheduler must return valid plans
 and valid assignments. In every track, participants decide how to **allocate
-time**, for planning and scheduling. Careful time management is essential for
-strong performance. 
+time**, for planning and scheduling. After a predetermined period, known as the
+**planning horizon**, the central controller stops, and the problem is
+considered finished. Careful time management is essential for strong
+performance. 
 
-After a predetermined period, known as the **planning horizon**, the central 
-controller stops, and the problem is considered finished.
 
 Please refer to our competition
 [Start-Kit](https://github.com/MAPF-competition/Start-Kit) for more details
