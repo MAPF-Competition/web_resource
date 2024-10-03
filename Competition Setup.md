@@ -106,6 +106,7 @@ performance.
 
 4. A new task is revealed and assigned to the yellow robot. This task contains four errands.
 The robots need to finish as many tasks as possible, before a maximum timestep is reached. 
+The total number of remaining (un-revealed) tasks is infinite. 
 <div style="text-align: center;">
    <img src="./external_page_resource/images/img3.jpg" alt="description" style="max-width: 80%; height: auto;">
 </div>
