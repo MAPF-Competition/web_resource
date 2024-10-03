@@ -26,17 +26,16 @@ our competition [Start-Kit](https://github.com/MAPF-competition/Start-Kit)
 Each grid map is deterministic, fully observable, and known ahead of time.
 Robots move in parallel. Time is divided into unit-sized time steps. 
 
-> At each timestep, a robot can execute one of the following actions (see illustrations that follow): 
-> - move in the robot's forward direction into an adjacent grid cell
-> - rotate 90 degree clockwise 
-> - rotate 90 degrees counter-clockwise
-> - wait at its current location.
->
-> | `Moving Forward` |  `Rotate` |
-> |:---:|:---:|
-> | ![image](external_page_resource/images/image2.gif) | ![image](external_page_resource/images/rotate.gif)  |
-> An action is considered valid (or feasible) if the robot can execute that action without colliding with static obstacles in the environment or with other moving robots. Each valid action has a duration of exactly one timestep. 
->
+At each timestep, a robot can execute one of the following actions (see illustrations that follow): 
+- move in the robot's forward direction into an adjacent grid cell
+- rotate 90 degree clockwise 
+- rotate 90 degrees counter-clockwise
+- wait at its current location.
+
+| `Moving Forward` |  `Rotate` |
+|:---:|:---:|
+| ![image](external_page_resource/images/image2.gif) | ![image](external_page_resource/images/rotate.gif)  |
+An action is considered valid (or feasible) if the robot can execute that action without colliding with static obstacles in the environment or with other moving robots. Each valid action has a duration of exactly one timestep. 
 
 
 There are two types of collisions which can occur between agents:
