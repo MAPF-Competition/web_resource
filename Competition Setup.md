@@ -54,13 +54,13 @@ Two types of collisions (i.e., invalid actions) can occur:
 <br/>
 <div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;">
 Two types of collisions (i.e., invalid actions) can occur:
-<div style="flex:1;padding:3px;test-align:center;display:inline-block;vertical-align:top;">
-<img src="./external_page_resource/images/vertex_conflict.gif" style="margin-top:5px;"/>
+<div style="flex:1;padding:3px;text-align:center;display:inline-block;vertical-align:top;">
+<img src="./external_page_resource/images/vertex_conflict.gif" style="margin-top:5px;height:20px"/>
 <br/>
 Vertex collision: two agents attempt to move to the same location at the same time.
 </div>
-<div style="flex:1;padding:3px;test-align:center;display:inline-block;vertical-align:top;">
-<img src="./external_page_resource/images/edge_conflict.gif" style="margin-top:5px;width:100%;"/>
+<div style="flex:1;padding:3px;text-align:center;display:inline-block;vertical-align:top;">
+<img src="./external_page_resource/images/edge_conflict.gif" style="margin-top:5px;width:100%;height:20px"/>
 <br/>
 Edge collision: two agents traverse the same edge from opposite directions at the same time.
 </div>
