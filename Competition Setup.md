@@ -30,15 +30,15 @@ Time is divided into unit-sized time steps.
 Each **robot** occupies a single grid cell and has a designated orientation called
 `Forward`. Each timestep a robot can execute a single action, in parallel
 with all other robots. Each action has a duration of exactly one timestep. 
-The available actions (see illustration) are as follows:  
-- Move in the forward direction into an adjacent grid cell
-- Rotate 90 degree clockwise 
+The available actions (see illustration) are as follows:
+- Move Forward, into an adjacent grid cell
+- Rotate 90 degree clockwise
 - Rotate 90 degrees counter-clockwise
-- Wait at its current location.
+- Wait at the current location.
 
 An **action** is valid (or feasible) if the robot can execute that action
 without colliding with obstacles in the environment or with other moving
-robots. There are two types of collisions which can occur between two robots:
+robots. There are two types of collisions (see illustrations) which can occur between two robots:
 
 - Vertex collision: two agents attempt to move to the same location at the same time.
 - Edge collision: two agents traverse the same edge from opposite directions at the same time.
