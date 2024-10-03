@@ -59,11 +59,13 @@ robots. There are two types of collisions (see illustrations) which can occur be
 An **errand** is a request for a specific robot to visit a particular **target location** on the grid. An errand is completed when the assigned robot arrives at the target location.
 
 A **task** is a request for a specific robot to complete an ordered sequence of errands. 
-A task is **open** if one or more errands in the sequence have been completed. 
-A task is **closed** (completed) when all the errands in the sequence have been completed. 
+- A task is **open** if one or more errands in the sequence have been completed. 
+- A task is **closed** (completed) when all the errands in the sequence have been completed. 
+- Each robot has at most one open task. 
 
-Tasks can be **assigned** to any robot. Once open, a task cannot be re-assigned. 
-Each robot has at most one open task. When a task is completed, more tasks are revealed. 
+Tasks can be **assigned** to any robot. 
+- Once open, a task cannot be re-assigned. 
+- When a task is completed, more tasks are revealed. 
 
 The **objective** is to complete as many tasks as possible by a given timestep. The order of errands within a task is important and must be followed. 
 
