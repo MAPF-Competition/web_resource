@@ -67,14 +67,16 @@ Tasks can be **assigned** to any robot.
 - Once open, a task cannot be re-assigned. 
 - When a task is completed, more tasks are revealed. 
 
-The **objective** is to complete as many tasks as possible by a given timestep. The order of errands within a task is important and must be followed. 
+The **objective** is to complete as many tasks as possible by a given timestep. 
 
-Effective task assignment and path planning are crucial for achieving strong performance. Below is an example:
+<div style="background-color:#EBEBEB">
+<br/>
+
+Effective task assignment and path planning are crucial for achieving strong performance. We highlight these 
+issues in the following example:
 
 1. Initially, there are three agents colored blue, yellow, and green. The cells colored pink represent potential errands that need to be assigned to the agents.
 
-
-<div style="background-color:#EBEBEB">
 <div style="text-align: center;">
    <img src="./external_page_resource/images/img0.jpg" alt="description" style="max-width: 80%; height: auto;">
 </div>
@@ -96,7 +98,9 @@ Effective task assignment and path planning are crucial for achieving strong per
 <div style="text-align: center;">
    <img src="./external_page_resource/images/img3.jpg" alt="description" style="max-width: 80%; height: auto;">
 </div>
-<div style="background-color:#EBEBEB">
+
+<br/>
+</div>
 
 
 ## The Central Controller
