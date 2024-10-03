@@ -2,9 +2,10 @@
 
 A team of robots works together in a simplified grid environment. Their job is
 to run infinite errands, which they accomplish by visiting different locations
-on the grid. Sometimes errands must be completed in a specific order. 
-A sequence of such errands is called a task. The objective is to complete as many 
-tasks as possible, as quickly as possible, until time runs out. 
+on the grid. Sometimes errands must be completed in a specific order. A
+sequence of such errands is called a task. The [objective](./evaluation) is to
+complete as many tasks as possible, as quickly as possible, until time runs
+out. 
 
 These types of problems are the core challenge in many real-world applications,
 including warehouse logistics, multi-robot manufacturing, multi-agent computer
@@ -40,8 +41,8 @@ An **action** is valid (or feasible) if the robot can execute that action
 without colliding with obstacles in the environment or with other moving
 robots. There are two types of collisions (see illustrations) which can occur between two robots:
 
-- Vertex collision: two agents attempt to move to the same location at the same time.
-- Edge collision: two agents traverse the same edge from opposite directions at the same time.
+- Vertex collision: two robots attempt to move to the same location at the same time.
+- Edge collision: two robots traverse the same edge from opposite directions at the same time.
 
 
 | `Forward` |  `Rotate` |
@@ -65,36 +66,46 @@ A **task** is a request for a specific robot to complete an ordered sequence of 
 
 Tasks can be **assigned** to any robot. 
 - Once open, a task cannot be re-assigned. 
-- When a task is completed, more tasks are revealed. 
+- When a task is completed, more tasks are **revealed**.
 
 The **objective** is to complete as many tasks as possible by a given timestep.
 Effective task assignment and path planning are crucial for achieving strong
-performance.
+performance. 
 
 <div style="background-color:#EBEBEB">
 
 ### Illustrative Example:
 
-1. Initially, there are three agents colored blue, yellow, and green. The cells colored pink represent potential errands that need to be assigned to the agents.
+1. There is a team of three robots, coloured blue, yellow, and green. The cells
+   coloured pink represent potential errands: locations that might need to
+   visited by assigned robots.
 
 <div style="text-align: center;">
    <img src="./external_page_resource/images/img0.jpg" alt="description" style="max-width: 80%; height: auto;">
 </div>
 
-2. Each agent is assigned a task (an ordered sequence of errands). In the image, the blue agent is assigned a task consisting of five errands, while the yellow and green agents are each assigned a task consisting of three errands. The arrows indicate the possible planned path for each agent, who must follow the given order to complete the errands.
+2. Each robot is assigned a task (an ordered sequence of errands). In the
+   image, the blue robot is assigned a task consisting of five errands, while
+   the yellow and green robot are each assigned a task consisting of three
+   errands. The arrows indicate the planned paths, which robots must follow 
+   to complete their errands.
 
 <div style="text-align: center;">
    <img src="./external_page_resource/images/img1.jpg" alt="description" style="max-width: 80%; height: auto;">
 </div>
 
-3. After completing all the assigned errands, the task of the yellow agent is considered finished. In the figure below, the yellow agent has completed its last task. 
+3. The yellow robot has just completed the last errand in its assigned sequence. 
+This task is now closed. The blue robot has one errand remaining. This task is
+open. The green robot is still trying to complete its first assigned errand. 
+This task is neither open nor closed and could be re-assigned.
 <div style="text-align: center;">
    <img src="./external_page_resource/images/img2.jpg" alt="description" style="max-width: 80%; height: auto;">
 </div>
 
 
-
-4. Once a task is completed, an agent is assigned a new task. In the figure below, the yellow agent gets a new task containing four errands.
+4. A new task is revealed and assigned to the yellow robot. This task contains four errands.
+There are an infinite number of un-revealed tasks. The robots need to finish as many tasks as 
+possible, before a maximum timestep is reached. 
 <div style="text-align: center;">
    <img src="./external_page_resource/images/img3.jpg" alt="description" style="max-width: 80%; height: auto;">
 </div>
