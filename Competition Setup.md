@@ -60,7 +60,7 @@ An **errand** is a request for a specific robot to visit a particular **target l
 
 A **task** is a request for a specific robot to complete an ordered sequence of errands. 
 A task is **open** if one or more errands in the sequence have been completed. 
-A task is **closed** when all the errands in the sequence have been completed. 
+A task is **closed** (completed) when all the errands in the sequence have been completed. 
 
 Tasks can be **assigned** to any robot. Once open, a task cannot be re-assigned. 
 Each robot has at most one open task. When a task is completed, more tasks are revealed. 
