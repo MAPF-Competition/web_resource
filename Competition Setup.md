@@ -123,7 +123,7 @@ commands, to have the robots execute specific actions. The controller also
 tracks the current assignment of each robot, and the progress that robots are
 making toward completing their assigned tasks.
 
-### Planner and Path Planning
+### Path Planning
 
 To determine which command to issue to each robot, the controller relies on a component known as the **path planner**, which you must implement (for the Path Planning track and the Combined track). The controller calls the planner at each timestep. The planner's role is to return one valid command for each robot at each timestep. If the planner fails to provide a valid set of commands (one for each robot) or does not complete its computation in time, the controller instructs all robots to **wait in place** until the next timestep.
 
