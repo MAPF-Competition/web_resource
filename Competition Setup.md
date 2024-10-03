@@ -153,11 +153,11 @@ component known as the **task scheduler**, which you must implement (for the
 Task Scheduling track and the Combined track). The role of the scheduler is to
 specify a valid next task (or no task) for each robot at each timestep. 
 An assignment is valid if every assigned task is a revealed task which has 
-not been previously opened (by another robot) or closed (by any robot).
+not been previously opened or closed by another robot. 
 
 If the Task Scheduler does not complete its computation in time, of if the
 proposed assignment is invalid, the existing assignment (from the previous 
-timestep) is taken as the current assignment, minus any completed tasks.
+timestep) is taken as the current assignment. 
 
 Effective task assignment is crucial: for optimising the use of available
 resources (the robots) and for maximising the number of task completions. 
