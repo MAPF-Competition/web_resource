@@ -167,7 +167,7 @@ resources (the robots) and for maximising the number of task completions.
 
 The central controller monitors time elapsed since the start of execution
 (also known as **wall clock time**). Time continues to pass while the planner
-is deliberating. 
+and scheduler are deliberating. 
 
 At the end of each timestep, the planner and scheduler must return valid plans
 and valid assignments. In every track, participants decide how to **allocate
