@@ -116,18 +116,29 @@ possible, before a maximum timestep is reached.
 
 ## The Central Controller
 
-The central controller is responsible for the correct operation of robots in the environment. It tracks the current positions of all robots and issues commands to them, regulating their next actions.
+The central controller is responsible for the correct operation of robots in
+the environment. It tracks the current positions of all robots and it issues
+commands, to have the robots execute specific actions. The controller also
+tracks the current assignment of each robot, and the progress that robots are
+making toward completing their assigned tasks.
 
 ### Planner and Path Planning
 
-To determine which command to issue to each robot, the controller relies on a component known as **the planner**, which you must implement (for the path planning track and the combined track). The controller calls the planner at each timestep. The planner's role is to return one valid command for each robot. If the planner fails to provide a valid set of commands (one for each robot) or does not complete its computation in time, the controller instructs all robots to **wait in place** until the next timestep.
+To determine which command to issue to each robot, the controller relies on a component known as the **path planner**, which you must implement (for the Path Planning Track and the Combined Track). The controller calls the planner at each timestep. The planner's role is to return one valid command for each robot at each timestep. If the planner fails to provide a valid set of commands (one for each robot) or does not complete its computation in time, the controller instructs all robots to **wait in place** until the next timestep.
 
 In the following example, we have illustrated two different scenarios:
 
 
-- **Path with Collision:**  The "collision" figure shows a scenario where two robots’ routes intersect, leading to an expected collision. This highlights the importance of effective path planning, as failure to account for other robots' movements can result in collisions, delays, or even the failure of the robots to complete their tasks.
+- **Path with Collision:**  The "collision" figure shows a scenario where two
+  robots’ routes intersect at timestep 5. Failing to account for the movements
+  of other robots leads to delays. Without a feasible plan at timestep 5, the 
+  controller tells all robots to wait.
 
-- **Collision-Free Path:** In contrast, the path in the "collision-free" figure is carefully planned so that the robots avoid each other entirely, finishing their tasks without any conflicts. 
+- **Collision-Free Path:** The "collision-free" figure shows a carefully
+  planned situation where robots avoid each other. Both robots finish their
+  tasks without any delays.
+
+Effective path planning is crucial, for completing assignments as efficiently as possible. 
 
 
 <div style="text-align: center;">
@@ -135,13 +146,38 @@ In the following example, we have illustrated two different scenarios:
 </div>
 
 
-### Task Assignment
+### Task Scheduling
 
-In the 2024 competition, the central controller also manages **task assignment**. This involves assigning tasks, which consist of multiple errands, to the appropriate robots. Task assignment is crucial for ensuring that each robot has a specific set of errands to complete, optimizing the use of available resources and minimizing delays.
+To determine which robot is assigned which task, the controller relies on a
+component known as the **task scheduler**, which you must implement (for the
+Task Scheduling Track and the Combined Track). The role of the scheduler is to
+compute a valid next task for each robot at each timestep. An assignment is
+valid if every task specified is a revealed task and if it has not been opened
+or closed by another robot.
+
+If the Task Scheduler does not return a valid assignment, or if it does not
+complete its computation in time, the existing assignments (valid at the last
+timestep) are retained.  
+
+Effective task assignment is crucial: for optimising the use of available
+resources (the robots) and for maximising the number of task completions. 
 
 ### Time Tracking and Planning Horizon
 
-The central controller monitors the elapsed time since the start of the task (also known as **wall clock time**). Time continues to pass while the planner is deliberating. After a predetermined period, known as the **planning horizon**, the central controller stops, and the task is considered complete.
+The central controller monitors the elapsed time since the start of the task
+(also known as **wall clock time**). Time continues to pass while the planner
+is deliberating. 
 
-This new 2024 system ensures that the controller not only handles path planning through the planner but also efficiently assigns tasks to robots, balancing both responsibilities to achieve optimal performance.
+At the end of each timestep, the planner and scheduler must return valid plans
+and valid assignments. In every track, participants decide how to allocate
+available time to both planning and scheduling. Careful management of available
+time is essential for strong performance. 
 
+After a predetermined period, known as the **planning horizon**, the central 
+controller stops, and the problem is considered finished.
+
+Please refer to our competition
+[Start-Kit](https://github.com/MAPF-competition/Start-Kit) for more details
+about interactions between the planner and scheduler and descriptions of
+algortihmic behaviour for the Default Planner (used in the Task Scheduling
+Track) and the Default Scheduler (used in the Path Planning track).

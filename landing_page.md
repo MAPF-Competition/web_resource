@@ -88,7 +88,7 @@ Participation is open to individuals and teams from any discipline/background, a
 > -  We provide a scheduler, assigning tasks to robots. You need to plan their paths. 
 > - 💸 $2,500 First Place Prize 
 > 
-> **Scheduling Track:** 
+> **Task Scheduling Track:** 
 > - You assign tasks to robots. We provide a planner to compute their paths.
 > - 💸 $2,500 Prize 
 >
