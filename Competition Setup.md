@@ -72,6 +72,7 @@ Effective task assignment and path planning are crucial for achieving strong
 performance.
 
 <div style="background-color:#EBEBEB">
+
 **Illustrative Example:**
 
 1. Initially, there are three agents colored blue, yellow, and green. The cells colored pink represent potential errands that need to be assigned to the agents.
