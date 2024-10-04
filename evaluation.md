@@ -99,7 +99,6 @@ the score is computed using the following formula:
 
 >
 > $$\mbox{Submission score} = \displaystyle \sum^{max}_{i=0}{\frac{\mbox{Your number of tasks finished for instance }i}{\mbox{best number of tasks finished for instance }i}}$$
-    >
 
 <br/>
 
