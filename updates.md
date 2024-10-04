@@ -1,3 +1,16 @@
+## 🤖 2024 League of Robot Runners Test Round Start! 🏁 `4 Oct 2024`
+
+**Hello Robot Runners!** 
+
+We are glad to announce that the 2024 League of Robot Runners (LoRR) is ready for testing!  🎉
+
+The 2024 Edition of LoRR introduces a task allocation challenge where errands must first be assigned to robots 🤖, after which paths are planned to fulfill the assigned tasks. A team may choose to participate in the `Task Scheduling Track`📝,  the `Path Planning Track`🗺️, or the `Combined Track`🏇🏼! 
+
+The test round will run during the month of October. It is an opportunity for everyone to become familiar with the environment. The main round will begin in early November and runs until February 2025 🏁.
+
+We hope you can join us for this exciting new season 🏆!
+
+
 ## New Resource Release: 🌟 Problem Generator and Virtual Expo Recordings 🌟 `15 Jul 2024`
 
 **Hello Robot Runners!**
