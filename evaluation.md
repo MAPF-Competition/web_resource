@@ -6,11 +6,44 @@ Submissions will be evaluated using an AWS cloud compute instance with the follo
 > - 128 GiB Memory
 > - Nvidia A10G GPU
 
-The evalution server evaluates participant submissions in official [PyTorch docker container](https://hub.docker.com/r/pytorch/pytorch), which provides necessary software and drivers for GPU- and CPU-based compute. 
+The evaluation server deploys participant code into an official [PyTorch Docker
+container](https://hub.docker.com/r/pytorch/pytorch), which provides necessary
+software and drivers for GPU- and CPU-based compute. 
 
-Once you make a [submission](./instructions) the evaluation proceeds in two stages: offline preprocessing and online planning. 
+Submissions will be evaluated on a range of distinct grid-map domains. Each
+problem instance on each map features a different number of agents and a
+different number of tasks. The maps are [available for
+download](https://github.com/MAPF-Competition/Start-Kit/tree/main/example_problems)
+and analysis . The problem instances (used in the main round) are hidden until
+after the competition.
+
+The evaluation process has two stages: offline preprocessing, where participants
+can load and prepare auxiliary data, and online planning, where participants
+try to complete as many tasks as possible, up to a fixed time limit.
+
+## Domains
+
+>| |   |   |
+>|:---:|:---:|:---:|
+>|![r](external_page_resource/images/random-32-32-20_s.jpg)|![r](external_page_resource/images/Paris_1_256_s.jpg)|![r](external_page_resource/images/brc202d_s.jpg) |
+>|`Random (random-32-32-20)`| `City (Paris)`|`Game (brc202d)`|
+>|a 32 by 32 map with 20% random obstacles.| a 256 by 256 map representing part of the city of Paris.|a 481 by 530 map from computer games.|
+
+>| |
+>|:---:|
+>|![r](external_page_resource/images/warehouse_large_s.jpg)|
+>|`Warehouse`|
+>|a 500 by 140 map representing synthetic automated fulfilment centre.|
+
+>| |
+>|:---:|
+>|![r](external_page_resource/images/sortation_large_s.jpg)|
+>|`Sortation`|
+>|a 500 by 140 map representing synthetic automated sortation centre.|
+
 
 ## Offline Preprocessing
+
 
 During the preprocessing stage, the current map is revealed. You then have an opportunity to analyse the map and compute auxiliary data before proceeding to the evaluation stage (e.g., initialise data structures, load models, etc). Preprocessing time is limited to 30 minutes per map. Nothing you do at this stage will be counted into your final score.
 
@@ -35,7 +68,7 @@ In this track, participants are responsible for assigning revealed tasks to
 robots. At each timestep, your scheduler must return a valid task assignment
 (including no assignment) for every robot. The schedule is then realised by a
 `default path planner`, which decides what paths robots will take through the
-enviromment to complete their tasks. 
+environment to complete their tasks. 
 
 At every timestep, your scheduler must compute a valid assignment for the
 revealed, unallocated tasks. While you can take as long as needed to make
@@ -64,32 +97,6 @@ the score is computed using the following formula:
 >
 > $$\mbox{Submission score} = \displaystyle \sum^{max}_{i=0}{\frac{\mbox{Your number of tasks finished for instance }i}{\mbox{best number of tasks finished for instance }i}}$$
     >
-
-<br/>
-
-## Domains
-Each submission will be evaluated using a variety of instances on 5 different maps:
-
->| |   |   |
->|:---:|:---:|:---:|
->|![r](external_page_resource/images/random-32-32-20_s.jpg)|![r](external_page_resource/images/Paris_1_256_s.jpg)|![r](external_page_resource/images/brc202d_s.jpg) |
->|`Random (random-32-32-20)`| `City (Paris)`|`Game (brc202d)`|
->|a 32 by 32 map with 20% random obstacles.| a 256 by 256 map representing part of the city of Paris.|a 481 by 530 map from computer games.|
-
->| |
->|:---:|
->|![r](external_page_resource/images/warehouse_large_s.jpg)|
->|`Warehouse`|
->|a 500 by 140 map representing synthetic automated fulfilment centre.|
-
->| |
->|:---:|
->|![r](external_page_resource/images/sortation_large_s.jpg)|
->|`Sortation`|
->|a 500 by 140 map representing synthetic automated sortation centre.|
-
-
-The maps are [available for download](https://github.com/MAPF-Competition/Start-Kit/tree/main/example_problems) and analysis. But the problem instances (errands and robot locations) are hidden until after the competition.
 
 <br/>
 
