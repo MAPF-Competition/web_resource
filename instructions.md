@@ -6,10 +6,10 @@ a [GitHub](https://github.com) account, so make sure you have one of those first
 After login, we will automatically create a private GitHub repository on your
 behalf. This is where you upload and store your submission source codes during
 the competition period. 
-Visit the `My Submission` page and click `My Repo` to access your repository. 
+Visit the `My Submission` page, and click `My Repo` to access your repository. 
 
 If you're competing as a team, you can also add additional members and give
-them access too. Just navigate to the `Settings` page (in the `My Submissions`
+them access, too. Just navigate to the `Settings` page (in the `My Submissions`
 menu) and add their contact details. 
 
 ## Clone Your Submission Repo
@@ -40,7 +40,7 @@ you can:
 > - Upload supporting auxiliary data.
 > - Initiate the evaluation process.
 
-You can submit anytime during the competition period and you can make multiple attempts.
+You can submit anytime during the competition period, and you can make multiple attempts.
 
 ## Track Your Progress
 Our competition system evaluates submissions in real-time. Navigate to the [My Submission](./submission) page for:
@@ -49,5 +49,5 @@ Our competition system evaluates submissions in real-time. Navigate to the [My S
 
 When the evaluation process is finished, navigate to our [Leaderboard](./leaderboard) page to:
 > - Viewing the rank of your best submission.
-> - Track the progress other teams are making
-> - Compare your score against the `virtual best` solver
+> - Track the progress other teams are making.
+> - Compare your score against the `virtual best` solver.

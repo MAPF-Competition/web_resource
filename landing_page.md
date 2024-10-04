@@ -113,14 +113,14 @@ deadline has not yet passed.
 > - **20th May 2024**: Competition announcement
 > - **4th October 2024**: Start kit release, open for testing
 > - **1st November 2024**: Main round begins
-> - **2nd February 2025**: Main round ends
-> - **16th February 2025**: Winner annoucement
-> - **April 2025**: Robot Runners Virtual Expo 
+> - **16th February 2025**: Main round ends
+> - **2nd March 2025**: Winner annoucement
+> - **May 2025**: Robot Runners Virtual Expo 
 
 <br/>
 
 ---
 
-|     |     |     |     |     |     |     |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|![](./external_page_resource/logos/mit_logo.png) | ![](./external_page_resource/logos/monash_logo.png) | ![](./external_page_resource/logos/rutgers_logo.png) | ![](./external_page_resource/logos/usc_logo.png) |  |   | ![](./external_page_resource/logos/amazon_robotics_logo.png)|
+|     |     |     |     |     |     |     |     |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|![](./external_page_resource/logos/mit_logo.png) | ![](./external_page_resource/logos/monash_logo.png) | ![](./external_page_resource/logos/rutgers_logo.png) | ![](./external_page_resource/logos/uci-logo.svg) | ![](./external_page_resource/logos/usc_logo.png) |  |   | ![](./external_page_resource/logos/amazon_robotics_logo.png)|
