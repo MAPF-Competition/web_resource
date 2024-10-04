@@ -13,7 +13,8 @@ The competition provides a standardised system to develop, evaluate and compare 
 ## Competition Series
 
 ### LoRR 2023
-The first edition of the League of Robot Runners tackled two main challenges: 
+The first edition of the League of Robot Runners tackled two main challenges
+from the area of Path Planning:
 
 > - **Turn actions:** 
         In MAPF, robots are often simplified as rotationally invariant
@@ -22,17 +23,19 @@ The first edition of the League of Robot Runners tackled two main challenges:
         increase](https://ojs.aaai.org/index.php/SOCS/article/view/27290)
         achieved execution costs. 
 >
-> - **Online lifelong problem:**
-        In MAPF, the problem is often one-shot and solved entirely offline. Yet,
-        real applications are *lifelong* and *online*:  agents receive new tasks after finishing their tasks, and they must be constantly [planned and
-        replanned](https://ojs.aaai.org/index.php/ICAPS/article/view/31534),
-        so as to [maximise
-        throughput](https://ojs.aaai.org/index.php/AAAI/article/view/30054).
+> - **Online and Lifelong:**
+        In MAPF, the problem is often one-shot and solved entirely offline.
+        Yet, real applications are *lifelong* and *online*:  agents receive new
+        tasks after finishing their tasks, and they must be constantly [planned
+        and replanned](https://ojs.aaai.org/index.php/ICAPS/article/view/31534),
+        so as to [maximise throughput](https://ojs.aaai.org/index.php/AAAI/article/view/30054).
 
 This competition received a total of **825 submissions** from **25 teams worldwide**. For more details about the setup, results and resources, please visit the [2023 Competition Snapshot Site](https://2023.leagueofrobotrunners.org/).
 
 ### LoRR 2024
-In 2024, The League of Robot Runners combines **Path planning and Task scheduling**. 
+In 2024, The League of Robot Runners introduces **Task Scheduling**, an
+additional challenge which further complicates Path Planning decisions. 
+
 This setup more accurately reflect challenges faced by real-world applications, where
 the decision of which robot completes which task can have a substantial impact
 on the throughput objective. 
