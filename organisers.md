@@ -1,4 +1,4 @@
-This page lists the organisers of the competition in lex order.
+<!-- This page lists the organisers of the competition in lex order. -->
 
 
 ## Competition Chairs
