@@ -1,39 +1,53 @@
 ## Join the Competition ![r10](external_page_resource/robots/r10_s.png)
 
-Login to the [competition website](http://www.leagueofrobotrunners.org/submission) with a GitHub account, and we will automatically create a private GitHub submission repo for you.
+Login to the competition from the [My Submission](./submission) page. You'll need
+a [GitHub](https://github.com) account, so make sure you have one of those first! 
 
-The repo will be the place that you submit codes to. In the `My Submission` page, you can click `My Repo` to open your GitHub submission repo, which contains a copy of start kit implementation.
+After login, we will automatically create a private GitHub repository on your
+behalf. This is where you upload and store your submission source codes during
+the competition period. 
+Visit the `My Submission` page, and click `My Repo` to access your repository. 
 
-To join the competition as a team, only one memeber of the team need to login to the competition website. Once login, `Settings` is available in the menu bar, which navigates to the `Settings` page. You can add team members and their contacts there.
+If you're competing as a team, you can also add additional members and give
+them access, too. Just navigate to the `Settings` page (in the `My Submissions`
+menu) and add their contact details. 
 
 ## Clone Your Submission Repo
 
-Find the `<private git link>` to your private repo by clicking `Shown Git Link` in the `My Submission` page. Then clone your submission repo to your local machine. The repo contains starter code to help you prepare your submission.
+Find the `<private link>` to your git repository by clicking `Show Git Link` on
+the [My Submission](./submission) page. Now you can clone the repo to your
+local machine:
 
 ```
 $ git clone <private git link>
 ```
 
+We've pre-loaded a a copy of the competition start-kit into your repo, to make life a bit easier. 
+
 ## Prepare Your Planner
-Checkout the [startkit instructions](https://github.com/MAPF-Competition/Start-Kit/blob/main/README.md) for:
-> - How to prepare your submissions.
-> - How to implement your planner (native support for python and C++).
-> - How to refer to auxilliary preprocessing data or pre-trained machine learning models.
-> - How to apply for training awards, to help with offline compute costs.
+Read the [startkit instructions](https://github.com/MAPF-Competition/Start-Kit/blob/main/README.md) for:
+> - How to implement your planner (we have native support for Python and C++).
+> - How to access (large) auxiliary pre-processing data or pre-trained machine learning models.
+> - How to apply for training awards, to help with your offline compute costs.
 
 ## Submit Your Planner
-Checkout the [submission instructions](https://github.com/MAPF-Competition/Start-Kit/blob/main/Submission_Instruction.md) for how to submit your implementation.
+Read the [submission instructions](https://github.com/MAPF-Competition/Start-Kit/blob/main/Submission_Instruction.md)
+for details of how to prepare your submission for evaluation. 
 
-Navigate to [My Submission](./submission) page for:
-> - Selecting the branch for evaluation.
-> - Uploading auxiliary data as part of your submission.
-> - Initiating evaluation.
+Once you're ready, navigate to the [My Submission](./submission) page. From there
+you can:
+> - Select which branch to use for evaluation.
+> - Upload supporting auxiliary data.
+> - Initiate the evaluation process.
+
+You can submit anytime during the competition period, and you can make multiple attempts.
 
 ## Track Your Progress
-Navigate to [My Submission](./submission) page for:
-> - Checking the progress of current submission.
+Our competition system evaluates submissions in real-time. Navigate to the [My Submission](./submission) page for:
+> - Checking the status of your current submission.
 > - Viewing your submission history (so you can track your progress).
 
-Navigate to [Leaderboard](./leaderboard) page for:
+When the evaluation process is finished, navigate to our [Leaderboard](./leaderboard) page to:
 > - Viewing the rank of your best submission.
-> - Comparing with the rank of other participants.
+> - Track the progress other teams are making.
+> - Compare your score against the `virtual best` solver.
