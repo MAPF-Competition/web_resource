@@ -63,17 +63,17 @@ This page lists the organisers of the competition in lex order.
     </div>
 </div>
 <div class="block">
-    <img class="image" src="./external_page_resource/organisers/yue_zhang.png" height="100px"/>
-    <h4 class="name" > Yue Zhang</h4>
-    <div class="description-block">
-        Monash University
-    </div>
-</div>
-<div class="block">
     <img class="image" src="./external_page_resource/organisers/han.jpg" height="100px"/>
     <h4 class="name" > Han Zhang</h4>
     <div class="description-block">
         University of Southern California
+    </div>
+</div>
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/yue_zhang.png" height="100px"/>
+    <h4 class="name" > Yue Zhang</h4>
+    <div class="description-block">
+        Monash University
     </div>
 </div>
 </div>
