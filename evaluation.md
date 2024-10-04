@@ -21,6 +21,9 @@ The evaluation process has two stages: offline preprocessing, where participants
 can load and prepare auxiliary data, and online planning, where participants
 try to complete as many tasks as possible, up to a fixed time limit.
 
+Prizes are available for distinguished performance in three distinct tracks. 
+
+
 ## Domains
 
 >| |   |   |
