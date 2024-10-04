@@ -115,6 +115,7 @@ deadline has not yet passed.
 > - **1st November 2024**: Main round begins
 > - **2nd February 2025**: Main round ends
 > - **16th February 2025**: Winner annoucement
+> - **April 2025**: Robot Runners Virtual Expo 
 
 <br/>
 

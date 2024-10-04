@@ -6,20 +6,42 @@ Submissions will be evaluated using an AWS cloud compute instance with the follo
 > - 128 GiB Memory
 > - Nvidia A10G GPU
 
-The evalution server evaluates participant submissions in official PyTorch docker container, which equips necessary software and drivers for Cuda and PyTorch. Once you make a submission the evaluation proceeds in two stages: offline preprocessing and online planning. 
+The evalution server evaluates participant submissions in official [PyTorch docker container](https://hub.docker.com/r/pytorch/pytorch), which provides necessary software and drivers for GPU- and CPU-based compute. 
+
+Once you make a [submission](./instructions) the evaluation proceeds in two stages: offline preprocessing and online planning. 
 
 ## Offline Preprocessing
-During the preprocessing stage the current map is given to each planner. The planner has the opportunity to analyse the map and compute auxiliary data before proceeding to the evaluation stage. Preprocessing time is limited to 30 Minutes per map. Nothing you do at this stage will be counted into your final score.
+
+During the preprocessing stage, the current map is revealed. You then have an opportunity to analyse the map and compute auxiliary data before proceeding to the evaluation stage (e.g., initialise data structures, load models, etc). Preprocessing time is limited to 30 minutes per map. Nothing you do at this stage will be counted into your final score.
+
 ## Online Planning
 
-In this competition, there are three tracks: **Scheduler Track**, **Planner Track**, and **Combined Track**.
+After preprocessing, your submission is evaluated on a set of (a priori
+unknown) tasks. The starting locations of the robots and an initial set of
+tasks are revealed. As robots complete tasks, more will be revealed. 
 
-### Scheduler Track
-In the Scheduler Track, participants must implement their own task scheduler, which is responsible for assigning revealed, unallocated tasks to the robots. The **default path planner** will be used in this track.
+During evaluation, time progresses at a rate of 1 second per timestep. Your
+submission will be evaluated for up to 5000 seconds on each map. Your job is to
+complete as many tasks as possible, before a time limit is reached. 
 
-During the task scheduling stage, the initial locations of the robots are known, and tasks are revealed to the robots gradually. Time progresses at a rate of 1 second per timestep, and your scheduler will be evaluated for up to 5000 seconds on each map.
+There are three evaluation tracks: 
+- **Path Planning** 
+- **Task Scheduling**
+- **Combined** (Path Planning + Task Scheduling)
 
-At every timestep, your scheduler must compute a valid assignment for the revealed, unallocated tasks. While you can take as long as needed to make scheduling decisions, time continues to elapse during deliberation. Failure to compute an assignment results in all robots waiting in place until the next planning episode.
+### Task Scheduling
+
+In this track, participants are responsible for assigning revealed tasks to
+robots. At each timestep, your scheduler must return a valid task assignment
+(including no assignment) for every robot. The schedule is then realised by a
+`default path planner`, which decides what paths robots will take through the
+enviromment to complete their tasks. 
+
+At every timestep, your scheduler must compute a valid assignment for the
+revealed, unallocated tasks. While you can take as long as needed to make
+scheduling decisions, time continues to elapse during deliberation. Failure to
+compute an assignment results in all robots waiting in place until the next
+planning episode.
 
 ### Planner Track
 In the Planner Track, participants must implement their own planner, which is responsible for planning the paths for the robots. The **default task scheduler** will be used in this track.
@@ -59,17 +81,30 @@ Each submission will be evaluated using a variety of instances on 5 different ma
 
 The maps are [available for download](https://github.com/MAPF-Competition/Start-Kit/tree/main/example_problems) and analysis. But the problem instances (errands and robot locations) are hidden until after the competition.
 
-## Score Functions
+## Score Functions and Virtual Best
 
-In real-world scenarios, path planners and task schedulers are expected to excel in various aspects, such as high throughput and quick computation times. To reflect this, our competition recognizes outstanding performance across three distinct categories for each track, resulting in up to nine potential winners:
-
-### Virtual Best and Score Function
-> In this category, a `virtual best` benchmark is used to track the best known solution for each instance, across all participants. Your performance is ranked relative to this baseline using the following formula:
+> Performance in each track is determined relative to a `virtual best`
+> baseline. The virtual best comprises all best known solutions for every
+> evaluation instance, as computed by any submission. 
+> Performance relative to the virtual best is computed using the following formula:
 >
 > $$\mbox{Your score} = \displaystyle \sum^{max}_{i=0}{\frac{\mbox{Your number of tasks finished for instance }i}{\mbox{best number of tasks finished for instance }i}}$$
 >
-> The winner in this category is the entry with the highest cumulative score. This award is given separately for each of the three tracks: **Scheduler Track**, **Planner Track**, and **Combined Track**.
 
-### Line Honours
-> In addition to the three tracks, we keep track of who contributed the largest number of best solutions across all instances. The number of best solutions achieved by any entry is tallied at the end of the competition, and the entry with the most best solutions is declared as the Line Honours.
+# Track Prizes
+
+Each track has a separate leaderboard. Participants submitting to the Combined
+track compete for the grand prize. Single-track participants (i.e., Path
+Planning only or Task Scheduling only) compete for track prizes. 
+
+Single-track solutions are further ranked and evaluated on the Combined
+leaderboard (i.e. everyone is eligible for the grand prize). 
+A separate prize, also available to participants in any track, is **Line Honours**. This prize is
+awarded to the team which contributes the largest number of solutions to the
+virtual best solver. 
+
+
+## Line Honours
+
+In addition to the three tracks, we keep track of who contributed the largest number of solutions to the virtual best. The submission with largest number of best solutions at the end of the competition is declared as the winner of the Line Honours prize. 
 
