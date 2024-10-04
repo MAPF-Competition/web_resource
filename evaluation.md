@@ -83,7 +83,7 @@ The maps are [available for download](https://github.com/MAPF-Competition/Start-
 
 ## Score Functions and Virtual Best
 
-Performance in each track is determined relative to a `virtual best`
+Performance in each track is determined relative to a **virtual best**
 baseline. The virtual best comprises all best known solutions for every
 evaluation instance, as computed by any submission. For a given submission, 
 the score is computed using the following formula:
