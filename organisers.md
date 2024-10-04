@@ -63,8 +63,8 @@
     </div>
 </div>
 <div class="block">
-    <img class="image" src="./external_page_resource/organisers/temp.jpeg" height="100px"/>
-    <h4 class="name" > Yimin Tan</h4>
+    <img class="image" src="./external_page_resource/organisers/yimin.jpg" height="100px"/>
+    <h4 class="name" > Yimin Tang</h4>
     <div class="description-block">
         University of Southern California
     </div>
