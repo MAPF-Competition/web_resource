@@ -87,7 +87,8 @@ During the planning stage, the initial locations of the robots are revealed, and
 At every timestep, your planner must compute the next valid action for each robot. While you can take as long as needed for planning, time continues to elapse during deliberation. Failure to compute the next valid action for every robot, or deliberating for longer than 1 second, will result in all robots waiting in place until the next planning episode.
 
 ### Combined Track
-In the Combined Track, participants can modify **both the task scheduler and the path planner**, with both components being evaluated.
+In the Combined Track, participants can modify **both the task scheduler and the path planner**. Both components are evaluated
+together, which gives maximum flexibility over how the problem solved. 
 
 
 ### Scoring and the Virtual Best
