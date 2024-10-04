@@ -123,4 +123,4 @@ deadline has not yet passed.
 
 |     |     |     |     |     |     |     |     |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|![](./external_page_resource/logos/mit_logo.png) | ![](./external_page_resource/logos/monash_logo.png) | ![](./external_page_resource/logos/rutgers_logo.png) | ![](./external_page_resource/logos/uci-logo.svg) | ![](./external_page_resource/logos/usc_logo.png) |  |   | ![](./external_page_resource/logos/amazon_robotics_logo.png)|
+|![](./external_page_resource/logos/mit_logo.png) | ![](./external_page_resource/logos/monash_logo.png) | ![](./external_page_resource/logos/rutgers_logo.png) | <embed src="./external_page_resource/logos/uci-logo.svg" /> | ![](./external_page_resource/logos/usc_logo.png) |  |   | ![](./external_page_resource/logos/amazon_robotics_logo.png)|
