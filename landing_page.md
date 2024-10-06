@@ -86,11 +86,11 @@ Participation is open to individuals and teams from any discipline/background, a
 
 > **Path Planning Track:** 
 > -  We provide a scheduler, assigning tasks to robots. You need to plan their paths. 
-> - 💸 $2,500 First Place Prize 
+> - 💸 $2,500 First Place Prize 💸 
 > 
 > **Task Scheduling Track:** 
 > - You assign tasks to robots. We provide a planner to compute their paths.
-> - 💸 $2,500 Prize 
+> - 💸 $2,500 First Place Prize 💸 
 >
 > **Combined Track:** 
 > - You assign the tasks **and** plan the paths. Complete control for maximal efficiency!
