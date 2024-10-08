@@ -156,8 +156,11 @@ specify a valid next task (or no task) for each robot at each timestep.
 An assignment is valid if every assigned task is a revealed task which has 
 not been previously opened or closed by another robot. 
 
-Below is an example of task assignments. The top row represents the task pool, containing revealed tasks that are unfinished and unassigned, while the second row shows the agents. Tasks and agents shaded in gray indicate that the task has already been assigned or completed, and that the agent is currently working on a task that is not yet finished. The left side illustrates an invalid assignment due to the following issues: (1) Agent A2 is assigned two tasks simultaneously; (2) Task T5 is assigned to both agents A3 and A5; (3) Agent A1 is assigned a new task before completing the current one.
+Below is an example of task assignments. The top row represents the task pool, which contains six tasks. Task T1, shaded in gray, is finished. Task T2, shaded in orange, is assigned to an agent but remains unfinished. Tasks T3, T4, and T5, shaded in cyan, are revealed but unassigned, while task T6, shaded in green, is unrevealed. The second row shows the agents, with gray-shaded agents currently working on unfinished tasks and cyan-shaded agents available for assignment. The left side illustrates an invalid assignment due to the following issues:
 
+1. Task T5 is assigned to both agents A3 and A5, but each task can only be assigned to one agent.
+2. Task T2, which is already assigned to another agent but not yet finished, is incorrectly assigned to agent A2.
+3. Task T6 is assigned to an agent, which is invalid because tasks that are already completed, unrevealed, or nonexistent cannot be assigned.
 <div style="text-align: center;">
    <img src="./external_page_resource/images/task_assignment_example.png" alt="description" style="max-width: 80%; height: auto;">
 </div>
