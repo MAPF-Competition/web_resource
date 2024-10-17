@@ -32,6 +32,18 @@ from the area of Path Planning:
 
 This competition received a total of **825 submissions** from **25 teams worldwide**. For more details about the setup, results and resources, please visit the [2023 Competition Snapshot Site](https://2023.leagueofrobotrunners.org/).
 
+#### LoRR Virtual Expo 2024
+
+The League of Robot Runners virtual expo is a community event where we celebrate and reflect on the League of Robot Runners 2023 competition main round. It is an opportunity for participants to share their experiences and insights into the challenge problems, to tell the community about their innovative approaches, and to celebrate the performances that helped make the inaugural League of Robot Runners such a memorable success! Please visit the [Event Website](https://expo24.leagueofrobotrunners.org/) for more details and event recordings!
+
+#### LoRR ICAPS 2024 System Demonstration
+
+We are glad to share that the system demonstration of the competition,  `The League of Robot Runners Competition: Goals, Designs, and Implementation`, won the **Best System Demonstration Award Honorable Mention** at the 34th International Conference on Automated Planning and Scheduling (ICAPS 2024)! This prestigious award recognises the innovative design and impactful contributions of the LoRR competition to the research community.
+
+You can learn more about the award-winning system demonstration by reading the [demonstration paper](https://openreview.net/pdf?id=mPmCnEHTvJ) and watch the [system demonstration video](https://www.youtube.com/watch?v=Y-v3h_27PXk):
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y-v3h_27PXk?si=bfM_PZ13r341V3oO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ### LoRR 2024
 In 2024, The League of Robot Runners introduces **Task Scheduling**, an
 additional challenge which further complicates Path Planning decisions. 
