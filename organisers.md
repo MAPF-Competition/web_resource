@@ -40,13 +40,6 @@
 ## Organising Committee
 
 <div class="row" >
-<div class="block">
-    <img class="image" src="./external_page_resource/organisers/shao_hung_head.png" height="100px"/>
-    <h4 class="name" >Shao-hung Chan</h4>
-    <div class="description-block">
-        University of Southern California
-    </div>
-</div>
 
 <div class="block">
     <img class="image" src="./external_page_resource/organisers/zhe_chen.jpg" height="100px"/>
@@ -102,6 +95,20 @@
     Amazon Robotics
     </div>
 </div>
+</div>
+
+## Special Thanks
+
+<div class="row">
+    <div class="block">
+        <img class="image" src="./external_page_resource/organisers/shao_hung_head.png" height="100px"/>
+        <h4 class="name">Shao-hung Chan</h4>
+        <div class="description-block" style="font-size: 1em;width:100%">
+            University of Southern California<br/>
+            Former organiser of the 2023 competition and
+            core contributor to PlanVis 2023/2024
+        </div>
+    </div>
 </div>
 
 ## Contact Us
