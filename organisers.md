@@ -70,7 +70,7 @@
     </div>
 </div>
 <div class="block">
-    <img class="image" src="./external_page_resource/organisers/yue_zhang.png" height="100px"/>
+    <img class="image" src="./external_page_resource/organisers/yue_zhang.jpg" height="100px"/>
     <h4 class="name" > Yue Zhang</h4>
     <div class="description-block">
         Monash University
