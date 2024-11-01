@@ -4,11 +4,14 @@
 
 We hope you're having a blast in the current test round of the 2024 League of Robot Runners! 🎉
 
-A huge THANK YOU to everyone who submitted solutions and shared their feedback! 🌟 Your insights on the competition setup, evaluation process, and start-kit are super valuable. We're hard at work squashing issues and implementing features based on your suggestions. 🛠️
+A huge **THANK YOU** to everyone who submitted solutions and shared their feedback! 🌟 Your insights on the competition setup, evaluation process, and start-kit are super valuable. We're hard at work squashing issues and implementing features based on your suggestions. 🛠️
 
 To give everyone extra time to prepare their implementations we will extend the test round for two weeks! 🗓️ This also gives us extra time to finalise the competition setup ahead of the main round. 🤖✨
 
-Mark your calendars! The main round will begin on **15th November 2024**. 🗓️ We’re looking forward to your amazing solutions. Until then, please don’t hesitate to contact us with your questions or further feedback. 🎙️
+**Mark your calendars!** The main round will begin on **15th November 2024**. 🗓️ We’re looking forward to your amazing solutions. Until then, please don’t hesitate to contact us with your questions or further feedback. 🎙️
+
+Best regards,
+The Organisers
 
 
 ## 🤖 2024 League of Robot Runners Test Round Start! 🏁 `4 Oct 2024`
