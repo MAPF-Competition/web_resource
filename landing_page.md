@@ -112,7 +112,7 @@ deadline has not yet passed.
 
 > - **20th May 2024**: Competition announcement
 > - **4th October 2024**: Start kit release, open for testing
-> - ~~1st November 2024~~ **15th November 2024**: Main round begins
+> - **15th November 2024**: Main round begins (~~1st November 2024~~)
 > - **16th February 2025**: Main round ends
 > - **2nd March 2025**: Winner annoucement
 > - **May 2025**: Robot Runners Virtual Expo 
