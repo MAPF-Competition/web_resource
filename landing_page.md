@@ -25,9 +25,9 @@ paths and avoid collisions so the robots can complete their assigned tasks.
 Scheduling means you decide the assignments: which robot completes which task
 and when. 
 
-<div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center;background-color:#EBEBEB;margin-top:10px;padding-left:10px;padding-right:10px">
+<div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center;background-color:#EBEBEB;margin-top:10px;">
 <br/>
-<div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;margin-top:10px;">
+<div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;margin:10px;">
 <div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;margin-right:10px">
 <img src="./external_page_resource/images/task_and_robots_1a.png" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
 <br/>
