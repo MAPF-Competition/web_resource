@@ -101,7 +101,7 @@
 
 <div class="row">
     <div class="block">
-        <img class="image" src="./external_page_resource/organisers/shao_hung_head.png" height="100px"/>
+        <!-- <img class="image" src="./external_page_resource/organisers/shao_hung_head.png" height="100px"/> -->
         <h4 class="name">Shao-hung Chan</h4>
         <div class="description-block" style="font-size: 1em;width:100%">
             University of Southern California<br/>
