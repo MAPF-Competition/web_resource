@@ -1,3 +1,36 @@
+## 🤖 2024 League of Robot Runners Main Round Start! 🏁 `15 Nov 2024`
+
+**Hello Robot Runners!** 
+
+The 2024 League of Robot Runners Main Round is here!  🎉 🎉 🎉 
+
+The competition period runs from 16 Nov 2024 to 16th Feb 2025 (3 whole months!) and brings a whole new level of challenge, with:
+- **more** problem instances, 🤖 
+- **more** errands per task, 📦
+- **different** task distributions across maps. 💪
+
+With 42 teams already registered for the competition, the race for first is sure to be intense! 🏆
+
+Fame, glory and prizes are all up for grabs! We have a 💰**$5,000 Grand Prize** for the **Combined Track** winner and two **$2,500 First Place Prize** for top performers in the **Path Planning** and **Task Scheduling Tracks**! 
+
+A limited number of training awards are still available. Valued at **$1000** and distributed based on merit. These awards can help your develop algorithms that require intensive offline training and precomputing (e.g. ML and RL).
+
+**🚀 Software Updates Based on Your Feedback! 🚀**
+
+A huge thank you to everyone who participated in the test round and provided invaluable feedback! 🙏  Based on your suggestions, we've happy to announce new versions of our competition software. Here's what's new:
+
+- **Start-kit v2.1.0:** We've streamlined the start-kit with additional documentation, bug fixes, and optimisations. View the [changelog](https://github.com/MAPF-Competition/Start-Kit/blob/main/Changelog.md) for more details. 👈  **Important note:** This release introduces requested API changes. As a result, you may need to make minor revisions to your submissions. Our [update Instructions](https://github.com/MAPF-Competition/Start-Kit?tab=readme-ov-file#upgrade-your-start-kit) will guide you through this process.
+- **PlanViz v2.1.0:**  Our solution visualiser has also recieved an upgrade, with new features to help you develop better strategies and algorithmic insights. View the [changelog](https://github.com/MAPF-Competition/PlanViz/blob/main/Changelog.md) for more details.
+- **Better auxiliary data support:** We add new features to the evaluation environment to help you access large size dependencies at compilation and runtime. View our updated [documentation](Working_with_Preprocessed_Data.md) for more details.
+
+
+Keep an eye out for further news and announcements during the competition period.  
+
+Best regards,
+The Organisers, League of Robot Runners
+
+
+
 ## 🚀 Test Round Extended! More Time to Tinker & Tweak! 🤖 `1 Nov 2024`
 
 **Hello Robot Runners!**
