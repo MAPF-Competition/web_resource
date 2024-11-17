@@ -22,8 +22,8 @@ This page contains answers to frequently asked questions, which are not addresse
 
 >Yes, the organisers will review participants' implementation at the end of the competition.
 
-**Q: How to work in a shared git repo with multiple collaborators?** 
->To work as a team, it is suggested that each team create their own separate team repo and add team members there, and link the repo with your local repo through git remote. When it is time to submit, you can add your competition repo as a new remote, and the nominated submitter can push the changes to competition repo.
+**Q: How to work with multiple collaborators?** 
+>To work as a team, only one team member need to create a team on the website. The team leader can then fill in the team members' details and github usernames in the team page. The team leader can also give the team members access to the team's submission repository using the "Repo Manage" tab.
 
 **Q: My score on the leaderboard has decreased! Why?**
 
