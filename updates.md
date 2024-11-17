@@ -21,7 +21,7 @@ A huge thank you to everyone who participated in the test round and provided inv
 
 - **Start-kit v2.1.0:** We've streamlined the start-kit with additional documentation, bug fixes, and optimisations. View the [changelog](https://github.com/MAPF-Competition/Start-Kit/blob/main/Changelog.md) for more details. 👈  **Important note:** This release introduces requested API changes. As a result, you may need to make minor revisions to your submissions. Our [update Instructions](https://github.com/MAPF-Competition/Start-Kit?tab=readme-ov-file#upgrade-your-start-kit) will guide you through this process.
 - **PlanViz v2.1.0:**  Our solution visualiser has also recieved an upgrade, with new features to help you develop better strategies and algorithmic insights. View the [changelog](https://github.com/MAPF-Competition/PlanViz/blob/main/Changelog.md) for more details.
-- **Better auxiliary data support:** We add new features to the evaluation environment to help you access large size dependencies at compilation and runtime. View our updated [documentation](Working_with_Preprocessed_Data.md) for more details.
+- **Better auxiliary data support:** We add new features to the evaluation environment to help you access large size dependencies at compilation and runtime. View our updated [documentation](https://github.com/MAPF-Competition/Start-Kit/blob/main/Working_with_Preprocessed_Data.md) for more details.
 
 
 Keep an eye out for further news and announcements during the competition period.  
