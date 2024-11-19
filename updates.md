@@ -11,8 +11,8 @@ The competition period runs from 17 Nov 2024 to 16th Feb 2025 (3 whole months!) 
 
 With 42 teams already registered for the competition, the race for first is sure to be intense! 🏆
 
-Fame, glory and prizes are all up for grabs! We have a 
-**$5,000** **Grand Prize**  for the 
+Fame, glory and prizes are all up for grabs! 
+We have a **$5,000 Grand Prize** for the 
 **Combined Track** winner and two 
 **$2,500** **First Place Prize** for top performers in the 
 **Path Planning** and **Task Scheduling Tracks**! 
