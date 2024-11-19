@@ -75,9 +75,9 @@ environment to complete their tasks.
 
 At every timestep, your scheduler must compute a valid assignment for the
 revealed, unallocated tasks. While you can take as long as needed to make
-scheduling decisions, time continues to elapse during deliberation. Failure to
-compute an assignment results in all robots waiting in place until the next
-planning episode.
+scheduling decisions, time continues to elapse during deliberation. 
+Failure to compute a valid assignment means your robots will not complete available
+tasks efficiently.
 
 ### Planner Track
 In the Planner Track, participants must implement their own planner, which is responsible for planning the paths for the robots. The **default task scheduler** will be used in this track.
