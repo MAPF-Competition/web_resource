@@ -4,7 +4,7 @@
 
 The 2024 League of Robot Runners Main Round is here!  🎉 🎉 🎉 
 
-The competition period runs from 16 Nov 2024 to 17th Feb 2025 (3 whole months!) and brings a whole new level of challenge, with:
+The competition period runs from 17 Nov 2024 to 16th Feb 2025 (3 whole months!) and brings a whole new level of challenge, with:
 - **more** problem instances, 🤖 
 - **more** errands per task, 📦
 - **different** task distributions across maps. 💪
