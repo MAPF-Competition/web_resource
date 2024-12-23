@@ -8,7 +8,7 @@ We've added two new features to enhance your 2024 League of Robot Runners experi
 
    - You can now select your preferred base Docker image for building your evaluation environment!
    - Find the new option in the `My Submission` page when creating a new submission.
-   - More details on available images: [leagueofrobotrunners.org/evaluation](leagueofrobotrunners.org/evaluation)
+   - More details on available images: [leagueofrobotrunners.org/evaluation](https://leagueofrobotrunners.org/evaluation)
 
 **Submission History Table Upgrade:**
 
