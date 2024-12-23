@@ -25,6 +25,8 @@ The following Docker image options are available:
 > 
 > **Ubuntu Docker Images**:
 > - [ubuntu:jammy](https://hub.docker.com/layers/library/ubuntu/jammy/images/sha256-3d1556a8a18cf5307b121e0a98e93f1ddf1f3f8e092f1fddfd941254785b95d7), Ubuntu 22.04.
+> - [ubuntu:focal](https://hub.docker.com/layers/library/ubuntu/jammy/images/sha256-3d1556a8a18cf5307b121e0a98e93f1ddf1f3f8e092f1fddfd941254785b95d7), Ubuntu 20.04.
+> - [ubuntu:nobel](https://hub.docker.com/layers/library/ubuntu/noble/images/sha256-6e75a10070b0fcb0bead763c5118a369bc7cc30dfc1b0749c491bbb21f15c3c7), Ubuntu 24.04.
 
 `pytorch/pytorch:2.5.1-cuda11.8-cudnn9-devel` is used as the default image. If you need a different image, please specify it in your submission.
 
