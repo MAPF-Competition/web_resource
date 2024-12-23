@@ -1,3 +1,22 @@
+## 🚀 New Features: Custom Docker Images & More Submission Info! 🤖 `23 Dec 2024`
+
+**Hello Robot Runners!**
+
+We've added two new features to enhance your 2024 League of Robot Runners experience, according to your feedback! 🎉:
+
+**Choose Your Base Docker Image:**
+
+   - You can now select your preferred base Docker image for building your evaluation environment!
+   - Find the new option in the `My Submission` page when creating a new submission.
+   - More details on available images: [leagueofrobotrunners.org/evaluation](leagueofrobotrunners.org/evaluation)
+
+**Submission History Table Upgrade:**
+
+   -  Quickly view your **Score**, **Short Commit SHA**, and **Commit Message** directly in the table!
+   -  No need to open each submission for key details.
+
+We hope these updates make your competition journey more enjoyable! 🚀
+
 ## 🤖 2024 League of Robot Runners Main Round Start! 🏁 `17 Nov 2024`
 
 **Hello Robot Runners!** 

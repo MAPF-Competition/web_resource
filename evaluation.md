@@ -18,7 +18,6 @@ The following Docker image options are available:
 > **NVIDIA CUDA Docker Images**:
 > - [nvidia/cuda:12.6.3-cudnn-devel-ubuntu20.04](https://hub.docker.com/layers/nvidia/cuda/12.6.3-cudnn-devel-ubuntu20.04/images/sha256-41b64c7236c0ff59f11298584676b4af95c0ddf9924f18c6072b160fddd6c34f), Ubuntu 20.04 with CUDA 12.6.3 and cuDNN 9.
 > - [nvidia/cuda:12.6.3-cudnn-devel-ubuntu22.04](https://hub.docker.com/layers/nvidia/cuda/12.6.3-cudnn-devel-ubuntu22.04/images/sha256-cb239b67719dfa32ec6b525b54c1b78559bebd51a47249dd702f6c5429372154), Ubuntu 22.04 with CUDA 12.6.3 and cuDNN 9.
-> - [nvidia/cuda:12.6.3-cudnn-devel-ubuntu24.04](https://hub.docker.com/layers/nvidia/cuda/12.6.3-cudnn-devel-ubuntu24.04/images/sha256-0f8250615943f311785f9ce6379a49520a4b53c124d22b42ba859edf93af3991), Ubuntu 24.04 with CUDA 12.6.3 and cuDNN 9.
 > 
 > **TensorFlow Docker Images**:
 > - [tensorflow/tensorflow:2.18.0-gpu](https://hub.docker.com/layers/tensorflow/tensorflow/2.18.0-gpu/images/sha256-1f16fbd9be8bb84891de12533e332bbd500511caeb5cf4db501dbe39d422f9c7), Ubuntu 22.04 with TensorFlow 2.18.0 and CUDA 12.3.
@@ -26,7 +25,7 @@ The following Docker image options are available:
 > **Ubuntu Docker Images**:
 > - [ubuntu:jammy](https://hub.docker.com/layers/library/ubuntu/jammy/images/sha256-3d1556a8a18cf5307b121e0a98e93f1ddf1f3f8e092f1fddfd941254785b95d7), Ubuntu 22.04.
 > - [ubuntu:focal](https://hub.docker.com/layers/library/ubuntu/jammy/images/sha256-3d1556a8a18cf5307b121e0a98e93f1ddf1f3f8e092f1fddfd941254785b95d7), Ubuntu 20.04.
-> - [ubuntu:nobel](https://hub.docker.com/layers/library/ubuntu/noble/images/sha256-6e75a10070b0fcb0bead763c5118a369bc7cc30dfc1b0749c491bbb21f15c3c7), Ubuntu 24.04.
+
 
 `pytorch/pytorch:2.5.1-cuda11.8-cudnn9-devel` is used as the default image. If you need a different image, please specify it in your submission.
 
