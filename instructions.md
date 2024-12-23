@@ -1,15 +1,16 @@
 ## Join the Competition ![r10](external_page_resource/robots/r10_s.png)
 
-Login to the competition from the [My Submission](./submission) page. You'll need
-a [GitHub](https://github.com) account, so make sure you have one of those first! 
+Login to the competition from the [My Submission](./submission) page and fill 
+the registration form. You'll need a [GitHub](https://github.com) account, so 
+make sure you have one of those first! 
 
-After login, we will automatically create a private GitHub repository on your
+After registration, we will automatically create a private GitHub repository on your
 behalf. This is where you upload and store your submission source codes during
 the competition period. 
 Visit the `My Submission` page, and click `My Repo` to access your repository. 
 
 If you're competing as a team, you can also add additional members and give
-them access, too. Just navigate to the `Settings` page (in the `My Submissions`
+them access, too. Just navigate to the `Team` tab (in the `My Submissions`
 menu) and add their contact details. 
 
 ## Clone Your Submission Repo
