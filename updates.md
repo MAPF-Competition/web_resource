@@ -1,3 +1,11 @@
+## :toolbox: Start-kit v2.1.2 Released! :toolbox: `20 Jan 2025`
+
+**Hello Robot Runners!**
+
+We have released the Start-kit v2.1.2, which includes fixes for issues when an agent's task is abandoned without re-assigning.
+* **What's changed?**  View the [changelog](https://github.com/MAPF-Competition/Start-Kit/blob/main/Changelog.md) for more details.
+* **Upgrade now:**  Follow the [update instructions](https://github.com/MAPF-Competition/Start-Kit?tab=readme-ov-file#upgrade-your-start-kit) to get the latest version.
+
 ## 🚀 New Features: Custom Docker Images & More Submission Info! 🤖 `23 Dec 2024`
 
 **Hello Robot Runners!**
