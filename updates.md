@@ -1,4 +1,4 @@
-## :toolbox: Start-kit v2.1.2 Released! :toolbox: `20 Jan 2025`
+## 🧰 Start-kit v2.1.2 Released! 🧰 `20 Jan 2025`
 
 **Hello Robot Runners!**
 
