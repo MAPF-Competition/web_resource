@@ -105,7 +105,7 @@
 
 <div class="row">
     <p>
-    <a href="https://mp.weixin.qq.com/s/o5o5iEO4i1zhU6hp2OGkAg"><img src="external_page_resource/images/or_community.jpg" alt="OR Community WeChat Logo" style="width:auto;height:40px;"></a> We gratefully acknowledge the assistance of <a href="https://mp.weixin.qq.com/s/o5o5iEO4i1zhU6hp2OGkAg">the Operations Research community</a> on WeChat in promoting the 2024 League of Robot Runners in China.
+    <a href="https://mp.weixin.qq.com/s/o5o5iEO4i1zhU6hp2OGkAg"><img src="external_page_resource/images/or_community.jpg" alt="OR Community WeChat Logo" style="width:auto;height:30px;"></a> We gratefully acknowledge the assistance of <a href="https://mp.weixin.qq.com/s/o5o5iEO4i1zhU6hp2OGkAg">the Operations Research community</a> on WeChat in promoting the 2024 League of Robot Runners in China.
     </p>
 </div>
 
