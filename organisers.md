@@ -103,6 +103,12 @@
         <p><strong>Shao-hung Chan</strong> (University of Southern California). Shao-hung helped organise the <a href="https://2023.leagueofrobotrunners.org/">2023 competition</a>, he co-organised the 2024 League of Robot Runners <a href="https://expo24.leagueofrobotrunners.org/">Virtual Expo</a>, and he is one of the orginal designers of  <a href="https://github.com/MAPF-Competition/PlanViz">PlanViz</a>, the offline solution visualiser used in the competition.</p>
 </div>
 
+<div class="row">
+        <p>
+        We thank <a href="https://mp.weixin.qq.com/s/o5o5iEO4i1zhU6hp2OGkAg"><img src="external_page_resource/images/or_community.jpg" alt="HTML tutorial" style="width:auto;height:20px;"></a> for helping us promote the 2024 League of Robot Runners in China.
+        </p>
+</div>
+
 ## Contact Us
 
 If you have additional questions, or require further clarifications, please drop by our <a href="https://discord.gg/CEYT4g4raR" target="_blank" >Discord channel</a>. 
