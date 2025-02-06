@@ -105,7 +105,7 @@
 
 <div class="row">
     <p>
-    We gratefully acknowledge the assistance of the Operations Research community on WeChat, <img src="external_page_resource/images/or_community.jpg" alt="OR Community WeChat Logo" style="width:auto;height:20px;">, in promoting the 2024 League of Robot Runners in China.
+    We gratefully acknowledge the assistance of the Operations Research community on WeChat, <a href="https://mp.weixin.qq.com/s/o5o5iEO4i1zhU6hp2OGkAg"><img src="external_page_resource/images/or_community.jpg" alt="OR Community WeChat Logo" style="width:auto;height:20px;"></a>, in promoting the 2024 League of Robot Runners in China.
     </p>
 </div>
 
