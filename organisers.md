@@ -1,9 +1,77 @@
 <!-- This page lists the organisers of the competition in lex order. -->
 
+<style>
+.row {
+    width: 100%;
+    margin-top: 19px;
+}
+.Container{
+    width:100%;
+    text-align: center;
+}
+.GridRow {
+    width: 100%;
+    max-width: 1350px;
+    text-align: left;
+    margin: auto;
+}
+.text-center {
+    text-align: center;
+}
+.left-column {
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+    max-width: 1000px;
+ }
+ .right-column {
+    vertical-align: top;
+    max-width: 300px;
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+ }
+.block {
+    vertical-align: top;
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+    margin: 4px;
+}
+.image{
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.description-block{
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom: 6px;
+
+}
+.description-text{
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+td {
+    border-bottom:  1px solid black;
+}
+.name {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+    margin-top: 6px;
+}
+</style>
 
 ## Competition Chairs
 
-<link fetchpriority='high' rel="stylesheet" href="./external_page_resource/style.css" type="text/css">
+<!-- <link fetchpriority='high' rel="stylesheet" href="./external_page_resource/style.css" type="text/css"> -->
+
 <div class="row" >
 <div class="block">
     <img class="image" src="./external_page_resource/organisers/dharabor_small.png" height="100px"/>
