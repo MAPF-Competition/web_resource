@@ -104,14 +104,9 @@
 </div>
 
 <div class="row">
-    <div  style="vertical-align: top; max-width: 200px; display: inline-block; text-align: left;">
-    <a href="https://mp.weixin.qq.com/s/o5o5iEO4i1zhU6hp2OGkAg"><img src="external_page_resource/images/or_community.jpg" alt="OR Community WeChat Logo" style="width:auto;height:30px;"></a> 
-    </div>
-    <div  style="vertical-align: top; max-width: calc(100% - 220px); display: inline-block; text-align: left; margin-left:10px">
     <p>
-    We gratefully acknowledge the assistance of <a href="https://mp.weixin.qq.com/s/o5o5iEO4i1zhU6hp2OGkAg">the Operations Research community</a> on WeChat in promoting the 2024 League of Robot Runners in China.
+    We gratefully acknowledge the assistance of <a href="https://mp.weixin.qq.com/s/o5o5iEO4i1zhU6hp2OGkAg"><b>运筹帷幄</b> (the Chinese Operations Research community on WeChat)</a> for promoting the 2024 League of Robot Runners in China.
     </p>
-    </div>
 </div>
 
 ## Contact Us
