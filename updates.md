@@ -1,3 +1,20 @@
+## 🏁 Main Round 2024: Mission Accomplished! 🏁 `18 Feb 2025`
+
+**Hello Robot Runners!**
+
+The word is out – we've officially crossed the Main Round 2024 finish line! The submission portal is now closed, and the final evaluations are complete. That's a wrap on the second exciting race of the League of Robot Runners! 🏁
+Congratulations to each and every participant, and thank you for contributing to another incredibly successful competition! 🤖 💘
+
+This year, we've seen incredible engagement! A record-breaking total of 1513 submissions poured in from 50 teams across the globe 🔥🔥🔥. It's inspiring to witness the diverse approaches you've each taken to the challenges, generating countless thrilling moments throughout the competition.
+
+In the coming two weeks, our team will be diligently 🔍 reviewing all submissions 🔍 to ensure everything aligns with the competition rules and guidelines. We plan to announce the official winners around March 2nd, and prizes 🎁 will be awarded shortly afterwards.
+
+Following the results announcement, we will archive and open source your top submissions (along with supplementary data to our large file storage). We will also record and archive the best-known solutions for every problem instance and we will release tools that can generate similar benchmarks. These resources help others to 📚 build upon your achievements 📚 and they help to grow our community, by lowering the barrier of entry into the area. We encourage everyone to leverage these resources and to continue pushing the boundaries of robot running in the post-competition period.
+
+Your input is invaluable as we shape the future of the League. Please share any thoughts or insights you've gained during the competition period via the  feedback channel 📝 on our Discord, or by  📨 email. We read and consider all your feedback and we genuinely appreciate your input. 🤝 
+
+Once again, thank you for making the 2024 Main Round such a resounding success. Stay tuned for news about what's coming next as the League of Robot Runners continues to grow and evolve!🌱
+
 ## 🧰 Start-kit v2.1.2 Released! 🧰 `20 Jan 2025`
 
 **Hello Robot Runners!**
