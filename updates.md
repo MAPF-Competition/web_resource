@@ -1,10 +1,10 @@
 ## 🎉Results Announcement for Main Round 2024!🎉  `14 Mar 2025`
 
-**Hello Robot Runners! **
+**Hello Robot Runners!**
 
 Since the end of Main Round 2024, our organising team has been working diligently to verify the final rankings on the leaderboard. With this thorough review now complete, we are excited to announce the official winners! 🎊🎉🏆
 
-**🏅 Award Winners 🏅 **
+**🏅 Award Winners 🏅**
 
 Participants in the 2024 League of Robot Runners were evaluated across four distinct performance tracks 🔥, each designed to highlight crucial challenges for real-world robotics practitioners. We are awarding one 💸 grand prize for each track and 🥁 distinguished performance awards for the runners-up!
 
