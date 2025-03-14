@@ -8,7 +8,7 @@ Since the end of Main Round 2024, our organising team has been working diligentl
 
 Participants in the 2024 League of Robot Runners were evaluated across four distinct performance tracks 🔥, each designed to highlight crucial challenges for real-world robotics practitioners. We are awarding one 💸 grand prize for each track and 🥁 distinguished performance awards for the runners-up!
 
-* **Combined Track: 🏆** This category rewards the highest overall score in the competition. The core challenge is to effectively integrate planning and scheduling algorithms for peak performance**.**
+* **Combined Track: 🏆** This category rewards the highest overall score in the competition. The core challenge is to effectively integrate planning and scheduling algorithms for peak performance.
 * **Planner Track: 🗺️** This category rewards the highest achieved score in the Planning Track. The core challenge is to develop efficient algorithms for optimising robot movement, given a set of default task assignments.
 * **Scheduler Track: ⏱️** This category rewards the highest achieved score in the Scheduler Track. The core challenge is optimising robot task assignments	, given a default strategy for planning robot movements.
 
