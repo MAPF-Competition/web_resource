@@ -67,7 +67,7 @@ Building on the momentum of the 2024 competition, we are excited to announce the
 * 📂 **Code Release:** We will soon archive and open-source the top-performing submission code from each team featured on the leaderboard. This allows others to learn from past successes and lowers entry barriers for new participants that wish to join the League.
 * 💯 **Data Release:** We will release all problem instances and the best-known plans for each instance, as computed during the competition period. This release creates a new benchmark set for the community and supports further research in the area. 
 * 🙋 **Problem Generator Release:** We will make available the scripts used to create all problem instances in the 2024 Main Round. With this tool anyone can create new instances and customised challenges, so as to further explore and push forward the boundaries of the problem domain.
-* 🎟️ **Virtual Showcase Event:** In May 2025, we will hold a virtual event where selected participants can present their approaches and share their insights from the competition. The Virtual Expo enables dissemination and knowledge exchange in our community. Participants will also have an opportunity to discuss the current and future directions of the League.
+* 🎟️ **Virtual Showcase Event:** In May 2025, we will hold a virtual event where selected participants can present their approaches and share their insights from the competition. The Virtual Expo enables dissemination and knowledge exchange in our community. Participants will also have an opportunity to discuss the current and future directions of the League of Robot Runners.
 
 **🎯 Beyond the Horizon 🎯**
 
