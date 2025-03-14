@@ -1,3 +1,79 @@
+## 🎉Results Announcement for Main Round 2024!🎉  `14 Mar 2025`
+
+**Hello Robot Runners!**
+
+Since the end of Main Round 2024, our organising team has been working diligently to verify the final rankings on the leaderboard. With this thorough review now complete, we are excited to announce the official winners! 🎊🎉🏆
+
+**🏅 Award Winners 🏅**
+
+Participants in the 2024 League of Robot Runners were evaluated across four distinct performance tracks 🔥, each designed to highlight crucial challenges for real-world robotics practitioners. We are awarding one 💸 grand prize for each track and 🥁 distinguished performance awards for the runners-up!
+
+* **Combined Track: 🏆** This category rewards the highest overall score in the competition. The core challenge is to effectively integrate planning and scheduling algorithms for peak performance.
+* **Planner Track: 🗺️** This category rewards the highest achieved score in the Planning Track. The core challenge is to develop efficient algorithms for optimising robot movement, given a set of default task assignments.
+* **Scheduler Track: ⏱️** This category rewards the highest achieved score in the Scheduler Track. The core challenge is optimising robot task assignments	, given a default strategy for planning robot movements.
+
+<table>
+  <tr>
+   <td>
+   </td>
+   <td>
+<strong>🏆Combined Track</strong>
+   </td>
+   <td><strong>🗺️Planner Track</strong>
+   </td>
+   <td><strong>⏱️Scheduler Track</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>💸Grand Prize
+   </td>
+   <td>🥇Team No Man's Sky
+   </td>
+   <td>🥇Team No Man's Sky
+   </td>
+   <td>🥇Team No Man's Sky
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >🥁Distinguished Performance
+   </td>
+   <td>🥈Team Kitty Knight
+   </td>
+   <td>🥈Team SYSU-LCIS
+   </td>
+   <td>🥈Team verstand
+   </td>
+  </tr>
+  <tr>
+   <td>🥉Team SYSU-LCIS
+   </td>
+   <td>🥉Team RAPID
+   </td>
+   <td>🥉Team Zn
+   </td>
+  </tr>
+</table>
+
+Finally, we have the **Line Honours** award, which recognises the team with the largest number of best-known solutions across all problem instances. The winner of this award is: 🎗️Team No Man's Sky.
+
+Congratulations to all our winners and to every participant in the 2024 League of Robot Runners! 🫡 Your dedication, ingenuity, and many contributions are the driving force behind the competition's resounding success. Thank you for being part of this incredible journey! ❤️
+
+We will be reaching out ✉️ to each winning team shortly to confirm details for the ✍️ issuance of certificates and the 📬 distribution of prizes.
+
+**📝 Next Steps 📝**
+
+Building on the momentum of the 2024 competition, we are excited to announce the following community initiatives in the weeks ahead:
+
+* 📂 **Code Release:** We will soon archive and open-source the top-performing submission code from each team featured on the leaderboard. This allows others to learn from past successes and lowers entry barriers for new participants that wish to join the League.
+* 💯 **Data Release:** We will release all problem instances and the best-known plans for each instance, as computed during the competition period. This release creates a new benchmark set for the community and supports further research in the area. 
+* 🙋 **Problem Generator Release:** We will make available the scripts used to create all problem instances in the 2024 Main Round. With this tool anyone can create new instances and customised challenges, so as to further explore and push forward the boundaries of the problem domain.
+* 🎟️ **Virtual Showcase Event:** In May 2025, we will hold a virtual event where selected participants can present their approaches and share their insights from the competition. The Virtual Expo enables dissemination and knowledge exchange in our community. Participants will also have an opportunity to discuss the current and future directions of the League.
+
+**🎯 Beyond the Horizon 🎯**
+
+The League of Robot Runners will return in 2025 with more exciting challenges and innovations! 🔥🔥🔥. Stay tuned for the official announcement as we continue to bridge the exciting frontier between robotics and artificial intelligence!  
+
+
 ## 🏁 Main Round 2024: Mission Accomplished! 🏁 `18 Feb 2025`
 
 **Hello Robot Runners!**
