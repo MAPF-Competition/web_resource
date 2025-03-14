@@ -54,7 +54,7 @@ Participants in the 2024 League of Robot Runners were evaluated across four dist
   </tr>
 </table>
 
-Finally, we have the **Line Honours** award, which recognises the team with the largest number of best-known solutions across all problem instances.** **The winner of this award is**: 🎗️**Team No Man's Sky.
+Finally, we have the **Line Honours** award, which recognises the team with the largest number of best-known solutions across all problem instances. The winner of this award is: 🎗️Team No Man's Sky.
 
 Congratulations to all our winners and to every participant in the 2024 League of Robot Runners! 🫡 Your dedication, ingenuity, and many contributions are the driving force behind the competition's resounding success. Thank you for being part of this incredible journey! ❤️
 
