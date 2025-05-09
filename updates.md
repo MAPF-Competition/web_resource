@@ -1,3 +1,26 @@
+## 🔥Resource Release: Benchmark and Code Archive\!🔥 `09 May 2025`
+
+**Hello Robot Runners\!**
+
+We are glad to announce the release of two new resources for the community: the 2024 Benchmark Archive and 2024 Code Archive. These repositories gather together all of your best submissions from the most recent competition (2024/5), together with all problem instances and all known best solutions. All solutions can be downloaded and analysed with [PlanViz](https://github.com/MAPF-Competition/PlanViz), our offline visualisation tool. 🥁🥁🥁
+
+These resources will help us to track how much progress we are making on the core challenges associated with planning and coordinating teams of real robots. Researchers in the area (that’s you\!) can use these resources to further develop and compare their algorithms against the established state-of-the-art. Meanwhile, newcomers to the area also get a leg up\! They can start with working implementations and build their new ideas upon best-known solution techniques.🔥🔥🔥
+
+💯In the [Benchmark Archive](https://github.com/MAPF-Competition/Benchmark-Archive), you will find:
+
+* Main round evaluation instances.  
+* Test round evaluation instances.  
+* Example instances, released as part of the competition start-kit.  
+* Best-known solutions to all evaluation instances.  
+* Benchmark generator, which we used to produce all the problem instances.  
+* Tables that describe the configuration of each benchmark instance, metrics describing the best-known solution for that instance, links to download the solutions and links to the implementation which produced that solution. 
+
+📂In the [Code Archive](https://github.com/MAPF-Competition/Code-Archive), you will find:
+
+* Implementations for the best submission of each team on the final leaderboard of the Combined, Planning, and Scheduling categories.  
+* Implementations that produced any best-known solution for each evaluation instance.  
+* Tables that record the metrics of each archived implementation.
+
 ## 📢 \[CFP\] 2025 League of Robot Runners Virtual Expo `21 Apr 2025`
 
 [**https://expo25.leagueofrobotrunners.org**](https://expo25.leagueofrobotrunners.org)
