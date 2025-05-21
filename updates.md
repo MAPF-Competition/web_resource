@@ -1,3 +1,39 @@
+
+## 📢Call For Participation: 2025 League of Robot Runners Virtual Expo  `21 May 2025`
+
+Hello Robot Runners\!
+
+This is a call for participation in the [**https://expo25.leagueofrobotrunners.org**](https://expo25.leagueofrobotrunners.org).
+
+The League of Robot Runners is a competition series that tackles one of the most challenging problems in automated logistics: scheduling tasks and coordinating a team of moving robots. 
+
+In 2024/5 The League received a total of 1513  submissions from 50 teams worldwide, which is a big success\! To celebrate, we are holding a **Virtual Expo** \--- a free online event where we highlight the community’s progress and achievements thus far and look ahead at the challenges that yet remain. The expo is a fantastic opportunity to learn more about the problems being tackled in the competition, their importance to industry, and the experiences, insights, and innovative approaches of leading participants. 
+
+**Program Highlights:**
+
+The technical program will feature a number of sessions that will be of interest to competition participants and members of the broader MAPF community:
+
+* Keynote from distinguished speakers across industry and academia:   
+  * Alex Barbosa (Amazon Robotics)   
+  * Amanda Porok (Cambridge University).  
+* Highlights and awards from the 2024/5 main round: celebrate with us\!  
+* Technical talks from successful participants.  
+* Community discussion: reflections on the competition initiative and exciting news about the future competition.
+
+We encourage all interested individuals to join us for this exciting occasion\! This includes past participants, interested future participants and members of the broader research community with an interest in Multi-Agent and/or Multi-Robot Path Planning.
+
+**Event Details:**
+
+* Date: June 2nd, 2025  
+* Time: 0900 EDT (UTC-4)  
+* Location: the event will be held online via Zoom
+
+**Registration:**
+
+Secure your spot via the event website: [https://expo25.leagueofrobotrunners.org/registration/](https://expo25.leagueofrobotrunners.org/registration/). Once registered, you will receive email instructions for the details of joining the Virtual Expo.
+
+We look forward to your participation in this exciting event\!
+
 ## 🔥Resource Release: Benchmark and Code Archive\!🔥 `09 May 2025`
 
 **Hello Robot Runners\!**
