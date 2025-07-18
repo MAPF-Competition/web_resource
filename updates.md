@@ -1,3 +1,14 @@
+## 🎥 Watch the 2024 Virtual Expo Recordings Online! `18 Jul 2025`
+
+**Hello Robot Runners!**
+
+Missed the 2025 Virtual Expo or want to re-watch a favorite session? All talk recordings and technical reports are now available\!
+
+Catch up on the insights and innovations from our top teams and experts by exploring the full schedule:
+
+- [Event Website](https://expo25.leagueofrobotrunners.org/schedule/)  
+- [Youtube Playlist](https://youtube.com/playlist?list=PLlLnPGrmVZcOrQ_X__5Lqo9zaD6dHQg34&si=dSatQp5Z9vPPot0a)
+
 
 ## 📢Call For Participation: 2025 League of Robot Runners Virtual Expo  `21 May 2025`
 
