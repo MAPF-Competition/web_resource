@@ -2,7 +2,7 @@
 
 The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** series where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems. 
 
-For the 2026 season, we are raising the bar. In addition to **task assignment 🎯** and **lifelong planning ♻️**, we are introducing **stochasticity** and **uncertainty management 🎲**. These challenges mirror high-impact industrial applications—such as warehouse logistics and advanced manufacturing—where robots must adapt to real-world imperfections and delays in real-time.
+For the 2026 season, we are raising the bar. In addition to **task assignment 🎯** and **lifelong planning ♻️**, we are introducing **uncertainties** and **execution policies**. These challenges mirror high-impact industrial applications—such as warehouse logistics and advanced manufacturing—where robots must adapt to real-world imperfections and delays in real-time.
 
 <img src="./external_page_resource/images/mission-4.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;margin-bottom:20px"/>
   
@@ -16,29 +16,6 @@ In the past, robots moved perfectly. In 2026, we introduce **Delay Probabilities
 Your job (depending on the track) involves **Execution Control** and **Scheduling**:
 1.  **Execution:** You develop a policy to handle robot movements and mitigate collisions when delays occur.
 2.  **Scheduling:** You decide the assignments—which robot completes which task and when, accounting for potential execution lag.
-
-<div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center;background-color:#EBEBEB;margin-top:10px;">
-<br/>
-<div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;margin:10px;">
-<div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;margin-right:10px">
-<img src="./external_page_resource/images/task_and_robots_1a.png" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
-<br/>
-In a busy warehouse, 
-new tasks constantly arrive. 
-</div>
-<div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
-<img src="./external_page_resource/images/task_and_robots_2a.png" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
-<br/>
-Which robot takes the task? Optimize for the fleet.
-</div>
-<div style="flex:1;padding:3px;test-align:center;max-width:215px;display:inline-block;vertical-align:top;">
-<img src="./external_page_resource/images/task_and_robots_3a.png" style="margin-top:5px;width:100%;height:auto;max-width:215px;"/>
-<br/>
-Delays happen! Adapt your execution policy in real-time.
-</div>
-</div>
-<br/>
-</div>
 
 The competition is a great way to showcase your skills against the best in the world; **fame, glory and prizes** are all up for grabs! You can also make a tangible impact in the **research community** by establishing baselines for robust Multi-Agent Path Finding (MAPF) under uncertainty.
 
