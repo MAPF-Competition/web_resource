@@ -90,6 +90,7 @@ All dates are AOE (UTC-12). *Dates below are tentative for the 2026 season.*
 |![](./external_page_resource/logos/mit_logo.png) | ![](./external_page_resource/logos/monash_logo.png) | ![](./external_page_resource/logos/rutgers_logo.png) | ![](./external_page_resource/logos/uci-logo.jpg) | ![](./external_page_resource/logos/usc_logo.png) |  |   | ![](./external_page_resource/logos/amazon_robotics_logo.png)|
 
 <link fetchpriority='high' rel="stylesheet" href="./external_page_resource/style.css" type="text/css">
+
 <!-- ## Introduction ![r8](./external_page_resource/robots/r8_s.jpg)
 
 The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** series where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems: **robot dynamics 🤖**, **lifelong planning ♻️**, **task assignment 🎯** and **real-time execution ⏳**. Besides being intellectually stimulating, these challenges present themselves in high-impact industrial applications including warehouse logistics, transportation, and advanced manufacturing. 
