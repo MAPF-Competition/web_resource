@@ -10,7 +10,7 @@ For the 2026 season, we are raising the bar. In addition to **task assignment �
 
 Participants in the League (that's you!) control a team of robotic errand runners operating in a grid environment. Their job is to finish as many tasks as possible, as quickly as possible.
 
-**New for 2026: Delay Probabilities** ⚠️
+**New for 2026:** ⚠️
 In the past, robots moved perfectly. In 2026, we introduce **Delay Probabilities**. Robots may not always execute their move on time due to simulated mechanical or communication delays. Your goal is not just to find a path, but to create a robust **Execution Policy** that keeps the fleet moving smoothly even when individual robots fall behind.
 
 Your job (depending on the track) involves **Execution Control** and **Scheduling**:
