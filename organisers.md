@@ -113,32 +113,39 @@ td {
     <img class="image" src="./external_page_resource/organisers/zhe_chen.jpg" height="100px"/>
     <h4 class="name" >Zhe Chen</h4>
     <div class="description-block">
-        Monash University
+        Amazon Robotics
     </div>
 </div>
-<div class="block">
-    <img class="image" src="./external_page_resource/organisers/teng.jpg" height="100px"/>
-    <h4 class="name" > Teng Guo</h4>
-    <div class="description-block">
-        Rutgers University
-    </div>
-</div>
-<div class="block">
+<!-- <div class="block">
     <img class="image" src="./external_page_resource/organisers/yimin.jpg" height="100px"/>
     <h4 class="name" > Yimin Tang</h4>
     <div class="description-block">
         University of Southern California
     </div>
-</div>
-<div class="block">
+</div> -->
+<!-- <div class="block">
     <img class="image" src="./external_page_resource/organisers/han.jpg" height="100px"/>
     <h4 class="name" > Han Zhang</h4>
     <div class="description-block">
         University of Southern California
     </div>
+</div> -->
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/joonyeol.jpg" height="100px"/>
+    <h4 class="name" >Joonyeol Sim</h4>
+    <div class="description-block">
+        University of California Irvine
+    </div>
 </div>
 <div class="block">
-    <img class="image" src="./external_page_resource/organisers/yue_zhang.jpg" height="100px"/>
+    <img class="image" src="./external_page_resource/organisers/duo.jpg" height="100px"/>
+    <h4 class="name" > Duo Zhang</h4>
+    <div class="description-block">
+        Rutgers University
+    </div>
+</div>
+<div class="block">
+    <img class="image" src="./external_page_resource/organisers/yue.jpg" height="100px"/>
     <h4 class="name" > Yue Zhang</h4>
     <div class="description-block">
         Monash University
@@ -169,13 +176,17 @@ td {
 
 <div class="row">
         <p><strong>Shao-hung Chan</strong> (University of Southern California). Shao-hung helped organise the <a href="https://2023.leagueofrobotrunners.org/">2023 competition</a>, he co-organised the 2024 League of Robot Runners <a href="https://expo24.leagueofrobotrunners.org/">Virtual Expo</a>, and he is one of the orginal designers of  <a href="https://github.com/MAPF-Competition/PlanViz">PlanViz</a>, the offline solution visualiser used in the competition.</p>
+        <p><strong>Teng Guo</strong> (Rutgers University). Teng helped organise the <a href="https://2023.leagueofrobotrunners.org/">2023 competition</a> and <a href="https://2024.leagueofrobotrunners.org/">2024 competition</a>. He co-organised <a href="https://expo24.leagueofrobotrunners.org/">2024</a> and <a href="https://expo25.leagueofrobotrunners.org/">2025</a> League of Robot Runners Virtual Expo. He is one of the original designer of the competition <a href="https://github.com/MAPF-Competition/Benchmark-Archive/tree/main/2023%20Competition/Problem%20Generator">problem generator</a>.</p>
+        <p><strong>Yimin Tang</strong> (University of Southern California). Yimin helped organise the <a href="https://2024.leagueofrobotrunners.org/">2024 competition</a>, he co-organised the 2025 League of Robot Runners <a href="https://expo25.leagueofrobotrunners.org/">Virtual Expo</a> is one of the contributors to  <a href="https://github.com/MAPF-Competition/PlanViz">PlanViz</a>, the offline solution visualiser used in the competition.</p>
+        <p><strong>Han Zhang</strong> (University of Southern California). Han helped organise the <a href="https://2023.leagueofrobotrunners.org/">2023 competition</a> and <a href="https://2024.leagueofrobotrunners.org/">2024 competition</a>. He co-organised the 2024 League of Robot Runners <a href="https://expo24.leagueofrobotrunners.org/">Virtual Expo</a> is one of the original designer of the competition <a href="https://github.com/MAPF-Competition/Start-Kit">Start-kit</a>, the core module of the competition.</p>
+
 </div>
 
-<div class="row">
+<!-- <div class="row">
     <p>
     We gratefully acknowledge the assistance of <a href="https://mp.weixin.qq.com/s/o5o5iEO4i1zhU6hp2OGkAg"><b>运筹帷幄</b> (the OR-AI China Community on WeChat)</a> for promoting the 2024 League of Robot Runners in China.
     </p>
-</div>
+</div> -->
 
 ## Contact Us
 

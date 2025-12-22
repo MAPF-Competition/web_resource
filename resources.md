@@ -1,11 +1,11 @@
-## 2023 Benchmark Archive and Code Archive ![r2](external_page_resource/robots/r2_s.jpg)
+## Benchmark Archive and Code Archive ![r2](external_page_resource/robots/r2_s.jpg)
 
 
-The Benchmark Archive and the Code Archive gather all of your best submissions from the 2023 competition, with all problem instances and known best solutions. 🥁🥁🥁
+The Benchmark Archive and the Code Archive gather all of your best submissions from the **2023 competition and 2024 competition**, with all problem instances and known best solutions. 🥁🥁🥁
 
 These resources will help us track our progress on the core challenges associated with planning and coordinating teams of real robots. Researchers in the area (that’s you!) can use these resources to further develop and compare their algorithms against the established state-of-the-art. Meanwhile, newcomers to the area also get a leg up! They can start with working implementations and build their new ideas upon best-known solution techniques.🔥🔥🔥
 
-💯In the [Benchmark Archive](https://github.com/MAPF-Competition/Benchmark-Archive), you will find:
+💯In the [Benchmark Archive](https://github.com/MAPF-Competition/Benchmark-Archive), you will find for both 2023/2024 competitions:
 
 * Example instances released with the start-kit.
 * Main round evaluation instances.
@@ -16,7 +16,7 @@ These resources will help us track our progress on the core challenges associate
 
 All the best-known solutions can be downloaded and analysed with [PlanViz](https://github.com/MAPF-Competition/PlanViz), our offline visualisation tool (previously open-sourced in 2023).
 
-📂In the [Code Archive](https://github.com/MAPF-Competition/Code-Archive), you will find:
+📂In the [Code Archive](https://github.com/MAPF-Competition/Code-Archive), you will find for both 2023/2024 competitions:
 
 * Implementations for the best submission of each team on the final leaderboard of the Fast Mover and Overall Best categories.
 * Implementations that produced any best-known solution in the Line Honours category.

@@ -48,12 +48,18 @@ This competition received a total of **825 submissions** from **25 teams worldwi
 The League of Robot Runners virtual expo 2024 was a community event where we celebrate and reflect on the League of Robot Runners 2023 competition main round. It is an opportunity for participants to share their experiences and insights into the challenge problems, to tell the community about their innovative approaches, and to celebrate the performances that helped make the inaugural League of Robot Runners such a memorable success! Please visit the [Event Website](https://expo24.leagueofrobotrunners.org/) for more details and event recordings!
 
 ### LoRR 2024
-In 2024, The League of Robot Runners introduces **Task Scheduling**, an
+In 2024, The League of Robot Runners introduced **Task Scheduling**, an
 additional challenge which further complicates Path Planning decisions. 
-
-This setup more accurately reflect challenges faced by real-world applications, where
+This setup more accurately reflects challenges faced by real-world applications, where
 the decision of which robot completes which task can have a substantial impact
-on the throughput objective. 
+on the throughput objective.
 
-[Sign up now](./submission) and test your skills against the best in the world!
+The 2024 edition saw tremendous growth in community engagement, receiving **1513 submissions** (+688 vs previous edition) from **50 teams worldwide** (+25 vs previous edition).
 
+The competition spurred significant algorithmic advancements, with top solutions demonstrating massive performance gains over the start-kit baselines across diverse domains such as City, Warehouse, and Sortation.
+For more details about the setup, results and resources, please visit the [2024 Competition Snapshot Site](https://2024.leagueofrobotrunners.org/).
+
+
+**Virtual Expo 2025**
+
+Following the success of the previous year, the **League of Robot Runners Virtual Expo 2025** was held to celebrate the achievements of the 2024 season. It provided a platform for participants to discuss their strategies for the integrated Planning and Scheduling challenge and reflect on the competition results. Please visit the [Event Website](https://expo25.leagueofrobotrunners.org/) for more details and recordings!
