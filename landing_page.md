@@ -1,6 +1,6 @@
 <!-- ## Introduction ![r8](./external_page_resource/robots/r8_s.jpg) -->
 
-> The League of Robot Runners, sponsored by Amazon Robotics, is a **competition** series where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems.
+> **The League of Robot Runners, sponsored by Amazon Robotics, is a _competition series_ where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems.**
 
 <!-- For the 2026 season, we are raising the bar. In addition to **task assignment 🎯** and **lifelong planning ♻️**, we are introducing **stochasticity** and **uncertainty management 🎲**. These challenges mirror high-impact industrial applications—such as warehouse logistics and advanced manufacturing—where robots must adapt to real-world imperfections and delays in real-time.
 
@@ -8,11 +8,7 @@
 
 ## How It Works ![r1](./external_page_resource/robots/r1_s.png)
 
-Participants in the League (that's you!) control a team of robotic errand runners operating in a grid environment. Their job is to finish as many tasks as possible, as quickly as possible.
-
-In 2026, we introduce **Delay Probabilities** ⚠️. Robots may not always execute their move on time due to simulated mechanical or communication delays. Your goal is not just to find a path, but to create a robust **Execution Policy** that keeps the fleet moving smoothly even when individual robots fall behind.
-
-Your job (depending on the track) involves **Task Scheduling**, **Execution Control**, and **Path Planning**:
+Participants in the League (that's you!) control a team of robotic errand runners operating in a grid environment. Their job is to finish as many tasks as possible, as quickly as possible. Your job (depending on the track) involves **Task Scheduling**, **Execution Control**, and **Path Planning**:
 
 <div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center;background-color:#EBEBEB;margin-top:10px;">
 <br/>
@@ -44,6 +40,8 @@ Plan collision-free paths for a massive robot fleet to fulfill tasks.
 </div>
 <br/>
 </div>
+
+In 2026, we introduce **Delay Probabilities** ⚠️. Robots may not always execute their move on time due to simulated mechanical or communication delays. Your goal is not just to find a path, but to create a robust **Execution Policy** that keeps the fleet moving smoothly even when individual robots fall behind.
 
 The competition is a great way to showcase your skills against the best in the world; **fame, glory and prizes** are all up for grabs! You can also make a tangible impact in the **research community** by establishing baselines for robust Multi-Agent Path Finding (MAPF) under uncertainty.
 
@@ -80,7 +78,7 @@ There will also be a **Line Honours** prize for the team that computes the large
 ## Timeline ![r7](./external_page_resource/robots/r5_s.png)
 <br/>
 
-All dates are AOE (UTC-12).
+<!-- All dates are AOE (UTC-12). -->
 
 > - **December 2025**: Competition announcement
 > - **Mid-February 2026**: Start kit release, open for testing
