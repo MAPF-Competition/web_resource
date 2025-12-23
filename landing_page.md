@@ -56,20 +56,20 @@ The competition is a great way to showcase your skills against the best in the w
 
 Participation is open to individuals and teams from any discipline/background, anywhere in the world. Financial prizes (in USD) are available for **top performance** in three distinct tracks🏆:
 
-> **Execution Track:**
-> - We provide the task scheduler and path planner.
-> - You create an **Execution Policy** that handle delays.
-> - 💸 Cash Prizes Available (Amount TBA) 💸
->
-> **Task Scheduling Track:**
-> - You assign tasks to robots. We provide path planner and execution policy.
-> - Your schedule must account for the uncertainty of the execution phase.
-> - 💸 Cash Prizes Available (Amount TBA) 💸
->
-> **Combined Track:**
-> - You assign the tasks, plan paths, **and** control the execution.
-> - Complete control for maximal efficiency in a stochastic environment!
-> - 💰 **Grand Prize** (Amount TBA) 💰
+ **Execution Track:**
+ - We provide the task scheduler and path planner.
+ - You create an **Execution Policy** that handle delays.
+ - 💸 Cash Prizes Available (Amount TBA) 💸
+
+ **Task Scheduling Track:**
+ - You assign tasks to robots. We provide path planner and execution policy.
+ - Your schedule must account for the uncertainty of the execution phase.
+ - 💸 Cash Prizes Available (Amount TBA) 💸
+
+ **Combined Track:**
+ - You assign the tasks, plan paths, **and** control the execution.
+ - Complete control for maximal efficiency in a stochastic environment!
+ - 💰 **Grand Prize** (Amount TBA) 💰
 
 There will also be a **Line Honours** prize for the team that computes the largest number of best-known solutions. Other notable performances will be recognized with certificates.
 
