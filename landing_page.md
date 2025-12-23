@@ -1,6 +1,6 @@
 <!-- ## Introduction ![r8](./external_page_resource/robots/r8_s.jpg) -->
 
-> **The League of Robot Runners, sponsored by Amazon Robotics, is a _competition series_ where participants tackle the **core combinatorial challenges** found in cooperative multi-robot coordination problems.**
+> **The League of Robot Runners, sponsored by Amazon Robotics, is a _competition series_ where participants tackle the core combinatorial challenges found in cooperative multi-robot coordination problems.**
 
 <!-- For the 2026 season, we are raising the bar. In addition to **task assignment 🎯** and **lifelong planning ♻️**, we are introducing **stochasticity** and **uncertainty management 🎲**. These challenges mirror high-impact industrial applications—such as warehouse logistics and advanced manufacturing—where robots must adapt to real-world imperfections and delays in real-time.
 
