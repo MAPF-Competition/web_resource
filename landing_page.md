@@ -15,25 +15,25 @@ Participants in the League (that's you!) control a team of robotic errand runner
 <div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;margin:10px;">
 
 <div style="flex:1;padding:3px;text-align:center;max-width:180px;display:inline-block;vertical-align:top;margin-right:10px">
-<img src="./external_page_resource/images/2026/task_coming.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 4px solid black;"/>
+<img src="./external_page_resource/images/2026/task_coming.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 3px solid black;"/>
 <br/>
 Tasks (orders) are continuously coming to a busy warehouse.
 </div>
 
 <div style="flex:1;padding:3px;text-align:center;max-width:180px;display:inline-block;vertical-align:top;margin-right:10px">
-<img src="./external_page_resource/images/2026/task_allocation.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 4px solid black;"/>
+<img src="./external_page_resource/images/2026/task_allocation.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 3px solid black;"/>
 <br/>
 Decide which robot should complete which task? It's your call!
 </div>
 
 <div style="flex:1;padding:3px;text-align:center;max-width:180px;display:inline-block;vertical-align:top;margin-right:10px">
-<img src="./external_page_resource/images/2026/delays.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 4px solid black;"/>
+<img src="./external_page_resource/images/2026/delays.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 3px solid black;"/>
 <br/>
 Delays may happen! Your policy must handle interruptions.
 </div>
 
 <div style="flex:1;padding:3px;text-align:center;max-width:180px;display:inline-block;vertical-align:top;">
-<img src="./external_page_resource/images/2026/planning.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 4px solid black;"/>
+<img src="./external_page_resource/images/2026/planning.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 3px solid black;"/>
 <br/>
 Plan collision-free paths for a massive robot fleet to fulfill tasks.
 </div>
@@ -56,20 +56,20 @@ The competition is a great way to showcase your skills against the best in the w
 
 Participation is open to individuals and teams from any discipline/background, anywhere in the world. Financial prizes (in USD) are available for **top performance** in three distinct tracks🏆:
 
- **Execution Track:**
- - We provide the task scheduler and path planner.
- - You create an **Execution Policy** that handle delays.
- - 💸 Cash Prizes Available (Amount TBA) 💸
-
- **Task Scheduling Track:**
- - You assign tasks to robots. We provide path planner and execution policy.
- - Your schedule must account for the uncertainty of the execution phase.
- - 💸 Cash Prizes Available (Amount TBA) 💸
-
- **Combined Track:**
- - You assign the tasks, plan paths, **and** control the execution.
- - Complete control for maximal efficiency in a stochastic environment!
- - 💰 **Grand Prize** (Amount TBA) 💰
+> **Execution Track:**
+> - We provide the task scheduler and path planner.
+> - You create an **Execution Policy** that handle delays.
+> - 💸 Cash Prizes Available (Amount TBA) 💸
+>
+> **Task Scheduling Track:**
+> - You assign tasks to robots. We provide path planner and execution policy.
+> - Your schedule must account for the uncertainty of the execution phase.
+> - 💸 Cash Prizes Available (Amount TBA) 💸
+>
+> **Combined Track:**
+> - You assign the tasks, plan paths, **and** control the execution.
+> - Complete control for maximal efficiency in a stochastic environment!
+> - 💰 **Grand Prize** (Amount TBA) 💰
 
 There will also be a **Line Honours** prize for the team that computes the largest number of best-known solutions. Other notable performances will be recognized with certificates.
 
