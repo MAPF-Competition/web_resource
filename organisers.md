@@ -134,7 +134,7 @@ td {
     <img class="image" src="./external_page_resource/organisers/Joonyeol.jpg" height="100px"/>
     <h4 class="name" >Joonyeol Sim</h4>
     <div class="description-block">
-        University of California Irvine
+        University of California, Irvine
     </div>
 </div>
 <div class="block">
