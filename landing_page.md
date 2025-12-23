@@ -90,8 +90,8 @@ There will also be a **Line Honours** prize for the team that computes the large
 
 ---
 
-|     |     |     |     |     |     |     |     |     |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|     |     |     |     |     |     |     |     |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |![](./external_page_resource/logos/mit_logo.png) | ![](./external_page_resource/logos/monash_logo.png) | ![](./external_page_resource/logos/rutgers_logo.png) | ![](./external_page_resource/logos/uci-logo.jpg) | |  | ![](./external_page_resource/logos/amazon_robotics_logo.png) | ![](./external_page_resource/logos/aamas_logo.png) |
 
 <link fetchpriority='high' rel="stylesheet" href="./external_page_resource/style.css" type="text/css">
