@@ -12,7 +12,7 @@ For the 2026 season, we are raising the bar. In addition to **task assignment ðŸ
 <div>
 <strong>ðŸŽ‰ Co-hosted with AAMAS 2026</strong>
 <br/>
-The League of Robot Runners 2026 is proudly co-hosted with the <a href="https://www.aamas2025.org/" target="_blank">25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)</a>.
+The League of Robot Runners 2026 is proudly co-hosted with the <a href="https://cyprusconferences.org/aamas2026/" target="_blank">25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)</a>.
 </div>
 </div>
 

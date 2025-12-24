@@ -13,6 +13,8 @@ In previous years, robots always did exactly what they were told. But in the rea
 This year, we introduce **Delay Probabilities** ⚠️.
 Robots may not always execute their moves on time. Your challenge is no longer just about finding a path; it is about creating a robust **Execution Policy** that keeps the fleet moving smoothly even when individual robots fall behind.
 
+The League of Robot Runners 2026 is proudly co-hosted with the [25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)](https://cyprusconferences.org/aamas2026/).
+
 **🏆 New Tracks and Challenges**
 
 To accommodate these changes, we have restructured the competition into three new tracks:
