@@ -12,7 +12,7 @@ The League of Robot Runners 2026 is proudly co-hosted with the <a href="https://
 <img src="./external_page_resource/images/2026/aamas.png" alt="AAMAS 2026" style="height:60px;margin-top:10px;"/>
 </div> -->
 
-> <strong>🎉 Co-hosted with AAMAS 2026</strong>
+> <strong>🎉 Co-hosted with AAMAS 2026</strong><br/>
 > The League of Robot Runners 2026 is proudly co-hosted with the <a href="https://www.aamas2025.org/" target="_blank">25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)</a>.<br/>
 > <img src="./external_page_resource/images/2026/aamas.png" alt="AAMAS 2026" style="height:60px;margin-top:10px;"/>
 
