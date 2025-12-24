@@ -1,4 +1,5 @@
-## Goals of the Competition
+## Goals of the Competition  ![r8](./external_page_resource/images/2026_doodle/goal.jpg)
+
 
 The League of Robot Runners is a competition series to foster and advance research areas in the areas of Multi-Agent Path Finding ([MAPF](https://mapf.info)) and Task Scheduling. LoRR aims to: 
 
@@ -21,7 +22,7 @@ Read the [demonstration paper](https://openreview.net/pdf?id=mPmCnEHTvJ) and wat
 
 The system demonstration won the **Best System Demonstration Award Honorable Mention** at the ICAPS 2024! This prestigious award recognises the innovative design and impactful contributions of the LoRR competition.
 
-## Competition Series
+## Competition Series ![r8](./external_page_resource/images/2026_doodle/charging.jpg)
 
 ### LoRR 2023
 The first edition of the League of Robot Runners tackled two main challenges

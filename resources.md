@@ -1,4 +1,4 @@
-## Benchmark Archive and Code Archive ![r2](external_page_resource/robots/r2_s.jpg)
+## Benchmark Archive and Code Archive ![r2](external_page_resource/images/2026_doodle/resource.jpg)
 
 
 The Benchmark Archive and the Code Archive gather all of your best submissions from the **2023 competition and 2024 competition**, with all problem instances and known best solutions. 🥁🥁🥁
