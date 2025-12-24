@@ -4,13 +4,18 @@ The League of Robot Runners, sponsored by Amazon Robotics, is a _competition ser
 
 For the 2026 season, we are raising the bar. In addition to **task assignment 🎯** and **lifelong planning ♻️**, we are introducing **stochasticity** and **uncertainty management 🎲**. These challenges mirror high-impact industrial applications—such as warehouse logistics and advanced manufacturing—where robots must adapt to real-world imperfections and delays in real-time.
 
-<div style="background-color:#f0f8ff;border-left:4px solid #0066cc;padding:15px;margin:10px 0;">
+<!-- <div style="background-color:#f0f8ff;border-left:4px solid #0066cc;padding:15px;margin:10px 0;">
 <strong>🎉 Co-hosted with AAMAS 2026</strong>
 <br/>
 The League of Robot Runners 2026 is proudly co-hosted with the <a href="https://www.aamas2025.org/" target="_blank">25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)</a>.
 <br/>
 <img src="./external_page_resource/images/2026/aamas.png" alt="AAMAS 2026" style="height:60px;margin-top:10px;"/>
-</div>
+</div> -->
+
+> <strong>🎉 Co-hosted with AAMAS 2026</strong>
+> The League of Robot Runners 2026 is proudly co-hosted with the <a href="https://www.aamas2025.org/" target="_blank">25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)</a>.<br/>
+> <img src="./external_page_resource/images/2026/aamas.png" alt="AAMAS 2026" style="height:60px;margin-top:10px;"/>
+
 
 <!-- <img src="./external_page_resource/images/mission-4.jpg" style="margin-top:5px;width:100%;height:auto;max-width:1024px;margin-bottom:20px"/> -->
 
