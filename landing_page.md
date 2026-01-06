@@ -92,7 +92,7 @@ There will also be a **Line Honours** prize for the team that computes the large
 
 <!-- All dates are AOE (UTC-12). -->
 
-> - **December 2025**: Competition announcement
+> - **Jan 2026**: Competition announcement
 > - **Mid-February 2026**: Start kit release, open for testing
 > - **Mid-March 2026**: Main round begins
 > - **Early May 2026**: Main round ends
