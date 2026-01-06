@@ -1,4 +1,40 @@
-## 🎥 Watch the 2024 Virtual Expo Recordings Online! `18 Jul 2025`
+## 📣 Announcing the League of Robot Runners 2026! 📣 `05 Jan 2026`
+
+**Hello Robot Runners!**
+
+The wait is over! We are thrilled to officially announce the **2026 League of Robot Runners**! 🤖 ✨
+
+Building on the massive success of the 2024/5 season—which saw record-breaking submissions and innovative solutions in task scheduling—we are raising the bar once again. For 2026, we are moving beyond perfect grids and deterministic worlds to tackle one of the biggest hurdles in real-world robotics: **Uncertainty**. 🎲
+
+**🚀 What's New in 2026?**
+
+In previous years, robots always did exactly what they were told. But in the real world, wheels slip, networks lag, and obstacles appear.
+
+This year, we introduce **Delay Probabilities** ⚠️.
+Robots may not always execute their moves on time. Your challenge is no longer just about finding a path; it is about creating a robust **Execution Policy** that keeps the fleet moving smoothly even when individual robots fall behind.
+
+The League of Robot Runners 2026 is proudly co-hosted with the [25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)](https://cyprusconferences.org/aamas2026/).
+
+**🏆 New Tracks and Challenges**
+
+To accommodate these changes, we have restructured the competition into three new tracks:
+
+* **Execution Track ⚙️:** We provide the task scheduler and path planner. You build the policy to navigate robots safely through stochastic delays.
+* **Task Scheduling Track ⏱️:** We provide path planner and execution policy. You build the scheduler that assigns tasks to thousands of robots.
+* **Combined Track 🏆:** The ultimate challenge! Everything is under your control for maximal efficiency.
+
+**📅 Competition Timeline**
+
+Mark your calendars! The race continues in early 2026:
+
+* **Mid-February 2026:** 🛠️ **Start-Kit Release & Test Round.** Open for testing and warm-up.
+* **Mid-March 2026:** 🏁 **Main Round Begins.** The official leaderboard goes live!
+* **Early May 2026:** 🛑 **Main Round Ends.**
+* **AAMAS 2026:** 🥇 **Winners Announcement.** Results will be presented at the AAMAS conference.
+
+Stay tuned for further details in the coming weeks. We can't wait to see how you handle the chaos!
+
+## 🎥 Watch the 2025 Virtual Expo Recordings Online! `18 Jul 2025`
 
 **Hello Robot Runners!**
 
