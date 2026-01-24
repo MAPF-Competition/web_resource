@@ -24,27 +24,27 @@ Participants in the League (that's you!) control a team of robotic errand runner
 
 <div style="width:100%;text-align:center;vertical-align:top;display:flex;justify-content:center; margin-top:10px;">
 <br/>
-<div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;margin:10px;">
+<div style="max-width: 1024px;display: flex;width: 100%;justify-content: space-between;flex-direction: row;flex-wrap: wrap;margin:10px;gap:10px;">
 
-<div style="flex:1;padding:3px;text-align:center;max-width:180px;display:inline-block;vertical-align:top;margin-right:10px">
+<div style="flex:1 1 calc(50% - 10px);padding:3px;text-align:center;min-width:160px;max-width:180px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/2026/task_coming.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 2px solid black; border-radius: 8px; box-shadow: 6px 6px 0px rgba(7, 142, 154, 0.3);"/>
 <br/>
 Tasks (orders) are continuously coming to a busy warehouse.
 </div>
 
-<div style="flex:1;padding:3px;text-align:center;max-width:180px;display:inline-block;vertical-align:top;margin-right:10px">
+<div style="flex:1 1 calc(50% - 10px);padding:3px;text-align:center;min-width:160px;max-width:180px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/2026/task_allocation.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 2px solid black; border-radius: 8px; box-shadow: 6px 6px 0px rgba(7, 142, 154, 0.3);"/>
 <br/>
 Decide which robot should complete which task? It's your call!
 </div>
 
-<div style="flex:1;padding:3px;text-align:center;max-width:180px;display:inline-block;vertical-align:top;margin-right:10px">
+<div style="flex:1 1 calc(50% - 10px);padding:3px;text-align:center;min-width:160px;max-width:180px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/2026/delays.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 2px solid black; border-radius: 8px; box-shadow: 6px 6px 0px rgba(7, 142, 154, 0.3);"/>
 <br/>
 Delays may happen! Your policy must handle interruptions.
 </div>
 
-<div style="flex:1;padding:3px;text-align:center;max-width:180px;display:inline-block;vertical-align:top;">
+<div style="flex:1 1 calc(50% - 10px);padding:3px;text-align:center;min-width:160px;max-width:180px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/2026/planning.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 2px solid black; border-radius: 8px; box-shadow: 6px 6px 0px rgba(7, 142, 154, 0.3);"/>
 <br/>
 Plan collision-free paths for a massive robot fleet to fulfill tasks.
