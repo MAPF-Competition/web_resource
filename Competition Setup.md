@@ -42,6 +42,25 @@ counter), and delays can temporarily force a robot to wait.
 These execution delays are a new competition feature compared with older
 competition settings.
 
+#### Tick / Counter Model
+
+The simulator advances in execution ticks. Each robot state stores a counter
+`count / maxCount` that tracks progress inside the current motion primitive.
+
+- `FW`, `CR`, and `CCR` are **multi-tick** actions.
+- On each tick where such an action is executed, `count` increases by 1.
+- When `count` reaches `maxCount`, the counter resets to 0 and the discrete
+   state update is committed:
+   - `FW`: location changes to the next cell.
+   - `CR` / `CCR`: orientation changes by 90 degrees.
+- Before completion, the robot is in an intermediate transition/rotation state.
+- If the robot is delayed or forced to wait/stop, progress is paused for that
+   tick (no counter advance).
+
+Practical implication: planning can be done at the grid-action level, but
+execution unfolds over multiple ticks, so the executor must reason about
+in-progress actions and not only final cell/orientation states.
+
 An **action request** is feasible if it can be executed safely in the
 continuous motion model used by the simulator. Safety is checked by geometric
 overlap of robots and obstacles over a tick (swept collision checking), rather
