@@ -93,8 +93,8 @@ There will also be a **Line Honours** prize for the team that computes the large
 <!-- All dates are AOE (UTC-12). -->
 
 > - **Jan 2026**: Competition announcement
-> - **Mid-February 2026**: Start kit release, open for testing
-> - **Mid-March 2026**: Main round begins
+> - **Mid-March 2026**: Start kit release, open for testing
+> - **Early March 2026**: Main round begins
 > - **Early May 2026**: Main round ends
 > - **AAMAS 2026**: Winner announcement & Results (co-hosted event)
 

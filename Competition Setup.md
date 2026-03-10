@@ -29,17 +29,24 @@ The **environment** is a grid map comprised of traversable and non-traversable c
 Time is divided into unit-sized time steps. 
 
 Each **robot** occupies a single grid cell and has a designated orientation called
-`Forward`. Each timestep a robot can execute a single action, in parallel
-with all other robots. Each action has a duration of exactly one timestep. 
-The available actions (see illustration) are as follows:
+`Forward`. The planner-level actions are:
 - Move Forward, into an adjacent grid cell
 - Rotate 90 degree clockwise
 - Rotate 90 degrees counter-clockwise
 - Wait at the current location.
 
-An **action** is valid (or feasible) if the robot can execute that action
-without colliding with obstacles in the environment or with other moving
-robots. There are two types of collisions (see illustrations) which can occur between two robots:
+In the 2026 competition system, actions are executed through a simulator that
+tracks progress over multiple execution ticks. In particular, `Forward` and
+rotations may require multiple ticks to complete (via an internal action
+counter), and delays can temporarily force a robot to wait.
+These execution delays are a new competition feature compared with older
+competition settings.
+
+An **action request** is feasible if it can be executed safely in the
+continuous motion model used by the simulator. Safety is checked by geometric
+overlap of robots and obstacles over a tick (swept collision checking), rather
+than only discrete conflict rules. At the same time, both planner and executor
+should avoid the classic discrete conflicts used in MAPF:
 
 - Vertex collision: two robots attempt to move to the same location at the same time.
 - Edge collision: two robots traverse the same edge from opposite directions at the same time.
@@ -123,21 +130,49 @@ commands, to have the robots execute specific actions. The controller also
 tracks the current assignment of each robot, and the progress that robots are
 making toward completing their assigned tasks.
 
-### Path Planning
+### Two-Rate Control Loop
 
-To determine which command to issue to each robot, the controller relies on a component known as the **path planner**, which you must implement (for the Path Planning track and the Combined track). The controller calls the planner at each timestep. The planner's role is to return one valid command for each robot at each timestep. If the planner fails to provide a valid set of commands (one for each robot) or does not complete its computation in time, the controller instructs all robots to **wait in place** until the next timestep.
+The 2026 controller runs as a **two-rate loop**:
+
+1. **Planning update (slower loop):**
+    - The system syncs a planning snapshot into `SharedEnvironment`.
+    - `Entry::compute(...)` runs scheduler and planner, returning:
+       - a proposed task schedule (agent -> task), and
+       - a **multi-step plan** (a sequence of planner actions per agent).
+    - The executor then processes this new plan and updates per-agent
+       **staged actions** (action queues for upcoming ticks).
+
+2. **Execution tick (faster loop):**
+    - Every tick, the executor outputs per-agent `GO` / `STOP` commands.
+   - The simulator combines command + staged action, applies execution delays and safety
+       checks, and advances one tick.
+
+Planning and execution are decoupled, so the system can keep executing staged
+actions while a new plan is being computed.
+
+### Planner and Executor Roles
+
+The **planner** (Path Planning / Combined tracks) provides multi-step,
+grid-level intent (`FW`, `CR`, `CCR`, `W`) for each robot.
+
+The **executor** (Execution / Combined tracks) decides at each tick whether each
+robot should `GO` or `STOP`, based on current state and staged actions, and is
+responsible for converting received plans into staged executable actions.
+
+The executor should also prevent unsafe progress, including potential
+vertex/edge conflicts and other unsafe motions detected by the simulator.
+
+If a robot has no staged actions, it waits (or is stopped) until new actions
+are staged.
 
 In the following example, we have illustrated two different scenarios:
 
 
-- **Path with Collision:**  The "collision" figure shows a scenario where two
-  robots’ routes intersect at timestep 5. Failing to account for the movements
-  of other robots leads to delays. Without a feasible plan at timestep 5, the 
-  controller tells all robots to wait.
+- **Unsafe request at execution:** the simulator may override requested movement
+   to wait when safety checks reject the motion, including conflict-prone cases.
 
-- **Collision-Free Path:** The "collision-free" figure shows a carefully
-  planned situation where robots avoid each other. Both robots finish their
-  tasks without any delays.
+- **Safe coordinated execution:** plans and executor decisions keep robots
+   progressing with fewer forced waits and delays.
 
 Effective path planning is crucial, for completing assignments as efficiently as possible. 
 
@@ -152,7 +187,7 @@ Effective path planning is crucial, for completing assignments as efficiently as
 To determine which robot is assigned which task, the controller relies on a
 component known as the **task scheduler**, which you must implement (for the
 Task Scheduling track and the Combined track). The role of the scheduler is to
-specify a valid next task (or no task) for each robot at each timestep. 
+specify a valid next task (or no task) for each robot at each planning update. 
 An assignment is valid if every assigned task is a revealed task which has 
 not been previously opened or closed by another robot. 
 
@@ -165,9 +200,8 @@ Below is an example of task assignments. The top row represents the task pool, w
    <img src="./external_page_resource/images/task_assignment_example.png" alt="description" style="max-width: 80%; height: auto;">
 </div>
 
-If the Task Scheduler does not complete its computation in time, of if the
-proposed assignment is invalid, the existing assignment (from the previous 
-timestep) is taken as the current assignment. 
+If the Task Scheduler does not complete in time, or if the proposed assignment
+is invalid, the previous valid assignment is retained.
 
 Effective task assignment is crucial: for optimising the use of available
 resources (the robots) and for maximising the number of task completions. 
@@ -175,19 +209,20 @@ resources (the robots) and for maximising the number of task completions.
 ### Time Tracking and Planning Horizon
 
 The central controller monitors time elapsed since the start of execution
-(also known as **wall clock time**). Time continues to pass while the planner
-and scheduler are deliberating. 
+(also known as **wall clock time**). Time continues to pass while scheduler,
+planner, and executor are running.
 
-At the end of each timestep, the planner and scheduler must return valid plans
-and valid assignments. In every track, participants decide how to **allocate
-time**, for planning and scheduling. After a predetermined period, known as the
-**planning horizon**, the central controller stops, and the problem is
-considered finished. Careful time management is essential for strong
-performance. 
+Planning updates are soft-time-limited: if planning runs late, simulation keeps
+executing with previously staged actions until planning returns. Likewise,
+executor callbacks should stay lightweight to avoid losing effective control
+time.
+
+After a predetermined simulation horizon, the controller stops and the problem
+instance is finished. Careful time budgeting across scheduling, planning, and
+execution is essential for strong performance.
 
 
 Please refer to our competition
 [Start-Kit](https://github.com/MAPF-competition/Start-Kit) for more details
-about interactions between the planner and scheduler and descriptions of
-algortihmic behaviour for the `default planner` (used in the Task Scheduling
-track) and the `default scheduler` (used in the Path Planning track).
+about interactions between scheduler, planner, and executor, and detailed
+behaviour of the default implementations.
