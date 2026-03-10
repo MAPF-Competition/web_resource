@@ -6,10 +6,15 @@
 4. Submissions will be released, as indicated by each participant, under an open source license such as MIT, AGPL3, APACHE, BSD3, CC0, EPL, GPL3, GPL2, LGPL, MPL and CC-BY-NC. Alternative licenses, that share a similar open spirit, may be considered by the organisers upon request. 
 5. Participants cannot modify any start-kit implementation, except for files allowed for modification by competition instructions.
 6. Participants cannot modify or interfere with any start-kit/system functionalities, such as, timing, input reading, output writing, and so on.
-7. Participants cannot interfere with, or othewise attempt to hijack or misappropriate, any part of the evaluation system/server functionalities.
-8. All decisions taken by the organising committee are final.
-9. Failure to abide by these rules may result in immediate disqualification.
-10. These rules are subject to changes and ammendments at the discretion of the organisers.
+7. In any track that relies on one or more default components (including Scheduling, Execution, and Combined configurations that use defaults), participants must not manipulate shared environment, task, plan, or state data to distort the intended behaviour of those default components.
+	- General disallowed behaviour: injecting, deleting, or rewriting internal data to force outcomes that are not produced through the official track APIs.
+	- Scheduling example (disallowed): writing fake tasks or overwriting task data (e.g., `env->task_pool`) to redirect default planner motion.
+	- Execution example (disallowed): tampering with planner/environment state to indirectly steer agent motion or bypass the intended planning/execution interface.
+	- Allowed behaviour: returning outputs through the official APIs only (e.g., valid schedules for scheduler and valid plan-processing/command behaviour for executor).
+8. Participants cannot interfere with, or othewise attempt to hijack or misappropriate, any part of the evaluation system/server functionalities.
+9. All decisions taken by the organising committee are final.
+10. Failure to abide by these rules may result in immediate disqualification.
+11. These rules are subject to changes and ammendments at the discretion of the organisers.
 
 
 If you have any questions about the interpretation or application of these rules, please contact the organisers: league-of-robot-runners [at] googlegroups.com.
