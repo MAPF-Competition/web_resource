@@ -150,9 +150,16 @@ The 2026 controller runs as a **two-rate loop**:
 Planning and execution are decoupled, so the system can keep executing staged
 actions while a new plan is being computed.
 
+The following sequence diagram illustrates how the planner, simulator, and
+executor interact during planning updates and execution ticks.
+
+<div style="text-align: center;">
+   <img src="./external_page_resource/images/sequence_diagram.png" alt="Planner executor interaction sequence diagram" style="max-width: 95%; height: auto;">
+</div>
+
 ### Planner and Executor Roles
 
-The **planner** (Path Planning / Combined tracks) provides multi-step,
+The **planner** (Combined track) provides multi-step,
 grid-level intent (`FW`, `CR`, `CCR`, `W`) for each robot.
 
 The **executor** (Execution / Combined tracks) decides at each tick whether each
