@@ -79,35 +79,35 @@ During evaluation, time progresses at a rate of 1 second per timestep. Your
 submission will be evaluated for up to 5000 seconds on each map. Your job is to
 complete as many tasks as possible, before a time limit is reached. 
 
-There are three evaluation tracks: 
-- **Path Planning** 
+There are three evaluation tracks:
+- **Execution**
 - **Task Scheduling**
-- **Combined** (Path Planning + Task Scheduling)
+- **Combined**
 
 ### Task Scheduling
 
 In this track, participants are responsible for assigning revealed tasks to
-robots. At each timestep, your scheduler must return a valid task assignment
-(including no assignment) for every robot. The schedule is then realised by a
-`default path planner`, which decides what paths robots will take through the
-environment to complete their tasks. 
+robots. At each planning update, your scheduler must return a valid task
+assignment (including no assignment) for every robot. The schedule is then
+realised by the default planner and default executor in the start-kit.
 
-At every timestep, your scheduler must compute a valid assignment for the
-revealed, unallocated tasks. While you can take as long as needed to make
-scheduling decisions, time continues to elapse during deliberation. 
-Failure to compute a valid assignment means your robots will not complete available
-tasks efficiently.
+Your scheduler must compute valid assignments for revealed, unallocated tasks.
+Time continues to elapse while scheduling deliberates, so efficient assignment
+is critical for strong performance.
 
-### Planner Track
-In the Planner Track, participants must implement their own planner, which is responsible for planning the paths for the robots. The **default task scheduler** will be used in this track.
+### Execution Track
+In the Execution Track, participants implement the executor component. The
+default scheduler and default planner provide schedule and multi-step planner
+actions, while your executor processes new plans into staged actions and issues
+per-tick `GO`/`STOP` execution commands.
 
-During the planning stage, the initial locations of the robots are revealed, and tasks—comprising sequences of errands—are assigned, one to each robot, by the default scheduler. Time progresses at a rate of 1 second per timestep, and your planner will be evaluated for up to 5000 seconds on each map.
-
-At every timestep, your planner must compute the next valid action for each robot. While you can take as long as needed for planning, time continues to elapse during deliberation. Failure to compute the next valid action for every robot, or deliberating for longer than 1 second, will result in all robots waiting in place until the next planning episode.
+The execution layer is evaluated on how effectively it keeps robots progressing
+under timing constraints, safety checks, and possible execution delays.
 
 ### Combined Track
-In the Combined Track, participants can modify **both the task scheduler and the path planner**. Both components are evaluated
-together, which gives maximum flexibility over how the problem solved. 
+In the Combined Track, participants can modify scheduler, planner, and executor
+together, which gives maximum flexibility over assignment, planning, and
+execution behavior.
 
 
 ### Scoring and the Virtual Best
@@ -126,8 +126,8 @@ the score is computed using the following formula:
 
 Each track has a separate
 leaderboard. Participants submitting to the Combined track compete for the
-grand prize. Other participants (i.e., Path Planning only or Task
-Scheduling only) compete for track prizes. 
+grand prize. Other participants (i.e., Execution only or Task Scheduling only)
+compete for track prizes.
 
 Single-track solutions are further ranked and evaluated on the Combined
 leaderboard (i.e. everyone is eligible for the grand prize). 
