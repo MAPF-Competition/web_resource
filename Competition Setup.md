@@ -26,59 +26,82 @@ our competition [Start-Kit](https://github.com/MAPF-competition/Start-Kit)
 ## Robots and Their Environment ![r14](external_page_resource/robots/robot_on_grid_s.png)
 The **environment** is a grid map comprised of traversable and non-traversable cells
 (obstacles). It is deterministic, fully observable, and known ahead of time.
-Time is divided into unit-sized time steps. 
+Time is divided into unit-sized time ticks. 
 
-Each **robot** occupies a single grid cell and has a designated orientation called
-`Forward`. The planner-level actions are:
-- Move Forward, into an adjacent grid cell
-- Rotate 90 degree clockwise
-- Rotate 90 degrees counter-clockwise
-- Wait at the current location.
+Each **robot** occupies a single grid cell and has a designated orientation called `Forward`. 
 
-In the 2026 competition system, actions are executed through a simulator that
-tracks progress over multiple execution ticks. In particular, `Forward` and
-rotations may require multiple ticks to complete (via an internal action
-counter), and delays can temporarily force a robot to wait.
-These execution delays are a new competition feature compared with older
-competition settings.
+<figure>
+  <img src="./external_page_resource/images/2026/action_vs_tick.png" alt="action with tick">
+  <figcaption>Each action has a duration of k “ticks” (the minimum resolution of the clock). We measure the progress of the agent through the action by counting the number of elapsed ticks.</figcaption>
+</figure>
 
-#### Tick / Counter Model
+### Action - Planner Level Commands
 
-The simulator advances in execution ticks. Each robot state stores a counter
-`count / maxCount` that tracks progress inside the current motion primitive.
-
-- `FW`, `CR`, and `CCR` are **multi-tick** actions.
-- On each tick where such an action is executed, `count` increases by 1.
-- When `count` reaches `maxCount`, the counter resets to 0 and the discrete
-   state update is committed:
-   - `FW`: location changes to the next cell.
-   - `CR` / `CCR`: orientation changes by 90 degrees.
-- Before completion, the robot is in an intermediate transition/rotation state.
-- If the robot is delayed or forced to wait/stop, progress is paused for that
-   tick (no counter advance).
-
-Practical implication: planning can be done at the grid-action level, but
-execution unfolds over multiple ticks, so the executor must reason about
-in-progress actions and not only final cell/orientation states.
-
-An **action request** is feasible if it can be executed safely in the
-continuous motion model used by the simulator. Safety is checked by geometric
-overlap of robots and obstacles over a tick (swept collision checking), rather
-than only discrete conflict rules. At the same time, both planner and executor
-should avoid the classic discrete conflicts used in MAPF:
-
-- Vertex collision: two robots attempt to move to the same location at the same time.
-- Edge collision: two robots traverse the same edge from opposite directions at the same time.
-
+The Planner computes a sequence of collision-free actions for each robot. The robots move together, in parallel. Each action has a minimum duration of k time ticks.  The available actions are as follows:
+- FW: Move Forward into an adjacent grid cell (k >= 10)
+- CR: Rotate 90 degree clockwise (k >= 10)
+- CCR: Rotate 90 degrees counter-clockwise (k >= 10)
+- W: Wait at the current location (k >= 1)
+Once the plan is computed, it is then passed to the Executor to process and execute.
 
 | `Forward` |  `Rotate` |
 |:---:|:---:|
 | ![image](external_page_resource/images/image2.gif) | ![image](external_page_resource/images/rotate.gif) |
 
+### Action - Execution Level Commands
 
-| `Vertex Collision` |  `Edge Collision` |
-|:---:|:---:|
-| ![image](external_page_resource/images/vertex_conflict.gif) | ![image](external_page_resource/images/edge_conflict.gif)  |
+The Planner provides high-level actions on the grid (FW/CR/CCR/W), and the Executor stages the actions by placing them in a queue. When a robot is ready, the executor can instruct the robot to begin executing the first action in its queue. Once the robot begins an action, the robot is committed to finishing that action. The robot cannot start a different action halfway through. However, a robot is allowed to pause its execution (stop in place).
+
+#### Executor command
+At each tick, the executor issues two kinds of commands:
+- GO: allow the robot to advance one tick of its current committed action (progress increases)
+- STOP: do not allow progress this tick (progress does not increase).
+If the executor issue “GO” to an agent, the agent will try to execute the first action on the staged action queue, and once the action is completed, this action will be removed from the top of the staged queue.
+
+#### Action counter
+To track the progress of executing the planner-level actions. Each robot maintains a Counter inside the state with two integers:
+- Counter: how many execution ticks have elapsed in the current action
+- Max Counter (k): how many execution ticks are required to complete one action.
+
+On each executed tick, the robot increments one counter if the executor decides “GO”. When the counter reaches Max Counter, the counter resets, and the action completes. Otherwise, the robot is considered mid-action (“on the edge” or “in rotation”).  
+
+### Motions and Collisions
+
+To support realistic execution, the simulator maintains a continuous “real position” for robots during action execution.
+During a Forward action, the robot moves gradually from the centre of its current cell toward the centre of the next cell over ticks. Intuitively, if the max counter is K, then at each tick, it advances about 1/K of a cell.
+During Rotate actions, the robot does not translate (it stays within its current cell while turning).
+When an action completes, the robot snaps back to a discrete state at a cell center (and the location/orientation is updated accordingly).
+This competition does not use discrete MAPF “vertex collisions” or “edge collisions”.
+
+Instead, collisions are defined using geometric overlap:
+Each robot is wrapped by a rectangular safety bubble (an axis-aligned square). The size of this square is a competition parameter. Obstacles are treated as solid unit squares.
+A collision occurs if any of the following happens:
+Two robots’ safety squares overlap
+A robot’s safety square overlaps an obstacle square
+The executor enforces safety at every tick. If executing a robot’s next action step would cause a collision (with another robot, an obstacle, or the boundary), the executor may override that robot’s progress for that tick and make it wait instead.
+
+![image](external_page_resource/images/2026/collision.png) 
+
+### Delays
+
+This competition models execution uncertainty and safety-aware execution. Robots may experience execution delays. A delay means the robot temporarily cannot make progress, even if it has a valid planned action. Delays do not change the planned action itself. At one tick, each agent may have a probability of p to have delay events. When a delay event happens to an agent, that agent is forced to STOP (Wait) at the current location for a number of clock ticks, meaning the robot’s action progress is paused. Note when an agent is in delay, it will not trigger a delay event again.
+
+1. Receive and Process a Plan from Planner
+
+The planner does not send a single action per robot every executor tick. Instead, it periodically sends a plan, which consists of a short-horizon sequence of high-level (planner-level) actions for each robot.
+
+When a new plan is received, the executor will decide to process it into the “staged action queue” for each agent. For processing the new plan, it means the executor has to decide how to update the staged action queue with the new plan. Note, this processing can decide to only adopt partial plans (cut from the middle) or replace the (entire or partial) old staged actions with the new plan, but it should not modify (i.e., delete/insert/modify actions or shuffle orders of actions, wait exclude) the staged actions and the new plan itself. 
+
+After processing the new plan, the executor also needs to provide a “predicted state” for each agent. The predicted state represents a prediction of the agent state at the end of the current plan execution,  which gives the starting states for the planner to start next.  Note these predicted states are only an estimate, because actual execution may differ due to GO/STOP decisions, collision avoidance overrides, and delays.
+
+2. Execution policy: GO / STOP
+The executor runs every tick and applies an execution policy that maps “planned action” to “what actually happens this tick”.
+Given the plans (sequence of actions) from the planner, at every tick, the execution policy decide:
+
+- GO: allow the robot to advance one tick of its current committed action (progress increases)
+- STOP: do not allow progress this tick (progress does not increase).
+- 
+If the executor issues “GO” to an agent, the agent will try to execute the first action on the staged action queue by incrementing the counter, and once the action is completed (counter accumulates to max and resets to zero), this action will be removed from the top of the queue.
 
 
 ## Tasks, Errands and Assignments![r6](external_page_resource/robots/r6_s.png) 
@@ -143,69 +166,23 @@ The total number of remaining (un-revealed) tasks is infinite.
 
 ## The Central Controller
 
-The central controller is responsible for the correct operation of robots in
-the environment. It tracks the current positions of all robots and it issues
-commands, to have the robots execute specific actions. The controller also
-tracks the current assignment of each robot, and the progress that robots are
-making toward completing their assigned tasks.
+The central controller is responsible for the correct operation of robots in the environment. It tracks the current states of all robots, validates collisions, and advances the simulation forward in time. It also tracks task assignments and the progress robots are making toward completing their assigned tasks.
+A key feature of this competition is that decision-making happens at two different time scales:
 
-### Two-Rate Control Loop
-
-The 2026 controller runs as a **two-rate loop**:
-
-1. **Planning update (slower loop):**
-    - The system syncs a planning snapshot into `SharedEnvironment`.
-    - `Entry::compute(...)` runs scheduler and planner, returning:
-       - a proposed task schedule (agent -> task), and
-       - a **multi-step plan** (a sequence of planner actions per agent).
-    - The executor then processes this new plan and updates per-agent
-       **staged actions** (action queues for upcoming ticks).
-
-2. **Execution tick (faster loop):**
-    - Every tick, the executor outputs per-agent `GO` / `STOP` commands.
-   - The simulator combines command + staged action, applies execution delays and safety
-       checks, and advances one tick.
-
-Planning and execution are decoupled, so the system can keep executing staged
-actions while a new plan is being computed.
-
-The following sequence diagram illustrates how the planner, simulator, and
-executor interact during planning updates and execution ticks.
-
-<div style="text-align: center;">
-   <img src="./external_page_resource/images/sequence_diagram.png" alt="Planner executor interaction sequence diagram" style="max-width: 95%; height: auto;">
-</div>
-
-### Planner and Executor Roles
-
-The **planner** (Combined track) provides multi-step,
-grid-level intent (`FW`, `CR`, `CCR`, `W`) for each robot.
-
-The **executor** (Execution / Combined tracks) decides at each tick whether each
-robot should `GO` or `STOP`, based on current state and staged actions, and is
-responsible for converting received plans into staged executable actions.
-
-The executor should also prevent unsafe progress, including potential
-vertex/edge conflicts and other unsafe motions detected by the simulator.
-
-If a robot has no staged actions, it waits (or is stopped) until new actions
-are staged.
-
-In the following example, we have illustrated two different scenarios:
+- **Planning updates (slower)**: the controller periodically communicates with the planner/task scheduler and receives updated plans.
+- **Execution ticks (faster)**: the controller advances the world every tick and consults the executor to safely realize (or temporarily pause) the planned motions, while also injecting delays.
 
 
-- **Unsafe request at execution:** the simulator may override requested movement
-   to wait when safety checks reject the motion, including conflict-prone cases.
+![image](external_page_resource/images/2026/planner_vs_executor.png)
 
-- **Safe coordinated execution:** plans and executor decisions keep robots
-   progressing with fewer forced waits and delays.
+### Path Planner
 
-Effective path planning is crucial, for completing assignments as efficiently as possible. 
+To determine the intended actions for each robot, the controller relies on a component known as the **path planner**. The controller does **not** require a fresh decision every execution tick. Instead, it contacts the planner **periodically** (every multiple execution ticks), with a fixed time budget per call.
 
+What the planner returns  
+The planner returns a **plan** for each robot: a short-horizon sequence of grid-level actions from the set Move Forward (into the adjacent cell in front), Rotate 90 degrees clockwise, Rotate 90 degrees counter-clockwise and Wait.
 
-<div style="text-align: center;">
-   <img src="./external_page_resource/images/planning_path.png" alt="description" style="max-width: 80%; height: auto;">
-</div>
+Important: the planner does not output micro-actions or fractional movements. A “Forward” action is still the planner’s high-level intent to move to the next cell; the controller/executor handles multi-tick realisation internally.
 
 
 ### Task Scheduling
@@ -216,6 +193,14 @@ Task Scheduling track and the Combined track). The role of the scheduler is to
 specify a valid next task (or no task) for each robot at each planning update. 
 An assignment is valid if every assigned task is a revealed task which has 
 not been previously opened or closed by another robot. 
+
+When the controller call the planning entry, the task scheduler is first called to determine the schedule, given:
+
+- The agent predicted states (starting state for this planning episode)
+- New tasks and new free agents (agents finished their previously assigned tasks) from the last planning episode (between the time the planner last called and now).
+
+It returns the task schedule for each agent, which is then passed to the planner to plan the path accordingly. 
+
 
 Below is an example of task assignments. The top row represents the task pool, which contains six tasks. Task T1, shaded in gray, is finished. Task T2, shaded in orange, is assigned to an agent but remains unfinished. Tasks T3, T4, and T5, shaded in cyan, are revealed but unassigned, while task T6, shaded in green, is unrevealed. The second row shows the agents, with gray-shaded agents currently working on unfinished tasks and cyan-shaded agents available for assignment. The left side illustrates an invalid assignment due to the following issues:
 
@@ -232,20 +217,67 @@ is invalid, the previous valid assignment is retained.
 Effective task assignment is crucial: for optimising the use of available
 resources (the robots) and for maximising the number of task completions. 
 
-### Time Tracking and Planning Horizon
+### Executor
+
+To safely apply a plan in the physical simulation under uncertainty, the controller relies on an **executor** that is called **every execution tick**.
+
+1. Receive and Process a Plan from Planner
+
+The first role of the executor is to process the planned actions. As illustread above, the planner does not send a single action per robot every executor tick. Instead, it periodically sends a plan, which consists of a short-horizon sequence of high-level (planner-level) actions for each robot.
+
+When a new plan is received, the executor will decide to process it into the “staged action queue” for each agent. For processing the new plan, it means the executor has to decide how to update the staged action queue with the new plan. Note, this processing can decide to only adopt partial plans (cut from the middle) or replace the (entire or partial) old staged actions with the new plan, but it should not modify (i.e., delete/insert/modify actions or shuffle orders of actions, wait exclude) the staged actions and the new plan itself. 
+
+After processing the new plan, the executor also needs to provide a “predicted state” for each agent. The predicted state represents a prediction of the agent state at the end of the current plan execution,  which gives the starting states for the planner to start next.  Note these predicted states are only an estimate, because actual execution may differ due to GO/STOP decisions, collision avoidance overrides, and delays.
+
+2. Progress the Staged Action Queue
+
+Another executor’s role is to decide what actually happens at the current tick, given:
+
+- The currently staged plan from the planner,  
+- The current robot states (including robots mid-action),  
+- Delay situation at the last tick step (including if agents are in delay, and the time range it may delay for). Note delays at the current tick are revealed at the next tick. For example, at tick=0, the agents don’t know whether they will have a delay, and this delay information will be revealed at tick=1.
+
+At each tick, it outputs a GO or STOP command for each agent to execute next.
+
+### Timeout Control and Collision Avoidance
 
 The central controller monitors time elapsed since the start of execution
 (also known as **wall clock time**). Time continues to pass while scheduler,
 planner, and executor are running.
 
-Planning updates are soft-time-limited: if planning runs late, simulation keeps
-executing with previously staged actions until planning returns. Likewise,
-executor callbacks should stay lightweight to avoid losing effective control
-time.
-
 After a predetermined simulation horizon, the controller stops and the problem
 instance is finished. Careful time budgeting across scheduling, planning, and
 execution is essential for strong performance.
+
+**What happens if the planner is late**  
+If the planner does not return in time, the controller continues executing by asking the next moves with the current staged actions. If no actions are left in the staged action queue,  agents will wait in place.
+
+**What happens if the task scheduler is late**
+
+If the Task Scheduler does not complete its computation in time, or if the proposed assignment is invalid, the existing assignment (from the previous scheduling update) is kept as the current assignment.
+
+**What happens if the executor is late**
+
+If the executor does not return in time when processing the new plan, it will be treated the same as a planner timeout, which means the controller will try to move agents by calling the executor to decide the next moves during the timeout.
+
+If the executor does not return in time when deciding the GO/STOP commands at each time tick, the controller will issue wait actions for each agent until the executor returns.
+
+**Controller’s perspective on timeout**
+
+Note that because the controller is simulating in real-time, the controller will advance the timesteps/ticks even when the timeout (agent may incur wait or continue executing depending on the situations as illustrated above)
+
+**What happens if the plan has collisions**
+
+First, the controller only validates the plan after the executor returns instructions for each agent at each time tick, which means we do not check collisions immediately after the planner returns. For collisions, when a collision is detected, it may include the collisions caused by:
+
+- The plan from the planner contains collisions  
+- The plan from the planner does not contain collisions, but the executor gives collide instructions. For example, one agent may have to wait due to delays, and collisions will happen if there is another agent trying to occupy the same location where the delayed agent stays, and the executor tries to move both agents.
+
+We do not distinguish between the two types of collisions above. Instead, given an execution instruction from the executor, the controller translates it into agent actions, and if any of the collision is detected, the colliding agents will stop and stay at their current locations. This process also propagates until no agents are in collision at the current time tick.
+
+**What happens if the task schedule is invalid**
+
+Similar to handling collisions, if the task schedule is invalid, the controller will set the invalid task schedule to \-1. That means, those agents with invalid schedules will have no task schedule, and the valid schedule will be kept.
 
 
 Please refer to our competition
