@@ -1,3 +1,28 @@
+## 🤖 2026 League of Robot Runners Test Round Start! 🏁 `[DATE]`
+
+**Hello Robot Runners!**
+
+We’re excited to announce that the **2026 League of Robot Runners (LoRR)** is now open for **testing** 🎉
+
+This year’s LoRR continues the online multi-robot challenge where tasks are revealed over time: robots must be **assigned tasks**, and then **plan paths and execute safely under execution delays** in the competition simulator.
+
+Teams can participate in:
+- the **Task Scheduling Track** 📝 (decide which robot does which task),
+- the **Execution Track** 🧭 (plan robot motions to complete assigned tasks), or
+- the **Combined Track** 🧩 (do task scheduling, path planning and execution).
+
+The **test round** will run from **[START DATE] to [END DATE]**. This is the best time to:
+- verify your build + submission pipeline,
+- get familiar with the input/output formats,
+- tune your planner/scheduler/executor performance and timeouts,
+- and sanity-check your results on the public leaderboard.
+
+The **main round** will begin on **[MAIN ROUND START DATE]** and run until **[MAIN ROUND END DATE]** 🏁
+
+We can’t wait to see what you build this season 🏆✨
+
+— The LoRR Organisers
+
 ## 📣 Announcing the League of Robot Runners 2026! 📣 `05 Jan 2026`
 
 **Hello Robot Runners!**
