@@ -20,15 +20,15 @@ The League of Robot Runners 2026 is proudly co-hosted with the [25th Internation
 To accommodate these changes, we have restructured the competition into three new tracks:
 
 * **Execution Track ⚙️:** We provide the task scheduler and path planner. You build the policy to navigate robots safely through stochastic delays.
-* **Task Scheduling Track ⏱️:** We provide path planner and execution policy. You build the scheduler that assigns tasks to thousands of robots.
+* **Task Scheduling Track ⏱️:** We provide a path planner and execution policy. You build the scheduler that assigns tasks to thousands of robots.
 * **Combined Track 🏆:** The ultimate challenge! Everything is under your control for maximal efficiency.
 
 **📅 Competition Timeline**
 
 Mark your calendars! The race continues in early 2026:
 
-* **Mid-February 2026:** 🛠️ **Start-Kit Release & Test Round.** Open for testing and warm-up.
-* **Mid-March 2026:** 🏁 **Main Round Begins.** The official leaderboard goes live!
+* **Mid-February 2026:** 🛠️ **Start-Kit Release & Test Round.** The 2026 test round start-kit and Planviz are released to support the new execution component. Open for testing and warm-up.
+* **Mid-March 2026:** 🏁 **Main Round Begins.** The main round start-kit (with advanced default solver implementation) and Planviz (with more features) will be released. The official leaderboard goes live! 
 * **Early May 2026:** 🛑 **Main Round Ends.**
 * **AAMAS 2026:** 🥇 **Winners Announcement.** Results will be presented at the AAMAS conference.
 
