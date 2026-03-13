@@ -25,45 +25,46 @@ our competition [Start-Kit](https://github.com/MAPF-competition/Start-Kit)
 
 ## Robots and Their Environment ![r14](external_page_resource/robots/robot_on_grid_s.png)
 The **environment** is a grid map comprised of traversable and non-traversable cells
-(obstacles). It is deterministic, fully observable, and known ahead of time.
+(obstacles). It is deterministic, fully observable, and known ahead of time. Each **robot** occupies a single grid cell and has a designated orientation called `Forward`. 
 Time is divided into unit-sized time ticks. 
 
-Each **robot** occupies a single grid cell and has a designated orientation called `Forward`. 
+### Actions
 
-<figure>
-  <img src="./external_page_resource/images/2026/action_vs_tick.png" alt="action with tick">
-  <figcaption>Each action has a duration of k “ticks” (the minimum resolution of the clock). We measure the progress of the agent through the action by counting the number of elapsed ticks.</figcaption>
-</figure>
-
-### Action - Planner Level Commands
-
-The Planner computes a sequence of collision-free actions for each robot. The robots move together, in parallel. Each action has a minimum duration of k time ticks.  The available actions are as follows:
-- FW: Move Forward into an adjacent grid cell (k >= 10)
-- CR: Rotate 90 degree clockwise (k >= 10)
+Each robot receives a sequence of intended actions that tells it how to move. This is called a **plan**. Each action has a minimum duration of d time ticks.  The available actions are as follows:
+- FW: Move Forward into an adjacent grid cell (d >= 10)
+- CR: Rotate 90 degree clockwise (d >= 10)
 - CCR: Rotate 90 degrees counter-clockwise (k >= 10)
-- W: Wait at the current location (k >= 1)
-Once the plan is computed, it is then passed to the Executor to process and execute.
+- W: Wait at the current location (d >= 1)
 
 | `Forward` |  `Rotate` |
 |:---:|:---:|
 | ![image](external_page_resource/images/image2.gif) | ![image](external_page_resource/images/rotate.gif) |
 
-### Action - Execution Level Commands
+### Commands
 
-The Planner provides high-level actions on the grid (FW/CR/CCR/W), and the Executor stages the actions by placing them in a queue. When a robot is ready, the executor can instruct the robot to begin executing the first action in its queue. Once the robot begins an action, the robot is committed to finishing that action. The robot cannot start a different action halfway through. However, a robot is allowed to pause its execution (stop in place).
+The robots move together, in parallel. When a robot is ready to move, it places its planned actions into a queue for subsequent execution. We say that these actions are **staged**. The execution of an action is controlled by issuing a robot with a series of `STOP` and `GO` commands, each requiring the passing of one time tick.  
 
-#### Executor command
-At each tick, the executor issues two kinds of commands:
-- GO: allow the robot to advance one tick of its current committed action (progress increases)
-- STOP: do not allow progress this tick (progress does not increase).
-If the executor issue “GO” to an agent, the agent will try to execute the first action on the staged action queue, and once the action is completed, this action will be removed from the top of the staged queue.
+- GO: allow the robot to progress the action by one duration.
+- STOP: progress does not increase.
 
-#### Action counter
-To track the progress of executing the planner-level actions. Each robot maintains a Counter inside the state with two integers:
-- Counter: how many execution ticks have elapsed in the current action
-- Max Counter (k): how many execution ticks are required to complete one action.
+To track the execution progress of an action, each robot maintains two integers:
+- Counter: how many successful `GO` commands in the current action.
+- Max Counter (d): how many successful `GO` commands are required to complete one action.
 
-On each executed tick, the robot increments one counter if the executor decides “GO”. When the counter reaches Max Counter, the counter resets, and the action completes. Otherwise, the robot is considered mid-action (“on the edge” or “in rotation”).  
+Once a robot begins an action, the robot is committed to finishing that action. A robot cannot start a different action halfway through. However, a robot is allowed to pause its execution by issuing a `STOP` command.
+
+On each executed tick, the robot increments one counter if it receives a successful “GO” command. When the counter reaches Max Counter, the counter resets, and the action completes. Otherwise, the robot is considered mid-action (“on the edge” or “in rotation”).  
+
+<figure>
+  <img src="./external_page_resource/images/2026/action_vs_tick.png"
+       alt="action with tick"
+       width="30%">
+  <figcaption>
+    Each action has a duration of k “ticks” (the minimum resolution of the clock).
+    We measure the progress of the agent through the action by counting the number of elapsed ticks.
+  </figcaption>
+</figure>
+
 
 ### Motions and Collisions
 
