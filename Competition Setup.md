@@ -2,7 +2,7 @@
 
 A team of robots works together in a simplified grid environment. Their job is to run infinite errands, which they accomplish by visiting different locations on the grid. Sometimes errands must be completed in a specific order. A sequence of such errands is called a task. The [objective](./evaluation) is to complete as many tasks as possible, as quickly as possible, until time runs out. 
 
-These types of problems are the core challenge in many real-world applications, including warehouse logistics, multi-robot manufacturing, multi-agent computer games and many more besides. The image below shows an example from a warehouse domain, which we call **fulfilment**. 
+These types of problems are the core challenge in many real-world applications, including warehouse logistics, multi-robot manufacturing, multi-robot computer games and many more besides. The image below shows an example from a warehouse domain, which we call **fulfilment**. 
 
 <br/>
 
@@ -29,7 +29,7 @@ Tasks can be **assigned** to any robot.
 - Once open, a task cannot be re-assigned. 
 - When a task is completed, more tasks are **revealed**.
 
-The **objective** is to complete as many tasks as possible by a given timestep. Effective task assignment and path planning are crucial for achieving strong performance. 
+The **objective** is to complete as many tasks as possible over a given simulation period. Effective task assignment and path planning are crucial for achieving strong performance. 
 
 <div style="background-color:#EBEBEB; padding: 15px; border-radius: 5px;">
 
@@ -54,7 +54,7 @@ The **objective** is to complete as many tasks as possible by a given timestep. 
 </div>
 
 
-4. A new task is revealed and assigned to the yellow robot. This task contains four errands. The robots need to finish as many tasks as possible before a maximum timestep is reached. The total number of remaining (un-revealed) tasks is infinite. 
+4. A new task is revealed and assigned to the yellow robot. This task contains four errands. The robots need to finish as many tasks as possible before a maximum time is reached. The total number of remaining (un-revealed) tasks is infinite. 
 
 <div style="text-align: center;">
    <img src="./external_page_resource/images/img3.jpg" alt="description" style="max-width: 80%; height: auto;">
@@ -78,10 +78,10 @@ To accomplish these tasks, the central controller operates on two different time
 
 ## Robots, Actions, and Execution Commands ![r14](external_page_resource/robots/robot_on_grid_s.png)
 
-The **environment** is a grid map comprised of traversable and non-traversable cells (obstacles). It is deterministic, fully observable, and known ahead of time. Each **robot** occupies a single grid cell and has a designated orientation called `Forward`. 
+The **environment** is a grid map comprised of traversable and non-traversable cells (obstacles). It is deterministic, fully observable, and known ahead of time. Each **robot** occupies a single grid cell and has a designated orientation. 
 
 **A Crucial Difference from Classic MAPF:**
-In classic MAPF, agents move from one cell to another in a single, discrete time step. In this competition, to simulate real-world logistics, movement is continuous and can be interrupted. We handle this by splitting decision-making into two levels: high-level **Actions** (the planner's intended path) and low-level **Commands** (the executor's tick-by-tick physical movement). 
+In classic MAPF, robots move from one cell to another in a single, discrete time step. In this competition, to simulate real-world logistics, movement is continuous and can be interrupted. We handle this by splitting decision-making into two levels: high-level **Actions** (the planner's intended path) and low-level **Commands** (the executor's tick-by-tick physical movement). 
 
 Time is divided into fine, unit-sized time **ticks**.
 
@@ -103,13 +103,13 @@ Unlike classic MAPF, actions here take time to complete. Each action has a minim
 
 Because the simulator tracks real-time execution, robots do not instantly teleport to the next cell. Instead, they move together in parallel, progressing through their planned actions tick-by-tick. 
 
-When a robot is ready to move, its planned actions are placed into a queue (they are **staged**). To actually physically execute the staged action, the executor issues the robot a **command** at every single time tick:
-- **GO**: Allow the robot to progress the current action by one tick.
-- **STOP**: Pause the robot; progress does not increase this tick.
-
 To track the execution progress of an action, each robot maintains two integers:
-- **Counter**: How many successful `GO` commands the robot has received for the current action.
-- **Max Counter (d)**: The total number of `GO` commands required to complete the action.
+- **Counter**: The number of successful execution steps (ticks) the robot has completed for the current action.
+- **Max Counter (d)**: The total number of steps required to complete the action and progress to the next grid location or orientation.
+
+When a robot is ready to move, its planned actions are placed into a queue (they are **staged**). To actually physically execute the staged action, the executor issues the robot a **command** at every single time tick:
+- **GO**: Allow the robot to progress the current action by incrementing the counter by one.
+- **STOP**: Pause the robot; progress does not increase the counter.
 
 On each tick, if the robot receives a `GO` command, its counter increments. When the counter reaches the Max Counter, the action is complete, the counter resets, and the robot snaps to the center of its new grid cell. If the counter is anywhere between 0 and the Max Counter, the robot is considered mid-action ("on the edge" or "in rotation").  
 
@@ -120,8 +120,8 @@ On each tick, if the robot receives a `GO` command, its counter increments. When
        alt="action with tick"
        width="30%">
   <figcaption>
-    Each action has a duration of k “ticks” (the minimum resolution of the clock).
-    We measure the progress of the agent through the action by counting the number of elapsed ticks.
+    Each action has a duration of `d` “ticks”, which is the max counter.
+    We measure the progress of the robot through the action by counting the number of elapsed ticks.
   </figcaption>
 </figure>
 
@@ -132,10 +132,10 @@ On each tick, if the robot receives a `GO` command, its counter increments. When
 To support realistic execution, the simulator maintains a continuous “real position” for robots during action execution. The executor enforces safety at every tick, adjusting the `GO` and `STOP` commands based on geometric realities and random delays.
 
 ### Motions and Collisions
-During a Forward action, the robot moves gradually from the centre of its current cell toward the centre of the next cell over time ticks. Intuitively, if the max counter is K, then at each tick, it advances about 1/K of a cell. During Rotate actions, the robot does not translate (it stays within its current cell while turning). When an action completes, the robot snaps back to a discrete state at a cell center (and the location/orientation is updated accordingly). 
+During a Forward action, the robot moves gradually from the centre of its current cell toward the centre of the next cell over time ticks. Intuitively, if the max counter is `d`, then at each tick, it advances about `1/d` of a cell. During Rotate actions, the robot does not translate (it stays within its current cell while turning). When an action completes, the robot snaps back to a discrete state at a cell center (and the location/orientation is updated accordingly). 
 
 This competition does not use discrete MAPF “vertex collisions” or “edge collisions”. Instead, collisions are defined using geometric overlap:
-- Each robot is wrapped by a rectangular safety bubble (an axis-aligned square). The size of this square is a competition parameter. 
+- Each robot is wrapped by a square safety bubble. The size of this square is the same as the robot's size and is a competition parameter. Note that the safety bubble does not rotate with the robot's orientation. The square safety bubble prevents execution deadlocks, compared with the round safety bubble.
 - Obstacles are treated as solid unit squares. 
 
 A collision occurs if any of the following happens:
@@ -149,7 +149,7 @@ The executor enforces safety at every tick. If executing a robot’s next action
 ### Delays
 This competition models execution uncertainty. Robots may experience **execution delays**, which means the robot temporarily cannot make progress, even if it has a valid planned action. Delays do not change the planned action itself; they simply force a pause.
 
-At any given tick, each agent has a probability of `p` to experience a delay event. When a delay event happens to an agent, that agent is forced to `STOP` (Wait) at its current location for a number of clock ticks, pausing its action progress. Note that when an agent is already in a delay, it will not trigger a new delay event.
+At any given tick, each robot has a probability of `p` to experience a delay event. When a delay event happens to a robot, that robot is forced to `STOP` (Wait) at its current location for a number of clock ticks, pausing its action progress. Note that when a robot is already in a delay, it will not trigger a new delay event.
 
 ---
 
@@ -162,13 +162,13 @@ The central controller is responsible for the correct operation of robots in the
 The role of the task scheduler is to specify a valid next task (or no task) for each robot at each planning update. An assignment is valid if every assigned task is a revealed task which has not been previously opened or closed by another robot. 
 
 When the controller calls the planning entry, the task scheduler is called first to determine the schedule, given:
-- The agent predicted states (starting state for this planning episode).
-- New tasks and new free agents (agents that finished their previously assigned tasks) from the last planning episode.
+- The robot predicted states (starting state for this planning episode).
+- New tasks and new free robots (robots that finished their previously assigned tasks) from the last planning episode.
 
-Below is an example of task assignments. The top row represents the task pool. The second row shows the agents. The left side illustrates an **invalid assignment** due to the following issues:
-1. Task T5 is assigned to both agents A3 and A5, but each task can only be assigned to one agent.
-2. Task T2, which is already assigned to another agent but not yet finished, is incorrectly assigned to agent A2.
-3. Task T6 is assigned to an agent, which is invalid because tasks that are unrevealed, already completed, or nonexistent cannot be assigned.
+Below is an example of task assignments. The top row represents the task pool. The second row shows the robots. The left side illustrates an **invalid assignment** due to the following issues:
+1. Task T5 is assigned to both robots A3 and A5, but each task can only be assigned to one robot.
+2. Task T2, which is already assigned to another robot but not yet finished, is incorrectly assigned to robot A2.
+3. Task T6 is assigned to a robot, which is invalid because tasks that are unrevealed, already completed, or nonexistent cannot be assigned.
 
 <div style="text-align: center;">
    <img src="./external_page_resource/images/task_assignment_example.png" alt="description" style="max-width: 80%; height: auto;">
@@ -185,17 +185,17 @@ The planner returns a **plan** for each robot: a short-horizon sequence of grid-
 To safely apply a plan in the physical simulation under uncertainty, the controller relies on an **executor** that is called **every execution tick**.
 
 **A. Receive and Process a Plan from Planner**
-When a new plan is received from the planner, the executor decides how to update the staged action queue for each agent. This processing can decide to adopt partial plans (cut from the middle) or replace old staged actions entirely, but it should not modify the actions themselves (e.g., it cannot delete, insert, or shuffle the orders of actions, except for wait actions). 
+When a new plan is received from the planner, the executor decides how to update the staged action queue for each robot. This processing can decide to adopt partial plans (cut from the middle) or replace old staged actions entirely, but it should not modify the actions themselves (e.g., it cannot delete, insert, or shuffle the orders of actions, except for wait actions). 
 
-After processing the new plan, the executor provides a “predicted state” for each agent. This represents an estimate of the agent's state at the end of the current plan execution, which gives the starting states for the planner to use next. It is only an estimate because actual execution may differ due to delays and collision avoidance.
+After processing the new plan, the executor provides a “predicted state” for each robot. This represents an estimate of the robot's state at the end of the current plan execution, which gives the starting states for the planner to use next. It is only an estimate because actual execution may differ due to delays and collision avoidance.
 
 **B. Progress the Staged Action Queue (GO / STOP)**
 At every tick, the execution policy decides what actually happens given:
 - The currently staged plan.
 - The current robot states (including mid-action states).
-- Delay situations from the last tick step (including if agents are in delay, and the time range it may delay for). **Note: delays at the current tick are revealed at the next tick.** For example, at tick=0, the agents don’t know whether they will have a delay; this delay information will be revealed at tick=1.
+- Delay situations from the last tick step (including if robots are in delay, and the time range it may delay for). For example, at tick=0, the robots don’t know whether they will have a delay; this delay information will be revealed at tick=1.
 
-It outputs a `GO` or `STOP` command for each agent. If the executor issues `GO`, the agent increments the counter on its currently staged action. Once the counter reaches the maximum and the action is completed, it is removed from the top of the queue.
+It outputs a `GO` or `STOP` command for each robot. If the executor issues `GO`, the robot increments the counter on its currently staged action. Once the counter reaches the maximum and the action is completed, it is removed from the top of the queue.
 
 ---
 
@@ -203,18 +203,18 @@ It outputs a `GO` or `STOP` command for each agent. If the executor issues `GO`,
 
 The central controller monitors elapsed wall-clock time. Time continues to pass while the scheduler, planner, and executor are running computations. After a predetermined simulation horizon, the controller stops and the problem instance is finished. 
 
-**Controller's perspective on timeouts:** Because the controller simulates in real-time, it will continue to advance the simulation timesteps/ticks even when a component times out. Agents may incur forced waits or continue executing outdated queues depending on the situation:
+**Controller's perspective on timeouts:** Because the controller simulates in real-time, it will continue to advance the simulation ticks even when a component times out. robots may incur forced waits or continue executing outdated queues depending on the situation:
 
 - **What happens if the task scheduler is late?**
 If it does not complete in time, the existing assignment from the previous scheduling update is kept as the current assignment.
 - **What happens if the task schedule is invalid?**
-If the proposed assignment is invalid, the controller will set the invalid task schedule to -1. That means those agents with invalid schedules will have no task schedule, and the valid schedules for other agents will be kept.
+If the proposed assignment is invalid, the controller will set the invalid task schedule to -1. That means those robots with invalid schedules will have no task schedule, and the valid schedules for other robots will be kept.
 - **What happens if the planner is late?**
 The controller continues executing by asking the executor for the next moves based on the *currently staged actions*. If no actions are left in a robot's queue, that robot will wait in place.
 - **What happens if the executor is late?**
-If it is late processing a *new plan*, it is treated like a planner timeout (robots continue on existing queues). If it is late deciding the *tick-by-tick GO/STOP commands*, the controller will issue wait (`STOP`) commands for all agents until the executor returns.
+If it is late processing a *new plan*, it is treated like a planner timeout (robots continue on existing queues). If it is late deciding the *tick-by-tick GO/STOP commands*, the controller will issue wait (`STOP`) commands for all robots until the executor returns.
 - **What happens if a plan has collisions?**
-The controller translates executor instructions into movements and checks for overlaps. We do not distinguish between bad plans and execution-level overlaps caused by delays. If any collision is detected, the colliding agents will safely stop and stay at their current locations. This process propagates until no agents are in collision at the current time tick.
+The controller translates executor instructions into movements and checks for overlaps. We do not distinguish between bad plans and execution-level overlaps caused by delays. If any collision is detected, the colliding robots will safely stop and stay at their current locations. This process propagates until no robots are in collision at the current time tick.
 
 ***
 
