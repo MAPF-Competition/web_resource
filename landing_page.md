@@ -90,7 +90,7 @@ There will also be a **Line Honours** prize for the team that computes the large
 ## Timeline ![r7](./external_page_resource/images/2026_doodle/read.jpg)
 <br/>
 
-<!-- All dates are AOE (UTC-12). -->
+All dates are AOE (UTC-12).
 
 > - **Jan 2026**: Competition announcement
 > - **18 March 2026**: Start kit release, open for testing
