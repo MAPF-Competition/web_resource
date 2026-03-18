@@ -11,7 +11,7 @@ Visit the `My Submission` page, and click `My Repo` to access your repository.
 
 If you're competing as a team, you can also add additional members and give
 them access, too. Just navigate to the `Team` tab (in the `My Submissions`
-menu) and add their contact details. 
+menu) and add their contact details. Note that, only one member need to register and join the competition on our website. He can then give access to other memebrs, and is responsible for initiate evaluations.
 
 ## Clone Your Submission Repo
 
@@ -27,7 +27,7 @@ We've pre-loaded a a copy of the competition start-kit into your repo, to make l
 
 ## Prepare Your Planner
 Read the [startkit instructions](https://github.com/MAPF-Competition/Start-Kit/blob/main/README.md) for:
-> - How to implement your planner (we have native support for Python and C++).
+> - How to implement your planner. We have native support for Python(coming coon) and C++.
 > - How to access (large) auxiliary pre-processing data or pre-trained machine learning models.
 > - How to apply for training awards, to help with your offline compute costs.
 
