@@ -1,27 +1,42 @@
-## 🤖 2026 League of Robot Runners Test Round Start! 🏁 `[DATE]`
+## 🤖 2026 League of Robot Runners Test Round Start! 🏁 `18 Mar 2026`
 
 **Hello Robot Runners!**
 
 We’re excited to announce that the **2026 League of Robot Runners (LoRR)** is now open for **testing** 🎉
 
-This year’s LoRR continues the online multi-robot challenge where tasks are revealed over time: robots must be **assigned tasks**, and then **plan paths and execute safely under execution delays** in the competition simulator.
+This year’s LoRR continues the online multi-robot challenge where tasks are revealed over time: your system must **assign tasks, plan paths, and execute safely under unexpected delays** in the competition simulator.
 
 Teams can participate in:
-- the **Task Scheduling Track** 📝 (decide which robot does which task),
-- the **Execution Track** 🧭 (plan robot motions to complete assigned tasks), or
-- the **Combined Track** 🧩 (do task scheduling, path planning and execution).
+- the **Task Scheduling Track** 📝 (Decide which robot does which task),
+- the **Execution Track** 🧭 (Implement robust execution policies to handle uncertainty and delays), or
+- the **Combined Track** 🧩 (Task scheduling, path planning and execution).
 
-The **test round** will run from **[START DATE] to [END DATE]**. This is the best time to:
+**🛠️ Updated Tools: Start-Kit & PlanViz v3.0.0**
+
+To support the new architecture and execution uncertainty, we have released major version 3.0.0 updates for both of our core repositories.
+
+[Start-Kit (v3.0.0)](https://github.com/MAPF-Competition/Start-Kit)
+
+- Full support for the new Execution component and runtime delay generation.
+- Added configurable action counters and multistep planner communication.
+
+[PlanViz (v3.0.0)](https://github.com/MAPF-Competition/PlanViz)
+
+- The visualizer fully supports 2026 tick-based simulation.
+- We improved rendering performance for massive simulations.
+
+**🧪 Join the Test Round**
+
+The **test round** will run from **18 Mar 2026 to 31 Mar 2026**. This is the best time to:
 - verify your build + submission pipeline,
 - get familiar with the input/output formats,
-- tune your planner/scheduler/executor performance and timeouts,
-- and sanity-check your results on the public leaderboard.
+- sanity-check your results on the public leaderboard,
+- and provide feedback to us.
 
-The **main round** will begin on **[MAIN ROUND START DATE]** and run until **[MAIN ROUND END DATE]** 🏁
+Note that we are still tuning the default Planner/Executor performance. The final version will be released for the **main round**.🏁
 
 We can’t wait to see what you build this season 🏆✨
 
-— The LoRR Organisers
 
 ## 📣 Announcing the League of Robot Runners 2026! 📣 `05 Jan 2026`
 
