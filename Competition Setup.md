@@ -95,10 +95,10 @@ Time is divided into fine, unit-sized time **ticks**.
 The path planner decides the overall route by generating a sequence of intended **actions** for each robot. This sequence is called a **plan**.
 
 Unlike classic MAPF, actions here take time to complete. Each action has a minimum duration of `d` time ticks. The available actions are:
-- **FW**: Move Forward into an adjacent grid cell (d >= 10)
-- **CR**: Rotate 90 degrees clockwise (d >= 10)
-- **CCR**: Rotate 90 degrees counter-clockwise (d >= 10)
-- **W**: Wait at the current location (d >= 1)
+- **FW**: Move Forward into an adjacent grid cell 
+- **CR**: Rotate 90 degrees clockwise 
+- **CCR**: Rotate 90 degrees counter-clockwise 
+- **W**: Wait at the current location
 
 | `Forward` |  `Rotate` |
 |:---:|:---:|
