@@ -74,7 +74,9 @@ Each instance is configured with a unique combination of parameters drawn from t
 | **Team size** | 50 – 10,000 | Number of agents on the map |
 | **Max counter** | 3 – 10 | Number of time ticks per action (controls execution speed) |
 | **Delay magnitude** | 1 – 200 ticks | Per-event delay duration range; each instance specifies a [low, high] sub-range |
+| **Delay duration distribution**| Uniform or Gaussian  | How dealys durations are sampled with delay manitude ranges.|
 | **Delay probability** | 0.0005 – 0.02 | Probability of a delay event per agent per tick |
+| **Delay event distribution**| Bernoulli or Poisson | How dealys event are sampled with delay probability.|
 | **Simulation length** | 3,000 – 60,000 ticks | Total simulation ticks per instance |
 | **Min communication time** | 250 – 5,000 ms | Minimum wall-clock time between planner invocations |
 | **Errands per task** | 2 – 5 | Number of sequential locations per task |
