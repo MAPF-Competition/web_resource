@@ -45,7 +45,7 @@ Prizes are available for distinguished performance in three distinct tracks.
 
 ## Domains
 
-Ordered from smallest to largest map size.
+The evaluation benchmark consists of **12 instances** across **7 maps** spanning diverse domains: mazes, rooms, random grids, warehouses, and large-scale game maps. 
 
 | Order | Map | Grid Size | Preview | Notes |
 |------:|-----|-----------|---------|-------|
@@ -59,21 +59,7 @@ Ordered from smallest to largest map size.
 
 ## Benchmark Configuration Ranges
 
-The evaluation benchmark consists of **12 instances** across **7 maps** spanning diverse domains: mazes, rooms, random grids, warehouses, and large-scale game maps. Each instance is configured with a unique combination of parameters drawn from the ranges below.
-
-### Maps
-
-| Map | Grid Size | Obstacle Density | Domain |
-|-----|-----------|-------------------|--------|
-| maze-32-32-2 | 32 × 32 | Narrow corridors | Maze |
-| room-64-64-16 | 64 × 64 | 16 rooms with doorways | Rooms |
-| random-64-64-10 | 64 × 64 | 10% random obstacles | Random |
-| Boston_0_256 | 256 × 256 | City road network | City |
-| Fulfillment | 140 × 500 | Warehouse layout | Warehouse |
-| orz900d | 1491 × 656 | Irregular game terrain | Game |
-| Iron Harvest | 1800 × 1912 | Game-extracted terrain | Game |
-
-### Parameter Ranges
+Each instance is configured with a unique combination of parameters drawn from the ranges below.
 
 | Parameter | Range | Description |
 |-----------|-------|-------------|
