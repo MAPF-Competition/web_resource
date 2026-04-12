@@ -73,14 +73,14 @@ Participation is open to individuals and teams from any discipline/background, a
 > - You create an **Execution Policy** that handle delays.
 > - 🥇 First: **USD 2,500**
 > - 🥈 Second: **USD 500**
-> - 🥉 Third: **Certificate only**
+> - 🥉 Third: **Fame and Fancy Certificate**
 >
 > **Task Scheduling Track:**
 > - You assign tasks to robots. We provide path planner and execution policy.
 > - Your schedule must account for the uncertainty of the execution phase.
 > - 🥇 First: **USD 2,500**
 > - 🥈 Second: **USD 500**
-> - 🥉 Third: **Certificate only**
+> - 🥉 Third: **Fame and Fancy Certificate**
 >
 > **Combined Track:**
 > - You assign the tasks, plan paths, **and** control the execution.
