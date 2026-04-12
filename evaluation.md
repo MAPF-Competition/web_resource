@@ -89,7 +89,6 @@ The evaluation benchmark consists of **12 instances** across **7 maps** spanning
 | **Min communication time** | 250 – 5,000 ms | Minimum wall-clock time between planner invocations |
 | **Errands per task** | 2 – 5 | Number of sequential locations per task |
 | **Task distribution** | Random or Distance-based | How tasks are sampled from the map |
-| **Instance time limit** | 5 – 100 minutes | Wall-clock budget for each instance |
 
 ## Offline Preprocessing
 
