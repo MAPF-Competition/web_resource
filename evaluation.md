@@ -45,17 +45,25 @@ Prizes are available for distinguished performance in three distinct tracks.
 
 ## Domains
 
-The evaluation benchmark consists of **12 instances** across **7 maps** spanning diverse domains: mazes, rooms, random grids, warehouses, and large-scale game maps. 
+The evaluation benchmark consists of **12 instances** across **7 maps** spanning diverse domains: mazes, rooms, random grids, warehouses, and large-scale game maps.
 
-| Order | Map | Grid Size | Preview | Notes |
-|------:|-----|-----------|---------|-------|
-| 1 | `maze-32-32-2` | 32 × 32 | ![Maze](external_page_resource/images/maps/maze-32-32-2.svg) | Narrow-corridor maze. |
-| 2 | `room-64-64-16` | 64 × 64 | ![Rooms](external_page_resource/images/maps/room-64-64-16.svg) | 16 rooms with doorways. |
-| 3 | `random-64-64-10` | 64 × 64 | ![Random](external_page_resource/images/maps/random-64-64-10.svg) | 10% random obstacles. |
-| 4 | `Boston_0_256` | 256 × 256 | ![City Boston](external_page_resource/images/maps/Boston_0_256.svg) | City road network. |
-| 5 | `Fulfillment` | 140 × 500 | — | Warehouse layout. |
-| 6 | `orz900d` | 1491 × 656 | ![Game orz900d](external_page_resource/images/maps/orz900d.svg) | Irregular game terrain. |
-| 7 | `Iron Harvest` | 1800 × 1912 | ![Iron Harvest](external_page_resource/images/maps/iron_harvest.webp) | Game-extracted terrain. |
+>|   |   |   |
+>|:---:|:---:|:---:|
+>| ![Maze](external_page_resource/images/maps/maze-32-32-2.svg) | ![Rooms](external_page_resource/images/maps/room-64-64-16.svg) | ![Random](external_page_resource/images/maps/random-64-64-10.svg) |
+>| `Maze (maze-32-32-2)` | `Rooms (room-64-64-16)` | `Random (random-64-64-10)` |
+>| 32 × 32 narrow-corridor maze. | 64 × 64 map with 16 rooms and doorways. | 64 × 64 map with 10% random obstacles. |
+
+>|   |   |
+>|:---:|:---:|
+>| ![City Boston](external_page_resource/images/maps/Boston_0_256.svg) | `Fulfillment` |
+>| `City (Boston_0_256)` | `Fulfillment` |
+>| 256 × 256 city road network. | 140 × 500 warehouse layout. |
+
+>|   |   |
+>|:---:|:---:|
+>| ![Game orz900d](external_page_resource/images/maps/orz900d.svg) | ![Iron Harvest](external_page_resource/images/maps/iron_harvest.webp) |
+>| `Game (orz900d)` | `Iron Harvest` |
+>| 1491 × 656 irregular game terrain. | 1800 × 1912 game-extracted terrain. |
 
 ## Benchmark Configuration Ranges
 
