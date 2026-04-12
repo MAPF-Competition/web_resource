@@ -45,24 +45,51 @@ Prizes are available for distinguished performance in three distinct tracks.
 
 ## Domains
 
->| |   |   |
->|:---:|:---:|:---:|
->|![r](external_page_resource/images/random-32-32-20_s.jpg)|![r](external_page_resource/images/Paris_1_256_s.jpg)|![r](external_page_resource/images/brc202d_s.jpg) |
->|`Random (random-32-32-20)`| `City (Paris)`|`Game (brc202d)`|
->|a 32 by 32 map with 20% random obstacles.| a 256 by 256 map representing part of the city of Paris.|a 481 by 530 map from computer games.|
+|  |  |  |
+|:---:|:---:|:---:|
+| ![Maze](external_page_resource/images/maps/maze-32-32-2.svg) | ![Rooms](external_page_resource/images/maps/room-64-64-16.svg) | ![Random](external_page_resource/images/maps/random-64-64-10.svg) |
+| `Maze (maze-32-32-2)` | `Rooms (room-64-64-16)` | `Random (random-64-64-10)` |
+| 32 × 32 narrow-corridor maze. | 64 × 64 room map with doorways. | 64 × 64 map with 10% random obstacles. |
 
->| |
->|:---:|
->|![r](external_page_resource/images/warehouse_large_s.jpg)|
->|`Warehouse`|
->|a 500 by 140 map representing synthetic automated fulfilment centre.|
+|  |  |  |
+|:---:|:---:|:---:|
+| ![Iron Harvest](external_page_resource/images/maps/iron_harvest.webp) | ![City Boston](external_page_resource/images/maps/Boston_0_256.svg) | ![Game orz900d](external_page_resource/images/maps/orz900d.svg) |
+| `Iron Harvest` | `City (Boston_0_256)` | `Game (orz900d)` |
+| 1800 × 1912 game-extracted terrain. | 256 × 256 city road network. | 1491 × 656 irregular game terrain. |
 
->| |
->|:---:|
->|![r](external_page_resource/images/sortation_large_s.jpg)|
->|`Sortation`|
->|a 500 by 140 map representing synthetic automated sortation centre.|
+| Map | Description |
+|-----|-------------|
+| `Fulfillment` | 140 × 500 warehouse layout used in the benchmark configuration ranges. |
 
+## Benchmark Configuration Ranges
+
+The evaluation benchmark consists of **12 instances** across **7 maps** spanning diverse domains: mazes, rooms, random grids, warehouses, and large-scale game maps. Each instance is configured with a unique combination of parameters drawn from the ranges below.
+
+### Maps
+
+| Map | Grid Size | Obstacle Density | Domain |
+|-----|-----------|-------------------|--------|
+| maze-32-32-2 | 32 × 32 | Narrow corridors | Maze |
+| room-64-64-16 | 64 × 64 | 16 rooms with doorways | Rooms |
+| random-64-64-10 | 64 × 64 | 10% random obstacles | Random |
+| Fulfillment | 140 × 500 | Warehouse layout | Warehouse |
+| Iron Harvest | 1800 × 1912 | Game-extracted terrain | Game |
+| Boston_0_256 | 256 × 256 | City road network | City |
+| orz900d | 1491 × 656 | Irregular game terrain | Game |
+
+### Parameter Ranges
+
+| Parameter | Range | Description |
+|-----------|-------|-------------|
+| **Team size** | 50 – 10,000 | Number of agents on the map |
+| **Max counter** | 3 – 10 | Number of time ticks per action (controls execution speed) |
+| **Delay magnitude** | 1 – 200 ticks | Per-event delay duration range; each instance specifies a [low, high] sub-range |
+| **Delay probability** | 0.0005 – 0.02 | Probability of a delay event per agent per tick |
+| **Simulation length** | 3,000 – 60,000 ticks | Total simulation ticks per instance |
+| **Min communication time** | 250 – 5,000 ms | Minimum wall-clock time between planner invocations |
+| **Errands per task** | 2 – 5 | Number of sequential locations per task |
+| **Task distribution** | Random or Distance-based | How tasks are sampled from the map |
+| **Instance time limit** | 5 – 100 minutes | Wall-clock budget for each instance |
 
 ## Offline Preprocessing
 
