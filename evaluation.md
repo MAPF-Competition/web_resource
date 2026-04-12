@@ -49,19 +49,19 @@ The evaluation benchmark consists of **12 instances** across **7 maps** spanning
 
 >|   |   |   |
 >|:---:|:---:|:---:|
->| ![Maze](external_page_resource/images/maps/maze-32-32-2.svg) | ![Rooms](external_page_resource/images/maps/room-64-64-16.svg) | ![Random](external_page_resource/images/maps/random-64-64-10.svg) |
+>| <img src="external_page_resource/images/maps/maze-32-32-2.svg" alt="Maze" style="max-width:200px"> | <img src="external_page_resource/images/maps/room-64-64-16.svg" alt="Rooms" style="max-width:200px"> | <img src="external_page_resource/images/maps/random-64-64-10.svg" alt="Random" style="max-width:200px"> |
 >| `Maze (maze-32-32-2)` | `Rooms (room-64-64-16)` | `Random (random-64-64-10)` |
 >| 32 × 32 narrow-corridor maze. | 64 × 64 map with 16 rooms and doorways. | 64 × 64 map with 10% random obstacles. |
 
 >|   |   |
 >|:---:|:---:|
->| ![City Boston](external_page_resource/images/maps/Boston_0_256.svg) | `Fulfillment` |
+>| <img src="external_page_resource/images/maps/Boston_0_256.svg" alt="City Boston" style="max-width:200px"> | — |
 >| `City (Boston_0_256)` | `Fulfillment` |
 >| 256 × 256 city road network. | 140 × 500 warehouse layout. |
 
 >|   |   |
 >|:---:|:---:|
->| ![Game orz900d](external_page_resource/images/maps/orz900d.svg) | ![Iron Harvest](external_page_resource/images/maps/iron_harvest.webp) |
+>| <img src="external_page_resource/images/maps/orz900d.svg" alt="Game orz900d" style="max-width:200px"> | <img src="external_page_resource/images/maps/iron_harvest.webp" alt="Iron Harvest" style="max-width:200px"> |
 >| `Game (orz900d)` | `Iron Harvest` |
 >| 1491 × 656 irregular game terrain. | 1800 × 1912 game-extracted terrain. |
 
