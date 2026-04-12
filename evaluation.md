@@ -63,7 +63,7 @@ The evaluation benchmark consists of **12 instances** across **7 maps** spanning
 >|:---:|:---:|
 >| <img src="external_page_resource/images/maps/orz900d.svg" alt="Game orz900d" style="max-width:400px"> | <img src="external_page_resource/images/maps/iron_harvest.webp" alt="Iron Harvest" style="max-width:400px"> |
 >| `Game (orz900d)` | `Iron Harvest` |
->| 1491 × 656 irregular game terrain. | 1800 × 1912 game-extracted terrain. |
+>| 1491 × 656 game terrain. | 1800 × 1912 game terrain. |
 
 ## Benchmark Configuration Ranges
 
@@ -93,8 +93,8 @@ After preprocessing, your submission is evaluated on a set of (a priori
 unknown) tasks. The starting locations of the robots and an initial set of
 tasks are revealed. As robots complete tasks, more will be revealed. 
 
-During evaluation, time progresses at a rate of 1 second per timestep. Your
-submission will be evaluated for up to 5000 seconds on each map. Your job is to
+During evaluation, time progresses at a rate of 100 ms per timestick. Your
+submission will be evaluated for up to several throusands seconds on each map. Your job is to
 complete as many tasks as possible, before a time limit is reached. 
 
 There are three evaluation tracks:

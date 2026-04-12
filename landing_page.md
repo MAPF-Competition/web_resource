@@ -71,17 +71,23 @@ Participation is open to individuals and teams from any discipline/background, a
 > **Execution Track:**
 > - We provide the task scheduler and path planner.
 > - You create an **Execution Policy** that handle delays.
-> - 💸 Cash Prizes Available (Amount TBA) 💸
+> - 🥇 First: **USD 2,500**
+> - 🥈 Second: **USD 500**
+> - 🥉 Third: **Certificate only**
 >
 > **Task Scheduling Track:**
 > - You assign tasks to robots. We provide path planner and execution policy.
 > - Your schedule must account for the uncertainty of the execution phase.
-> - 💸 Cash Prizes Available (Amount TBA) 💸
+> - 🥇 First: **USD 2,500**
+> - 🥈 Second: **USD 500**
+> - 🥉 Third: **Certificate only**
 >
 > **Combined Track:**
 > - You assign the tasks, plan paths, **and** control the execution.
 > - Complete control for maximal efficiency in a stochastic environment!
-> - 💰 **Grand Prize** (Amount TBA) 💰
+> - 🏆 Grand Prize: **USD 5,000**
+> - 🥈 Second: **USD 1,000**
+> - 🥉 Third: **USD 500**
 
 There will also be a **Line Honours** prize for the team that computes the largest number of best-known solutions. Other notable performances will be recognized with certificates.
 
