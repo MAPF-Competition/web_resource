@@ -89,7 +89,7 @@ Participation is open to individuals and teams from any discipline/background, a
 > - 🥈 Second: **USD 1,000**
 > - 🥉 Third: **USD 500**
 
-There will also be a **Line Honours** prize for the team that computes the largest number of best-known solutions. Other notable performances will be recognized with certificates.
+By the end of May 22nd, the top entry on the combined track leaderboard will be awarded a special **AAMAS Prize** valued at **1,000 USD**! At the end of the competition, there will also be a **Line Honours** prize for the team that computes the largest number of best-known solutions. Other notable performances will be recognized with certificates.
 
 <!-- Find our more about the tracks and how they work on our [problem setup](./problem) and [evaluation](./evaluation) pages. -->
 
@@ -101,10 +101,10 @@ All dates are AOE (UTC-12).
 > - **Jan 2026**: Competition announcement
 > - **18 March 2026**: Start kit release, open for testing
 > - **1st April 2026**: Main round begins
-> - **15th May 2026**: Task Scheduling and Execution Track ends
-> - **AAMAS 2026**: Task Scheduling and Execution Track results announcement (co-hosted event)
-> - **15th June 2026**: Combined track ends
-> - **1st July 2026**: Combined track results announcement
+> - **22nd May 2026**: AAMAS Prize deadline 
+> - **AAMAS 2026**: AAMAS Prize announcement
+> - **22th July 2026**: All tracks ends
+> - **7st Aug 2026**: All tracks results announcement
 
 <br/>
 
