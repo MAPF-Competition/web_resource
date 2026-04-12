@@ -55,13 +55,13 @@ The evaluation benchmark consists of **12 instances** across **7 maps** spanning
 
 >|   |   |
 >|:---:|:---:|
->| <img src="external_page_resource/images/maps/Boston_0_256.svg" alt="City Boston" style="max-width:200px"> | — |
+>| <img src="external_page_resource/images/maps/Boston_0_256.svg" alt="City Boston" style="max-width:400px"> | — |
 >| `City (Boston_0_256)` | `Fulfillment` |
 >| 256 × 256 city road network. | 140 × 500 warehouse layout. |
 
 >|   |   |
 >|:---:|:---:|
->| <img src="external_page_resource/images/maps/orz900d.svg" alt="Game orz900d" style="max-width:200px"> | <img src="external_page_resource/images/maps/iron_harvest.webp" alt="Iron Harvest" style="max-width:200px"> |
+>| <img src="external_page_resource/images/maps/orz900d.svg" alt="Game orz900d" style="max-width:400px"> | <img src="external_page_resource/images/maps/iron_harvest.webp" alt="Iron Harvest" style="max-width:400px"> |
 >| `Game (orz900d)` | `Iron Harvest` |
 >| 1491 × 656 irregular game terrain. | 1800 × 1912 game-extracted terrain. |
 
