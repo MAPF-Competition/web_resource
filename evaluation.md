@@ -55,7 +55,7 @@ The evaluation benchmark consists of **12 instances** across **7 maps** spanning
 
 >|   |   |
 >|:---:|:---:|
->| <img src="external_page_resource/images/maps/Boston_0_256.svg" alt="City Boston" style="max-width:400px"> | — |
+>| <img src="external_page_resource/images/maps/Boston_0_256.svg" alt="City Boston" style="max-width:400px"> | <img src="external_page_resource/images/maps/fulfill.jpg" alt="Fulfillment" style="max-width:400px">  |
 >| `City (Boston_0_256)` | `Fulfillment` |
 >| 256 × 256 city road network. | 140 × 500 warehouse layout. |
 

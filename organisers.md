@@ -157,17 +157,10 @@ td {
 
 <div class="row" >
 <div class="block">
-    <img class="image" src="./external_page_resource/organisers/bekris_2018_01_small.jpg" height="100px"/>
-    <h4 class="name" > Kostas Bekris</h4>
+    <img class="image" src="./external_page_resource/organisers/scott.jpeg" height="100px"/>
+    <h4 class="name" > Scott Kiesel</h4>
     <div class="description-block">
-        Rutgers University
-    </div>
-</div>
-<div class="block">
-    <img class="image" src="./external_page_resource/organisers/fede-pic.jpeg" height="100px"/>
-    <h4 class="name" > Federico Pecora</h4>
-    <div class="description-block">
-    Amazon Robotics
+        Amazon Robotics
     </div>
 </div>
 </div>
@@ -175,6 +168,8 @@ td {
 ## Special Thanks
 
 <div class="row">
+    <p><strong>Kostas Bekris</strong> (Rutgers University). Kostas supported the initiation of the League of Robot Runners competition.</p>
+    <p><strong>Federico Pecora</strong> (Amazon Robotics). Federico has provided exceptionally strong long-term support and guidance to the League of Robot Runners; the competition would not be what it is today without him.</p>
         <p><strong>Shao-hung Chan</strong> (University of Southern California). Shao-hung helped organise the <a href="https://2023.leagueofrobotrunners.org/">2023 competition</a>, he co-organised the 2024 League of Robot Runners <a href="https://expo24.leagueofrobotrunners.org/">Virtual Expo</a>, and he is one of the orginal designers of  <a href="https://github.com/MAPF-Competition/PlanViz">PlanViz</a>, the offline solution visualiser used in the competition.</p>
         <p><strong>Teng Guo</strong> (Rutgers University). Teng helped organise the <a href="https://2023.leagueofrobotrunners.org/">2023 competition</a> and <a href="https://2024.leagueofrobotrunners.org/">2024 competition</a>. He co-organised <a href="https://expo24.leagueofrobotrunners.org/">2024</a> and <a href="https://expo25.leagueofrobotrunners.org/">2025</a> League of Robot Runners Virtual Expo. He is one of the original designer of the competition <a href="https://github.com/MAPF-Competition/Benchmark-Archive/tree/main/2023%20Competition/Problem%20Generator">problem generator</a>.</p>
         <p><strong>Yimin Tang</strong> (University of Southern California). Yimin helped organise the <a href="https://2024.leagueofrobotrunners.org/">2024 competition</a>, he co-organised the 2025 League of Robot Runners <a href="https://expo25.leagueofrobotrunners.org/">Virtual Expo</a>. He is one of the contributors to  <a href="https://github.com/MAPF-Competition/PlanViz">PlanViz</a>, the offline solution visualiser used in the competition.</p>
