@@ -52,21 +52,21 @@ The evaluation benchmark consists of **12 instances** across **7 maps** spanning
 > |:---:|:---:|:---:|
 > | <div style="width:220px;height:220px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;"><img src="external_page_resource/images/maps/maze-32-32-2.svg" alt="Maze" style="max-width:92%;max-height:92%;object-fit:contain;"></div> | <div style="width:220px;height:220px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;"><img src="external_page_resource/images/maps/room-64-64-16.svg" alt="Rooms" style="max-width:92%;max-height:92%;object-fit:contain;"></div> | <div style="width:220px;height:220px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;"><img src="external_page_resource/images/maps/random-64-64-10.svg" alt="Random" style="max-width:92%;max-height:92%;object-fit:contain;"></div> |
 > | `Maze (maze-32-32-2)` | `Rooms (room-64-64-16)` | `Random (random-64-64-10)` |
-> | 32 × 32 narrow-corridor maze. | 64 × 64 map with 16 rooms and doorways. | 64 × 64 map with 10% random obstacles. |
+> | 32 × 32 narrow-corridor maze. Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>. | 64 × 64 map with 16 rooms and doorways. Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>. | 64 × 64 map with 10% random obstacles. Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>. |
 
 > #### Large Industrial Problems
 > |   |   |
 > |:---:|:---:|
-> | <div style="width:260px;height:260px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;"><img src="external_page_resource/images/maps/Boston_0_256.svg" alt="City Boston" style="max-width:92%;max-height:92%;object-fit:contain;"></div> | <div style="width:260px;height:260px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;"><img src="external_page_resource/images/maps/fulfill.jpg" alt="Fulfillment" style="max-width:92%;max-height:92%;object-fit:contain;"></div> |
-> | `City (Boston_0_256)` | `Fulfillment` |
-> | 256 × 256 city road network. | 140 × 500 warehouse layout. |
+> | <div style="width:260px;height:260px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;"><img src="external_page_resource/images/maps/Boston_0_256.jpg" alt="City Boston" style="max-width:92%;max-height:92%;object-fit:contain;"></div> | <div style="width:260px;height:260px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;"><img src="external_page_resource/images/maps/fulfill.jpg" alt="Fulfilment" style="max-width:92%;max-height:92%;object-fit:contain;"></div> |
+> | `City (Boston_0_256)` | `Fulfilment` |
+> | 256 × 256 city road network. Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>. | 140 × 500 warehouse layout. Map origin <a href="https://idm-lab.org/bib/abstracts/papers/icaps24e.pdf" target="_blank">(Chan et al., 2024)</a>. |
 
 > #### Extra-large Challenge Problems
 > |   |   |
 > |:---:|:---:|
 > | <div style="width:260px;height:260px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;"><img src="external_page_resource/images/maps/orz900d.svg" alt="Game orz900d" style="max-width:92%;max-height:92%;object-fit:contain;"></div> | <div style="width:260px;height:260px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;"><img src="external_page_resource/images/maps/iron_harvest.webp" alt="Iron Harvest" style="max-width:92%;max-height:92%;object-fit:contain;"></div> |
 > | `Game (orz900d)` | `Iron Harvest` |
-> | 1491 × 656 game terrain. | 1800 × 1912 game terrain. |
+> | 1491 × 656 game terrain. Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>. | 1800 × 1912 game terrain. Map origin <a href="https://ojs.aaai.org/index.php/SOCS/article/view/21770" target="_blank">(Harabor et al., 2022)</a>. |
 
 ## Benchmark Configuration Ranges
 
