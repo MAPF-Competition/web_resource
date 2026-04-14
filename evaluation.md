@@ -49,7 +49,7 @@ The evaluation benchmark consists of **12 instances** across **7 maps** spanning
 
 <blockquote>
 <h4>Small Pathological Problems</h4>
-<div style="display:flex;flex-wrap:wrap;gap:16px;">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;padding:0 16px;box-sizing:border-box;">
   <div style="text-align:center;width:220px;">
     <div style="width:220px;height:220px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
       <img src="external_page_resource/images/maps/maze-32-32-2.jpg" alt="Maze" style="max-width:92%;max-height:92%;object-fit:contain;">
@@ -76,7 +76,7 @@ The evaluation benchmark consists of **12 instances** across **7 maps** spanning
 
 <blockquote>
 <h4>Large Industrial Problems</h4>
-<div style="display:flex;flex-wrap:wrap;gap:16px;">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;padding:0 16px;box-sizing:border-box;">
   <div style="text-align:center;width:260px;">
     <div style="width:260px;height:260px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
       <img src="external_page_resource/images/maps/Boston_0_256.jpg" alt="City Boston" style="max-width:92%;max-height:92%;object-fit:contain;">
@@ -96,7 +96,7 @@ The evaluation benchmark consists of **12 instances** across **7 maps** spanning
 
 <blockquote>
 <h4>Extra-large Challenge Problems</h4>
-<div style="display:flex;flex-wrap:wrap;gap:16px;">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;padding:0 16px;box-sizing:border-box;">
   <div style="text-align:center;width:260px;">
     <div style="width:260px;height:260px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
       <img src="external_page_resource/images/maps/orz900d.jpg" alt="Game orz900d" style="max-width:92%;max-height:92%;object-fit:contain;">
@@ -112,8 +112,6 @@ The evaluation benchmark consists of **12 instances** across **7 maps** spanning
     <div style="margin-top:4px;font-size:0.9em;">1800 × 1912 game terrain.<br>Map origin <a href="https://ojs.aaai.org/index.php/SOCS/article/view/21770" target="_blank">(Harabor et al., 2022)</a>.</div>
   </div>
 </div>
-  </tr>
-</table>
 </blockquote>
 
 ## Benchmark Configuration Ranges
