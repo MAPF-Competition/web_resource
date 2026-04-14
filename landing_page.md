@@ -35,7 +35,15 @@ Tasks (orders) are continuously coming to a busy warehouse.
 <div style="flex:1 1 calc(50% - 10px);padding:3px;text-align:center;min-width:160px;max-width:180px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/2026/task_allocation.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 2px solid black; border-radius: 8px; box-shadow: 6px 6px 0px rgba(7, 142, 154, 0.3);"/>
 <br/>
-Decide which robot should complete which task? It's your call!
+Which robot should complete which task? It's your call!
+</div>
+
+
+
+<div style="flex:1 1 calc(50% - 10px);padding:3px;text-align:center;min-width:160px;max-width:180px;display:inline-block;vertical-align:top;">
+<img src="./external_page_resource/images/2026/planning.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 2px solid black; border-radius: 8px; box-shadow: 6px 6px 0px rgba(7, 142, 154, 0.3);"/>
+<br/>
+Plan collision-free paths for a massive robot fleet to fulfill tasks.
 </div>
 
 <div style="flex:1 1 calc(50% - 10px);padding:3px;text-align:center;min-width:160px;max-width:180px;display:inline-block;vertical-align:top;">
@@ -44,11 +52,6 @@ Decide which robot should complete which task? It's your call!
 Delays may happen! Your policy must handle interruptions.
 </div>
 
-<div style="flex:1 1 calc(50% - 10px);padding:3px;text-align:center;min-width:160px;max-width:180px;display:inline-block;vertical-align:top;">
-<img src="./external_page_resource/images/2026/planning.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 2px solid black; border-radius: 8px; box-shadow: 6px 6px 0px rgba(7, 142, 154, 0.3);"/>
-<br/>
-Plan collision-free paths for a massive robot fleet to fulfill tasks.
-</div>
 </div>
 <br/>
 </div>
@@ -71,19 +74,25 @@ Participation is open to individuals and teams from any discipline/background, a
 > **Execution Track:**
 > - We provide the task scheduler and path planner.
 > - You create an **Execution Policy** that handle delays.
-> - 💸 Cash Prizes Available (Amount TBA) 💸
+> - 🥇 First: **USD 2,500**
+> - 🥈 Second: **USD 500**
+> - 🥉 Third: **Distinguished Performance Award**
 >
 > **Task Scheduling Track:**
 > - You assign tasks to robots. We provide path planner and execution policy.
 > - Your schedule must account for the uncertainty of the execution phase.
-> - 💸 Cash Prizes Available (Amount TBA) 💸
+> - 🥇 First: **USD 2,500**
+> - 🥈 Second: **USD 500**
+> - 🥉 Third: **Distinguished Performance Award**
 >
 > **Combined Track:**
 > - You assign the tasks, plan paths, **and** control the execution.
 > - Complete control for maximal efficiency in a stochastic environment!
-> - 💰 **Grand Prize** (Amount TBA) 💰
+> - 🏆 Grand Prize: **USD 5,000**
+> - 🥈 Second: **USD 1,000**
+> - 🥉 Third: **USD 500**
 
-There will also be a **Line Honours** prize for the team that computes the largest number of best-known solutions. Other notable performances will be recognized with certificates.
+The top entry on combined track leaderboard submitted by **May 22** (AOE, UTC-12) will be awarded a special **AAMAS Prize** valued at **1,000 USD**! At the end of the competition, there will also be a **Line Honours** prize for the team that computes the largest number of best-known solutions. Other notable performances will be recognized with certificates.
 
 <!-- Find our more about the tracks and how they work on our [problem setup](./problem) and [evaluation](./evaluation) pages. -->
 
@@ -93,12 +102,12 @@ There will also be a **Line Honours** prize for the team that computes the large
 All dates are AOE (UTC-12).
 
 > - **Jan 2026**: Competition announcement
-> - **18 March 2026**: Start kit release, open for testing
-> - **10st April 2026** ~~1st April~~: Main round begins
-> - **15th May 2026**: Task Scheduling and Execution Track ends
-> - **AAMAS 2026**: Task Scheduling and Execution Track results announcement (co-hosted event)
-> - **15th June 2026**: Combined track ends
-> - **1st July 2026**: Combined track results announcement
+> - **18th March 2026**: Start kit release, open for testing
+> - **14th April 2026** ~~1st April~~: Main round begins
+> - **22nd May 2026**: AAMAS Prize deadline 
+> - **AAMAS 2026**: AAMAS Prize announcement
+> - **22nd July 2026**: The finish line
+> - **7st Aug 2026**: All tracks results announcement
 
 <br/>
 

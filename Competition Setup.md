@@ -29,7 +29,7 @@ Tasks can be **assigned** to any robot.
 - Once open, a task cannot be re-assigned. 
 - When a task is completed, more tasks are **revealed**.
 
-The **objective** is to complete as many tasks as possible over a given simulation period. Effective task assignment and path planning are crucial for achieving strong performance. 
+The **objective** is to complete as many tasks as possible over a given simulation period. Effective task assignment, path planning, and execution are crucial for achieving strong performance. 
 
 <div style="background-color:#EBEBEB; padding: 15px; border-radius: 5px;">
 
@@ -72,6 +72,11 @@ To accomplish these tasks, the central controller operates on two different time
 - **Planning updates (slower)**: The controller periodically communicates with the planner and task scheduler to receive updated assignments and high-level routes.
 - **Execution ticks (faster)**: The controller advances the world every fine-grained time tick. It consults an executor to safely realize (or temporarily pause) the planned motions, while also injecting real-world delays.
 
+**Planning vs. Execution: What Can Be Rescheduled?**
+The planner decides both the **spatial path** (which cells to visit, which directions to turn) and a **temporal schedule** (the intended ordering and timing of actions). However, because delays and collisions are only revealed at execution time, the planned timing may not survive contact with reality.
+
+The **executor** has the authority to **reschedule temporally** — it can pause, delay, or re-time actions as needed. The executor does not reroute robots to different cells; it only decides *when* each planned move is carried out. This separation is enforced through the **staged action queue**, described below.
+
 ![image](external_page_resource/images/2026/planner_vs_executor.png)
 
 ---
@@ -87,13 +92,13 @@ Time is divided into fine, unit-sized time **ticks**.
 
 ### 1. The Planner's View: Actions
 
-The path planner decides the overall route by generating a sequence of intended **actions** for each robot. This sequence is called a **plan**. 
+The path planner decides the overall route by generating a sequence of intended **actions** for each robot. This sequence is called a **plan**.
 
 Unlike classic MAPF, actions here take time to complete. Each action has a minimum duration of `d` time ticks. The available actions are:
-- **FW**: Move Forward into an adjacent grid cell (d >= 10)
-- **CR**: Rotate 90 degrees clockwise (d >= 10)
-- **CCR**: Rotate 90 degrees counter-clockwise (d >= 10)
-- **W**: Wait at the current location (d >= 1)
+- **FW**: Move Forward into an adjacent grid cell 
+- **CR**: Rotate 90 degrees clockwise 
+- **CCR**: Rotate 90 degrees counter-clockwise 
+- **W**: Wait at the current location
 
 | `Forward` |  `Rotate` |
 |:---:|:---:|
@@ -182,20 +187,30 @@ The planner returns a **plan** for each robot: a short-horizon sequence of grid-
 
 ### 3. Executor
 
-To safely apply a plan in the physical simulation under uncertainty, the controller relies on an **executor** that is called **every execution tick**.
+To safely apply a plan in the physical simulation under uncertainty, the controller relies on an **executor** that is called **every execution tick**. The executor's role is **temporal rescheduling**: given the planner's spatial and temporal plan, the executor may adjust *when* each action is carried out (to handle delays and collisions), but it must not change *where* the robot goes.
 
-**A. Receive and Process a Plan from Planner**
-When a new plan is received from the planner, the executor decides how to update the staged action queue for each robot. This processing can decide to adopt partial plans (cut from the middle) or replace old staged actions entirely, but it should not modify the actions themselves (e.g., it cannot delete, insert, or shuffle the orders of actions, except for wait actions). 
+**A. Receive and Process a Plan: Building the Staged Action Queue**
+When a new plan is received from the planner, the executor processes it into a **staged action queue** for each robot. The staged action queue is the **spatial contract** between the planner and the executor:
+
+- It contains the sequence of spatial moves (`FW`, `CR`, `CCR`) that the robot should execute, preserving the planner's intended spatial path.
+- Wait actions in the planner's output do not directly control tick-level timing. Instead, they serve as **temporal hints** that the executor can use to infer ordering dependencies, for example, which robot should visit a shared location first. This information can be stored internally (e.g., as a dependency graph) and enforced through GO/STOP commands at execution time. The executor uses these hints during plan processing but ultimately controls all waiting behaviour through its own GO/STOP commands.
+- A custom executor may stage `W` actions if its design requires it — the system's simulator correctly handles `W` in the staged queue. However, this is not necessary: all waiting behaviour can equally be implemented through STOP commands.
+- In **Execution Track**, the executor **must not** reroute robots to different locations, comparing with the plan from the planner — if it could choose arbitrary spatial moves, it would be acting as a planner, not an executor. The staged queue ensures this boundary.
+- The executor can adopt partial plans, trim to a planning window, or replace old staged actions during plan processing.
 
 After processing the new plan, the executor provides a “predicted state” for each robot. This represents an estimate of the robot's state at the end of the current plan execution, which gives the starting states for the planner to use next. It is only an estimate because actual execution may differ due to delays and collision avoidance.
 
-**B. Progress the Staged Action Queue (GO / STOP)**
-At every tick, the execution policy decides what actually happens given:
-- The currently staged plan.
+**B. Temporal Execution: Progress or Pause (GO / STOP)**
+At every tick, the executor decides **when** each robot progresses, given:
+- The currently staged action queue (the spatial path to follow).
 - The current robot states (including mid-action states).
 - Delay situations from the last tick step (including if robots are in delay, and the time range it may delay for). For example, at tick=0, the robots don’t know whether they will have a delay; this delay information will be revealed at tick=1.
 
-It outputs a `GO` or `STOP` command for each robot. If the executor issues `GO`, the robot increments the counter on its currently staged action. Once the counter reaches the maximum and the action is completed, it is removed from the top of the queue.
+It outputs a `GO` or `STOP` command for each robot:
+- **`GO`**: The robot progresses its current staged action (counter increments). Once the counter reaches the maximum and the action is completed, it is removed from the top of the queue.
+- **`STOP`**: The robot pauses — no counter progress this tick. The staged action remains in the queue.
+
+All waiting behaviour — whether to avoid collisions, honour ordering dependencies, or satisfy a custom delay policy — is expressed through these commands. A robot waits whenever the executor issues `STOP`, or when the staged queue is empty (nothing to do). The executor is free to use any internal mechanism (dependency graphs, wait counters, learned policies, etc.) to decide when to issue `GO` or `STOP`.
 
 ---
 

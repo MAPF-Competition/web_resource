@@ -45,24 +45,91 @@ Prizes are available for distinguished performance in three distinct tracks.
 
 ## Domains
 
->| |   |   |
->|:---:|:---:|:---:|
->|![r](external_page_resource/images/random-32-32-20_s.jpg)|![r](external_page_resource/images/Paris_1_256_s.jpg)|![r](external_page_resource/images/brc202d_s.jpg) |
->|`Random (random-32-32-20)`| `City (Paris)`|`Game (brc202d)`|
->|a 32 by 32 map with 20% random obstacles.| a 256 by 256 map representing part of the city of Paris.|a 481 by 530 map from computer games.|
+The evaluation benchmark consists of **12 instances** across **7 maps** spanning diverse domains: mazes, rooms, random grids, warehouses, and large-scale game maps.
 
->| |
->|:---:|
->|![r](external_page_resource/images/warehouse_large_s.jpg)|
->|`Warehouse`|
->|a 500 by 140 map representing synthetic automated fulfilment centre.|
+<blockquote>
+<h4>Small Pathological Problems</h4>
+<div style="display:flex;flex-wrap:wrap;justify-content:space-evenly;column-gap:0;row-gap:16px;">
+  <div style="text-align:center;width:220px;">
+    <div style="width:220px;height:220px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/maze-32-32-2.jpg" alt="Maze" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>Maze (maze-32-32-2)</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">32 × 32 narrow-corridor maze.<br>Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</div>
+  </div>
+  <div style="text-align:center;width:220px;">
+    <div style="width:220px;height:220px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/room-64-64-16.jpg" alt="Rooms" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>Rooms (room-64-64-16)</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">64 × 64 map with 16 rooms and doorways.<br>Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</div>
+  </div>
+  <div style="text-align:center;width:220px;">
+    <div style="width:220px;height:220px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/random-64-64-10.jpg" alt="Random" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>Random (random-64-64-10)</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">64 × 64 map with 10% random obstacles.<br>Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</div>
+  </div>
+</div>
+</blockquote>
 
->| |
->|:---:|
->|![r](external_page_resource/images/sortation_large_s.jpg)|
->|`Sortation`|
->|a 500 by 140 map representing synthetic automated sortation centre.|
+<blockquote>
+<h4>Large Industrial Problems</h4>
+<div style="display:flex;flex-wrap:wrap;justify-content:space-evenly;column-gap:0;row-gap:16px;">
+  <div style="text-align:center;width:260px;">
+    <div style="width:260px;height:260px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/Boston_0_256.jpg" alt="City Boston" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>City (Boston_0_256)</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">256 × 256 city road network.<br>Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</div>
+  </div>
+  <div style="text-align:center;width:260px;">
+    <div style="width:260px;height:260px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/fulfill.jpg" alt="Fulfillment" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>Fulfilment</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">140 × 500 warehouse layout.<br>Map origin <a href="https://idm-lab.org/bib/abstracts/papers/icaps24e.pdf" target="_blank">(Chan et al., 2024)</a>.</div>
+  </div>
+</div>
+</blockquote>
 
+<blockquote>
+<h4>Extra-large Challenge Problems</h4>
+<div style="display:flex;flex-wrap:wrap;justify-content:space-evenly;column-gap:0;row-gap:16px;">
+  <div style="text-align:center;width:260px;">
+    <div style="width:260px;height:260px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/orz900d.jpg" alt="Game orz900d" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>Game (orz900d)</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">1491 × 656 game terrain.<br>Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</div>
+  </div>
+  <div style="text-align:center;width:260px;">
+    <div style="width:260px;height:260px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/iron_harvest.webp" alt="Iron Harvest" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>Iron Harvest</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">1800 × 1912 game terrain.<br>Map origin <a href="https://ojs.aaai.org/index.php/SOCS/article/view/21770" target="_blank">(Harabor et al., 2022)</a>.</div>
+  </div>
+</div>
+</blockquote>
+
+## Benchmark Configuration Ranges
+
+Each instance is configured with a unique combination of parameters drawn from the ranges below.
+
+| Parameter | Range | Description |
+|-----------|-------|-------------|
+| **Team size** | 50 – 10,000 | Number of agents on the map |
+| **Max counter** | 3 – 10 | Number of time ticks per action (controls execution speed) |
+| **Delay magnitude** | 1 – 200 ticks | Per-event delay duration range; each instance specifies a [low, high] sub-range |
+| **Delay duration distribution**| Uniform or Gaussian  | How dealys durations are sampled with delay manitude ranges.|
+| **Delay probability** | 0.0005 – 0.02 | Probability of a delay event per agent per tick |
+| **Delay event distribution**| Bernoulli or Poisson | How dealys event are sampled with delay probability.|
+| **Simulation length** | 3,000 – 60,000 ticks | Total simulation ticks per instance |
+| **Min communication time** | 250 – 5,000 ms | Minimum wall-clock time between planner invocations |
+| **Errands per task** | 2 – 5 | Number of sequential locations per task |
+| **Task distribution** | Random or Distance-based | How tasks are sampled from the map |
 
 ## Offline Preprocessing
 
@@ -75,8 +142,8 @@ After preprocessing, your submission is evaluated on a set of (a priori
 unknown) tasks. The starting locations of the robots and an initial set of
 tasks are revealed. As robots complete tasks, more will be revealed. 
 
-During evaluation, time progresses at a rate of 1 second per timestep. Your
-submission will be evaluated for up to 5000 seconds on each map. Your job is to
+During evaluation, time progresses at a rate of 100 ms per timestick. Your
+submission will be evaluated for up to several throusands seconds on each map. Your job is to
 complete as many tasks as possible, before a time limit is reached. 
 
 There are three evaluation tracks:
