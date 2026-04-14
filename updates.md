@@ -1,3 +1,67 @@
+# 🚀 2026 League of Robot Runners Main Round Begins! 🏁 `14 April 2026`
+
+**Hello Robot Runners!**
+
+Thank you to all participants that submitted entries during our test round and provided us with valuable feedback. Our team has worked hard to incorporate your suggestions into the latest release of the competition software. That means the wait is now over! 
+
+We are thrilled to announce that the **2026 League of Robot Runners Main Round** officially begins today! 🎉🤖
+
+
+## 🏆 Competition Tracks & Prizes
+
+Participation is open to individuals and teams from any discipline/background, anywhere in the world.  Financial prizes (USD) are available for top performance across three tracks:
+
+### ⚙️ Execution Track
+- We provide the task scheduler and path planner.
+- You create an execution policy that handles delays.
+- 🥇 First: **USD 2,500**
+- 🥈 Second: **USD 500**
+- 🥉 Third: **Distinguished Performance Award**
+
+### 🎯 Task Scheduling Track
+- You assign tasks to robots.
+- We provide the path planner and execution policy.
+- Your schedule must account for uncertainty in the execution phase.
+- 🥇 First: **USD 2,500**
+- 🥈 Second: **USD 500**
+- 🥉 Third: **Distinguished Performance Award**
+
+### 🏆 Combined Track
+- You assign tasks, plan paths, and control execution.
+- Complete control for maximal efficiency in a stochastic environment.
+- 🏆 First (Grand Prize): **USD 5,000**
+- 🥈 Second: **USD 1,000**
+- 🥉 Third: **USD 500**
+
+### ✨ Additional Awards
+- **AAMAS Prize (Combined Track):** The top entry on the combined leaderboard submitted by **May 22** (AOE, UTC-12) will receive a special **USD 1,000** award.
+- **Line Honours Prize:** At the end of the competition, the team with the largest number of best-known solutions will receive **USD 1,000** Line Honours prize.
+- **Certificates:** Other notable performances will be recognized with certificates.
+
+---
+
+## 🛠️ Updated Tools & Resources
+
+We've released updates to support the main round competition:
+
+**[Start-Kit v3.1.0](https://github.com/MAPF-Competition/Start-Kit)**
+- Stability, validation, and usability improvements for main round submissions.
+
+**[PlanViz v3.1.0](https://github.com/MAPF-Competition/PlanViz)**
+- Rendering and visual clarity improvements for large simulations.
+
+### ⚠️ Upgrading Your Start-Kit (Important!)
+
+If you created your submission repository from a previous Start-Kit version, **please upgrade to v3.1.0** before submitting to the main round.
+
+Please follow the instructions in the official Start-Kit README here:  
+**[Upgrade Your Start-Kit](https://github.com/MAPF-Competition/Start-Kit#upgrade-your-start-kit)**
+
+This section explains the recommended upgrade workflow and options in detail.
+
+**Good luck, Robot Runners!** 🤖✨
+
+
 ## 🤖 2026 League of Robot Runners Test Round Start! 🏁 `18 Mar 2026`
 
 **Hello Robot Runners!**
