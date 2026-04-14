@@ -29,7 +29,7 @@ Tasks can be **assigned** to any robot.
 - Once open, a task cannot be re-assigned. 
 - When a task is completed, more tasks are **revealed**.
 
-The **objective** is to complete as many tasks as possible over a given simulation period. Effective task assignment and path planning are crucial for achieving strong performance. 
+The **objective** is to complete as many tasks as possible over a given simulation period. Effective task assignment, path planning, and execution are crucial for achieving strong performance. 
 
 <div style="background-color:#EBEBEB; padding: 15px; border-radius: 5px;">
 
