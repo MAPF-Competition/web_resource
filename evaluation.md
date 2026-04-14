@@ -49,85 +49,69 @@ The evaluation benchmark consists of **12 instances** across **7 maps** spanning
 
 <blockquote>
 <h4>Small Pathological Problems</h4>
-<table style="width:100%;border-collapse:collapse;text-align:center;">
-  <tr>
-    <td style="padding:8px;border:none;">
-      <div style="width:220px;height:220px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
-        <img src="external_page_resource/images/maps/maze-32-32-2.svg" alt="Maze" style="max-width:92%;max-height:92%;object-fit:contain;">
-      </div>
-    </td>
-    <td style="padding:8px;border:none;">
-      <div style="width:220px;height:220px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
-        <img src="external_page_resource/images/maps/room-64-64-16.svg" alt="Rooms" style="max-width:92%;max-height:92%;object-fit:contain;">
-      </div>
-    </td>
-    <td style="padding:8px;border:none;">
-      <div style="width:220px;height:220px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
-        <img src="external_page_resource/images/maps/random-64-64-10.svg" alt="Random" style="max-width:92%;max-height:92%;object-fit:contain;">
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding:4px 8px;border:none;"><code>Maze (maze-32-32-2)</code></td>
-    <td style="padding:4px 8px;border:none;"><code>Rooms (room-64-64-16)</code></td>
-    <td style="padding:4px 8px;border:none;"><code>Random (random-64-64-10)</code></td>
-  </tr>
-  <tr>
-    <td style="padding:4px 8px;border:none;">32 × 32 narrow-corridor maze. Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</td>
-    <td style="padding:4px 8px;border:none;">64 × 64 map with 16 rooms and doorways. Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</td>
-    <td style="padding:4px 8px;border:none;">64 × 64 map with 10% random obstacles. Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</td>
-  </tr>
-</table>
+<div style="display:flex;flex-wrap:wrap;gap:16px;">
+  <div style="text-align:center;width:220px;">
+    <div style="width:220px;height:220px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/maze-32-32-2.jpg" alt="Maze" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>Maze (maze-32-32-2)</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">32 × 32 narrow-corridor maze.<br>Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</div>
+  </div>
+  <div style="text-align:center;width:220px;">
+    <div style="width:220px;height:220px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/room-64-64-16.jpg" alt="Rooms" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>Rooms (room-64-64-16)</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">64 × 64 map with 16 rooms and doorways.<br>Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</div>
+  </div>
+  <div style="text-align:center;width:220px;">
+    <div style="width:220px;height:220px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/random-64-64-10.jpg" alt="Random" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>Random (random-64-64-10)</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">64 × 64 map with 10% random obstacles.<br>Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</div>
+  </div>
+</div>
 </blockquote>
 
 <blockquote>
 <h4>Large Industrial Problems</h4>
-<table style="width:100%;border-collapse:collapse;text-align:center;">
-  <tr>
-    <td style="padding:8px;border:none;">
-      <div style="width:260px;height:260px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
-        <img src="external_page_resource/images/maps/Boston_0_256.jpg" alt="City Boston" style="max-width:92%;max-height:92%;object-fit:contain;">
-      </div>
-    </td>
-    <td style="padding:8px;border:none;">
-      <div style="width:260px;height:260px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
-        <img src="external_page_resource/images/maps/fulfill.jpg" alt="Fulfillment" style="max-width:92%;max-height:92%;object-fit:contain;">
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding:4px 8px;border:none;"><code>City (Boston_0_256)</code></td>
-    <td style="padding:4px 8px;border:none;"><code>Fulfillment</code></td>
-  </tr>
-  <tr>
-    <td style="padding:4px 8px;border:none;">256 × 256 city road network. Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</td>
-    <td style="padding:4px 8px;border:none;">140 × 500 warehouse layout. Map origin <a href="https://idm-lab.org/bib/abstracts/papers/icaps24e.pdf" target="_blank">(Chan et al., 2024)</a>.</td>
-  </tr>
-</table>
+<div style="display:flex;flex-wrap:wrap;gap:16px;">
+  <div style="text-align:center;width:260px;">
+    <div style="width:260px;height:260px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/Boston_0_256.jpg" alt="City Boston" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>City (Boston_0_256)</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">256 × 256 city road network.<br>Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</div>
+  </div>
+  <div style="text-align:center;width:260px;">
+    <div style="width:260px;height:260px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/fulfill.jpg" alt="Fulfillment" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>Fulfillment</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">140 × 500 warehouse layout.<br>Map origin <a href="https://idm-lab.org/bib/abstracts/papers/icaps24e.pdf" target="_blank">(Chan et al., 2024)</a>.</div>
+  </div>
+</div>
 </blockquote>
 
 <blockquote>
 <h4>Extra-large Challenge Problems</h4>
-<table style="width:100%;border-collapse:collapse;text-align:center;">
-  <tr>
-    <td style="padding:8px;border:none;">
-      <div style="width:260px;height:260px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
-        <img src="external_page_resource/images/maps/orz900d.svg" alt="Game orz900d" style="max-width:92%;max-height:92%;object-fit:contain;">
-      </div>
-    </td>
-    <td style="padding:8px;border:none;">
-      <div style="width:260px;height:260px;margin:auto;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
-        <img src="external_page_resource/images/maps/iron_harvest.webp" alt="Iron Harvest" style="max-width:92%;max-height:92%;object-fit:contain;">
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding:4px 8px;border:none;"><code>Game (orz900d)</code></td>
-    <td style="padding:4px 8px;border:none;"><code>Iron Harvest</code></td>
-  </tr>
-  <tr>
-    <td style="padding:4px 8px;border:none;">1491 × 656 game terrain. Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</td>
-    <td style="padding:4px 8px;border:none;">1800 × 1912 game terrain. Map origin <a href="https://ojs.aaai.org/index.php/SOCS/article/view/21770" target="_blank">(Harabor et al., 2022)</a>.</td>
+<div style="display:flex;flex-wrap:wrap;gap:16px;">
+  <div style="text-align:center;width:260px;">
+    <div style="width:260px;height:260px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/orz900d.jpg" alt="Game orz900d" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>Game (orz900d)</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">1491 × 656 game terrain.<br>Map origin <a href="https://arxiv.org/abs/1906.08291" target="_blank">(Stern et al., 2019)</a>.</div>
+  </div>
+  <div style="text-align:center;width:260px;">
+    <div style="width:260px;height:260px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
+      <img src="external_page_resource/images/maps/iron_harvest.webp" alt="Iron Harvest" style="max-width:92%;max-height:92%;object-fit:contain;">
+    </div>
+    <div style="margin-top:6px;"><code>Iron Harvest</code></div>
+    <div style="margin-top:4px;font-size:0.9em;">1800 × 1912 game terrain.<br>Map origin <a href="https://ojs.aaai.org/index.php/SOCS/article/view/21770" target="_blank">(Harabor et al., 2022)</a>.</div>
+  </div>
+</div>
   </tr>
 </table>
 </blockquote>
