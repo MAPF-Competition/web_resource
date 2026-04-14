@@ -88,7 +88,7 @@ The evaluation benchmark consists of **12 instances** across **7 maps** spanning
     <div style="width:260px;height:260px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fafafa;">
       <img src="external_page_resource/images/maps/fulfill.jpg" alt="Fulfillment" style="max-width:92%;max-height:92%;object-fit:contain;">
     </div>
-    <div style="margin-top:6px;"><code>Fulfillment</code></div>
+    <div style="margin-top:6px;"><code>Fulfilment</code></div>
     <div style="margin-top:4px;font-size:0.9em;">140 × 500 warehouse layout.<br>Map origin <a href="https://idm-lab.org/bib/abstracts/papers/icaps24e.pdf" target="_blank">(Chan et al., 2024)</a>.</div>
   </div>
 </div>
