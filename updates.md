@@ -6,6 +6,8 @@ Thank you to all participants that submitted entries during our test round and p
 
 We are thrilled to announce that the **2026 League of Robot Runners Main Round** officially begins today! 🎉🤖
 
+The main round includes new problem instances across new domains. For full details, please visit: **[https://www.leagueofrobotrunners.org/evaluation](https://www.leagueofrobotrunners.org/evaluation)**.
+
 
 ## 🏆 Competition Tracks & Prizes
 
@@ -46,6 +48,7 @@ We've released updates to support the main round competition:
 
 **[Start-Kit v3.1.0](https://github.com/MAPF-Competition/Start-Kit)**
 - Stability, validation, and usability improvements for main round submissions.
+- Added new example instances covering the main round domains.
 
 **[PlanViz v3.1.0](https://github.com/MAPF-Competition/PlanViz)**
 - Rendering and visual clarity improvements for large simulations.
@@ -56,8 +59,6 @@ If you created your submission repository from a previous Start-Kit version, **p
 
 Please follow the instructions in the official Start-Kit README here:  
 **[Upgrade Your Start-Kit](https://github.com/MAPF-Competition/Start-Kit#upgrade-your-start-kit)**
-
-This section explains the recommended upgrade workflow and options in detail.
 
 **Good luck, Robot Runners!** 🤖✨
 
