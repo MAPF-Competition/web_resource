@@ -35,7 +35,15 @@ Tasks (orders) are continuously coming to a busy warehouse.
 <div style="flex:1 1 calc(50% - 10px);padding:3px;text-align:center;min-width:160px;max-width:180px;display:inline-block;vertical-align:top;">
 <img src="./external_page_resource/images/2026/task_allocation.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 2px solid black; border-radius: 8px; box-shadow: 6px 6px 0px rgba(7, 142, 154, 0.3);"/>
 <br/>
-Decide which robot should complete which task? It's your call!
+Which robot should complete which task? It's your call!
+</div>
+
+
+
+<div style="flex:1 1 calc(50% - 10px);padding:3px;text-align:center;min-width:160px;max-width:180px;display:inline-block;vertical-align:top;">
+<img src="./external_page_resource/images/2026/planning.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 2px solid black; border-radius: 8px; box-shadow: 6px 6px 0px rgba(7, 142, 154, 0.3);"/>
+<br/>
+Plan collision-free paths for a massive robot fleet to fulfill tasks.
 </div>
 
 <div style="flex:1 1 calc(50% - 10px);padding:3px;text-align:center;min-width:160px;max-width:180px;display:inline-block;vertical-align:top;">
@@ -44,11 +52,6 @@ Decide which robot should complete which task? It's your call!
 Delays may happen! Your policy must handle interruptions.
 </div>
 
-<div style="flex:1 1 calc(50% - 10px);padding:3px;text-align:center;min-width:160px;max-width:180px;display:inline-block;vertical-align:top;">
-<img src="./external_page_resource/images/2026/planning.jpg" style="margin-top:5px;width:100%;height:auto;max-width:180px; border: 2px solid black; border-radius: 8px; box-shadow: 6px 6px 0px rgba(7, 142, 154, 0.3);"/>
-<br/>
-Plan collision-free paths for a massive robot fleet to fulfill tasks.
-</div>
 </div>
 <br/>
 </div>
@@ -99,11 +102,11 @@ By the end of May 22nd, the top entry on the combined track leaderboard will be 
 All dates are AOE (UTC-12).
 
 > - **Jan 2026**: Competition announcement
-> - **18 March 2026**: Start kit release, open for testing
+> - **18th March 2026**: Start kit release, open for testing
 > - **1st April 2026**: Main round begins
 > - **22nd May 2026**: AAMAS Prize deadline 
 > - **AAMAS 2026**: AAMAS Prize announcement
-> - **22th July 2026**: All tracks ends
+> - **22nd July 2026**: The finish line
 > - **7st Aug 2026**: All tracks results announcement
 
 <br/>
