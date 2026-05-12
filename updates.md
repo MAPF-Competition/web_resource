@@ -1,4 +1,4 @@
-# 🚀 2026 League of Robot Runners Main Round Begins! 🏁 `14 April 2026`
+## 🚀 2026 League of Robot Runners Main Round Begins! 🏁 `14 April 2026`
 
 **Hello Robot Runners!**
 
@@ -9,18 +9,18 @@ We are thrilled to announce that the **2026 League of Robot Runners Main Round**
 The main round includes new problem instances across new domains. For full details, please visit: **[https://www.leagueofrobotrunners.org/evaluation](https://www.leagueofrobotrunners.org/evaluation)**.
 
 
-## 🏆 Competition Tracks & Prizes
+### 🏆 Competition Tracks & Prizes
 
 Participation is open to individuals and teams from any discipline/background, anywhere in the world.  Financial prizes (USD) are available for top performance across three tracks:
 
-### ⚙️ Execution Track
+#### ⚙️ Execution Track
 - We provide the task scheduler and path planner.
 - You create an execution policy that handles delays.
 - 🥇 First: **USD 2,500**
 - 🥈 Second: **USD 500**
 - 🥉 Third: **Distinguished Performance Award**
 
-### 🎯 Task Scheduling Track
+#### 🎯 Task Scheduling Track
 - You assign tasks to robots.
 - We provide the path planner and execution policy.
 - Your schedule must account for uncertainty in the execution phase.
@@ -28,14 +28,14 @@ Participation is open to individuals and teams from any discipline/background, a
 - 🥈 Second: **USD 500**
 - 🥉 Third: **Distinguished Performance Award**
 
-### 🏆 Combined Track
+#### 🏆 Combined Track
 - You assign tasks, plan paths, and control execution.
 - Complete control for maximal efficiency in a stochastic environment.
 - 🏆 First (Grand Prize): **USD 5,000**
 - 🥈 Second: **USD 1,000**
 - 🥉 Third: **USD 500**
 
-### ✨ Additional Awards
+#### ✨ Additional Awards
 - **AAMAS Prize (Combined Track):** The top entry on the combined leaderboard submitted by **May 22** (AOE, UTC-12) will receive a special **USD 1,000** award.
 - **Line Honours Prize:** At the end of the competition, the team with the largest number of best-known solutions will receive **USD 1,000** Line Honours prize.
 - **Certificates:** Other notable performances will be recognized with certificates.
