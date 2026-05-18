@@ -1,3 +1,29 @@
+## 🛠️ Scheduled Maintenance & 🏆 AAMAS Prize Deadline Reminder `17 May 2026`
+
+**Hello Robot Runners\!**
+
+To ensure the continued stability and performance of our evaluation platform, we have scheduled a brief maintenance window for the compute cluster.
+
+The maintenance will begin on **May 18, 23:00 UTC / 19:00 EDT**. During this period, the compute cluster will be offline for approximately **5 to 6 hours**.
+
+### **📝 What this means for your submissions:**
+
+* **Ongoing Evaluations:** Any evaluations currently running at the start of the maintenance will not be impacted and will continue to process as normal.  
+* **New Submissions:** You can still submit your code during the maintenance window; however, these submissions will be placed in a queue.  
+* **Evaluation Start:** Processing and evaluation for queued entries will not begin until the maintenance is officially finished and the cluster is back online.
+
+### **🏆 AAMAS Prize Deadline Reminder**
+
+We also want to remind all participants that the deadline for the special **AAMAS Prize** is fast approaching\!
+
+To be eligible for this special award, your submissions must be submitted by **May 22 (AOE, UTC-12)**. Please keep the upcoming compute cluster maintenance window in mind as you plan your final code iterations and evaluations\!
+
+We appreciate your patience while we perform these necessary updates to keep the race running smoothly.
+
+Best Regards,
+
+The Organisers, The League of Robot Runners
+
 ## 🚀 2026 League of Robot Runners Main Round Begins! 🏁 `14 April 2026`
 
 **Hello Robot Runners!**
