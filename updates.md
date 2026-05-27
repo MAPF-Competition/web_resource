@@ -1,6 +1,6 @@
 ## 2026 AAMAS Prize Announcement `26 May 2026`
 
-Hello Robot Runners\!
+**Hello Robot Runners\!**
 
 We reached a significant milestone in 2026 with the completion of the race for the AAMAS Prize 🎉\! This award recognises distinguished performances on the Combined Track leaderboard by the deadline of 22nd May 2026 AOE 🏆. 
 
