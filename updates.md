@@ -1,3 +1,26 @@
+## 2026 AAMAS Prize Announcement `26 May 2026`
+
+Hello Robot Runners\!
+
+We reached a significant milestone in 2026 with the completion of the race for the AAMAS Prize 🎉\! This award recognises distinguished performances on the Combined Track leaderboard by the deadline of 22nd May 2026 AOE 🏆. 
+
+We have a prestigious 💰 **$1,000 USD cash prize** 💰 for the first place team and two Honourable Mention Awards for runner-up teams at the end of this prestigious race. The following results will be announced during a special presentation later today at AAMAS 2026\. 
+
+We are delighted to recognise the following teams:
+
+🏆 **AAMAS Prize (Combined Track)**	Team **SmartPath**
+
+⭐ **Honourable Mention**			Team **wonder**
+
+⭐ **Honourable Mention**			Team **hcp**
+
+Warmest congratulations 👏 on behalf of the competition chairs and the entire Robot Runners organising committee\!\! We will reach out ✉️ to each of our distinguished teams in due course to confirm their details for the issuance of these awards.
+
+**The race is not over\!**
+
+Multiple opportunities still exist for fame and glory and prizes\! Our 🔥🔥🔥2026 Main Round 🔥🔥🔥 continues until July 22nd AOE with Grand Prizes and cash awards across each of our three tracks. We look forward to seeing how far teams can advance the state of the art until then\!
+
+
 ## 🛠️ Scheduled Maintenance & 🏆 AAMAS Prize Deadline Reminder `17 May 2026`
 
 **Hello Robot Runners\!**
