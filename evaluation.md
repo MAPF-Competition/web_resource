@@ -2,9 +2,13 @@
 
 Submissions will be evaluated using an AWS cloud compute instance with the following specifications:
 
-> - AMD EPYC 7R13 Processor with 32 vCPUs
-> - 128 GiB Memory
-> - Nvidia A10G GPU
+> - GPU Instance:
+>   - AMD EPYC 7R13 Processor with 32 vCPUs
+>   - 128 GiB Memory
+>   - Nvidia A10G GPU
+> - CPU Instance:
+>   - AMD EPYC 7R13 Processor with 32 vCPUs
+>   - 64 GiB Memory
 
 The evaluation server deploys participant code into a docker environment, which is built based on a selected Docker image. It provides necessary
 software and drivers for GPU- and CPU-based compute. 
