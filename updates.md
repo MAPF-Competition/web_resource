@@ -1,3 +1,20 @@
+## 📣 Important Reminder: Team Accounts, Submission Limits, and Competition Integrity `16 June 2026`
+
+Hello Robot Runners\!
+
+As the competition progresses, we are writing to issue a general reminder regarding competition rules and the proper use of the evaluation server.
+
+Please be advised that each real-world team must use only ONE team account for registration and submissions. Creating or using multiple accounts controlled by the same team (e.g., “backup” accounts, alternate registrations, or separate identities) is not allowed.
+
+This requirement falls under the competition’s integrity rules (attempting to hijack or misappropriate evaluation system/server functionality) because multiple accounts can be used to circumvent per-team submission limits and gain an unfair advantage. This issue is also explicitly mentioned in the competition’s FAQ (https://www.leagueofrobotrunners.org/faq).
+
+Failure to abide by these rules may result in account suspension, removal of submissions, or immediate disqualification.
+
+If you accidentally created duplicate accounts or need to update/merge your team account details, please contact the organisers as soon as possible. We are happy to help resolve this fairly when reported early.
+
+In addition, please note that prize eligibility requires a verifiable team identity. The organising committee may request teams to confirm basic information (e.g., primary contact, affiliation, team members) to ensure compliance and fairness.
+
+
 ## 2026 AAMAS Prize Announcement `26 May 2026`
 
 **Hello Robot Runners\!**
@@ -43,9 +60,6 @@ To be eligible for this special award, your submissions must be submitted by **M
 
 We appreciate your patience while we perform these necessary updates to keep the race running smoothly.
 
-Best Regards,
-
-The Organisers, The League of Robot Runners
 
 ## 🚀 2026 League of Robot Runners Main Round Begins! 🏁 `14 April 2026`
 
