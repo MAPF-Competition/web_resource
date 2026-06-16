@@ -1,6 +1,6 @@
 ## 📣 Important Reminder: Team Accounts, Submission Limits, and Competition Integrity `16 June 2026`
 
-Hello Robot Runners\!
+**Hello Robot Runners\!**
 
 As the competition progresses, we are writing to issue a general reminder regarding competition rules and the proper use of the evaluation server.
 
