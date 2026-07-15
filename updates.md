@@ -1,3 +1,24 @@
+## 🛠️ PlanViz v3.2.0
+
+We've released a new version of **[PlanViz v3.2.0](https://github.com/MAPF-Competition/PlanViz)**.
+
+### ➕ Added
+- LoRR 2026 example maps and output files.
+- A solution metadata popup showing agent count, map statistics, and agentMaxCounter.
+- A **Productivity** popup for task and errand timelines, with completed, instant, and throughput views.
+
+### 🔄 Changed
+- Updated the time label to show `Tick` for tick-based 2026 plans and include the maximum timestep.
+- Updated event counters to show current and total counts where available.
+
+### 🐛 Fixed
+- Fixed zoom drift during wheel zoom.
+- Fixed large-map viewport and minimap synchronization after resizing.
+- Fixed `Fullsize` behavior to fit the whole map into the visible canvas.
+- Fixed errand completion counting to include the final stop of each task sequence.
+
+**Good luck, Robot Runners!** 🤖✨
+
 ## 📣 Important Reminder: Team Accounts, Submission Limits, and Competition Integrity `16 June 2026`
 
 **Hello Robot Runners\!**
