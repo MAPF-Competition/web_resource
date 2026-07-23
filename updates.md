@@ -4,7 +4,7 @@
 
 The 2026 League of Robot Runners Main Round has reached the finish line! The submission system is now closed and we would like to thank every participant for taking on this year's challenge. 🏁🤖
 
-This season, teams tackled task scheduling, path planning, and execution control in the presence of stochastic delays. We received xxx submissions from yy teams -- a huge achievement! We also had very exciting races across all three tracks throughout the competition period. Your submissions, feedback, and inventive approaches have helped make this a memorable year for the League and for research into robust multi-robot coordination.
+This season, teams tackled task scheduling, path planning, and execution control in the presence of stochastic delays. We received 3361 submissions from 69 teams -- a huge achievement! We also had very exciting races across all three tracks throughout the competition period. Your submissions, feedback, and inventive approaches have helped make this a memorable year for the League and for research into robust multi-robot coordination.
 
 ### 📝 What happens next?
 
