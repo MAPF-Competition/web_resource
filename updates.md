@@ -1,3 +1,21 @@
+## 🏁 2026 League of Robot Runners Main Round: Finish Line! `23 July 2026`
+
+**Hello Robot Runners!**
+
+The 2026 League of Robot Runners Main Round has reached the finish line! The submission system is now closed and we would like to thank every participant for taking on this year's challenge. 🏁🤖
+
+This season, teams tackled task scheduling, path planning, and execution control in the presence of stochastic delays. We received xxx submissions from yy teams -- a huge achievement! We also had very exciting races across all three tracks throughout the competition period. Your submissions, feedback, and inventive approaches have helped make this a memorable year for the League and for research into robust multi-robot coordination.
+
+### 📝 What happens next?
+
+Our organising committee will now review the final submissions and leaderboard results to confirm that entries comply with the competition rules and eligibility requirements. During this process, we may contact teams to verify account, team, or prize-eligibility information.
+
+The final rankings will be determined after this review. We will then announce the winners across the **Execution**, **Task Scheduling**, and **Combined** tracks, together with the **Line Honours** award, on **7 August 2026**.
+
+
+We look forward to celebrating the final results with you soon. Until then, congratulations on reaching the finish line, and thank you for running with us! ✨
+
+
 ## 🛠️ PlanViz v3.2.0
 
 We've released a new version of **[PlanViz v3.2.0](https://github.com/MAPF-Competition/PlanViz)**.
