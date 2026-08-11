@@ -1,3 +1,14 @@
+## ⏳ Update on Final Competition Results: Delayed Announcement `10 August 2026`
+
+**Hello Robot Runners!**
+
+We would like to let everyone know that the final code review process is taking longer than originally expected. As a result, the announcement of the final competition results will be delayed.
+
+We appreciate your patience while we complete the review carefully and consistently across the relevant submissions. The final results will be announced once the review process has been completed.
+
+Thank you for your understanding and patience!
+
+
 ## 🏁 2026 League of Robot Runners Main Round: Finish Line! `23 July 2026`
 
 **Hello Robot Runners!**
