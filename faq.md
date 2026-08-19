@@ -18,7 +18,7 @@ This page contains answers to frequently asked questions, which are not addresse
 
 > The total number of training awards is limited and for this reason we normally allocate only one award per team. If you believe your situation is exceptional in some way, please email us (although the answer is probably no). 
 
-**Q: Will my implementation been reviewed by organisers?**
+**Q: Will my implementation be reviewed by organisers?**
 
 >Yes, the organisers will review participants' implementation at the end of the competition.
 
