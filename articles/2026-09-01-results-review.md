@@ -48,3 +48,5 @@ These penalties are limited to the 2026 Main Round. However, repeated violations
 5\. Conclusion
 
 Post-competition code review is an important part of maintaining confidence that LoRR results are obtained under the same rules and resource constraints for all participants. This case highlights areas where the League can improve its procedures, including more emphatic participant-account requirements, stronger repository and identity verification, and systematic source-similarity checks that occur sooner. The Organising Committee will incorporate these lessons into future editions and thanks all participants for their cooperation in maintaining a fair and scientifically valuable competition.
+
+[Test](../external_page_resource/images/2026_doodle/speak.jpg)
