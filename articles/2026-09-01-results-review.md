@@ -6,7 +6,7 @@ The review raised concerns regarding (1) the provenance and transfer of competit
 
 Following a detailed investigation, the committee determined these behaviours comprise a clear breach of competition rules. As a consequence, the two teams were disqualified from their final standings in the 2026 main round. 
 
-1\. Findings 
+### 1\. Findings 
 
 **Source-code correspondence:**
 
@@ -22,20 +22,20 @@ The review also identified the Github account used for Team `wonder`'s competiti
 
 The competition enforces a daily limit of 5 successful submissions per team to ensure fair resource allocation. Analysis of the submission logs reveals that these two accounts combined significantly exceeded the single-team submission limits.
 
-2\. Rule breaches 
+### 2\. Rule breaches 
 
 The identified behaviour is in clear violation of the following rules of the competition: 
 
 1. **One team, one account:** The League of Robot Runners competition rules, supported by the [FAQ](https://www.leagueofrobotrunners.org/faq), explicitly state that each participant can only belong to a single team and that a single team may not participate using multiple accounts.  
 2. **Submission limits violation:** Coordination between teams constitutes a clear attempt to hijack evaluation system functionalities (competition [rule 8](https://www.leagueofrobotrunners.org/rules)) and thus gain an unfair competitive advantage.
 
-3\. Review procedure
+### 3\. Review procedure
 
 After the review the committee prepared a detailed integrity report setting out the evidence and sent it to **both Team `SmartPath` and Team `wonder`**. Both teams were given an opportunity to respond to the findings and provide explanations or supporting information before any final decision was made.
 
 The Organising Committee considered these responses together with its detailed report and  evaluation evidence. Other contributing factors included in the discussion were how to best preserve the integrity of the competition and maintain community trust in its processes, as well as how to act in the best interest of scientific advancement.    
 
-4\. Decision
+### 4\. Decision
 
 After deliberation, the committee reached the following action plan: 
 
@@ -45,8 +45,6 @@ After deliberation, the committee reached the following action plan:
 
 These penalties are limited to the 2026 Main Round. However, repeated violations from these teams, and their members, may result in exclusion from future League events. 
 
-5\. Conclusion
+### 5\. Conclusion
 
 Post-competition code review is an important part of maintaining confidence that LoRR results are obtained under the same rules and resource constraints for all participants. This case highlights areas where the League can improve its procedures, including more emphatic participant-account requirements, stronger repository and identity verification, and systematic source-similarity checks that occur sooner. The Organising Committee will incorporate these lessons into future editions and thanks all participants for their cooperation in maintaining a fair and scientifically valuable competition.
-
-[Test](../external_page_resource/images/2026_doodle/speak.jpg)
