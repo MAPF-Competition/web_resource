@@ -1,3 +1,54 @@
+## 🎉 Results Announcement for Main Round 2026! 🎉 `2 Sep 2026`
+
+**Hello Robot Runners!**
+
+Thank you to every team that took part in this year's competition and helped make the race so exciting. Following the completion of our [final review](https://link_to_add), we are delighted to announce the official winners of the 2026 League of Robot Runners Main Round! 
+
+**🏅 Award Winners 🏅**
+
+Participants in the 2026 League of Robot Runners competed across three tracks, each focused on a key challenge in robust multi-robot coordination:
+* **Execution Track: ⚙️** This category recognises the best execution policy for handling stochastic delays safely and efficiently.
+* **Task Scheduling Track: ⏱️** This category recognises the best task allocation strategy under uncertainty.
+* **Combined Track: 🏆** This category recognises the strongest overall performance across task scheduling, path planning, and execution under uncertainty.
+
+
+<table>
+  <tr>
+    <td></td>
+    <td><strong>🏆 Combined Track</strong></td>
+    <td><strong>⚙️ Execution Track</strong></td>
+    <td><strong>⏱️ Task Scheduling Track</strong></td>
+  </tr>
+  <tr>
+    <td><strong>🥇 First Place</strong></td>
+    <td>Team No Man's Sky</td>
+    <td>Team mygo</td>
+    <td>Team No Man's Sky</td>
+  </tr>
+  <tr>
+    <td><strong>🥈 Second Place</strong></td>
+    <td>Team Trzy Kwaterki</td>
+    <td>Team Trzy Kwaterki</td>
+    <td>Team Trzy Kwaterki</td>
+  </tr>
+  <tr>
+    <td><strong>🥉 Third Place</strong></td>
+    <td>Team Ash</td>
+    <td>Team ターボババア</td>
+    <td>Team hcp</td>
+  </tr>
+</table>
+
+Finally, we have the **Line Honours** award, which recognises the team with the largest number of best-known solutions across all problem instances. The winner of this award is: 🎗️Team No Man's Sky.
+
+We will contact the winning teams shortly to confirm the details required for certificates and prize distribution.
+
+Congratulations to all of our winners and to every participant in the 2026 League of Robot Runners! Your work, feedback, and ingenuity continue to advance the state of the art in multi-robot coordination.
+
+In the coming weeks we will organise the 2026 LoRR Virtual Expo, a free online event to reflect on the 2026 main round. There will be an awards ceremony to celebrate the achievements of participants, technical presentations from high-performing teams, invited talks from distinguished speakers and a community meeting for providing feedback on the competition. More details, including a Call for Participation, will be announced soon.  Please look forward to it!
+
+
+
 ## ⏳ Update on Final Competition Results: Delayed Announcement `10 August 2026`
 
 **Hello Robot Runners!**
