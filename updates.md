@@ -2,7 +2,7 @@
 
 **Hello Robot Runners!**
 
-Thank you to every team that took part in this year's competition and helped make the race so exciting. Following the completion of our [final review](https://link_to_add), we are delighted to announce the official winners of the 2026 League of Robot Runners Main Round! 
+Thank you to every team that took part in this year's competition and helped make the race so exciting. Following the completion of our [final review](/articles/2026-09-01-results-review.md), we are delighted to announce the official winners of the 2026 League of Robot Runners Main Round! 
 
 **🏅 Award Winners 🏅**
 
