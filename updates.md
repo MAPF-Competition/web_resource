@@ -45,7 +45,7 @@ We will contact the winning teams shortly to confirm the details required for ce
 
 Congratulations to all of our winners and to every participant in the 2026 League of Robot Runners! Your work, feedback, and ingenuity continue to advance the state of the art in multi-robot coordination.
 
-In the coming weeks we will organise the 2026 LoRR Virtual Expo, a free online event to reflect on the 2026 main round. There will be an awards ceremony to celebrate the achievements of participants, technical presentations from high-performing teams, invited talks from distinguished speakers and a community meeting for providing feedback on the competition. More details, including a Call for Participation, will be announced soon.  Please look forward to it!
+In the coming weeks we will organise the [2026 LoRR Virtual Expo](https://expo26.leagueofrobotrunners.org/), a free online event to reflect on the 2026 main round. There will be an awards ceremony to celebrate the achievements of participants, technical presentations from high-performing teams, invited talks from distinguished speakers and a community meeting for providing feedback on the competition. More details, including a Call for Participation, will be announced soon.  Please look forward to it!
 
 
 
