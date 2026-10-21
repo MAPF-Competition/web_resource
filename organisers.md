@@ -186,5 +186,5 @@ td {
 ## Contact Us
 
 If you have additional questions, or require further clarifications, please drop by our <a href="https://discord.gg/CEYT4g4raR" target="_blank" >Discord channel</a>. 
-You can also email the organisers at league-of-robot-runnners \[at\] googlegroups \[dot\] com (although Discord is usually faster).
+You can also email the organisers at league-of-robot-runners \[at\] googlegroups \[dot\] com (although Discord is usually faster).
               
